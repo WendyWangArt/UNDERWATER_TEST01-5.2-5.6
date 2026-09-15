@@ -3496,3 +3496,39 @@ Make sure 'BP_FirstPersonGameMode_C' has been compiled for  Call Rob
 [2026.09.15-10.54.42:642][926]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
 [2026.09.15-10.54.42:642][926]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
 [2026.09.15-10.54.42:642][926]AssetCheck: /Game/Game_Systems/Paper2DSystem/BEN_TEST_IDLE Validating asset
+[2026.09.15-10.56.29:537][724]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2026.09.15-10.56.29:545][724]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.09.15-10.56.29:999][724]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2026.09.15-10.56.39:079][724]LogSavePackage: Moving output files for package: /Game/UNDERWATER_SETTING/Underwater_Setting
+[2026.09.15-10.56.39:080][724]LogSavePackage: Moving '../../../../../../Users/wendy.wang/Documents/Wendy/UNDERWATER_TEST01-5.2-5.6/Saved/Underwater_Setting7DB3E8194B55375C6186A58147EC581A.tmp' to '../../../../../../Users/wendy.wang/Documents/Wendy/UNDERWATER_TEST01-5.2-5.6/Content/UNDERWATER_SETTING/Underwater_Setting.umap'
+[2026.09.15-10.56.39:128][724]LogFileHelpers: Saving map 'Underwater_Setting' took 9.174
+[2026.09.15-10.56.39:128][724]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Game_Systems/DialogueSystem/AC_Dialogue_Base] ([2] browsable assets)...
+[2026.09.15-10.56.39:128][724]OBJ SavePackage: Finished generating thumbnails for package [/Game/Game_Systems/DialogueSystem/AC_Dialogue_Base]
+[2026.09.15-10.56.39:141][724]LogSavePackage: Moving output files for package: /Game/Game_Systems/DialogueSystem/AC_Dialogue_Base
+[2026.09.15-10.56.39:141][724]LogSavePackage: Moving '../../../../../../Users/wendy.wang/Documents/Wendy/UNDERWATER_TEST01-5.2-5.6/Saved/AC_Dialogue_BaseF83A058742B9E1D72D63049340474DEA.tmp' to '../../../../../../Users/wendy.wang/Documents/Wendy/UNDERWATER_TEST01-5.2-5.6/Content/Game_Systems/DialogueSystem/AC_Dialogue_Base.uasset'
+[2026.09.15-10.56.39:153][724]LogFileHelpers: InternalPromptForCheckoutAndSave took 9.60 sec (total: 10.7 sec)
+[2026.09.15-10.56.39:245][724]LogContentValidation: Display: Starting to validate 2 assets
+[2026.09.15-10.56.39:245][724]LogContentValidation: Enabled validators:
+[2026.09.15-10.56.39:245][724]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.09.15-10.56.39:245][724]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.09.15-10.56.39:245][724]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.09.15-10.56.39:245][724]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.09.15-10.56.39:245][724]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.09.15-10.56.39:245][724]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.09.15-10.56.39:246][724]AssetCheck: /Game/UNDERWATER_SETTING/Underwater_Setting Validating asset
+[2026.09.15-10.56.39:246][724]AssetCheck: /Game/Game_Systems/DialogueSystem/AC_Dialogue_Base Validating asset
+[2026.09.15-10.56.39:276][724]LogAutomationController: Ignoring very large delta of 9.78 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2026.09.15-10.56.46:719][ 64]Cmd: TRANSACTION UNDO
+[2026.09.15-10.56.46:719][ 64]LogEditorTransaction: Undo Edit New Var
+[2026.09.15-10.56.46:728][ 64]LogActorComponent: ~FComponentReregisterContext: (/Game/UNDERWATER_SETTING/Underwater_Setting.Underwater_Setting:PersistentLevel.BANANAFISH_CHILD_C_1.Sprite0) Component already registered.
+[2026.09.15-10.57.15:183][296]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Game_Systems/DialogueSystem/AC_Dialogue_Base.AC_Dialogue_Base
+[2026.09.15-10.57.15:184][296]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_13
+[2026.09.15-10.58.36:136][399]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2026.09.15-10.59.29:278][180]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 6659.123535
+[2026.09.15-10.59.30:278][183]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.09.15-10.59.30:278][183]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 6659.790039, Update Interval: 326.917328
+[2026.09.15-11.02.21:980][894]Cmd: TRANSACTION UNDO
+[2026.09.15-11.02.21:980][894]LogEditorTransaction: Undo Change Parameter Type
+[2026.09.15-11.02.24:787][  6]Cmd: TRANSACTION REDO
+[2026.09.15-11.02.24:787][  6]LogEditorTransaction: Redo Change Parameter Type
+[2026.09.15-11.02.51:391][271]LogUObjectHash: Compacting FUObjectHashTables data took   1.80ms

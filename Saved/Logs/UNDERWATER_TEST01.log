@@ -24111,3 +24111,47 @@ Make sure '/Game/Game_Systems/Paper2DSystem/NPC_TURTLE_LARRY.NPC_TURTLE_LARRY_C'
 [2026.09.16-15.44.49:185][992]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (1%)
 [2026.09.16-15.44.49:185][992]LogShaderCompilers: Display: Material Cache Hits: 27 (14%)
 [2026.09.16-15.44.49:185][992]LogShaderCompilers: Display: ================================================
+[2026.09.16-15.45.04:760][322]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 26678.097656
+[2026.09.16-15.45.04:932][329]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.09.16-15.45.04:932][329]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 26678.244141, Update Interval: 348.791779
+[2026.09.16-15.45.34:335][497]LogSlate: Window 'BP_Pickup_Rifle' being destroyed
+[2026.09.16-15.45.34:339][497]LogSlate: Window 'BP_Pickup_Rifle' being destroyed
+[2026.09.16-15.45.34:344][497]LogWorld: UWorld::CleanupWorld for World_36, bSessionEnded=true, bCleanupResources=true
+[2026.09.16-15.45.34:344][497]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.09.16-15.45.34:424][497]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2026.09.16-15.45.34:424][497]LogWorld: UWorld::CleanupWorld for World_46, bSessionEnded=true, bCleanupResources=true
+[2026.09.16-15.45.34:424][497]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.09.16-15.45.34:464][497]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2026.09.16-15.45.34:464][497]LogWorld: UWorld::CleanupWorld for World_43, bSessionEnded=true, bCleanupResources=true
+[2026.09.16-15.45.34:464][497]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.09.16-15.45.34:515][497]LogWorld: UWorld::CleanupWorld for World_42, bSessionEnded=true, bCleanupResources=true
+[2026.09.16-15.45.34:516][497]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.09.16-15.45.34:548][497]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2026.09.16-15.45.34:548][497]LogWorld: UWorld::CleanupWorld for World_37, bSessionEnded=true, bCleanupResources=true
+[2026.09.16-15.45.34:548][497]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.09.16-15.45.34:635][497]LogWorld: UWorld::CleanupWorld for World_39, bSessionEnded=true, bCleanupResources=true
+[2026.09.16-15.45.34:635][497]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.09.16-15.45.34:678][497]LogWorld: UWorld::CleanupWorld for World_38, bSessionEnded=true, bCleanupResources=true
+[2026.09.16-15.45.34:678][497]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.09.16-15.45.34:721][497]LogWorld: UWorld::CleanupWorld for World_41, bSessionEnded=true, bCleanupResources=true
+[2026.09.16-15.45.34:721][497]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.09.16-15.45.34:783][497]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2026.09.16-15.45.34:783][497]LogWorld: UWorld::CleanupWorld for World_44, bSessionEnded=true, bCleanupResources=true
+[2026.09.16-15.45.34:783][497]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.09.16-15.45.34:876][497]LogUObjectHash: Compacting FUObjectHashTables data took   1.44ms
+[2026.09.16-15.49.11:863][847]LogContentBrowser: Deferred new asset file creation: NewUserDefinedEnum
+[2026.09.16-15.49.11:878][847]LogContentBrowser: Creating deferred item: NewUserDefinedEnum
+[2026.09.16-15.49.11:900][848]LogContentBrowser: Renaming the item being created (Deferred Item: NewUserDefinedEnum).
+[2026.09.16-15.49.24:929][657]LogContentBrowser: Attempting asset rename: NewUserDefinedEnum -> E
+[2026.09.16-15.49.24:932][657]LogContentBrowser: End creating deferred item NewUserDefinedEnum
+[2026.09.16-15.49.31:074][858]LogUObjectHash: Compacting FUObjectHashTables data took   1.96ms
+[2026.09.16-15.49.34:420][858]LogSlate: Window 'Delete Assets' being destroyed
+[2026.09.16-15.49.35:306][910]Cmd: TRANSACTION UNDO
+[2026.09.16-15.49.35:306][910]LogEditorTransaction: Undo Delete Elements
+[2026.09.16-15.49.37:268][975]Cmd: TRANSACTION REDO
+[2026.09.16-15.49.37:268][975]LogEditorTransaction: Redo Delete Elements
+[2026.09.16-15.49.39:048][ 44]LogUObjectHash: Compacting FUObjectHashTables data took   1.17ms
+[2026.09.16-15.49.39:785][ 44]LogSlate: Window 'Delete Assets' being destroyed
+[2026.09.16-15.49.39:822][ 44]LogUObjectHash: Compacting FUObjectHashTables data took   1.27ms
+[2026.09.16-15.49.39:855][ 44]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2026.09.16-15.49.39:886][ 44]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms

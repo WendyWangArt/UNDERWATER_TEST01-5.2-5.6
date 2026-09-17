@@ -1,2 +1,5 @@
-2026/09/11-21:45:02.209 aee4 Creating DB D:/UNDERWATER_TEST01-5.2-5.6/Saved/webcache_4430\Local Storage\leveldb since it was missing.
-2026/09/11-21:45:02.623 aee4 Reusing MANIFEST D:/UNDERWATER_TEST01-5.2-5.6/Saved/webcache_4430\Local Storage\leveldb/MANIFEST-000001
+2026/09/17-09:44:05.154 2bf0 Creating DB C:/Users/wendy.wang/Documents/Wendy/UNDERWATER_TEST01-5.2-5.6/Saved/webcache_4430\Local Storage\leveldb since it was missing.
+2026/09/17-09:44:05.160 2bf0 Reusing MANIFEST C:/Users/wendy.wang/Documents/Wendy/UNDERWATER_TEST01-5.2-5.6/Saved/webcache_4430\Local Storage\leveldb/MANIFEST-000001
+2026/09/17-10:23:09.381 2bf0 Level-0 table #5: started
+2026/09/17-10:23:09.384 2bf0 Level-0 table #5: 71719 bytes OK
+2026/09/17-10:23:09.385 2bf0 Delete type=0 #3

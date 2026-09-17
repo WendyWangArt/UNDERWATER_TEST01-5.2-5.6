@@ -1,0 +1,10 @@
+{
+	"SourceFiles": [
+		"D:\\UNDERWATER_TEST01-5.2-5.6\\Intermediate\\Source\\UNDERWATER_TEST01.Build.cs",
+		"D:\\UNDERWATER_TEST01-5.2-5.6\\Intermediate\\Source\\UNDERWATER_TEST01.Target.cs",
+		"D:\\UNDERWATER_TEST01-5.2-5.6\\Intermediate\\Source\\UNDERWATER_TEST01Client.Target.cs",
+		"D:\\UNDERWATER_TEST01-5.2-5.6\\Intermediate\\Source\\UNDERWATER_TEST01Editor.Target.cs",
+		"D:\\UNDERWATER_TEST01-5.2-5.6\\Intermediate\\Source\\UNDERWATER_TEST01Server.Target.cs"
+	],
+	"EngineVersion": "5.6.1"
+}

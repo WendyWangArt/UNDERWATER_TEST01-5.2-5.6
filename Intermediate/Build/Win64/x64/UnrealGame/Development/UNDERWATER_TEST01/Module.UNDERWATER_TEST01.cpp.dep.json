@@ -1,0 +1,14 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\underwater_test01-5.2-5.6\\intermediate\\build\\win64\\x64\\unrealgame\\development\\underwater_test01\\module.underwater_test01.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\underwater_test01-5.2-5.6\\intermediate\\build\\win64\\x64\\underwater_test01\\development\\core\\sharedpch.core.project.valapi.valexpapi.cpp20.h.pch",
+        "Includes": [
+            "d:\\underwater_test01-5.2-5.6\\intermediate\\build\\win64\\x64\\unrealgame\\development\\underwater_test01\\definitions.underwater_test01.h",
+            "d:\\underwater_test01-5.2-5.6\\intermediate\\source\\underwater_test01.cpp"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

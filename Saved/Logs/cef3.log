@@ -44,3 +44,5 @@ C:\fakepath(381,10-38): warning X4008: floating point division by zero
 [0917/102257.225:WARNING:angle_platform_impl.cc(48)] HLSLCompiler.cpp:257 (compileToBinary): 
 C:\fakepath(294,1): warning X4000: use of potentially uninitialized variable (f_computeTaa)
 
+[0917/111044.514:WARNING:value_store_frontend.cc(45)] Reading mhjfbmdgcfjbbpaeojofohoefgiehjai.alarms from  failed: IO error: .../MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
+[0917/111242.195:ERROR:gpu_init.cc(426)] Passthrough is not supported, GL is disabled

@@ -8000,3 +8000,21 @@ Script call stack:
 [2026.09.17-19.18.32:447][988]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 17064.429688
 [2026.09.17-19.18.33:449][991]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
 [2026.09.17-19.18.33:449][991]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 17065.097656, Update Interval: 327.071136
+[2026.09.17-19.24.37:412][ 57]LogSlate: Window 'W_Dialogue' being destroyed
+[2026.09.17-19.24.37:423][ 57]LogSlate: Window 'W_Dialogue' being destroyed
+[2026.09.17-19.24.37:973][ 57]LogWorld: UWorld::CleanupWorld for World_32, bSessionEnded=true, bCleanupResources=true
+[2026.09.17-19.24.37:980][ 57]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.09.17-19.24.41:063][ 57]LogWorld: UWorld::CleanupWorld for World_33, bSessionEnded=true, bCleanupResources=true
+[2026.09.17-19.24.41:064][ 57]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.09.17-19.24.42:195][ 57]LogWorld: UWorld::CleanupWorld for World_34, bSessionEnded=true, bCleanupResources=true
+[2026.09.17-19.24.42:195][ 57]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.09.17-19.24.42:835][ 57]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2026.09.17-19.24.42:835][ 57]LogWorld: UWorld::CleanupWorld for World_35, bSessionEnded=true, bCleanupResources=true
+[2026.09.17-19.24.42:835][ 57]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.09.17-19.24.43:258][ 57]LogWorld: UWorld::CleanupWorld for World_36, bSessionEnded=true, bCleanupResources=true
+[2026.09.17-19.24.43:258][ 57]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.09.17-19.24.44:325][ 57]LogWorld: UWorld::CleanupWorld for World_38, bSessionEnded=true, bCleanupResources=true
+[2026.09.17-19.24.44:337][ 57]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.09.17-19.24.44:344][ 57]LogWorld: UWorld::CleanupWorld for World_37, bSessionEnded=true, bCleanupResources=true
+[2026.09.17-19.24.44:346][ 57]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.09.17-19.24.45:024][ 57]LogUObjectHash: Compacting FUObjectHashTables data took   2.51ms

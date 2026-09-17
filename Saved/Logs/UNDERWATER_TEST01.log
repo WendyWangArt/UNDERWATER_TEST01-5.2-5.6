@@ -7828,3 +7828,175 @@ Script call stack:
 [2026.09.17-18.48.44:564][314]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=71, StreamState=2
 [2026.09.17-18.48.44:671][314]LogUObjectHash: Compacting FUObjectHashTables data took   1.94ms
 [2026.09.17-18.48.44:778][315]LogPlayLevel: Display: Destroying online subsystem :Context_107
+[2026.09.17-18.50.45:622][526]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/UI_Widget/W_Dialogue.W_Dialogue
+[2026.09.17-18.50.45:633][526]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_37
+[2026.09.17-18.50.45:639][526]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_38
+[2026.09.17-18.51.19:616][663]LogEditorTransaction: Undo Move Widget
+[2026.09.17-18.51.48:369][536]LogSlate: Window 'Color Picker' being destroyed
+[2026.09.17-18.51.54:618][720]LogUObjectHash: Compacting FUObjectHashTables data took   4.14ms
+[2026.09.17-18.51.55:275][730]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.09.17-18.51.55:415][730]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/UI_Widget/W_Dialogue] ([2] browsable assets)...
+[2026.09.17-18.51.55:527][730]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/UI_Widget/W_Dialogue.W_Dialogue]
+[2026.09.17-18.51.55:527][730]OBJ SavePackage: Finished generating thumbnails for package [/Game/UI_Widget/W_Dialogue]
+[2026.09.17-18.51.55:527][730]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI_Widget/W_Dialogue" FILE="../../../../UNDERWATER_TEST01-5.2-5.6/Content/UI_Widget/W_Dialogue.uasset" SILENT=true
+[2026.09.17-18.51.55:610][730]LogSavePackage: Moving output files for package: /Game/UI_Widget/W_Dialogue
+[2026.09.17-18.51.55:610][730]LogSavePackage: Moving '../../../../UNDERWATER_TEST01-5.2-5.6/Saved/W_Dialogue48788108440120D231139AA7078F613B.tmp' to '../../../../UNDERWATER_TEST01-5.2-5.6/Content/UI_Widget/W_Dialogue.uasset'
+[2026.09.17-18.51.55:635][730]LogFileHelpers: InternalPromptForCheckoutAndSave took 360.029 ms (total: 47.2 sec)
+[2026.09.17-18.51.55:745][730]LogContentValidation: Display: Starting to validate 1 assets
+[2026.09.17-18.51.55:745][730]LogContentValidation: Enabled validators:
+[2026.09.17-18.51.55:745][730]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.09.17-18.51.55:745][730]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.09.17-18.51.55:745][730]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.09.17-18.51.55:745][730]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.09.17-18.51.55:745][730]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.09.17-18.51.55:745][730]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.09.17-18.51.55:774][730]AssetCheck: /Game/UI_Widget/W_Dialogue Validating asset
+[2026.09.17-18.51.58:156][817]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.09.17-18.51.58:170][817]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.09.17-18.51.58:170][817]LogPlayLevel: Display: Creating online subsystem for client :Context_110
+[2026.09.17-18.51.58:174][817]LogOnline: OSS: Created online subsystem instance for: :Context_110
+[2026.09.17-18.51.58:198][818]LogPlayLevel: Creating play world package: /Game/UNDERWATER_SETTING/UEDPIE_0_Underwater_Setting
+[2026.09.17-18.51.58:741][818]LogPlayLevel: PIE: StaticDuplicateObject took: (0.543392s)
+[2026.09.17-18.51.58:741][818]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/UNDERWATER_SETTING/Underwater_Setting.Underwater_Setting to /Game/UNDERWATER_SETTING/UEDPIE_0_Underwater_Setting.Underwater_Setting (0.543448s)
+[2026.09.17-18.51.58:774][818]LogUObjectHash: Compacting FUObjectHashTables data took   1.45ms
+[2026.09.17-18.51.58:779][818]LogChaosDD: Creating Chaos Debug Draw Scene for world Underwater_Setting
+[2026.09.17-18.51.58:781][818]LogPlayLevel: PIE: World Init took: (0.001968s)
+[2026.09.17-18.51.58:782][818]LogAudio: Display: Creating Audio Device:                 Id: 72, Scope: Unique, Realtime: True
+[2026.09.17-18.51.58:782][818]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.09.17-18.51.58:782][818]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.09.17-18.51.58:782][818]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.09.17-18.51.58:782][818]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.09.17-18.51.58:782][818]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.09.17-18.51.58:782][818]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.09.17-18.51.58:782][818]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.09.17-18.51.58:782][818]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.09.17-18.51.58:782][818]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.09.17-18.51.58:782][818]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.09.17-18.51.58:782][818]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.09.17-18.51.58:784][818]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.09.17-18.51.58:886][818]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek(R) Audio)
+[2026.09.17-18.51.58:887][818]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.09.17-18.51.58:887][818]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.09.17-18.51.58:887][818]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.09.17-18.51.58:888][818]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=72
+[2026.09.17-18.51.58:888][818]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=72
+[2026.09.17-18.51.58:891][818]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=72
+[2026.09.17-18.51.58:891][818]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=72
+[2026.09.17-18.51.58:891][818]LogInit: FAudioDevice initialized with ID 72.
+[2026.09.17-18.51.58:891][818]LogAudio: Display: Audio Device (ID: 72) registered with world 'Underwater_Setting'.
+[2026.09.17-18.51.58:891][818]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 72
+[2026.09.17-18.51.58:895][818]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2026.09.17-18.51.59:161][818]LogWorld: Bringing World /Game/UNDERWATER_SETTING/UEDPIE_0_Underwater_Setting.Underwater_Setting up for play (max tick rate 0) at 2026.09.17-19.51.59
+[2026.09.17-18.51.59:163][818]LogWorld: Bringing up level for play took: 0.268458
+[2026.09.17-18.51.59:169][818]PIE: Server logged in
+[2026.09.17-18.51.59:172][818]PIE: Play in editor total start time 1.002 seconds.
+[2026.09.17-18.51.59:212][818]LogWater: Warning: Width of water quad tree tiles (512) for Water Mesh Component (/Game/UNDERWATER_SETTING/UEDPIE_0_Underwater_Setting.Underwater_Setting:PersistentLevel.WaterZone_0.WaterMesh) has exceeded the cap for this platform (256). Tile sizes have been biased by a factor of 0.50 to prevent exceeding the cap. If a high tile count is intended by the user, the scalability cvar `r.Water.WaterMesh.MaxWidthInTiles` should be adjusted accordingly.
+[2026.09.17-18.52.43:212][398]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2026.09.17-18.52.43:212][398]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> NoCapture
+[2026.09.17-18.52.44:930][465]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.09.17-18.52.44:930][465]LogWorld: BeginTearingDown for /Game/UNDERWATER_SETTING/UEDPIE_0_Underwater_Setting
+[2026.09.17-18.52.44:945][465]LogWorld: UWorld::CleanupWorld for Underwater_Setting, bSessionEnded=true, bCleanupResources=true
+[2026.09.17-18.52.45:035][465]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.09.17-18.52.45:049][465]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.09.17-18.52.45:069][465]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.09.17-18.52.45:246][465]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.09.17-18.52.45:246][465]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 72
+[2026.09.17-18.52.45:246][465]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=72, StreamState=4
+[2026.09.17-18.52.45:248][465]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=72, StreamState=2
+[2026.09.17-18.52.45:257][465]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.09.17-18.52.45:292][465]LogUObjectHash: Compacting FUObjectHashTables data took   2.45ms
+[2026.09.17-18.52.45:357][466]LogPlayLevel: Display: Destroying online subsystem :Context_110
+[2026.09.17-18.53.02:393][773]Cmd: SELECT NONE
+[2026.09.17-18.53.10:889][835]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.09.17-18.53.10:906][835]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.09.17-18.53.10:907][835]LogPlayLevel: Display: Creating online subsystem for client :Context_111
+[2026.09.17-18.53.10:909][835]LogOnline: OSS: Created online subsystem instance for: :Context_111
+[2026.09.17-18.53.10:934][836]LogPlayLevel: Creating play world package: /Game/UNDERWATER_SETTING/UEDPIE_0_Underwater_Setting
+[2026.09.17-18.53.11:495][836]LogPlayLevel: PIE: StaticDuplicateObject took: (0.561091s)
+[2026.09.17-18.53.11:495][836]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/UNDERWATER_SETTING/Underwater_Setting.Underwater_Setting to /Game/UNDERWATER_SETTING/UEDPIE_0_Underwater_Setting.Underwater_Setting (0.561190s)
+[2026.09.17-18.53.11:534][836]LogUObjectHash: Compacting FUObjectHashTables data took   2.02ms
+[2026.09.17-18.53.11:540][836]LogChaosDD: Creating Chaos Debug Draw Scene for world Underwater_Setting
+[2026.09.17-18.53.11:542][836]LogPlayLevel: PIE: World Init took: (0.002372s)
+[2026.09.17-18.53.11:543][836]LogAudio: Display: Creating Audio Device:                 Id: 73, Scope: Unique, Realtime: True
+[2026.09.17-18.53.11:543][836]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.09.17-18.53.11:543][836]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.09.17-18.53.11:543][836]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.09.17-18.53.11:543][836]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.09.17-18.53.11:543][836]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.09.17-18.53.11:543][836]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.09.17-18.53.11:543][836]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.09.17-18.53.11:543][836]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.09.17-18.53.11:543][836]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.09.17-18.53.11:543][836]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.09.17-18.53.11:543][836]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.09.17-18.53.11:561][836]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.09.17-18.53.11:682][836]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek(R) Audio)
+[2026.09.17-18.53.11:682][836]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.09.17-18.53.11:682][836]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.09.17-18.53.11:682][836]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.09.17-18.53.11:683][836]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=73
+[2026.09.17-18.53.11:683][836]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=73
+[2026.09.17-18.53.11:685][836]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=73
+[2026.09.17-18.53.11:685][836]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=73
+[2026.09.17-18.53.11:685][836]LogInit: FAudioDevice initialized with ID 73.
+[2026.09.17-18.53.11:685][836]LogAudio: Display: Audio Device (ID: 73) registered with world 'Underwater_Setting'.
+[2026.09.17-18.53.11:685][836]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 73
+[2026.09.17-18.53.11:690][836]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2026.09.17-18.53.11:989][836]LogWorld: Bringing World /Game/UNDERWATER_SETTING/UEDPIE_0_Underwater_Setting.Underwater_Setting up for play (max tick rate 0) at 2026.09.17-19.53.11
+[2026.09.17-18.53.11:991][836]LogWorld: Bringing up level for play took: 0.299861
+[2026.09.17-18.53.11:996][836]PIE: Server logged in
+[2026.09.17-18.53.12:000][836]PIE: Play in editor total start time 1.093 seconds.
+[2026.09.17-18.53.12:041][836]LogWater: Warning: Width of water quad tree tiles (512) for Water Mesh Component (/Game/UNDERWATER_SETTING/UEDPIE_0_Underwater_Setting.Underwater_Setting:PersistentLevel.WaterZone_0.WaterMesh) has exceeded the cap for this platform (256). Tile sizes have been biased by a factor of 0.50 to prevent exceeding the cap. If a high tile count is intended by the user, the scalability cvar `r.Water.WaterMesh.MaxWidthInTiles` should be adjusted accordingly.
+[2026.09.17-18.53.18:832][969]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2026.09.17-18.53.18:832][969]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> NoCapture
+[2026.09.17-18.53.31:300][522]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2026.09.17-18.53.31:300][522]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
+[2026.09.17-18.53.33:232][607]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2026.09.17-18.53.33:232][607]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> NoCapture
+[2026.09.17-18.53.37:157][786]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2026.09.17-18.53.37:157][786]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
+[2026.09.17-18.53.44:075][881]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 15575.894531
+[2026.09.17-18.53.45:081][884]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.09.17-18.53.45:081][884]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 15576.563477, Update Interval: 322.471375
+[2026.09.17-18.59.55:126][994]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 15946.944336
+[2026.09.17-18.59.56:127][997]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.09.17-18.59.56:127][997]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 15947.617188, Update Interval: 315.330048
+[2026.09.17-19.05.53:850][ 70]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 16305.662109
+[2026.09.17-19.05.54:848][ 73]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.09.17-19.05.54:848][ 73]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 16306.326172, Update Interval: 324.220093
+[2026.09.17-19.12.10:236][199]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 16682.062500
+[2026.09.17-19.12.11:239][202]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.09.17-19.12.11:239][202]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 16682.722656, Update Interval: 325.941345
+[2026.09.17-19.12.39:372][340]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.09.17-19.12.39:374][340]LogWorld: BeginTearingDown for /Game/UNDERWATER_SETTING/UEDPIE_0_Underwater_Setting
+[2026.09.17-19.12.39:898][340]LogWorld: UWorld::CleanupWorld for Underwater_Setting, bSessionEnded=true, bCleanupResources=true
+[2026.09.17-19.12.40:437][340]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.09.17-19.12.41:792][340]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.09.17-19.12.41:871][340]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.09.17-19.12.42:186][340]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.09.17-19.12.42:522][340]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 73
+[2026.09.17-19.12.42:597][340]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=73, StreamState=4
+[2026.09.17-19.12.42:626][340]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=73, StreamState=2
+[2026.09.17-19.12.44:254][340]LogUObjectHash: Compacting FUObjectHashTables data took   9.47ms
+[2026.09.17-19.12.45:060][341]Cmd: SELECT NONE
+[2026.09.17-19.12.45:284][341]LogPlayLevel: Display: Destroying online subsystem :Context_111
+[2026.09.17-19.12.45:790][344]LogD3D12RHI: Waited for PSO creation for 100.000000ms
+[2026.09.17-19.12.45:890][344]LogD3D12RHI: Waited for PSO creation for 200.000000ms
+[2026.09.17-19.12.57:490][571]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.09.17-19.12.58:756][571]LogUObjectHash: Compacting FUObjectHashTables data took   1.50ms
+[2026.09.17-19.13.07:092][571]LogSavePackage: Moving output files for package: /Game/UNDERWATER_SETTING/Underwater_Setting
+[2026.09.17-19.13.07:116][571]LogSavePackage: Moving '../../../../UNDERWATER_TEST01-5.2-5.6/Saved/Underwater_Setting826A03F745A5E0732DB789998053601F.tmp' to '../../../../UNDERWATER_TEST01-5.2-5.6/Content/UNDERWATER_SETTING/Underwater_Setting.umap'
+[2026.09.17-19.13.08:121][571]LogFileHelpers: Saving map 'Underwater_Setting' took 10.178
+[2026.09.17-19.13.08:234][571]LogFileHelpers: InternalPromptForCheckoutAndSave took 10.7 sec (total: 58.0 sec)
+[2026.09.17-19.13.08:823][571]LogContentValidation: Display: Starting to validate 1 assets
+[2026.09.17-19.13.08:823][571]LogContentValidation: Enabled validators:
+[2026.09.17-19.13.08:840][571]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.09.17-19.13.08:840][571]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.09.17-19.13.08:840][571]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.09.17-19.13.08:840][571]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.09.17-19.13.08:840][571]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.09.17-19.13.08:840][571]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.09.17-19.13.08:946][571]AssetCheck: /Game/UNDERWATER_SETTING/Underwater_Setting Validating asset
+[2026.09.17-19.18.32:447][988]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 17064.429688
+[2026.09.17-19.18.33:449][991]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.09.17-19.18.33:449][991]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 17065.097656, Update Interval: 327.071136

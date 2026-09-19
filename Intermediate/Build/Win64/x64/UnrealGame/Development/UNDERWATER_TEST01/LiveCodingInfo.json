@@ -1,8 +1,0 @@
-{
-	"RemapUnityFiles": 
-	{
-		"Module.UNDERWATER_TEST01.cpp.obj": [
-			"UNDERWATER_TEST01.cpp.obj"
-		]
-	}
-}

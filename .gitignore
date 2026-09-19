@@ -1,0 +1,48 @@
+# ---- Unreal Engine generated / cache folders ----
+Binaries/
+Build/
+DerivedDataCache/
+Intermediate/
+Saved/
+Script/
+.vs/
+.vscode/
+.idea/
+
+# Plugin build output (keep plugin source, drop its binaries)
+Plugins/**/Binaries/
+Plugins/**/Intermediate/
+
+# ---- IDE / generated project files ----
+*.sln
+*.suo
+*.opensdf
+*.sdf
+*.VC.db
+*.VC.opendb
+*.xcodeproj
+*.xcworkspace
+*.code-workspace
+.vsconfig
+
+# ---- Build / packaging output ----
+*.apk
+*.ipa
+*.pdb
+*.ilk
+*.exp
+*.lib
+*.obj
+*.log
+
+# ---- OS junk ----
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# ---- Local-only Unreal files ----
+*.uasset.bak
+*.umap.bak
+*.autosave
+Content/Collections/
+Config/DefaultEditorPerProjectUserSettings.ini

@@ -46,3 +46,5 @@ desktop.ini
 *.autosave
 Content/Collections/
 Config/DefaultEditorPerProjectUserSettings.ini
+
+*.bnk

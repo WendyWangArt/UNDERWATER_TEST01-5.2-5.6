@@ -3,7 +3,7 @@
 	<AudioObjects>
 		<WorkUnit Name="Alys" ID="{5A42FBE7-EEB5-45A5-BC4E-EC69B838458E}" PersistMode="Standalone">
 			<ChildrenList>
-				<Sound Name="Test" ID="{9527020E-DB87-4B28-B7E6-B6F8971030DC}" ShortID="945773682">
+				<Sound Name="TestAlys" ID="{9527020E-DB87-4B28-B7E6-B6F8971030DC}" ShortID="945773682">
 					<PropertyList>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>

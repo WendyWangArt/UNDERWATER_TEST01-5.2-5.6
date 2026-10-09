@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	670666094	TestAlys			\Alys_WU\TestAlys	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	473635410	TestAlys	C:\Users\wendy.wang\Documents\Wendy\UNDERWATER_TEST01-5.2-5.6\UNDERWATER_TEST01-5.2-5.6_WwiseProject\.cache\FF\{FFB47961-7CC2-DE96-6691-964D8043757B}.wem		\Actor-Mixer Hierarchy\Alys\TestAlys		8893536
+

@@ -11,7 +11,7 @@
     "GUID": "{AA8B29AE-5533-4973-A858-CD0EFD9322B3}",
     "Language": "SFX",
     "Hash": "{45F442A7-301D-9024-49E1-2381071B649B}",
-    "ObjectPath": "\\SoundBanks\\Default Work Unit\\Soundbank_Ayana\\TestfORsOUNDeFFECTS",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\TestfORsOUNDeFFECTS",
     "ShortName": "TestfORsOUNDeFFECTS",
     "Path": "TestfORsOUNDeFFECTS.bnk",
     "Media": [
@@ -68,7 +68,7 @@
      {
       "Id": "3157003241",
       "Name": "Test",
-      "ObjectPath": "\\Events\\Ayana_WU\\Ayana\\Test",
+      "ObjectPath": "\\Events\\Default Work Unit\\Ayana\\Test",
       "GUID": "{981D7BA0-0408-4370-A64F-5AA99F5CE895}",
       "DurationType": "OneShot",
       "DurationMin": "0.23169792",
@@ -97,6 +97,6 @@
     ]
    }
   ],
-  "FileHash": "{8DDF7379-09E0-AD7A-33E7-B1E2D3F1D817}"
+  "FileHash": "{09DF40B9-C002-1BEF-5194-B87102AA71C3}"
  }
 }

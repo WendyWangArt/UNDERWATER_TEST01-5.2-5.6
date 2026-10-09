@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{FAED5D27-E45B-4BB4-B930-3E55CA64DB98}" SchemaVersion="123">
+	<GameParameters>
+		<WorkUnit Name="GP_WorkingUnit_Ayana" ID="{FAED5D27-E45B-4BB4-B930-3E55CA64DB98}" PersistMode="Standalone"/>
+	</GameParameters>
+</WwiseDocument>

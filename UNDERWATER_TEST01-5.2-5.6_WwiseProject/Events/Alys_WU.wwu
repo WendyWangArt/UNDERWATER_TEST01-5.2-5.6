@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{B44264EB-B7C7-4E6E-92FF-B59310552229}" SchemaVersion="123">
 	<Events>
-		<WorkUnit Name="Alys" ID="{B44264EB-B7C7-4E6E-92FF-B59310552229}" PersistMode="Standalone">
+		<WorkUnit Name="Alys_WU" ID="{B44264EB-B7C7-4E6E-92FF-B59310552229}" PersistMode="Standalone">
 			<ChildrenList>
 				<Event Name="TestAlys" ID="{C006A8B2-6AAE-415F-BD28-46BAD6644FCD}">
 					<ChildrenList>

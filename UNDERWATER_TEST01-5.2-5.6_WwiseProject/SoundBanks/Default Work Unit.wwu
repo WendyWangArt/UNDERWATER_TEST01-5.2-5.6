@@ -5,7 +5,7 @@
 			<ChildrenList>
 				<SoundBank Name="TestfORsOUNDeFFECTS" ID="{AA8B29AE-5533-4973-A858-CD0EFD9322B3}">
 					<ObjectInclusionList>
-						<ObjectRef Name="Test" ID="{981D7BA0-0408-4370-A64F-5AA99F5CE895}" WorkUnitID="{F9F41F80-93D0-478B-98D6-F1C042AE4945}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Test" ID="{981D7BA0-0408-4370-A64F-5AA99F5CE895}" WorkUnitID="{B66E3B40-DCB4-4AA1-B6BA-80E95D2B144B}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

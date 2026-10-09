@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{B66E3B40-DCB4-4AA1-B6BA-80E95D2B144B}" SchemaVersion="123">
+	<Events>
+		<WorkUnit Name="Ayana_WU" ID="{B66E3B40-DCB4-4AA1-B6BA-80E95D2B144B}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="Ayana" ID="{E3D27769-87F0-4E46-9464-6D5DAE55CAB6}" ShortID="981422915">
+					<ChildrenList>
+						<Event Name="Test" ID="{981D7BA0-0408-4370-A64F-5AA99F5CE895}">
+							<ChildrenList>
+								<Action Name="" ID="{4A53C892-CCC5-4026-B9E3-D3D1B18EAAE3}" ShortID="866563438">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Test" ID="{DE4EF6A0-8226-4065-B46C-AF146F0DCDD5}" WorkUnitID="{F548A608-7B8E-4719-AAB2-5DDAFE6399C6}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

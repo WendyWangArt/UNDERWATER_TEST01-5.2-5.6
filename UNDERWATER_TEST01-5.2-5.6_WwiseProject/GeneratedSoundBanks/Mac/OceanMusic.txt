@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	216615413	Ocean_Music			\Alys\Ocean_Music	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	830985567	OceanMusic	Z:\Volumes\WORK\Game\Synthespians\Project Files\UNDERWATER_TEST01-5.2-5.6\UNDERWATER_TEST01-5.2-5.6_WwiseProject\.cache\31\{31DB8BB5-92FB-FB4D-DF06-1DE147A013A8}.wem		\Actor-Mixer Hierarchy\Alys\OceanMusic		10240160
+

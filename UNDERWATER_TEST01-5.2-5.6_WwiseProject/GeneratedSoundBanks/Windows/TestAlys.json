@@ -1,0 +1,47 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "670666094",
+    "Type": "User",
+    "GUID": "{E31F5510-E89F-4481-A740-6DF8B5384B29}",
+    "Language": "SFX",
+    "Hash": "{8B04E1CC-D134-6D31-2F2F-48B6BD9AF131}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\TestAlys",
+    "ShortName": "TestAlys",
+    "Path": "TestAlys.bnk",
+    "Media": [
+     {
+      "Id": "473635410",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Banana Fish Bens Theme Idea 1.wav",
+      "CachePath": "FF/{FFB47961-7CC2-DE96-6691-964D8043757B}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "670666094",
+      "Name": "TestAlys",
+      "ObjectPath": "\\Events\\Alys_WU\\TestAlys",
+      "GUID": "{C006A8B2-6AAE-415F-BD28-46BAD6644FCD}",
+      "DurationType": "OneShot",
+      "DurationMin": "46.32",
+      "DurationMax": "46.32",
+      "MediaRefs": [
+       {
+        "Id": "473635410"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{725FA7AB-FDAA-3A44-CCFB-F82824693B7C}"
+ }
+}

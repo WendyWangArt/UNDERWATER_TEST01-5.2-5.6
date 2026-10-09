@@ -68,7 +68,7 @@
      {
       "Id": "3157003241",
       "Name": "Test",
-      "ObjectPath": "\\Events\\Default Work Unit\\Ayana\\Test",
+      "ObjectPath": "\\Events\\Ayana_WU\\Ayana\\Test",
       "GUID": "{981D7BA0-0408-4370-A64F-5AA99F5CE895}",
       "DurationType": "OneShot",
       "DurationMin": "0.23169792",
@@ -97,6 +97,6 @@
     ]
    }
   ],
-  "FileHash": "{90132E32-6125-8013-304C-A4F9D9C12AD2}"
+  "FileHash": "{D3C8BFD8-97DD-44E0-3901-54E2EE65C1F6}"
  }
 }

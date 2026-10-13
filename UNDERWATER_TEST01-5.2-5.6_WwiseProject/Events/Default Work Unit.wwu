@@ -14,6 +14,62 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="PlayIntro" ID="{2D5D827B-DD27-47A2-8C7D-12FE4FF9B972}">
+					<ChildrenList>
+						<Action Name="" ID="{DE4F736D-55FE-41CA-BE4E-638343290919}" ShortID="513409968">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Intro_Animation_SoundEffect" ID="{0539C3A5-316B-4B03-8597-752D32B35287}" WorkUnitID="{F548A608-7B8E-4719-AAB2-5DDAFE6399C6}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{C8BAC0AD-A45F-4A36-80F4-EC500AFDF2FC}" ShortID="962424858">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="OceanAtmosphereAMbient" ID="{A56689C1-E6E4-4834-BB7B-C508AB85E547}" WorkUnitID="{F548A608-7B8E-4719-AAB2-5DDAFE6399C6}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{C4F85660-80F1-4A1B-8301-B83B03E69884}" ShortID="977869864">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Intro" ID="{3FE367C4-DDC5-4459-895E-9229D9CA5F10}" WorkUnitID="{62D4A0D7-BF17-4774-9AF7-0F747302BDA8}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="PlayerExploring" ID="{4BCF154F-3C34-4336-ADA3-D20D87B6BC80}">
+					<ChildrenList>
+						<Action Name="" ID="{08411369-47AB-4061-A404-1BE9EA82C706}" ShortID="61882118">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Explore" ID="{E47E30F9-9856-4A6D-A065-9318318AEA2D}" WorkUnitID="{62D4A0D7-BF17-4774-9AF7-0F747302BDA8}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="TalkToCharOne" ID="{03FE54AB-3B9A-4D05-838A-6ADD99169193}">
+					<ChildrenList>
+						<Action Name="" ID="{F15813BF-7EAF-4B35-8D48-84A101DEED67}" ShortID="820542338">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="TalkToCharOne" ID="{41D7A911-BC3A-4DD1-9104-030F7594790D}" WorkUnitID="{62D4A0D7-BF17-4774-9AF7-0F747302BDA8}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

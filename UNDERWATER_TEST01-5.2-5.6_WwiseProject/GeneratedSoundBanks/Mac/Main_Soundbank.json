@@ -1,0 +1,149 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "2228651116",
+    "Type": "User",
+    "GUID": "{A95A962B-14C1-4BDD-89E4-8F7F66A4CA91}",
+    "Language": "SFX",
+    "Hash": "{0E14085B-3F72-1FFF-570D-BBA074EA2853}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main_Soundbank",
+    "ShortName": "Main_Soundbank",
+    "Path": "Main_Soundbank.bnk",
+    "Media": [
+     {
+      "Id": "809611727",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "atmos_ver1.wav",
+      "CachePath": "F0/{F0B78290-8554-A98C-87E2-567BB7FF248A}.wem"
+     },
+     {
+      "Id": "1040188425",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "intro scene_ver1.wav",
+      "CachePath": "5E/{5EDBD614-76D5-CAD6-DEFA-35D186A3CBE1}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "3030696582",
+      "Name": "PlayerExploring",
+      "ObjectPath": "\\Events\\Default Work Unit\\PlayerExploring",
+      "GUID": "{4BCF154F-3C34-4336-ADA3-D20D87B6BC80}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0",
+      "ActionSetState": [
+       {
+        "GroupId": "4091656514",
+        "Id": "579523862",
+        "Name": "Explore",
+        "ObjectPath": "\\States\\States_WorkingUnit_Ayana\\GameState\\Explore",
+        "GUID": "{E47E30F9-9856-4A6D-A065-9318318AEA2D}"
+       }
+      ]
+     },
+     {
+      "Id": "781908707",
+      "Name": "PlayIntro",
+      "ObjectPath": "\\Events\\Default Work Unit\\PlayIntro",
+      "GUID": "{2D5D827B-DD27-47A2-8C7D-12FE4FF9B972}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "809611727"
+       },
+       {
+        "Id": "1040188425"
+       }
+      ],
+      "ActionSetState": [
+       {
+        "GroupId": "4091656514",
+        "Id": "1125500713",
+        "Name": "Intro",
+        "ObjectPath": "\\States\\States_WorkingUnit_Ayana\\GameState\\Intro",
+        "GUID": "{3FE367C4-DDC5-4459-895E-9229D9CA5F10}"
+       }
+      ]
+     },
+     {
+      "Id": "4020779876",
+      "Name": "TalkToCharOne",
+      "ObjectPath": "\\Events\\Default Work Unit\\TalkToCharOne",
+      "GUID": "{03FE54AB-3B9A-4D05-838A-6ADD99169193}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0",
+      "ActionSetState": [
+       {
+        "GroupId": "4091656514",
+        "Id": "4020779876",
+        "Name": "TalkToCharOne",
+        "ObjectPath": "\\States\\States_WorkingUnit_Ayana\\GameState\\TalkToCharOne",
+        "GUID": "{41D7A911-BC3A-4DD1-9104-030F7594790D}"
+       }
+      ]
+     }
+    ],
+    "StateGroups": [
+     {
+      "Id": "4091656514",
+      "Name": "GameState",
+      "ObjectPath": "\\States\\States_WorkingUnit_Ayana\\GameState",
+      "GUID": "{1C387382-33FD-48A4-AFB3-1F989B62080B}",
+      "States": [
+       {
+        "Id": "579523862",
+        "Name": "Explore",
+        "ObjectPath": "\\States\\States_WorkingUnit_Ayana\\GameState\\Explore",
+        "GUID": "{E47E30F9-9856-4A6D-A065-9318318AEA2D}"
+       },
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\States_WorkingUnit_Ayana\\GameState\\None",
+        "GUID": "{1C2FC7C1-41DD-4735-8F34-E9B6B91589FE}"
+       },
+       {
+        "Id": "1125500713",
+        "Name": "Intro",
+        "ObjectPath": "\\States\\States_WorkingUnit_Ayana\\GameState\\Intro",
+        "GUID": "{3FE367C4-DDC5-4459-895E-9229D9CA5F10}"
+       },
+       {
+        "Id": "3604647259",
+        "Name": "MainMenu",
+        "ObjectPath": "\\States\\States_WorkingUnit_Ayana\\GameState\\MainMenu",
+        "GUID": "{F34E3848-894B-468C-92C3-FB3A0659D3FB}"
+       },
+       {
+        "Id": "4020779876",
+        "Name": "TalkToCharOne",
+        "ObjectPath": "\\States\\States_WorkingUnit_Ayana\\GameState\\TalkToCharOne",
+        "GUID": "{41D7A911-BC3A-4DD1-9104-030F7594790D}"
+       },
+       {
+        "Id": "4184794294",
+        "Name": "Outro",
+        "ObjectPath": "\\States\\States_WorkingUnit_Ayana\\GameState\\Outro",
+        "GUID": "{8B1A72B3-C055-4054-BFFF-BD35D62DB1F8}"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{085100EC-B6F3-F729-472E-AF4FCA1BFC52}"
+ }
+}

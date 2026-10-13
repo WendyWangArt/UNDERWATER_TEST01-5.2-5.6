@@ -46,16 +46,18 @@
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>
-				<SoundBank Name="Sound_IntroAnimation" ID="{7DB6C8A3-604D-4FDA-B0D5-5AC45A8BB304}">
+				<SoundBank Name="Sound_OceanAO" ID="{941731E7-F650-48CE-83B2-5922F192785C}">
 					<ObjectInclusionList>
-						<ObjectRef Name="IntroAnimSound" ID="{5CE8E174-8F60-4BBF-9E0D-9565540FF3D2}" WorkUnitID="{B66E3B40-DCB4-4AA1-B6BA-80E95D2B144B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="EnvironmentOceanAM" ID="{E17427E4-0A73-47D2-BFEF-27C84FCCD747}" WorkUnitID="{B66E3B40-DCB4-4AA1-B6BA-80E95D2B144B}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>
-				<SoundBank Name="Sound_OceanAO" ID="{941731E7-F650-48CE-83B2-5922F192785C}">
+				<SoundBank Name="Main_Soundbank" ID="{A95A962B-14C1-4BDD-89E4-8F7F66A4CA91}">
 					<ObjectInclusionList>
-						<ObjectRef Name="EnvironmentOceanAM" ID="{E17427E4-0A73-47D2-BFEF-27C84FCCD747}" WorkUnitID="{B66E3B40-DCB4-4AA1-B6BA-80E95D2B144B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="PlayerExploring" ID="{4BCF154F-3C34-4336-ADA3-D20D87B6BC80}" WorkUnitID="{F9F41F80-93D0-478B-98D6-F1C042AE4945}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="PlayIntro" ID="{2D5D827B-DD27-47A2-8C7D-12FE4FF9B972}" WorkUnitID="{F9F41F80-93D0-478B-98D6-F1C042AE4945}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="TalkToCharOne" ID="{03FE54AB-3B9A-4D05-838A-6ADD99169193}" WorkUnitID="{F9F41F80-93D0-478B-98D6-F1C042AE4945}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

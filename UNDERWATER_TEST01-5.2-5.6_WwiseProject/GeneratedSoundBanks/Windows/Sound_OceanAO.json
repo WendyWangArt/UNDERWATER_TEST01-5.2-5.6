@@ -10,18 +10,18 @@
     "Type": "User",
     "GUID": "{941731E7-F650-48CE-83B2-5922F192785C}",
     "Language": "SFX",
-    "Hash": "{E51232E5-F628-59D0-D8E8-80A4BD71362C}",
+    "Hash": "{E25C545D-172F-8231-578C-4990EE0AD65F}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Sound_OceanAO",
     "ShortName": "Sound_OceanAO",
     "Path": "Sound_OceanAO.bnk",
     "Media": [
      {
-      "Id": "809611727",
+      "Id": "1040188425",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
-      "ShortName": "atmos_ver1.wav",
-      "CachePath": "C1/{C11FD97D-0527-5DB5-120A-399963ED28B1}.wem"
+      "ShortName": "intro scene_ver1.wav",
+      "CachePath": "5E/{5EDBD614-76D5-CAD6-DEFA-35D186A3CBE1}.wem"
      }
     ],
     "Events": [
@@ -31,17 +31,55 @@
       "ObjectPath": "\\Events\\Ayana_WU\\Ayana\\EnvironmentOceanAM",
       "GUID": "{E17427E4-0A73-47D2-BFEF-27C84FCCD747}",
       "DurationType": "OneShot",
-      "DurationMin": "59.066666",
-      "DurationMax": "59.066666",
+      "DurationMin": "21.166666",
+      "DurationMax": "21.166666",
       "MediaRefs": [
        {
-        "Id": "809611727"
+        "Id": "1040188425"
+       }
+      ],
+      "ActionSetState": [
+       {
+        "GroupId": "867486135",
+        "Id": "2214273349",
+        "Name": "OceanLevelAS",
+        "ObjectPath": "\\States\\States_WorkingUnit_Ayana\\OceanAmbientSounds\\OceanLevelAS",
+        "GUID": "{8442B7F9-2247-480D-93D6-0BEC1BDB27F5}"
+       },
+       {
+        "GroupId": "867486135",
+        "Id": "3743802017",
+        "Name": "introAnimation",
+        "ObjectPath": "\\States\\States_WorkingUnit_Ayana\\OceanAmbientSounds\\introAnimation",
+        "GUID": "{19EA9F62-53C4-427F-8406-B3AEEA23B3FF}"
+       }
+      ]
+     }
+    ],
+    "StateGroups": [
+     {
+      "Id": "867486135",
+      "Name": "OceanAmbientSounds",
+      "ObjectPath": "\\States\\States_WorkingUnit_Ayana\\OceanAmbientSounds",
+      "GUID": "{99E08DAC-5D4E-46E8-A8BF-30AE89C30890}",
+      "States": [
+       {
+        "Id": "2214273349",
+        "Name": "OceanLevelAS",
+        "ObjectPath": "\\States\\States_WorkingUnit_Ayana\\OceanAmbientSounds\\OceanLevelAS",
+        "GUID": "{8442B7F9-2247-480D-93D6-0BEC1BDB27F5}"
+       },
+       {
+        "Id": "3743802017",
+        "Name": "introAnimation",
+        "ObjectPath": "\\States\\States_WorkingUnit_Ayana\\OceanAmbientSounds\\introAnimation",
+        "GUID": "{19EA9F62-53C4-427F-8406-B3AEEA23B3FF}"
        }
       ]
      }
     ]
    }
   ],
-  "FileHash": "{D3D98EFE-DDFB-48E7-6EFE-2E5444DAE3CF}"
+  "FileHash": "{5EABBE12-E325-2271-0EC9-A3EF0D8BD730}"
  }
 }

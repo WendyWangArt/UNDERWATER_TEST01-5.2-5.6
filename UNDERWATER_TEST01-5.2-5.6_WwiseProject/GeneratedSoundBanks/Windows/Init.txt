@@ -1,3 +1,17 @@
+State Group	ID	Name			Wwise Object Path	Notes
+	867486135	OceanAmbientSounds			\States_WorkingUnit_Ayana\OceanAmbientSounds	
+	4091656514	GameState			\States_WorkingUnit_Ayana\GameState	
+
+State	ID	Name	State Group			Notes
+	2214273349	OceanLevelAS	OceanAmbientSounds			
+	3743802017	introAnimation	OceanAmbientSounds			
+	579523862	Explore	GameState			
+	748895195	None	GameState			
+	1125500713	Intro	GameState			
+	3604647259	MainMenu	GameState			
+	4020779876	TalkToCharOne	GameState			
+	4184794294	Outro	GameState			
+
 Audio Bus	ID	Name			Wwise Object Path	Notes
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
 

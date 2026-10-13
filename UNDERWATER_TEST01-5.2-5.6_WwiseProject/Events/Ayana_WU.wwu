@@ -29,10 +29,30 @@
 						</Event>
 						<Event Name="EnvironmentOceanAM" ID="{E17427E4-0A73-47D2-BFEF-27C84FCCD747}">
 							<ChildrenList>
-								<Action Name="" ID="{5DDF0E87-F788-4B2C-B3BC-BA6FAFFE960C}" ShortID="954929960">
+								<Action Name="" ID="{5CE37DEF-1E20-42B8-85CC-E15A1E6C793E}" ShortID="611894941">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="OceanAtmosphereAMbient" ID="{A56689C1-E6E4-4834-BB7B-C508AB85E547}" WorkUnitID="{F548A608-7B8E-4719-AAB2-5DDAFE6399C6}"/>
+											<ObjectRef Name="Intro_Animation_SoundEffect" ID="{0539C3A5-316B-4B03-8597-752D32B35287}" WorkUnitID="{F548A608-7B8E-4719-AAB2-5DDAFE6399C6}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{55A6DD98-1DC9-4E93-8A36-B9852F3141F8}" ShortID="306096754">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="introAnimation" ID="{19EA9F62-53C4-427F-8406-B3AEEA23B3FF}" WorkUnitID="{62D4A0D7-BF17-4774-9AF7-0F747302BDA8}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{3CA1B814-325F-4D32-B2DF-46A46C0D28E1}" ShortID="452002222">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="OceanLevelAS" ID="{8442B7F9-2247-480D-93D6-0BEC1BDB27F5}" WorkUnitID="{62D4A0D7-BF17-4774-9AF7-0F747302BDA8}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -66,17 +86,6 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Tentacle_Grabbing_Sound" ID="{D34165E7-AD49-4727-AA01-4BBC69D743EA}" WorkUnitID="{F548A608-7B8E-4719-AAB2-5DDAFE6399C6}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="IntroAnimSound" ID="{5CE8E174-8F60-4BBF-9E0D-9565540FF3D2}">
-							<ChildrenList>
-								<Action Name="" ID="{1447F5D8-4F72-4CDA-B514-C705120A66FC}" ShortID="691383010">
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Intro_Animation_SoundEffect" ID="{0539C3A5-316B-4B03-8597-752D32B35287}" WorkUnitID="{F548A608-7B8E-4719-AAB2-5DDAFE6399C6}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

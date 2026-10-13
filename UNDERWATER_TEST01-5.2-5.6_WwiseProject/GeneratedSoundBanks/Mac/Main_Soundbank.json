@@ -10,11 +10,19 @@
     "Type": "User",
     "GUID": "{A95A962B-14C1-4BDD-89E4-8F7F66A4CA91}",
     "Language": "SFX",
-    "Hash": "{0E14085B-3F72-1FFF-570D-BBA074EA2853}",
+    "Hash": "{2E16A9A1-4495-B011-EB8A-85564B2F28BF}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main_Soundbank",
     "ShortName": "Main_Soundbank",
     "Path": "Main_Soundbank.bnk",
     "Media": [
+     {
+      "Id": "341240292",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Banana Fish Bens Theme Idea 1 (1).wav",
+      "CachePath": "D7/{D7938B65-229C-0A7F-3DFA-2A8A0B877E9B}.wem"
+     },
      {
       "Id": "809611727",
       "Language": "SFX",
@@ -59,6 +67,9 @@
       "GUID": "{2D5D827B-DD27-47A2-8C7D-12FE4FF9B972}",
       "DurationType": "Infinite",
       "MediaRefs": [
+       {
+        "Id": "341240292"
+       },
        {
         "Id": "809611727"
        },
@@ -144,6 +155,6 @@
     ]
    }
   ],
-  "FileHash": "{085100EC-B6F3-F729-472E-AF4FCA1BFC52}"
+  "FileHash": "{F61FD309-6E75-167D-379C-ABEACB8E3326}"
  }
 }

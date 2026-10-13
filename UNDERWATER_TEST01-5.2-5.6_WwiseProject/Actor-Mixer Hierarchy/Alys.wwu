@@ -25,6 +25,88 @@
 						<ActiveSource Name="Banana Fish Bens Theme Idea 1" ID="{14DF2D75-3622-4A0D-A9CA-4E7C90AA7832}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
+				<Folder Name="characters" ID="{9A1FD76D-30A2-49C8-A40B-5FFD347CFC26}" ShortID="709750328">
+					<ChildrenList>
+						<Sound Name="Bananafish" ID="{7BA7011C-B2BC-4966-87DC-BD55DD08B53B}" ShortID="886615320">
+							<PropertyList>
+								<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{11E88737-2F31-44F3-AED4-A1DB60F72205}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{12B21E04-42A3-4A48-8129-2406DBED32A0}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Banana Fish Bens Theme Idea 1 (1)" ID="{90AC2F36-DA55-4A23-957A-96EC0961A533}">
+									<Language>SFX</Language>
+									<AudioFile>Banana Fish Bens Theme Idea 1 (1).wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="341240292"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="GameState" ID="{1C387382-33FD-48A4-AFB3-1F989B62080B}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="Outro" ID="{8B1A72B3-C055-4054-BFFF-BD35D62DB1F8}"/>
+										<CustomState Name="" ID="{56B1BBC8-999E-461C-9700-F6E3F666E249}" ShortID="473767804">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Intro" ID="{3FE367C4-DDC5-4459-895E-9229D9CA5F10}"/>
+										<CustomState Name="" ID="{95821C4B-41E0-417F-B491-083ACD31247C}" ShortID="188965862">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="MainMenu" ID="{F34E3848-894B-468C-92C3-FB3A0659D3FB}"/>
+										<CustomState Name="" ID="{56919293-F295-49A9-AF1E-197D2CE935D6}" ShortID="435756765">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="None" ID="{1C2FC7C1-41DD-4735-8F34-E9B6B91589FE}"/>
+										<CustomState Name="" ID="{703186C2-0B84-478D-91A1-9B8460A5AEDC}" ShortID="265352791">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Explore" ID="{E47E30F9-9856-4A6D-A065-9318318AEA2D}"/>
+										<CustomState Name="" ID="{E872BFB0-081D-4C57-915D-AD7E1BD4E6D2}" ShortID="928090681">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="TalkToCharOne" ID="{41D7A911-BC3A-4DD1-9104-030F7594790D}"/>
+										<CustomState Name="" ID="{4826FF86-0584-4BFD-A60E-10F1AAC5776A}" ShortID="162103982"/>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
+							<ActiveSourceList>
+								<ActiveSource Name="Banana Fish Bens Theme Idea 1 (1)" ID="{90AC2F36-DA55-4A23-957A-96EC0961A533}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

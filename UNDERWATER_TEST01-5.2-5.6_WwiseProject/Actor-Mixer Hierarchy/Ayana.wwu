@@ -180,6 +180,8 @@
 				<RandomSequenceContainer Name="Hammer_BUild_Sounds" ID="{5CC0D1EA-5712-41B9-9B1E-7A5D99C9F199}" ShortID="204444129">
 					<PropertyList>
 						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+						<Property Name="ListenerRelativeRouting" Type="bool" Value="False"/>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Attenuation">

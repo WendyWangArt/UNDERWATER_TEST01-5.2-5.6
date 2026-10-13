@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{BAC47711-0B11-4290-9E7F-5CFEE42A57A6}",
     "Language": "SFX",
-    "Hash": "{404E8B0D-0F1A-40D1-5029-5EA08FE74040}",
+    "Hash": "{5AC3B0E8-FA73-7053-1CE0-3586C197C191}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Sound_HammerFix",
     "ShortName": "Sound_HammerFix",
     "Path": "Sound_HammerFix.bnk",
@@ -46,7 +46,6 @@
       "Name": "HammerSounds",
       "ObjectPath": "\\Events\\Ayana_WU\\Ayana\\HammerSounds",
       "GUID": "{D50FAE38-7BD9-48D9-96C4-B7D970563815}",
-      "MaxAttenuation": "1000",
       "DurationType": "OneShot",
       "DurationMin": "1.0062083",
       "DurationMax": "1.2148541",
@@ -65,6 +64,6 @@
     ]
    }
   ],
-  "FileHash": "{F2910830-1D38-F7D9-801E-3BF0058C4620}"
+  "FileHash": "{9E7C5C3F-ED4D-DC1B-F2AE-D40CA70937D8}"
  }
 }

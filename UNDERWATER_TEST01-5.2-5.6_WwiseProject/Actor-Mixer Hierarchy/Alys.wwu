@@ -30,6 +30,7 @@
 						<Sound Name="Bananafish" ID="{7BA7011C-B2BC-4966-87DC-BD55DD08B53B}" ShortID="886615320">
 							<PropertyList>
 								<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">

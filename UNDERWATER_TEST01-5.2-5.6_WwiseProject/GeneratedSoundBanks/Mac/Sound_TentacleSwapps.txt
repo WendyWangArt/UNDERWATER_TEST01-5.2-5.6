@@ -1,0 +1,8 @@
+Event	ID	Name			Wwise Object Path	Notes
+	359247318	TentacleSwapSounds			\Ayana_WU\Ayana\TentacleSwapSounds	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	40016966	tentacle_swap_var2	C:\Users\wendy.wang\Documents\Wendy\UNDERWATER_TEST01-5.2-5.6\UNDERWATER_TEST01-5.2-5.6_WwiseProject\.cache\F8\{F8F45A1F-F1F0-8ECD-2459-A3CF87E83699}.wem		\Actor-Mixer Hierarchy\Ayana\Tentacle_Swapping_Sounds\tentacle_swap_var2		60540
+	203577052	tentacle_swap_var3	C:\Users\wendy.wang\Documents\Wendy\UNDERWATER_TEST01-5.2-5.6\UNDERWATER_TEST01-5.2-5.6_WwiseProject\.cache\0D\{0D32067D-F4E9-4FE4-F29B-A4E8BA83C9A0}.wem		\Actor-Mixer Hierarchy\Ayana\Tentacle_Swapping_Sounds\tentacle_swap_var3		65052
+	1032981156	tentacle_swap_var1	C:\Users\wendy.wang\Documents\Wendy\UNDERWATER_TEST01-5.2-5.6\UNDERWATER_TEST01-5.2-5.6_WwiseProject\.cache\BB\{BB100101-5A1C-BDF6-444B-125D2A133BF6}.wem		\Actor-Mixer Hierarchy\Ayana\Tentacle_Swapping_Sounds\tentacle_swap_var1		76896
+

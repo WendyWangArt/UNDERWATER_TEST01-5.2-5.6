@@ -18,6 +18,48 @@
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>
+				<SoundBank Name="Sound_Button" ID="{BC1C18A6-F9B6-4F71-869A-7ACB0DE7E153}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Button_SE" ID="{0BFEE7E1-865F-4BDC-8106-47A5D20BE919}" WorkUnitID="{B66E3B40-DCB4-4AA1-B6BA-80E95D2B144B}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Sound_TentacleGrabs" ID="{8E6922F4-2CC5-428A-885F-25BA9DA17DB1}">
+					<ObjectInclusionList>
+						<ObjectRef Name="TentacleGrabSounds" ID="{4EF3EFC5-1DF1-4993-9192-CE842ED0CB43}" WorkUnitID="{B66E3B40-DCB4-4AA1-B6BA-80E95D2B144B}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Sound_TentacleSwapps" ID="{0DA6C39E-E159-4010-A044-304AF9712852}">
+					<ObjectInclusionList>
+						<ObjectRef Name="TentacleSwapSounds" ID="{A78DDFE4-51F3-4DED-B45F-192B7D76D5DC}" WorkUnitID="{B66E3B40-DCB4-4AA1-B6BA-80E95D2B144B}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Sound_HammerFix" ID="{BAC47711-0B11-4290-9E7F-5CFEE42A57A6}">
+					<ObjectInclusionList>
+						<ObjectRef Name="HammerSounds" ID="{D50FAE38-7BD9-48D9-96C4-B7D970563815}" WorkUnitID="{B66E3B40-DCB4-4AA1-B6BA-80E95D2B144B}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Sound_IntroAnimation" ID="{7DB6C8A3-604D-4FDA-B0D5-5AC45A8BB304}">
+					<ObjectInclusionList>
+						<ObjectRef Name="IntroAnimSound" ID="{5CE8E174-8F60-4BBF-9E0D-9565540FF3D2}" WorkUnitID="{B66E3B40-DCB4-4AA1-B6BA-80E95D2B144B}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Sound_OceanAO" ID="{941731E7-F650-48CE-83B2-5922F192785C}">
+					<ObjectInclusionList>
+						<ObjectRef Name="EnvironmentOceanAM" ID="{E17427E4-0A73-47D2-BFEF-27C84FCCD747}" WorkUnitID="{B66E3B40-DCB4-4AA1-B6BA-80E95D2B144B}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
 			</ChildrenList>
 		</WorkUnit>
 	</SoundBanks>

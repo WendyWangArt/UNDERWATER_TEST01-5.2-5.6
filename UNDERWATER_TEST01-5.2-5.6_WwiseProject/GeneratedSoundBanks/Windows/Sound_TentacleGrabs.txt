@@ -1,0 +1,8 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1674649581	TentacleGrabSounds			\Ayana_WU\Ayana\TentacleGrabSounds	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	363537703	tentacle_grab_var3	C:\Users\wendy.wang\Documents\Wendy\UNDERWATER_TEST01-5.2-5.6\UNDERWATER_TEST01-5.2-5.6_WwiseProject\.cache\89\{89E6252F-0709-AD18-6DA5-ADD7879B1C98}.wem		\Actor-Mixer Hierarchy\Ayana\Tentacle_Grabbing_Sound\tentacle_grab_var3		44896
+	487963016	tentacle_grab_var1	C:\Users\wendy.wang\Documents\Wendy\UNDERWATER_TEST01-5.2-5.6\UNDERWATER_TEST01-5.2-5.6_WwiseProject\.cache\37\{37976F00-8F46-77F7-5417-14CDAD728327}.wem		\Actor-Mixer Hierarchy\Ayana\Tentacle_Grabbing_Sound\tentacle_grab_var1		38496
+	1010557474	tentacle_grab_var2	C:\Users\wendy.wang\Documents\Wendy\UNDERWATER_TEST01-5.2-5.6\UNDERWATER_TEST01-5.2-5.6_WwiseProject\.cache\3E\{3E8401C8-47F2-4185-4FCD-FBB9A75B7801}.wem		\Actor-Mixer Hierarchy\Ayana\Tentacle_Grabbing_Sound\tentacle_grab_var2		38496
+

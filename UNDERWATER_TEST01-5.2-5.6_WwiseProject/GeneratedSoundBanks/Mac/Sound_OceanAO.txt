@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	239277720	EnvironmentOceanAM			\Ayana_WU\Ayana\EnvironmentOceanAM	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	809611727	OceanAtmosphereAMbient	C:\Users\wendy.wang\Documents\Wendy\UNDERWATER_TEST01-5.2-5.6\UNDERWATER_TEST01-5.2-5.6_WwiseProject\.cache\C1\{C11FD97D-0527-5DB5-120A-399963ED28B1}.wem		\Actor-Mixer Hierarchy\Ayana\OceanAtmosphereAMbient		11340896
+

@@ -1,0 +1,47 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "2695802885",
+    "Type": "User",
+    "GUID": "{941731E7-F650-48CE-83B2-5922F192785C}",
+    "Language": "SFX",
+    "Hash": "{E51232E5-F628-59D0-D8E8-80A4BD71362C}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\Sound_OceanAO",
+    "ShortName": "Sound_OceanAO",
+    "Path": "Sound_OceanAO.bnk",
+    "Media": [
+     {
+      "Id": "809611727",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "atmos_ver1.wav",
+      "CachePath": "C1/{C11FD97D-0527-5DB5-120A-399963ED28B1}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "239277720",
+      "Name": "EnvironmentOceanAM",
+      "ObjectPath": "\\Events\\Ayana_WU\\Ayana\\EnvironmentOceanAM",
+      "GUID": "{E17427E4-0A73-47D2-BFEF-27C84FCCD747}",
+      "DurationType": "OneShot",
+      "DurationMin": "59.066666",
+      "DurationMax": "59.066666",
+      "MediaRefs": [
+       {
+        "Id": "809611727"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{B07F9974-15D7-AF97-720F-E477B425C5ED}"
+ }
+}

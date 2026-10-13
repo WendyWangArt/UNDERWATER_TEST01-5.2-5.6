@@ -16,6 +16,72 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Button_SE" ID="{0BFEE7E1-865F-4BDC-8106-47A5D20BE919}">
+							<ChildrenList>
+								<Action Name="" ID="{82C85DB2-03BC-4206-93B8-735C684F66AC}" ShortID="23502229">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="button_bubble_sound" ID="{E2A06270-4E1E-4F04-877B-E2D46E0BCCDC}" WorkUnitID="{F548A608-7B8E-4719-AAB2-5DDAFE6399C6}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="EnvironmentOceanAM" ID="{E17427E4-0A73-47D2-BFEF-27C84FCCD747}">
+							<ChildrenList>
+								<Action Name="" ID="{5DDF0E87-F788-4B2C-B3BC-BA6FAFFE960C}" ShortID="954929960">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="OceanAtmosphereAMbient" ID="{A56689C1-E6E4-4834-BB7B-C508AB85E547}" WorkUnitID="{F548A608-7B8E-4719-AAB2-5DDAFE6399C6}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="HammerSounds" ID="{D50FAE38-7BD9-48D9-96C4-B7D970563815}">
+							<ChildrenList>
+								<Action Name="" ID="{5979FFAA-AF85-4B56-9335-168E3D5E8A63}" ShortID="979070345">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Hammer_BUild_Sounds" ID="{5CC0D1EA-5712-41B9-9B1E-7A5D99C9F199}" WorkUnitID="{F548A608-7B8E-4719-AAB2-5DDAFE6399C6}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="TentacleSwapSounds" ID="{A78DDFE4-51F3-4DED-B45F-192B7D76D5DC}">
+							<ChildrenList>
+								<Action Name="" ID="{38E6A5D1-9DDA-4350-AED1-2D4CB60F89DC}" ShortID="291671906">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Tentacle_Swapping_Sounds" ID="{8887C9D9-99EF-4005-9E59-FA4FD7B0B861}" WorkUnitID="{F548A608-7B8E-4719-AAB2-5DDAFE6399C6}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="TentacleGrabSounds" ID="{4EF3EFC5-1DF1-4993-9192-CE842ED0CB43}">
+							<ChildrenList>
+								<Action Name="" ID="{E70E4711-9619-4408-834C-442C795E91A4}" ShortID="479527348">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Tentacle_Grabbing_Sound" ID="{D34165E7-AD49-4727-AA01-4BBC69D743EA}" WorkUnitID="{F548A608-7B8E-4719-AAB2-5DDAFE6399C6}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="IntroAnimSound" ID="{5CE8E174-8F60-4BBF-9E0D-9565540FF3D2}">
+							<ChildrenList>
+								<Action Name="" ID="{1447F5D8-4F72-4CDA-B514-C705120A66FC}" ShortID="691383010">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Intro_Animation_SoundEffect" ID="{0539C3A5-316B-4B03-8597-752D32B35287}" WorkUnitID="{F548A608-7B8E-4719-AAB2-5DDAFE6399C6}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>

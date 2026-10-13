@@ -1,0 +1,69 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "2529299224",
+    "Type": "User",
+    "GUID": "{8E6922F4-2CC5-428A-885F-25BA9DA17DB1}",
+    "Language": "SFX",
+    "Hash": "{34381205-B553-A350-27C3-E75F2EF0991D}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\Sound_TentacleGrabs",
+    "ShortName": "Sound_TentacleGrabs",
+    "Path": "Sound_TentacleGrabs.bnk",
+    "Media": [
+     {
+      "Id": "363537703",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "tentacle_grab_var3.wav",
+      "CachePath": "89/{89E6252F-0709-AD18-6DA5-ADD7879B1C98}.wem"
+     },
+     {
+      "Id": "487963016",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "tentacle_grab_var1.wav",
+      "CachePath": "37/{37976F00-8F46-77F7-5417-14CDAD728327}.wem"
+     },
+     {
+      "Id": "1010557474",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "tentacle_grab_var2.wav",
+      "CachePath": "3E/{3E8401C8-47F2-4185-4FCD-FBB9A75B7801}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "1674649581",
+      "Name": "TentacleGrabSounds",
+      "ObjectPath": "\\Events\\Ayana_WU\\Ayana\\TentacleGrabSounds",
+      "GUID": "{4EF3EFC5-1DF1-4993-9192-CE842ED0CB43}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.2",
+      "DurationMax": "0.23333333",
+      "MediaRefs": [
+       {
+        "Id": "363537703"
+       },
+       {
+        "Id": "487963016"
+       },
+       {
+        "Id": "1010557474"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{78C95351-A22B-6735-2FF8-23744C877036}"
+ }
+}

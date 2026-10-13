@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{AA8B29AE-5533-4973-A858-CD0EFD9322B3}",
     "Language": "SFX",
-    "Hash": "{45F442A7-301D-9024-49E1-2381071B649B}",
+    "Hash": "{7CD75D20-53C4-5E05-A7BE-D2F26379C250}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\TestfORsOUNDeFFECTS",
     "ShortName": "TestfORsOUNDeFFECTS",
     "Path": "TestfORsOUNDeFFECTS.bnk",
@@ -93,10 +93,24 @@
         "Id": "852811566"
        }
       ]
+     },
+     {
+      "Id": "1302766066",
+      "Name": "Test_TwoD",
+      "ObjectPath": "\\Events\\Default Work Unit\\Test_TwoD",
+      "GUID": "{0379F051-8F6C-44C8-B985-FCBD626E4BEC}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.7817604",
+      "DurationMax": "0.7817604",
+      "MediaRefs": [
+       {
+        "Id": "538576073"
+       }
+      ]
      }
     ]
    }
   ],
-  "FileHash": "{D3C8BFD8-97DD-44E0-3901-54E2EE65C1F6}"
+  "FileHash": "{A1A73A8D-6FA9-136F-0C60-A1F0A7E32F72}"
  }
 }

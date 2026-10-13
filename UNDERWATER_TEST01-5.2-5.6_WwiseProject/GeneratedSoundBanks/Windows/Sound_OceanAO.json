@@ -64,6 +64,12 @@
       "GUID": "{99E08DAC-5D4E-46E8-A8BF-30AE89C30890}",
       "States": [
        {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\States_WorkingUnit_Ayana\\OceanAmbientSounds\\None",
+        "GUID": "{2561C46F-7593-49D6-BDA3-4EAAD1F80CB7}"
+       },
+       {
         "Id": "2214273349",
         "Name": "OceanLevelAS",
         "ObjectPath": "\\States\\States_WorkingUnit_Ayana\\OceanAmbientSounds\\OceanLevelAS",
@@ -80,6 +86,6 @@
     ]
    }
   ],
-  "FileHash": "{5EABBE12-E325-2271-0EC9-A3EF0D8BD730}"
+  "FileHash": "{4F966573-499D-927B-826F-A15014C8E932}"
  }
 }

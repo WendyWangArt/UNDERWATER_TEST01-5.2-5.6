@@ -3,6 +3,7 @@ State Group	ID	Name			Wwise Object Path	Notes
 	4091656514	GameState			\States_WorkingUnit_Ayana\GameState	
 
 State	ID	Name	State Group			Notes
+	748895195	None	OceanAmbientSounds			
 	2214273349	OceanLevelAS	OceanAmbientSounds			
 	3743802017	introAnimation	OceanAmbientSounds			
 	579523862	Explore	GameState			

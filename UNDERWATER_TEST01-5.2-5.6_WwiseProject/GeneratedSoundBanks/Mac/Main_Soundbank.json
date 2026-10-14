@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{A95A962B-14C1-4BDD-89E4-8F7F66A4CA91}",
     "Language": "SFX",
-    "Hash": "{C34D58ED-EC99-6F1E-04C3-D90E5901A463}",
+    "Hash": "{A2D40E96-7FB8-F481-5CAF-477994BE46D5}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main_Soundbank",
     "ShortName": "Main_Soundbank",
     "Path": "Main_Soundbank.bnk",
@@ -22,14 +22,6 @@
       "Location": "Memory",
       "ShortName": "seahorse track.wav",
       "CachePath": "BF/{BF9513D4-F80E-360F-B13F-D95ADB42B378}.wem"
-     },
-     {
-      "Id": "278173947",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Game_Level_Maintrack.wav",
-      "CachePath": "A7/{A73FC039-8EBC-BB63-6D5D-484F0F414627}.wem"
      },
      {
       "Id": "341240292",
@@ -93,9 +85,6 @@
       "MediaRefs": [
        {
         "Id": "189255046"
-       },
-       {
-        "Id": "278173947"
        },
        {
         "Id": "341240292"
@@ -238,6 +227,6 @@
     ]
    }
   ],
-  "FileHash": "{E4F225F0-D968-AAEE-35DA-7B66EC150E3C}"
+  "FileHash": "{93C8F91E-24C4-20F4-AB93-54689D7DF10B}"
  }
 }

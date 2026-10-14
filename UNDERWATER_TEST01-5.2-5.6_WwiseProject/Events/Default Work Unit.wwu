@@ -51,13 +51,6 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
-						<Action Name="" ID="{3CFFAE1B-9E60-46F7-8636-334C21CBBCB5}" ShortID="829545167">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="maintrack" ID="{C910F180-53AA-47D3-9158-307D2721889A}" WorkUnitID="{5A42FBE7-EEB5-45A5-BC4E-EC69B838458E}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
 						<Action Name="" ID="{C4F85660-80F1-4A1B-8301-B83B03E69884}" ShortID="977869864">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="22"/>
@@ -72,6 +65,13 @@
 				</Event>
 				<Event Name="PlayerExploring" ID="{4BCF154F-3C34-4336-ADA3-D20D87B6BC80}">
 					<ChildrenList>
+						<Action Name="" ID="{BF0C01DB-F8B6-4586-91CD-673CBBA6C61F}" ShortID="1033912432">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="maintrack" ID="{C910F180-53AA-47D3-9158-307D2721889A}" WorkUnitID="{5A42FBE7-EEB5-45A5-BC4E-EC69B838458E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 						<Action Name="" ID="{08411369-47AB-4061-A404-1BE9EA82C706}" ShortID="61882118">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="22"/>

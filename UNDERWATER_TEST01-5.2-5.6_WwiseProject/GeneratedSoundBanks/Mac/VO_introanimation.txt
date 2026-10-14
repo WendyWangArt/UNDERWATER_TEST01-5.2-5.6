@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3519807664	IntroAnimationVO			\Wendy\VoiceOverLines\IntroAnimationVO	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	374800959	VO_AnimationIntro	C:\Users\wendy.wang\Documents\Wendy\UNDERWATER_TEST01-5.2-5.6\UNDERWATER_TEST01-5.2-5.6_WwiseProject\.cache\31\{31C7D008-80E9-3387-E3F0-1F78A39912EF}.wem		\Actor-Mixer Hierarchy\Wendy\Tim's Lines\VO_AnimationIntro		4575072
+

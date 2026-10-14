@@ -3,16 +3,126 @@
 	<AudioObjects>
 		<WorkUnit Name="Wendy" ID="{9D44F546-BDB6-45B6-A857-42E1C25AF4A7}" PersistMode="Standalone">
 			<ChildrenList>
-				<Sound Name="VoiceOverA" ID="{EE466799-2CE0-463D-AB2E-50C02CA2F1AB}" ShortID="845441457">
-					<ReferenceList>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{11E88737-2F31-44F3-AED4-A1DB60F72205}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{12B21E04-42A3-4A48-8129-2406DBED32A0}"/>
-						</Reference>
-					</ReferenceList>
-				</Sound>
+				<Folder Name="Tim's Lines" ID="{D9E34C6F-7714-4454-AEA0-84F4FAAD1FC6}" ShortID="139769216">
+					<ChildrenList>
+						<Sound Name="VO_AnimationIntro" ID="{EE466799-2CE0-463D-AB2E-50C02CA2F1AB}" ShortID="845441457">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{11E88737-2F31-44F3-AED4-A1DB60F72205}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{12B21E04-42A3-4A48-8129-2406DBED32A0}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Once upon a time 2" ID="{329895E2-FF62-4F69-8A52-F58815DB847B}">
+									<Language>SFX</Language>
+									<AudioFile>Once upon a time 2.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="374800959"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Once upon a time 2" ID="{329895E2-FF62-4F69-8A52-F58815DB847B}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="VO_FinihsingFixing" ID="{D35B89BC-10F3-4873-99B8-DC5A8FA75544}" ShortID="979072250">
+							<PropertyList>
+								<Property Name="ListenerRelativeRouting" Type="bool" Value="False"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{11E88737-2F31-44F3-AED4-A1DB60F72205}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{12B21E04-42A3-4A48-8129-2406DBED32A0}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Ending  additional choices" ID="{B45569A8-DEAB-4B60-B916-A8F0CAC9DD17}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Ending  additional choices.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="775332728"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Ending  additional choices" ID="{B45569A8-DEAB-4B60-B916-A8F0CAC9DD17}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="VO_Bens_Ending" ID="{CE3FB86C-0A68-4144-A0A3-77747FC9AE46}" ShortID="1866475">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{11E88737-2F31-44F3-AED4-A1DB60F72205}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{12B21E04-42A3-4A48-8129-2406DBED32A0}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Bens (1)" ID="{80DA044C-D855-45BF-BF8A-ED9084EE2CEB}">
+									<Language>SFX</Language>
+									<AudioFile>Bens (1).wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="462754495"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Bens (1)" ID="{80DA044C-D855-45BF-BF8A-ED9084EE2CEB}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="VO_Larry_Ending" ID="{AC750A63-580A-4078-9E9B-349712016E34}" ShortID="905525626">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{11E88737-2F31-44F3-AED4-A1DB60F72205}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{12B21E04-42A3-4A48-8129-2406DBED32A0}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Larry" ID="{B410F232-A15F-4936-9E05-3120310E1EEB}">
+									<Language>SFX</Language>
+									<AudioFile>Larry.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="53302974"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Larry" ID="{B410F232-A15F-4936-9E05-3120310E1EEB}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="VO_Sam_Ending" ID="{B7647507-BDF1-4DDD-ADE6-AF1F7880BB7A}" ShortID="949785236">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{11E88737-2F31-44F3-AED4-A1DB60F72205}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{12B21E04-42A3-4A48-8129-2406DBED32A0}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Sam 2" ID="{7EAEE238-55B1-4B8F-BACC-CCAF83AE7EC4}">
+									<Language>SFX</Language>
+									<AudioFile>Sam 2.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="934084968"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Sam 2" ID="{7EAEE238-55B1-4B8F-BACC-CCAF83AE7EC4}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

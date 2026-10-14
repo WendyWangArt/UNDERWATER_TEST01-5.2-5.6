@@ -1,0 +1,47 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "3847879172",
+    "Type": "User",
+    "GUID": "{5F08D42A-8743-45A5-91CD-341B468A71E5}",
+    "Language": "SFX",
+    "Hash": "{50AC876B-BE14-6396-5C44-BB06B1DB34BC}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\voiceover\\VO_fixingsubmarine",
+    "ShortName": "VO_fixingsubmarine",
+    "Path": "VO_fixingsubmarine.bnk",
+    "Media": [
+     {
+      "Id": "775332728",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Ending  additional choices.wav",
+      "CachePath": "B4/{B4A93418-2AFC-3F6F-A0BC-90A3AEC7B12A}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "1289795630",
+      "Name": "EndingFinishingFix_VO",
+      "ObjectPath": "\\Events\\Wendy\\VoiceOverLines\\EndingFinishingFix_VO",
+      "GUID": "{32CA63FF-A6A7-412E-8ABE-D667B7A7BBC5}",
+      "DurationType": "OneShot",
+      "DurationMin": "10.772",
+      "DurationMax": "10.772",
+      "MediaRefs": [
+       {
+        "Id": "775332728"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{9ED58B15-2260-48A2-3660-90885A58AA84}"
+ }
+}

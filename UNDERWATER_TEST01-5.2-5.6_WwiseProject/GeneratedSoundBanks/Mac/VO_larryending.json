@@ -1,0 +1,47 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "152025074",
+    "Type": "User",
+    "GUID": "{3DF7BCD7-49C7-4D05-BBDF-7F4464626164}",
+    "Language": "SFX",
+    "Hash": "{78A418D4-0A1F-2FBC-E8B5-A19C5919619E}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\voiceover\\VO_larryending",
+    "ShortName": "VO_larryending",
+    "Path": "VO_larryending.bnk",
+    "Media": [
+     {
+      "Id": "53302974",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Larry.wav",
+      "CachePath": "DB/{DBE03790-17E0-9A80-6B14-09DFB65EE50D}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "337767031",
+      "Name": "EndingLarryVO",
+      "ObjectPath": "\\Events\\Wendy\\VoiceOverLines\\EndingLarryVO",
+      "GUID": "{5B2628CE-5CEE-4A63-8898-409A68D23CA5}",
+      "DurationType": "OneShot",
+      "DurationMin": "13.502666",
+      "DurationMax": "13.502666",
+      "MediaRefs": [
+       {
+        "Id": "53302974"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{4292679C-09EB-6210-B885-031CF5D9FDCA}"
+ }
+}

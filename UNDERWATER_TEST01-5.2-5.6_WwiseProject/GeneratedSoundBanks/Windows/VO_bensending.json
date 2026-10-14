@@ -1,0 +1,47 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "2160724228",
+    "Type": "User",
+    "GUID": "{F26AEA48-A0C3-4A08-9391-143CCF716E9C}",
+    "Language": "SFX",
+    "Hash": "{328724D7-4F19-6698-7B53-4A2C48592084}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\voiceover\\VO_bensending",
+    "ShortName": "VO_bensending",
+    "Path": "VO_bensending.bnk",
+    "Media": [
+     {
+      "Id": "462754495",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Bens (1).wav",
+      "CachePath": "DF/{DFE4B0D1-1018-7977-A12F-20894420686A}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "702407207",
+      "Name": "EndingBensVO",
+      "ObjectPath": "\\Events\\Wendy\\VoiceOverLines\\EndingBensVO",
+      "GUID": "{60F5CAEF-2299-4F46-8B4D-CB4C413CB891}",
+      "DurationType": "OneShot",
+      "DurationMin": "12.9053335",
+      "DurationMax": "12.9053335",
+      "MediaRefs": [
+       {
+        "Id": "462754495"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{0C8B4D77-726F-62BF-6627-FF9B7F975492}"
+ }
+}

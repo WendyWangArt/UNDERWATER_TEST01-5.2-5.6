@@ -585,6 +585,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="Intro_Animation_SoundEffect" ID="{0539C3A5-316B-4B03-8597-752D32B35287}" ShortID="160910708">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-4.5</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{11E88737-2F31-44F3-AED4-A1DB60F72205}"/>

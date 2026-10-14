@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1289795630	EndingFinishingFix_VO			\Wendy\VoiceOverLines\EndingFinishingFix_VO	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	775332728	VO_FinihsingFixing	C:\Users\wendy.wang\Documents\Wendy\UNDERWATER_TEST01-5.2-5.6\UNDERWATER_TEST01-5.2-5.6_WwiseProject\.cache\B4\{B4A93418-2AFC-3F6F-A0BC-90A3AEC7B12A}.wem		\Actor-Mixer Hierarchy\Wendy\Tim's Lines\VO_FinihsingFixing		2068320
+

@@ -1,0 +1,47 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "602654102",
+    "Type": "User",
+    "GUID": "{D55906D8-0876-4870-B9AB-A44D698794F2}",
+    "Language": "SFX",
+    "Hash": "{EBFA6935-BFD7-A58D-6B8A-E1B9446736B2}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\voiceover\\VO_sanending",
+    "ShortName": "VO_sanending",
+    "Path": "VO_sanending.bnk",
+    "Media": [
+     {
+      "Id": "934084968",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Sam 2.wav",
+      "CachePath": "D1/{D17C22CC-37F3-C790-E62E-EE12A9FBB361}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "1597384040",
+      "Name": "EndingSAMVO",
+      "ObjectPath": "\\Events\\Wendy\\VoiceOverLines\\EndingSAMVO",
+      "GUID": "{855714FB-DBF0-46B9-BB2E-6489BF6ECE58}",
+      "DurationType": "OneShot",
+      "DurationMin": "16.404",
+      "DurationMax": "16.404",
+      "MediaRefs": [
+       {
+        "Id": "934084968"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{5C5F01AA-A44E-A0A4-59D8-B25925A8A562}"
+ }
+}

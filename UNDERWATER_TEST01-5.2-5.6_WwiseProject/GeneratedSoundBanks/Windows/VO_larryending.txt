@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	337767031	EndingLarryVO			\Wendy\VoiceOverLines\EndingLarryVO	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	53302974	VO_Larry_Ending	C:\Users\wendy.wang\Documents\Wendy\UNDERWATER_TEST01-5.2-5.6\UNDERWATER_TEST01-5.2-5.6_WwiseProject\.cache\DB\{DBE03790-17E0-9A80-6B14-09DFB65EE50D}.wem		\Actor-Mixer Hierarchy\Wendy\Tim's Lines\VO_Larry_Ending		2592608
+

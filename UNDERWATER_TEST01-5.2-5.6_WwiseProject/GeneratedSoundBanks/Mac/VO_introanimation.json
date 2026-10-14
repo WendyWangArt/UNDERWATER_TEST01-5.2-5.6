@@ -1,0 +1,47 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "1389809823",
+    "Type": "User",
+    "GUID": "{DB78EDD4-F1C9-4BF5-B748-0C7EA58ADB15}",
+    "Language": "SFX",
+    "Hash": "{3C0E7CCF-7181-E51F-923A-29E1D985103A}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\voiceover\\VO_introanimation",
+    "ShortName": "VO_introanimation",
+    "Path": "VO_introanimation.bnk",
+    "Media": [
+     {
+      "Id": "374800959",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Once upon a time 2.wav",
+      "CachePath": "31/{31C7D008-80E9-3387-E3F0-1F78A39912EF}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "3519807664",
+      "Name": "IntroAnimationVO",
+      "ObjectPath": "\\Events\\Wendy\\VoiceOverLines\\IntroAnimationVO",
+      "GUID": "{21630CCF-88B4-4173-875E-1E93E907D58C}",
+      "DurationType": "OneShot",
+      "DurationMin": "23.828",
+      "DurationMax": "23.828",
+      "MediaRefs": [
+       {
+        "Id": "374800959"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{71BEC630-CDFF-2D8B-EE15-5DA82B803431}"
+ }
+}

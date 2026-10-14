@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{45D080BD-1BFC-4D88-AFAF-F80D5846D679}" SchemaVersion="123">
+	<Events>
+		<WorkUnit Name="Wendy" ID="{45D080BD-1BFC-4D88-AFAF-F80D5846D679}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="VoiceOverLines" ID="{7E1EA125-004A-44F3-B5BA-ACC83641DFBA}" ShortID="3317663">
+					<ChildrenList>
+						<Event Name="IntroAnimationVO" ID="{21630CCF-88B4-4173-875E-1E93E907D58C}">
+							<ChildrenList>
+								<Action Name="" ID="{F0270697-2BE9-40AC-9709-7EDE31989B8C}" ShortID="713542628">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="VO_AnimationIntro" ID="{EE466799-2CE0-463D-AB2E-50C02CA2F1AB}" WorkUnitID="{9D44F546-BDB6-45B6-A857-42E1C25AF4A7}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="EndingSAMVO" ID="{855714FB-DBF0-46B9-BB2E-6489BF6ECE58}">
+							<ChildrenList>
+								<Action Name="" ID="{E2D4E921-6420-4D20-897A-272C1D7EB916}" ShortID="908104550">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="VO_Sam_Ending" ID="{B7647507-BDF1-4DDD-ADE6-AF1F7880BB7A}" WorkUnitID="{9D44F546-BDB6-45B6-A857-42E1C25AF4A7}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="EndingLarryVO" ID="{5B2628CE-5CEE-4A63-8898-409A68D23CA5}">
+							<ChildrenList>
+								<Action Name="" ID="{E70C9FB0-08B0-4B45-B631-FD5B57825769}" ShortID="1041395104">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="VO_Larry_Ending" ID="{AC750A63-580A-4078-9E9B-349712016E34}" WorkUnitID="{9D44F546-BDB6-45B6-A857-42E1C25AF4A7}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="EndingBensVO" ID="{60F5CAEF-2299-4F46-8B4D-CB4C413CB891}">
+							<ChildrenList>
+								<Action Name="" ID="{E66D6AAB-8E78-4D3F-858A-62C1373C3641}" ShortID="416556174">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="VO_Bens_Ending" ID="{CE3FB86C-0A68-4144-A0A3-77747FC9AE46}" WorkUnitID="{9D44F546-BDB6-45B6-A857-42E1C25AF4A7}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="EndingFinishingFix_VO" ID="{32CA63FF-A6A7-412E-8ABE-D667B7A7BBC5}">
+							<ChildrenList>
+								<Action Name="" ID="{8C3EBC08-5868-473A-843E-C547CE08A509}" ShortID="915840535">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="VO_FinihsingFixing" ID="{D35B89BC-10F3-4873-99B8-DC5A8FA75544}" WorkUnitID="{9D44F546-BDB6-45B6-A857-42E1C25AF4A7}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

@@ -56,6 +56,9 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="VO_Bens_Ending" ID="{CE3FB86C-0A68-4144-A0A3-77747FC9AE46}" ShortID="1866475">
+							<PropertyList>
+								<Property Name="ListenerRelativeRouting" Type="bool" Value="False"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{11E88737-2F31-44F3-AED4-A1DB60F72205}"/>
@@ -78,6 +81,9 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="VO_Larry_Ending" ID="{AC750A63-580A-4078-9E9B-349712016E34}" ShortID="905525626">
+							<PropertyList>
+								<Property Name="ListenerRelativeRouting" Type="bool" Value="False"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{11E88737-2F31-44F3-AED4-A1DB60F72205}"/>
@@ -100,6 +106,9 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="VO_Sam_Ending" ID="{B7647507-BDF1-4DDD-ADE6-AF1F7880BB7A}" ShortID="949785236">
+							<PropertyList>
+								<Property Name="ListenerRelativeRouting" Type="bool" Value="False"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{11E88737-2F31-44F3-AED4-A1DB60F72205}"/>

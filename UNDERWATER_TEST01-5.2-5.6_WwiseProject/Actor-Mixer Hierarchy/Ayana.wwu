@@ -547,6 +547,10 @@
 										</CustomState>
 									</CustomState>
 									<CustomState>
+										<StateRef Name="Player_Explore" ID="{1024E66E-0AB5-439C-A9CE-A14396369C88}"/>
+										<CustomState Name="" ID="{8E220F33-83BA-4261-84EB-57CDD7B34D90}" ShortID="485493667"/>
+									</CustomState>
+									<CustomState>
 										<StateRef Name="Intro" ID="{3FE367C4-DDC5-4459-895E-9229D9CA5F10}"/>
 										<CustomState Name="" ID="{35F3F88E-0B30-4D7E-815A-E2977134F5BC}" ShortID="295652907">
 											<PropertyList>
@@ -579,7 +583,7 @@
 										</CustomState>
 									</CustomState>
 									<CustomState>
-										<StateRef Name="Explore" ID="{E47E30F9-9856-4A6D-A065-9318318AEA2D}"/>
+										<StateRef Name="Camera_Explore" ID="{E47E30F9-9856-4A6D-A065-9318318AEA2D}"/>
 										<CustomState Name="" ID="{97FE6EBA-4F85-4748-B8BE-7E2B75A270E9}" ShortID="646075282"/>
 									</CustomState>
 									<CustomState>
@@ -633,6 +637,10 @@
 										</CustomState>
 									</CustomState>
 									<CustomState>
+										<StateRef Name="Player_Explore" ID="{1024E66E-0AB5-439C-A9CE-A14396369C88}"/>
+										<CustomState Name="" ID="{EA5C97D4-CDBF-4F9B-A7F4-2B04520AD29E}" ShortID="1062861244"/>
+									</CustomState>
+									<CustomState>
 										<StateRef Name="Intro" ID="{3FE367C4-DDC5-4459-895E-9229D9CA5F10}"/>
 										<CustomState Name="" ID="{9AEAD62A-1386-4E86-A2A5-07AC23A35CD0}" ShortID="721186772"/>
 									</CustomState>
@@ -669,7 +677,7 @@
 										</CustomState>
 									</CustomState>
 									<CustomState>
-										<StateRef Name="Explore" ID="{E47E30F9-9856-4A6D-A065-9318318AEA2D}"/>
+										<StateRef Name="Camera_Explore" ID="{E47E30F9-9856-4A6D-A065-9318318AEA2D}"/>
 										<CustomState Name="" ID="{2FC97DBD-DA16-42E6-9DC7-67B1D3A75DB5}" ShortID="834549027">
 											<PropertyList>
 												<Property Name="Volume" Type="Real64" Value="-108"/>

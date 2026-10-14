@@ -30,6 +30,13 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
+						<Action Name="" ID="{31EFEA6A-4DD5-4D2B-AD11-0E7939DE72D4}" ShortID="340331313">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="maintrack" ID="{C910F180-53AA-47D3-9158-307D2721889A}" WorkUnitID="{5A42FBE7-EEB5-45A5-BC4E-EC69B838458E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 						<Action Name="" ID="{DE0F5ADD-55D8-4932-B841-DD4FE048AEB7}" ShortID="699483192">
 							<ReferenceList>
 								<Reference Name="Target">
@@ -63,22 +70,15 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="PlayerExploring" ID="{4BCF154F-3C34-4336-ADA3-D20D87B6BC80}">
+				<Event Name="CameraExploring" ID="{4BCF154F-3C34-4336-ADA3-D20D87B6BC80}">
 					<ChildrenList>
-						<Action Name="" ID="{BF0C01DB-F8B6-4586-91CD-673CBBA6C61F}" ShortID="1033912432">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="maintrack" ID="{C910F180-53AA-47D3-9158-307D2721889A}" WorkUnitID="{5A42FBE7-EEB5-45A5-BC4E-EC69B838458E}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
 						<Action Name="" ID="{08411369-47AB-4061-A404-1BE9EA82C706}" ShortID="61882118">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="22"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Explore" ID="{E47E30F9-9856-4A6D-A065-9318318AEA2D}" WorkUnitID="{62D4A0D7-BF17-4774-9AF7-0F747302BDA8}"/>
+									<ObjectRef Name="Camera_Explore" ID="{E47E30F9-9856-4A6D-A065-9318318AEA2D}" WorkUnitID="{62D4A0D7-BF17-4774-9AF7-0F747302BDA8}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -121,6 +121,20 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="TalkToSeahorseSam" ID="{C0FEC5BE-2287-468C-B15F-C2B5431AF423}" WorkUnitID="{62D4A0D7-BF17-4774-9AF7-0F747302BDA8}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="playerExplore" ID="{BE72B743-91D8-425A-B2E3-5D8B28880E33}">
+					<ChildrenList>
+						<Action Name="" ID="{FBF73944-7235-4C28-B5F0-451738E82A77}" ShortID="244971285">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Player_Explore" ID="{1024E66E-0AB5-439C-A9CE-A14396369C88}" WorkUnitID="{62D4A0D7-BF17-4774-9AF7-0F747302BDA8}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

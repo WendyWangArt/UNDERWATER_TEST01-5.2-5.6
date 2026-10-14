@@ -65,6 +65,14 @@
 										</CustomState>
 									</CustomState>
 									<CustomState>
+										<StateRef Name="Player_Explore" ID="{1024E66E-0AB5-439C-A9CE-A14396369C88}"/>
+										<CustomState Name="" ID="{D6685CD5-3754-46CB-9FA9-881CCC4E62E9}" ShortID="126839226">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
 										<StateRef Name="Intro" ID="{3FE367C4-DDC5-4459-895E-9229D9CA5F10}"/>
 										<CustomState Name="" ID="{95821C4B-41E0-417F-B491-083ACD31247C}" ShortID="188965862">
 											<PropertyList>
@@ -105,7 +113,7 @@
 										</CustomState>
 									</CustomState>
 									<CustomState>
-										<StateRef Name="Explore" ID="{E47E30F9-9856-4A6D-A065-9318318AEA2D}"/>
+										<StateRef Name="Camera_Explore" ID="{E47E30F9-9856-4A6D-A065-9318318AEA2D}"/>
 										<CustomState Name="" ID="{E872BFB0-081D-4C57-915D-AD7E1BD4E6D2}" ShortID="928090681">
 											<PropertyList>
 												<Property Name="Volume" Type="Real64" Value="-108"/>
@@ -160,6 +168,14 @@
 										</CustomState>
 									</CustomState>
 									<CustomState>
+										<StateRef Name="Player_Explore" ID="{1024E66E-0AB5-439C-A9CE-A14396369C88}"/>
+										<CustomState Name="" ID="{7D5430F8-CDE7-47A6-8DB8-3761517368AF}" ShortID="132859449">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
 										<StateRef Name="Intro" ID="{3FE367C4-DDC5-4459-895E-9229D9CA5F10}"/>
 										<CustomState Name="" ID="{350409B7-A75A-4F8B-8605-4BBBF39A60E7}" ShortID="703255471">
 											<PropertyList>
@@ -196,7 +212,7 @@
 										</CustomState>
 									</CustomState>
 									<CustomState>
-										<StateRef Name="Explore" ID="{E47E30F9-9856-4A6D-A065-9318318AEA2D}"/>
+										<StateRef Name="Camera_Explore" ID="{E47E30F9-9856-4A6D-A065-9318318AEA2D}"/>
 										<CustomState Name="" ID="{67912D49-6878-4689-9141-2796D7B38DD0}" ShortID="869991059">
 											<PropertyList>
 												<Property Name="Volume" Type="Real64" Value="-108"/>
@@ -255,6 +271,14 @@
 										</CustomState>
 									</CustomState>
 									<CustomState>
+										<StateRef Name="Player_Explore" ID="{1024E66E-0AB5-439C-A9CE-A14396369C88}"/>
+										<CustomState Name="" ID="{9B05996C-0317-42FE-81AC-7262FA56846F}" ShortID="32998229">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
 										<StateRef Name="Intro" ID="{3FE367C4-DDC5-4459-895E-9229D9CA5F10}"/>
 										<CustomState Name="" ID="{DF13A330-9441-4B67-BE1B-4E6BC679D1E4}" ShortID="168340417">
 											<PropertyList>
@@ -291,7 +315,7 @@
 										</CustomState>
 									</CustomState>
 									<CustomState>
-										<StateRef Name="Explore" ID="{E47E30F9-9856-4A6D-A065-9318318AEA2D}"/>
+										<StateRef Name="Camera_Explore" ID="{E47E30F9-9856-4A6D-A065-9318318AEA2D}"/>
 										<CustomState Name="" ID="{D3E86B23-8401-4A6A-B276-A68F624F7968}" ShortID="734123453">
 											<PropertyList>
 												<Property Name="Volume" Type="Real64" Value="-108"/>
@@ -351,6 +375,10 @@
 								</CustomState>
 							</CustomState>
 							<CustomState>
+								<StateRef Name="Player_Explore" ID="{1024E66E-0AB5-439C-A9CE-A14396369C88}"/>
+								<CustomState Name="" ID="{108131BE-7224-42F6-A4B8-5A538A028C0E}" ShortID="199064669"/>
+							</CustomState>
+							<CustomState>
 								<StateRef Name="Intro" ID="{3FE367C4-DDC5-4459-895E-9229D9CA5F10}"/>
 								<CustomState Name="" ID="{8067D264-751A-4E93-B58C-CD2C6C0F1741}" ShortID="1071081810">
 									<PropertyList>
@@ -391,8 +419,12 @@
 								</CustomState>
 							</CustomState>
 							<CustomState>
-								<StateRef Name="Explore" ID="{E47E30F9-9856-4A6D-A065-9318318AEA2D}"/>
-								<CustomState Name="" ID="{374625F9-4C08-497A-8705-501F9BFB364D}" ShortID="1063860992"/>
+								<StateRef Name="Camera_Explore" ID="{E47E30F9-9856-4A6D-A065-9318318AEA2D}"/>
+								<CustomState Name="" ID="{374625F9-4C08-497A-8705-501F9BFB364D}" ShortID="1063860992">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64" Value="-108"/>
+									</PropertyList>
+								</CustomState>
 							</CustomState>
 							<CustomState>
 								<StateRef Name="TalkToBananafish" ID="{41D7A911-BC3A-4DD1-9104-030F7594790D}"/>

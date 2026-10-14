@@ -23,11 +23,12 @@
 						<State Name="None" ID="{1C2FC7C1-41DD-4735-8F34-E9B6B91589FE}"/>
 						<State Name="Intro" ID="{3FE367C4-DDC5-4459-895E-9229D9CA5F10}"/>
 						<State Name="Outro" ID="{8B1A72B3-C055-4054-BFFF-BD35D62DB1F8}"/>
-						<State Name="Explore" ID="{E47E30F9-9856-4A6D-A065-9318318AEA2D}"/>
+						<State Name="Camera_Explore" ID="{E47E30F9-9856-4A6D-A065-9318318AEA2D}"/>
 						<State Name="TalkToBananafish" ID="{41D7A911-BC3A-4DD1-9104-030F7594790D}"/>
 						<State Name="MainMenu" ID="{F34E3848-894B-468C-92C3-FB3A0659D3FB}"/>
 						<State Name="TalkToTurtleLarry" ID="{48919AF6-78A5-448C-9C4E-A08E725BF75C}"/>
 						<State Name="TalkToSeahorseSam" ID="{C0FEC5BE-2287-468C-B15F-C2B5431AF423}"/>
+						<State Name="Player_Explore" ID="{1024E66E-0AB5-439C-A9CE-A14396369C88}"/>
 					</ChildrenList>
 				</StateGroup>
 			</ChildrenList>

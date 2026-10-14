@@ -55,7 +55,8 @@
 				</SoundBank>
 				<SoundBank Name="Main_Soundbank" ID="{A95A962B-14C1-4BDD-89E4-8F7F66A4CA91}">
 					<ObjectInclusionList>
-						<ObjectRef Name="PlayerExploring" ID="{4BCF154F-3C34-4336-ADA3-D20D87B6BC80}" WorkUnitID="{F9F41F80-93D0-478B-98D6-F1C042AE4945}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="playerExplore" ID="{BE72B743-91D8-425A-B2E3-5D8B28880E33}" WorkUnitID="{F9F41F80-93D0-478B-98D6-F1C042AE4945}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="CameraExploring" ID="{4BCF154F-3C34-4336-ADA3-D20D87B6BC80}" WorkUnitID="{F9F41F80-93D0-478B-98D6-F1C042AE4945}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="TalkToSam" ID="{3E3DC693-6E97-4665-B301-BA282A606B6E}" WorkUnitID="{F9F41F80-93D0-478B-98D6-F1C042AE4945}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="PlayIntro" ID="{2D5D827B-DD27-47A2-8C7D-12FE4FF9B972}" WorkUnitID="{F9F41F80-93D0-478B-98D6-F1C042AE4945}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="TalkToTurtle" ID="{C8D0A495-7335-4919-961A-2A9BE39B9803}" WorkUnitID="{F9F41F80-93D0-478B-98D6-F1C042AE4945}" Origin="Manual" Filter="7"/>

@@ -37,6 +37,27 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
+						<Action Name="" ID="{6AB2F18F-8418-4E59-8761-5208EA86E1A9}" ShortID="919730449">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Seahorse" ID="{95A3469C-44FC-4834-B312-B78ACBB421DB}" WorkUnitID="{5A42FBE7-EEB5-45A5-BC4E-EC69B838458E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{B0881B9B-4706-46C4-BAD8-EC7FE82E7774}" ShortID="664185064">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="turtle" ID="{0832DC90-E421-4F54-923E-D590340A06E8}" WorkUnitID="{5A42FBE7-EEB5-45A5-BC4E-EC69B838458E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{3CFFAE1B-9E60-46F7-8636-334C21CBBCB5}" ShortID="829545167">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="maintrack" ID="{C910F180-53AA-47D3-9158-307D2721889A}" WorkUnitID="{5A42FBE7-EEB5-45A5-BC4E-EC69B838458E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 						<Action Name="" ID="{C4F85660-80F1-4A1B-8301-B83B03E69884}" ShortID="977869864">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="22"/>
@@ -63,7 +84,7 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="TalkToCharOne" ID="{03FE54AB-3B9A-4D05-838A-6ADD99169193}">
+				<Event Name="TalkToBanafish" ID="{03FE54AB-3B9A-4D05-838A-6ADD99169193}">
 					<ChildrenList>
 						<Action Name="" ID="{F15813BF-7EAF-4B35-8D48-84A101DEED67}" ShortID="820542338">
 							<PropertyList>
@@ -71,7 +92,35 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="TalkToCharOne" ID="{41D7A911-BC3A-4DD1-9104-030F7594790D}" WorkUnitID="{62D4A0D7-BF17-4774-9AF7-0F747302BDA8}"/>
+									<ObjectRef Name="TalkToBananafish" ID="{41D7A911-BC3A-4DD1-9104-030F7594790D}" WorkUnitID="{62D4A0D7-BF17-4774-9AF7-0F747302BDA8}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="TalkToTurtle" ID="{C8D0A495-7335-4919-961A-2A9BE39B9803}">
+					<ChildrenList>
+						<Action Name="" ID="{241DB5C1-5A37-4CAA-9E00-E49FB04DBE81}" ShortID="592879353">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="TalkToTurtleLarry" ID="{48919AF6-78A5-448C-9C4E-A08E725BF75C}" WorkUnitID="{62D4A0D7-BF17-4774-9AF7-0F747302BDA8}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="TalkToSam" ID="{3E3DC693-6E97-4665-B301-BA282A606B6E}">
+					<ChildrenList>
+						<Action Name="" ID="{92679D07-5FE3-48AE-9B47-43BCBE94835B}" ShortID="474642208">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="TalkToSeahorseSam" ID="{C0FEC5BE-2287-468C-B15F-C2B5431AF423}" WorkUnitID="{62D4A0D7-BF17-4774-9AF7-0F747302BDA8}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

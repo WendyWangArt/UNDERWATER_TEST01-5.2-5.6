@@ -10,11 +10,27 @@
     "Type": "User",
     "GUID": "{A95A962B-14C1-4BDD-89E4-8F7F66A4CA91}",
     "Language": "SFX",
-    "Hash": "{4AF65849-71EC-B716-E361-15A3EC84EC69}",
+    "Hash": "{C34D58ED-EC99-6F1E-04C3-D90E5901A463}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main_Soundbank",
     "ShortName": "Main_Soundbank",
     "Path": "Main_Soundbank.bnk",
     "Media": [
+     {
+      "Id": "189255046",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "seahorse track.wav",
+      "CachePath": "BF/{BF9513D4-F80E-360F-B13F-D95ADB42B378}.wem"
+     },
+     {
+      "Id": "278173947",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Game_Level_Maintrack.wav",
+      "CachePath": "A7/{A73FC039-8EBC-BB63-6D5D-484F0F414627}.wem"
+     },
      {
       "Id": "341240292",
       "Language": "SFX",
@@ -38,6 +54,14 @@
       "Location": "Memory",
       "ShortName": "intro scene_ver1.wav",
       "CachePath": "5E/{5EDBD614-76D5-CAD6-DEFA-35D186A3CBE1}.wem"
+     },
+     {
+      "Id": "1042875977",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "LarryTrack.wav",
+      "CachePath": "04/{0498B7D4-B15D-B318-07FB-C820B90D4975}.wem"
      }
     ],
     "Events": [
@@ -68,6 +92,12 @@
       "DurationType": "Infinite",
       "MediaRefs": [
        {
+        "Id": "189255046"
+       },
+       {
+        "Id": "278173947"
+       },
+       {
         "Id": "341240292"
        },
        {
@@ -75,6 +105,9 @@
        },
        {
         "Id": "1040188425"
+       },
+       {
+        "Id": "1042875977"
        }
       ],
       "ActionSetState": [
@@ -88,9 +121,9 @@
       ]
      },
      {
-      "Id": "4020779876",
-      "Name": "TalkToCharOne",
-      "ObjectPath": "\\Events\\Default Work Unit\\TalkToCharOne",
+      "Id": "971685330",
+      "Name": "TalkToBanafish",
+      "ObjectPath": "\\Events\\Default Work Unit\\TalkToBanafish",
       "GUID": "{03FE54AB-3B9A-4D05-838A-6ADD99169193}",
       "MaxAttenuation": "0",
       "DurationType": "OneShot",
@@ -99,10 +132,48 @@
       "ActionSetState": [
        {
         "GroupId": "4091656514",
-        "Id": "4020779876",
-        "Name": "TalkToCharOne",
-        "ObjectPath": "\\States\\States_WorkingUnit_Ayana\\GameState\\TalkToCharOne",
+        "Id": "2325769881",
+        "Name": "TalkToBananafish",
+        "ObjectPath": "\\States\\States_WorkingUnit_Ayana\\GameState\\TalkToBananafish",
         "GUID": "{41D7A911-BC3A-4DD1-9104-030F7594790D}"
+       }
+      ]
+     },
+     {
+      "Id": "1478511929",
+      "Name": "TalkToSam",
+      "ObjectPath": "\\Events\\Default Work Unit\\TalkToSam",
+      "GUID": "{3E3DC693-6E97-4665-B301-BA282A606B6E}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0",
+      "ActionSetState": [
+       {
+        "GroupId": "4091656514",
+        "Id": "2596030337",
+        "Name": "TalkToSeahorseSam",
+        "ObjectPath": "\\States\\States_WorkingUnit_Ayana\\GameState\\TalkToSeahorseSam",
+        "GUID": "{C0FEC5BE-2287-468C-B15F-C2B5431AF423}"
+       }
+      ]
+     },
+     {
+      "Id": "2383189954",
+      "Name": "TalkToTurtle",
+      "ObjectPath": "\\Events\\Default Work Unit\\TalkToTurtle",
+      "GUID": "{C8D0A495-7335-4919-961A-2A9BE39B9803}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0",
+      "ActionSetState": [
+       {
+        "GroupId": "4091656514",
+        "Id": "2821513524",
+        "Name": "TalkToTurtleLarry",
+        "ObjectPath": "\\States\\States_WorkingUnit_Ayana\\GameState\\TalkToTurtleLarry",
+        "GUID": "{48919AF6-78A5-448C-9C4E-A08E725BF75C}"
        }
       ]
      }
@@ -133,16 +204,28 @@
         "GUID": "{3FE367C4-DDC5-4459-895E-9229D9CA5F10}"
        },
        {
+        "Id": "2325769881",
+        "Name": "TalkToBananafish",
+        "ObjectPath": "\\States\\States_WorkingUnit_Ayana\\GameState\\TalkToBananafish",
+        "GUID": "{41D7A911-BC3A-4DD1-9104-030F7594790D}"
+       },
+       {
+        "Id": "2596030337",
+        "Name": "TalkToSeahorseSam",
+        "ObjectPath": "\\States\\States_WorkingUnit_Ayana\\GameState\\TalkToSeahorseSam",
+        "GUID": "{C0FEC5BE-2287-468C-B15F-C2B5431AF423}"
+       },
+       {
+        "Id": "2821513524",
+        "Name": "TalkToTurtleLarry",
+        "ObjectPath": "\\States\\States_WorkingUnit_Ayana\\GameState\\TalkToTurtleLarry",
+        "GUID": "{48919AF6-78A5-448C-9C4E-A08E725BF75C}"
+       },
+       {
         "Id": "3604647259",
         "Name": "MainMenu",
         "ObjectPath": "\\States\\States_WorkingUnit_Ayana\\GameState\\MainMenu",
         "GUID": "{F34E3848-894B-468C-92C3-FB3A0659D3FB}"
-       },
-       {
-        "Id": "4020779876",
-        "Name": "TalkToCharOne",
-        "ObjectPath": "\\States\\States_WorkingUnit_Ayana\\GameState\\TalkToCharOne",
-        "GUID": "{41D7A911-BC3A-4DD1-9104-030F7594790D}"
        },
        {
         "Id": "4184794294",
@@ -155,6 +238,6 @@
     ]
    }
   ],
-  "FileHash": "{1820E6EB-82EB-29E2-BCE5-E7F0A8A40187}"
+  "FileHash": "{FACAE0C5-E282-7BEB-DC5F-803F5C0CA8FB}"
  }
 }

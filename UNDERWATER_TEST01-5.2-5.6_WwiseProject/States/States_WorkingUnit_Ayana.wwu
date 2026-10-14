@@ -24,8 +24,10 @@
 						<State Name="Intro" ID="{3FE367C4-DDC5-4459-895E-9229D9CA5F10}"/>
 						<State Name="Outro" ID="{8B1A72B3-C055-4054-BFFF-BD35D62DB1F8}"/>
 						<State Name="Explore" ID="{E47E30F9-9856-4A6D-A065-9318318AEA2D}"/>
-						<State Name="TalkToCharOne" ID="{41D7A911-BC3A-4DD1-9104-030F7594790D}"/>
+						<State Name="TalkToBananafish" ID="{41D7A911-BC3A-4DD1-9104-030F7594790D}"/>
 						<State Name="MainMenu" ID="{F34E3848-894B-468C-92C3-FB3A0659D3FB}"/>
+						<State Name="TalkToTurtleLarry" ID="{48919AF6-78A5-448C-9C4E-A08E725BF75C}"/>
+						<State Name="TalkToSeahorseSam" ID="{C0FEC5BE-2287-468C-B15F-C2B5431AF423}"/>
 					</ChildrenList>
 				</StateGroup>
 			</ChildrenList>

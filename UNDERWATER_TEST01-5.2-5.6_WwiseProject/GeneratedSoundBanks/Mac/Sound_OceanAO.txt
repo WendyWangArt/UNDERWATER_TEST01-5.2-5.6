@@ -1,6 +1,19 @@
 Event	ID	Name			Wwise Object Path	Notes
 	239277720	EnvironmentOceanAM			\Ayana_WU\Ayana\EnvironmentOceanAM	
 
+State Group	ID	Name			Wwise Object Path	Notes
+	4091656514	GameState			\States_WorkingUnit_Ayana\GameState	
+
+State	ID	Name	State Group			Notes
+	579523862	Explore	GameState			
+	748895195	None	GameState			
+	1125500713	Intro	GameState			
+	2325769881	TalkToBananafish	GameState			
+	2596030337	TalkToSeahorseSam	GameState			
+	2821513524	TalkToTurtleLarry	GameState			
+	3604647259	MainMenu	GameState			
+	4184794294	Outro	GameState			
+
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	1040188425	Intro_Animation_SoundEffect	C:\Users\wendy.wang\Documents\Wendy\UNDERWATER_TEST01-5.2-5.6\UNDERWATER_TEST01-5.2-5.6_WwiseProject\.cache\5E\{5EDBD614-76D5-CAD6-DEFA-35D186A3CBE1}.wem		\Actor-Mixer Hierarchy\Ayana\AmbientSound_Ayaana\Intro_Animation_SoundEffect		4064096
 

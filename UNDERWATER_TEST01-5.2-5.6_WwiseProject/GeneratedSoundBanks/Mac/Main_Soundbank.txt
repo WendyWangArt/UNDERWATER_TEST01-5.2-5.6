@@ -1,7 +1,9 @@
 Event	ID	Name			Wwise Object Path	Notes
 	781908707	PlayIntro			\Default Work Unit\PlayIntro	
+	971685330	TalkToBanafish			\Default Work Unit\TalkToBanafish	
+	1478511929	TalkToSam			\Default Work Unit\TalkToSam	
+	2383189954	TalkToTurtle			\Default Work Unit\TalkToTurtle	
 	3030696582	PlayerExploring			\Default Work Unit\PlayerExploring	
-	4020779876	TalkToCharOne			\Default Work Unit\TalkToCharOne	
 
 State Group	ID	Name			Wwise Object Path	Notes
 	4091656514	GameState			\States_WorkingUnit_Ayana\GameState	
@@ -10,12 +12,17 @@ State	ID	Name	State Group			Notes
 	579523862	Explore	GameState			
 	748895195	None	GameState			
 	1125500713	Intro	GameState			
+	2325769881	TalkToBananafish	GameState			
+	2596030337	TalkToSeahorseSam	GameState			
+	2821513524	TalkToTurtleLarry	GameState			
 	3604647259	MainMenu	GameState			
-	4020779876	TalkToCharOne	GameState			
 	4184794294	Outro	GameState			
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	189255046	Seahorse	C:\Users\wendy.wang\Documents\Wendy\UNDERWATER_TEST01-5.2-5.6\UNDERWATER_TEST01-5.2-5.6_WwiseProject\.cache\BF\{BF9513D4-F80E-360F-B13F-D95ADB42B378}.wem		\Actor-Mixer Hierarchy\Alys\characters\Seahorse		4833888
+	278173947	maintrack	C:\Users\wendy.wang\Documents\Wendy\UNDERWATER_TEST01-5.2-5.6\UNDERWATER_TEST01-5.2-5.6_WwiseProject\.cache\A7\{A73FC039-8EBC-BB63-6D5D-484F0F414627}.wem		\Actor-Mixer Hierarchy\Alys\maintrack		11114592
 	341240292	Bananafish	C:\Users\wendy.wang\Documents\Wendy\UNDERWATER_TEST01-5.2-5.6\UNDERWATER_TEST01-5.2-5.6_WwiseProject\.cache\D7\{D7938B65-229C-0A7F-3DFA-2A8A0B877E9B}.wem		\Actor-Mixer Hierarchy\Alys\characters\Bananafish		8893536
 	809611727	OceanAtmosphereAMbient	C:\Users\wendy.wang\Documents\Wendy\UNDERWATER_TEST01-5.2-5.6\UNDERWATER_TEST01-5.2-5.6_WwiseProject\.cache\F0\{F0B78290-8554-A98C-87E2-567BB7FF248A}.wem		\Actor-Mixer Hierarchy\Ayana\AmbientSound_Ayaana\OceanAtmosphereAMbient		11340896
 	1040188425	Intro_Animation_SoundEffect	C:\Users\wendy.wang\Documents\Wendy\UNDERWATER_TEST01-5.2-5.6\UNDERWATER_TEST01-5.2-5.6_WwiseProject\.cache\5E\{5EDBD614-76D5-CAD6-DEFA-35D186A3CBE1}.wem		\Actor-Mixer Hierarchy\Ayana\AmbientSound_Ayaana\Intro_Animation_SoundEffect		4064096
+	1042875977	turtle	C:\Users\wendy.wang\Documents\Wendy\UNDERWATER_TEST01-5.2-5.6\UNDERWATER_TEST01-5.2-5.6_WwiseProject\.cache\04\{0498B7D4-B15D-B318-07FB-C820B90D4975}.wem		\Actor-Mixer Hierarchy\Alys\characters\turtle		6672480
 

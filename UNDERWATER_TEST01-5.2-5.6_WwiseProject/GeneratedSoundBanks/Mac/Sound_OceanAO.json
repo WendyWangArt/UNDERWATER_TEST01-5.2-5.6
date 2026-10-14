@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{941731E7-F650-48CE-83B2-5922F192785C}",
     "Language": "SFX",
-    "Hash": "{E4B954CF-83C2-87E1-B4D3-21853AAFC178}",
+    "Hash": "{16A8FB19-66D8-0DCE-16D2-7AAE3FA6CB81}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Sound_OceanAO",
     "ShortName": "Sound_OceanAO",
     "Path": "Sound_OceanAO.bnk",
@@ -86,6 +86,6 @@
     ]
    }
   ],
-  "FileHash": "{90C2EB62-6B79-E494-D22D-970674BC1698}"
+  "FileHash": "{EFE90560-547D-2366-CF12-BFD928298EFC}"
  }
 }

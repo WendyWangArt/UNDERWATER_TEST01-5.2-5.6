@@ -555,6 +555,14 @@
 										</CustomState>
 									</CustomState>
 									<CustomState>
+										<StateRef Name="TalkToTurtleLarry" ID="{48919AF6-78A5-448C-9C4E-A08E725BF75C}"/>
+										<CustomState Name="" ID="{06FC94D7-7555-411F-857D-B2E26DBD076D}" ShortID="437584502"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="TalkToSeahorseSam" ID="{C0FEC5BE-2287-468C-B15F-C2B5431AF423}"/>
+										<CustomState Name="" ID="{F20A1E43-9F13-4DC7-961C-76167DF1C198}" ShortID="327088191"/>
+									</CustomState>
+									<CustomState>
 										<StateRef Name="MainMenu" ID="{F34E3848-894B-468C-92C3-FB3A0659D3FB}"/>
 										<CustomState Name="" ID="{A28E1D94-3CAF-40C2-A391-4CF8D03B6A05}" ShortID="293960108">
 											<PropertyList>
@@ -575,7 +583,7 @@
 										<CustomState Name="" ID="{97FE6EBA-4F85-4748-B8BE-7E2B75A270E9}" ShortID="646075282"/>
 									</CustomState>
 									<CustomState>
-										<StateRef Name="TalkToCharOne" ID="{41D7A911-BC3A-4DD1-9104-030F7594790D}"/>
+										<StateRef Name="TalkToBananafish" ID="{41D7A911-BC3A-4DD1-9104-030F7594790D}"/>
 										<CustomState Name="" ID="{4677572F-B103-41DC-8095-526B6FA93BA9}" ShortID="1036162384"/>
 									</CustomState>
 								</CustomStateList>
@@ -609,6 +617,75 @@
 									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="GameState" ID="{1C387382-33FD-48A4-AFB3-1F989B62080B}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="Outro" ID="{8B1A72B3-C055-4054-BFFF-BD35D62DB1F8}"/>
+										<CustomState Name="" ID="{219A6A7B-21C0-456C-8D01-6C66D722AF33}" ShortID="240400479">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Intro" ID="{3FE367C4-DDC5-4459-895E-9229D9CA5F10}"/>
+										<CustomState Name="" ID="{9AEAD62A-1386-4E86-A2A5-07AC23A35CD0}" ShortID="721186772"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="TalkToTurtleLarry" ID="{48919AF6-78A5-448C-9C4E-A08E725BF75C}"/>
+										<CustomState Name="" ID="{D84ECF3A-5C7B-48BF-B12B-E1EE53D0C3E3}" ShortID="672123206">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="TalkToSeahorseSam" ID="{C0FEC5BE-2287-468C-B15F-C2B5431AF423}"/>
+										<CustomState Name="" ID="{9CA97BC3-4304-4915-AEBA-688B678FD97C}" ShortID="733148197">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="MainMenu" ID="{F34E3848-894B-468C-92C3-FB3A0659D3FB}"/>
+										<CustomState Name="" ID="{21CA9071-FED8-4903-8A77-03F6C8BF8191}" ShortID="968368259">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="None" ID="{1C2FC7C1-41DD-4735-8F34-E9B6B91589FE}"/>
+										<CustomState Name="" ID="{1F313EEA-5E57-4E96-BCB8-20F0556A9D9F}" ShortID="665301810">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Explore" ID="{E47E30F9-9856-4A6D-A065-9318318AEA2D}"/>
+										<CustomState Name="" ID="{2FC97DBD-DA16-42E6-9DC7-67B1D3A75DB5}" ShortID="834549027">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="TalkToBananafish" ID="{41D7A911-BC3A-4DD1-9104-030F7594790D}"/>
+										<CustomState Name="" ID="{F851AAC3-DC4A-415B-88FF-62A521E4DDE3}" ShortID="301368524">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
 							<ActiveSourceList>
 								<ActiveSource Name="intro scene_ver1" ID="{597BA7FB-A148-44AF-81AC-7A04E64C9436}" Platform="Linked"/>
 							</ActiveSourceList>

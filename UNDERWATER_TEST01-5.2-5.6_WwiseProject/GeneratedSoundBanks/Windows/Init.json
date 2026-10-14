@@ -94,16 +94,28 @@
         "GUID": "{3FE367C4-DDC5-4459-895E-9229D9CA5F10}"
        },
        {
+        "Id": "2325769881",
+        "Name": "TalkToBananafish",
+        "ObjectPath": "\\States\\States_WorkingUnit_Ayana\\GameState\\TalkToBananafish",
+        "GUID": "{41D7A911-BC3A-4DD1-9104-030F7594790D}"
+       },
+       {
+        "Id": "2596030337",
+        "Name": "TalkToSeahorseSam",
+        "ObjectPath": "\\States\\States_WorkingUnit_Ayana\\GameState\\TalkToSeahorseSam",
+        "GUID": "{C0FEC5BE-2287-468C-B15F-C2B5431AF423}"
+       },
+       {
+        "Id": "2821513524",
+        "Name": "TalkToTurtleLarry",
+        "ObjectPath": "\\States\\States_WorkingUnit_Ayana\\GameState\\TalkToTurtleLarry",
+        "GUID": "{48919AF6-78A5-448C-9C4E-A08E725BF75C}"
+       },
+       {
         "Id": "3604647259",
         "Name": "MainMenu",
         "ObjectPath": "\\States\\States_WorkingUnit_Ayana\\GameState\\MainMenu",
         "GUID": "{F34E3848-894B-468C-92C3-FB3A0659D3FB}"
-       },
-       {
-        "Id": "4020779876",
-        "Name": "TalkToCharOne",
-        "ObjectPath": "\\States\\States_WorkingUnit_Ayana\\GameState\\TalkToCharOne",
-        "GUID": "{41D7A911-BC3A-4DD1-9104-030F7594790D}"
        },
        {
         "Id": "4184794294",
@@ -116,6 +128,6 @@
     ]
    }
   ],
-  "FileHash": "{85E28C52-47CA-4783-7616-C843EFAE0731}"
+  "FileHash": "{6FD98620-DE94-D1C3-5014-18B3C1703D5F}"
  }
 }

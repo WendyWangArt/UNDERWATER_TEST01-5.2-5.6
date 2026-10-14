@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{A95A962B-14C1-4BDD-89E4-8F7F66A4CA91}",
     "Language": "SFX",
-    "Hash": "{A2D40E96-7FB8-F481-5CAF-477994BE46D5}",
+    "Hash": "{816AA504-032E-1952-2B63-50197387D58E}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main_Soundbank",
     "ShortName": "Main_Soundbank",
     "Path": "Main_Soundbank.bnk",
@@ -22,6 +22,14 @@
       "Location": "Memory",
       "ShortName": "seahorse track.wav",
       "CachePath": "BF/{BF9513D4-F80E-360F-B13F-D95ADB42B378}.wem"
+     },
+     {
+      "Id": "278173947",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Game_Level_Maintrack.wav",
+      "CachePath": "A6/{A66D14EF-E623-E541-AEB1-7A20D13855C2}.wem"
      },
      {
       "Id": "341240292",
@@ -58,9 +66,9 @@
     ],
     "Events": [
      {
-      "Id": "3030696582",
-      "Name": "PlayerExploring",
-      "ObjectPath": "\\Events\\Default Work Unit\\PlayerExploring",
+      "Id": "978628760",
+      "Name": "CameraExploring",
+      "ObjectPath": "\\Events\\Default Work Unit\\CameraExploring",
       "GUID": "{4BCF154F-3C34-4336-ADA3-D20D87B6BC80}",
       "MaxAttenuation": "0",
       "DurationType": "OneShot",
@@ -69,10 +77,29 @@
       "ActionSetState": [
        {
         "GroupId": "4091656514",
-        "Id": "579523862",
-        "Name": "Explore",
-        "ObjectPath": "\\States\\States_WorkingUnit_Ayana\\GameState\\Explore",
+        "Id": "4015219260",
+        "Name": "Camera_Explore",
+        "ObjectPath": "\\States\\States_WorkingUnit_Ayana\\GameState\\Camera_Explore",
         "GUID": "{E47E30F9-9856-4A6D-A065-9318318AEA2D}"
+       }
+      ]
+     },
+     {
+      "Id": "2707111291",
+      "Name": "playerExplore",
+      "ObjectPath": "\\Events\\Default Work Unit\\playerExplore",
+      "GUID": "{BE72B743-91D8-425A-B2E3-5D8B28880E33}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0",
+      "ActionSetState": [
+       {
+        "GroupId": "4091656514",
+        "Id": "4195327770",
+        "Name": "Player_Explore",
+        "ObjectPath": "\\States\\States_WorkingUnit_Ayana\\GameState\\Player_Explore",
+        "GUID": "{1024E66E-0AB5-439C-A9CE-A14396369C88}"
        }
       ]
      },
@@ -85,6 +112,9 @@
       "MediaRefs": [
        {
         "Id": "189255046"
+       },
+       {
+        "Id": "278173947"
        },
        {
         "Id": "341240292"
@@ -175,12 +205,6 @@
       "GUID": "{1C387382-33FD-48A4-AFB3-1F989B62080B}",
       "States": [
        {
-        "Id": "579523862",
-        "Name": "Explore",
-        "ObjectPath": "\\States\\States_WorkingUnit_Ayana\\GameState\\Explore",
-        "GUID": "{E47E30F9-9856-4A6D-A065-9318318AEA2D}"
-       },
-       {
         "Id": "748895195",
         "Name": "None",
         "ObjectPath": "\\States\\States_WorkingUnit_Ayana\\GameState\\None",
@@ -217,16 +241,28 @@
         "GUID": "{F34E3848-894B-468C-92C3-FB3A0659D3FB}"
        },
        {
+        "Id": "4015219260",
+        "Name": "Camera_Explore",
+        "ObjectPath": "\\States\\States_WorkingUnit_Ayana\\GameState\\Camera_Explore",
+        "GUID": "{E47E30F9-9856-4A6D-A065-9318318AEA2D}"
+       },
+       {
         "Id": "4184794294",
         "Name": "Outro",
         "ObjectPath": "\\States\\States_WorkingUnit_Ayana\\GameState\\Outro",
         "GUID": "{8B1A72B3-C055-4054-BFFF-BD35D62DB1F8}"
+       },
+       {
+        "Id": "4195327770",
+        "Name": "Player_Explore",
+        "ObjectPath": "\\States\\States_WorkingUnit_Ayana\\GameState\\Player_Explore",
+        "GUID": "{1024E66E-0AB5-439C-A9CE-A14396369C88}"
        }
       ]
      }
     ]
    }
   ],
-  "FileHash": "{8418F09A-1DA9-643D-AED4-52E7798F0BDE}"
+  "FileHash": "{9A532827-9C43-F990-7D08-DA15F9BD60A1}"
  }
 }

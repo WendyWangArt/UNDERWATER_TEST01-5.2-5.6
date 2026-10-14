@@ -76,12 +76,6 @@
       "GUID": "{1C387382-33FD-48A4-AFB3-1F989B62080B}",
       "States": [
        {
-        "Id": "579523862",
-        "Name": "Explore",
-        "ObjectPath": "\\States\\States_WorkingUnit_Ayana\\GameState\\Explore",
-        "GUID": "{E47E30F9-9856-4A6D-A065-9318318AEA2D}"
-       },
-       {
         "Id": "748895195",
         "Name": "None",
         "ObjectPath": "\\States\\States_WorkingUnit_Ayana\\GameState\\None",
@@ -118,16 +112,28 @@
         "GUID": "{F34E3848-894B-468C-92C3-FB3A0659D3FB}"
        },
        {
+        "Id": "4015219260",
+        "Name": "Camera_Explore",
+        "ObjectPath": "\\States\\States_WorkingUnit_Ayana\\GameState\\Camera_Explore",
+        "GUID": "{E47E30F9-9856-4A6D-A065-9318318AEA2D}"
+       },
+       {
         "Id": "4184794294",
         "Name": "Outro",
         "ObjectPath": "\\States\\States_WorkingUnit_Ayana\\GameState\\Outro",
         "GUID": "{8B1A72B3-C055-4054-BFFF-BD35D62DB1F8}"
+       },
+       {
+        "Id": "4195327770",
+        "Name": "Player_Explore",
+        "ObjectPath": "\\States\\States_WorkingUnit_Ayana\\GameState\\Player_Explore",
+        "GUID": "{1024E66E-0AB5-439C-A9CE-A14396369C88}"
        }
       ]
      }
     ]
    }
   ],
-  "FileHash": "{F57E43F6-19AD-B194-64F0-E17B83289EE1}"
+  "FileHash": "{0E53A2EE-E35D-636E-6E69-14B2DD151DD7}"
  }
 }

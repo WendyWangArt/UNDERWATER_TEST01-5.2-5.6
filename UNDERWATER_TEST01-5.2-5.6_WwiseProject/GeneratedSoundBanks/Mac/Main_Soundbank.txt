@@ -22,9 +22,9 @@ State	ID	Name	State Group			Notes
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	189255046	Seahorse	C:\Users\wendy.wang\Documents\Wendy\UNDERWATER_TEST01-5.2-5.6\UNDERWATER_TEST01-5.2-5.6_WwiseProject\.cache\BF\{BF9513D4-F80E-360F-B13F-D95ADB42B378}.wem		\Actor-Mixer Hierarchy\Alys\characters\Seahorse		4833888
-	278173947	maintrack	C:\Users\wendy.wang\Documents\Wendy\UNDERWATER_TEST01-5.2-5.6\UNDERWATER_TEST01-5.2-5.6_WwiseProject\.cache\A6\{A66D14EF-E623-E541-AEB1-7A20D13855C2}.wem		\Actor-Mixer Hierarchy\Alys\maintrack		11114592
 	341240292	Bananafish	C:\Users\wendy.wang\Documents\Wendy\UNDERWATER_TEST01-5.2-5.6\UNDERWATER_TEST01-5.2-5.6_WwiseProject\.cache\D7\{D7938B65-229C-0A7F-3DFA-2A8A0B877E9B}.wem		\Actor-Mixer Hierarchy\Alys\characters\Bananafish		8893536
 	809611727	OceanAtmosphereAMbient	C:\Users\wendy.wang\Documents\Wendy\UNDERWATER_TEST01-5.2-5.6\UNDERWATER_TEST01-5.2-5.6_WwiseProject\.cache\F0\{F0B78290-8554-A98C-87E2-567BB7FF248A}.wem		\Actor-Mixer Hierarchy\Ayana\AmbientSound_Ayaana\OceanAtmosphereAMbient		11340896
+	1019625249	maintrack	C:\Users\wendy.wang\Documents\Wendy\UNDERWATER_TEST01-5.2-5.6\UNDERWATER_TEST01-5.2-5.6_WwiseProject\.cache\22\{22DF8B17-1C7C-12D3-EE3C-5257F6E0D8FD}.wem		\Actor-Mixer Hierarchy\Alys\maintrack		27759260
 	1040188425	Intro_Animation_SoundEffect	C:\Users\wendy.wang\Documents\Wendy\UNDERWATER_TEST01-5.2-5.6\UNDERWATER_TEST01-5.2-5.6_WwiseProject\.cache\5E\{5EDBD614-76D5-CAD6-DEFA-35D186A3CBE1}.wem		\Actor-Mixer Hierarchy\Ayana\AmbientSound_Ayaana\Intro_Animation_SoundEffect		4064096
 	1042875977	turtle	C:\Users\wendy.wang\Documents\Wendy\UNDERWATER_TEST01-5.2-5.6\UNDERWATER_TEST01-5.2-5.6_WwiseProject\.cache\04\{0498B7D4-B15D-B318-07FB-C820B90D4975}.wem		\Actor-Mixer Hierarchy\Alys\characters\turtle		6672480
 

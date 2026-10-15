@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{A95A962B-14C1-4BDD-89E4-8F7F66A4CA91}",
     "Language": "SFX",
-    "Hash": "{816AA504-032E-1952-2B63-50197387D58E}",
+    "Hash": "{789D0EA3-D870-FFBC-4ED9-87A3F294AB64}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main_Soundbank",
     "ShortName": "Main_Soundbank",
     "Path": "Main_Soundbank.bnk",
@@ -22,14 +22,6 @@
       "Location": "Memory",
       "ShortName": "seahorse track.wav",
       "CachePath": "BF/{BF9513D4-F80E-360F-B13F-D95ADB42B378}.wem"
-     },
-     {
-      "Id": "278173947",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Game_Level_Maintrack.wav",
-      "CachePath": "A6/{A66D14EF-E623-E541-AEB1-7A20D13855C2}.wem"
      },
      {
       "Id": "341240292",
@@ -46,6 +38,14 @@
       "Location": "Memory",
       "ShortName": "atmos_ver1.wav",
       "CachePath": "F0/{F0B78290-8554-A98C-87E2-567BB7FF248A}.wem"
+     },
+     {
+      "Id": "1019625249",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Main Theme Longer.wav",
+      "CachePath": "22/{22DF8B17-1C7C-12D3-EE3C-5257F6E0D8FD}.wem"
      },
      {
       "Id": "1040188425",
@@ -114,13 +114,13 @@
         "Id": "189255046"
        },
        {
-        "Id": "278173947"
-       },
-       {
         "Id": "341240292"
        },
        {
         "Id": "809611727"
+       },
+       {
+        "Id": "1019625249"
        },
        {
         "Id": "1040188425"
@@ -263,6 +263,6 @@
     ]
    }
   ],
-  "FileHash": "{B630FFEF-DDA4-1403-5F10-A593F28F5CB7}"
+  "FileHash": "{15C6D2DA-45A3-3732-30A0-6D6A74974CE2}"
  }
 }

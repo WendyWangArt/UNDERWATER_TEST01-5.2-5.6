@@ -1,0 +1,15 @@
+Event	ID	Name			Wwise Object Path	Notes
+	180678838	Sam_Neutrall			\Ayana_WU\Character_Speech\Sam_Neutrall	
+	1228052045	Sam_Angryy			\Ayana_WU\Character_Speech\Sam_Angryy	
+	1356186906	Sam_Happyy			\Ayana_WU\Character_Speech\Sam_Happyy	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	10163476	sam_happy_var1	C:\Users\wendy.wang\Documents\Wendy\UNDERWATER_TEST01-5.2-5.6\UNDERWATER_TEST01-5.2-5.6_WwiseProject\.cache\F8\{F8E95554-E894-A632-4463-F182025F6D83}.wem		\Actor-Mixer Hierarchy\Ayana\Character_Nonsense\Sam\Sam_Happy\sam_happy_var1		1212096
+	245717446	sam_happy_var2	C:\Users\wendy.wang\Documents\Wendy\UNDERWATER_TEST01-5.2-5.6\UNDERWATER_TEST01-5.2-5.6_WwiseProject\.cache\87\{877EF057-4A41-EDE8-01A5-18DD139D8836}.wem		\Actor-Mixer Hierarchy\Ayana\Character_Nonsense\Sam\Sam_Happy\sam_happy_var2		922884
+	257439336	sam_neutral_var1	C:\Users\wendy.wang\Documents\Wendy\UNDERWATER_TEST01-5.2-5.6\UNDERWATER_TEST01-5.2-5.6_WwiseProject\.cache\C8\{C894D2A0-26F9-2358-43ED-0466FC4F08D2}.wem		\Actor-Mixer Hierarchy\Ayana\Character_Nonsense\Sam\Sam_Neutral\sam_neutral_var1		1078572
+	441861481	sam_happy_var3	C:\Users\wendy.wang\Documents\Wendy\UNDERWATER_TEST01-5.2-5.6\UNDERWATER_TEST01-5.2-5.6_WwiseProject\.cache\F0\{F01C6BA5-BEFD-D05C-F30F-293897657E1C}.wem		\Actor-Mixer Hierarchy\Ayana\Character_Nonsense\Sam\Sam_Happy\sam_happy_var3		677100
+	947648172	sam_angry_var1	C:\Users\wendy.wang\Documents\Wendy\UNDERWATER_TEST01-5.2-5.6\UNDERWATER_TEST01-5.2-5.6_WwiseProject\.cache\29\{2909A92B-34EB-CECC-61F1-D4DB30964CCC}.wem		\Actor-Mixer Hierarchy\Ayana\Character_Nonsense\Sam\Sam_Angry\sam_angry_var1		1422944
+	961692662	sam_neutral_var2	C:\Users\wendy.wang\Documents\Wendy\UNDERWATER_TEST01-5.2-5.6\UNDERWATER_TEST01-5.2-5.6_WwiseProject\.cache\88\{88D818A6-F832-5745-B7C0-F1982C0345A3}.wem		\Actor-Mixer Hierarchy\Ayana\Character_Nonsense\Sam\Sam_Neutral\sam_neutral_var2		1040940
+	1069546633	sam_neutral_var3	C:\Users\wendy.wang\Documents\Wendy\UNDERWATER_TEST01-5.2-5.6\UNDERWATER_TEST01-5.2-5.6_WwiseProject\.cache\F7\{F7468821-A4D5-B461-64CD-BA640F183727}.wem		\Actor-Mixer Hierarchy\Ayana\Character_Nonsense\Sam\Sam_Neutral\sam_neutral_var3		802252
+	1069601922	sam_angry_var2	C:\Users\wendy.wang\Documents\Wendy\UNDERWATER_TEST01-5.2-5.6\UNDERWATER_TEST01-5.2-5.6_WwiseProject\.cache\19\{19C98BB6-C64C-9865-8C01-FE9EB6EA6EA3}.wem		\Actor-Mixer Hierarchy\Ayana\Character_Nonsense\Sam\Sam_Angry\sam_angry_var2		1278084
+

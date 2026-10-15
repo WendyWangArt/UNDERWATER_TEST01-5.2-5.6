@@ -117,6 +117,15 @@
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>
+				<SoundBank Name="characternonsense" ID="{B5CF1CEA-4C3F-4E03-A384-F70EF295954E}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Sam_Angryy" ID="{C304941D-8BE5-438D-9C67-F222C3985111}" WorkUnitID="{B66E3B40-DCB4-4AA1-B6BA-80E95D2B144B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Sam_Neutrall" ID="{E993577F-9FB3-4AE7-90C9-FAAB2F7F1EAE}" WorkUnitID="{B66E3B40-DCB4-4AA1-B6BA-80E95D2B144B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Sam_Happyy" ID="{AB8C5BFE-A162-4D98-A537-D07B7C2F1E78}" WorkUnitID="{B66E3B40-DCB4-4AA1-B6BA-80E95D2B144B}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
 			</ChildrenList>
 		</WorkUnit>
 	</SoundBanks>

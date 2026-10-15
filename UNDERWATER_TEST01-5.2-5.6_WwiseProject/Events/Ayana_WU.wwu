@@ -93,6 +93,43 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
+				<Folder Name="Character_Speech" ID="{2CC9E2CF-340F-4E95-916B-2E88374DEEDD}" ShortID="970650429">
+					<ChildrenList>
+						<Event Name="Sam_Happyy" ID="{AB8C5BFE-A162-4D98-A537-D07B7C2F1E78}">
+							<ChildrenList>
+								<Action Name="" ID="{1A429D1F-6924-407F-AA9E-7659C73E2358}" ShortID="1007332424">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Sam_Happy" ID="{54CF1014-0EFE-48F0-8E12-C3A18127B077}" WorkUnitID="{F548A608-7B8E-4719-AAB2-5DDAFE6399C6}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Sam_Neutrall" ID="{E993577F-9FB3-4AE7-90C9-FAAB2F7F1EAE}">
+							<ChildrenList>
+								<Action Name="" ID="{7821A3EF-B7F6-418E-BABC-AA1DAEE96F94}" ShortID="665783292">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Sam_Neutral" ID="{128F9639-DAFF-4FB4-BC51-B93D7DBA5B7F}" WorkUnitID="{F548A608-7B8E-4719-AAB2-5DDAFE6399C6}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Sam_Angryy" ID="{C304941D-8BE5-438D-9C67-F222C3985111}">
+							<ChildrenList>
+								<Action Name="" ID="{E777699D-BADB-4442-B58F-7A616D8666D6}" ShortID="528062235">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Sam_Angry" ID="{B6388FB4-76AE-420E-B082-12B9441123F2}" WorkUnitID="{F548A608-7B8E-4719-AAB2-5DDAFE6399C6}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

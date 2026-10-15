@@ -1,0 +1,146 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "4267614311",
+    "Type": "User",
+    "GUID": "{B5CF1CEA-4C3F-4E03-A384-F70EF295954E}",
+    "Language": "SFX",
+    "Hash": "{98F4A07D-CD32-EB20-B65A-28805F6C1991}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\characternonsense",
+    "ShortName": "characternonsense",
+    "Path": "characternonsense.bnk",
+    "Media": [
+     {
+      "Id": "10163476",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "sam_happy_var1.wav",
+      "CachePath": "F8/{F8E95554-E894-A632-4463-F182025F6D83}.wem"
+     },
+     {
+      "Id": "245717446",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "sam_happy_var2.wav",
+      "CachePath": "87/{877EF057-4A41-EDE8-01A5-18DD139D8836}.wem"
+     },
+     {
+      "Id": "257439336",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "sam_neutral_var1.wav",
+      "CachePath": "C8/{C894D2A0-26F9-2358-43ED-0466FC4F08D2}.wem"
+     },
+     {
+      "Id": "441861481",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "sam_happy_var3.wav",
+      "CachePath": "F0/{F01C6BA5-BEFD-D05C-F30F-293897657E1C}.wem"
+     },
+     {
+      "Id": "947648172",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "sam_angry_var1.wav",
+      "CachePath": "29/{2909A92B-34EB-CECC-61F1-D4DB30964CCC}.wem"
+     },
+     {
+      "Id": "961692662",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "sam_neutral_var2.wav",
+      "CachePath": "88/{88D818A6-F832-5745-B7C0-F1982C0345A3}.wem"
+     },
+     {
+      "Id": "1069546633",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "sam_neutral_var3.wav",
+      "CachePath": "F7/{F7468821-A4D5-B461-64CD-BA640F183727}.wem"
+     },
+     {
+      "Id": "1069601922",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "sam_angry_var2.wav",
+      "CachePath": "19/{19C98BB6-C64C-9865-8C01-FE9EB6EA6EA3}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "1228052045",
+      "Name": "Sam_Angryy",
+      "ObjectPath": "\\Events\\Ayana_WU\\Character_Speech\\Sam_Angryy",
+      "GUID": "{C304941D-8BE5-438D-9C67-F222C3985111}",
+      "DurationType": "OneShot",
+      "DurationMin": "6.6561875",
+      "DurationMax": "7.4106665",
+      "MediaRefs": [
+       {
+        "Id": "947648172"
+       },
+       {
+        "Id": "1069601922"
+       }
+      ]
+     },
+     {
+      "Id": "1356186906",
+      "Name": "Sam_Happyy",
+      "ObjectPath": "\\Events\\Ayana_WU\\Character_Speech\\Sam_Happyy",
+      "GUID": "{AB8C5BFE-A162-4D98-A537-D07B7C2F1E78}",
+      "DurationType": "OneShot",
+      "DurationMin": "3.5260625",
+      "DurationMax": "6.3125",
+      "MediaRefs": [
+       {
+        "Id": "10163476"
+       },
+       {
+        "Id": "245717446"
+       },
+       {
+        "Id": "441861481"
+       }
+      ]
+     },
+     {
+      "Id": "180678838",
+      "Name": "Sam_Neutrall",
+      "ObjectPath": "\\Events\\Ayana_WU\\Character_Speech\\Sam_Neutrall",
+      "GUID": "{E993577F-9FB3-4AE7-90C9-FAAB2F7F1EAE}",
+      "DurationType": "OneShot",
+      "DurationMin": "4.177896",
+      "DurationMax": "5.6170626",
+      "MediaRefs": [
+       {
+        "Id": "257439336"
+       },
+       {
+        "Id": "961692662"
+       },
+       {
+        "Id": "1069546633"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{2007C19E-CD7D-5363-1F0B-A6CC322816FA}"
+ }
+}

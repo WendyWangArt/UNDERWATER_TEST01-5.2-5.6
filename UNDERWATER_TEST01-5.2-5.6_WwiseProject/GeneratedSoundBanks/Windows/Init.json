@@ -106,6 +106,12 @@
         "GUID": "{48919AF6-78A5-448C-9C4E-A08E725BF75C}"
        },
        {
+        "Id": "3277996074",
+        "Name": "aftercheckingthesubmarine",
+        "ObjectPath": "\\States\\States_WorkingUnit_Ayana\\GameState\\aftercheckingthesubmarine",
+        "GUID": "{09219B7D-ABFA-4AD3-B4CB-1D600F1DA165}"
+       },
+       {
         "Id": "3604647259",
         "Name": "MainMenu",
         "ObjectPath": "\\States\\States_WorkingUnit_Ayana\\GameState\\MainMenu",
@@ -134,6 +140,6 @@
     ]
    }
   ],
-  "FileHash": "{FFC56C38-5D64-FFE1-B6DC-48545D820D56}"
+  "FileHash": "{3A31899E-058C-0C4D-374A-D8A7DF00B47D}"
  }
 }

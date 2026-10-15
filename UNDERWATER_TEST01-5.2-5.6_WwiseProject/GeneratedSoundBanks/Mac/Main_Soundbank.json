@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{A95A962B-14C1-4BDD-89E4-8F7F66A4CA91}",
     "Language": "SFX",
-    "Hash": "{789D0EA3-D870-FFBC-4ED9-87A3F294AB64}",
+    "Hash": "{BDDB758E-942D-2F1F-E3E8-5900782F9A42}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main_Soundbank",
     "ShortName": "Main_Soundbank",
     "Path": "Main_Soundbank.bnk",
@@ -48,6 +48,14 @@
       "CachePath": "22/{22DF8B17-1C7C-12D3-EE3C-5257F6E0D8FD}.wem"
      },
      {
+      "Id": "1023233219",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Second Layer.wav",
+      "CachePath": "24/{244A8C46-9DB5-D471-7562-FA34430CFC8F}.wem"
+     },
+     {
       "Id": "1040188425",
       "Language": "SFX",
       "Streaming": "false",
@@ -81,6 +89,25 @@
         "Name": "Camera_Explore",
         "ObjectPath": "\\States\\States_WorkingUnit_Ayana\\GameState\\Camera_Explore",
         "GUID": "{E47E30F9-9856-4A6D-A065-9318318AEA2D}"
+       }
+      ]
+     },
+     {
+      "Id": "2326115826",
+      "Name": "explore_aftercheckingthesubmarine",
+      "ObjectPath": "\\Events\\Default Work Unit\\explore_aftercheckingthesubmarine",
+      "GUID": "{BC217A4E-C8DB-4600-BE5A-62B597231838}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0",
+      "ActionSetState": [
+       {
+        "GroupId": "4091656514",
+        "Id": "3277996074",
+        "Name": "aftercheckingthesubmarine",
+        "ObjectPath": "\\States\\States_WorkingUnit_Ayana\\GameState\\aftercheckingthesubmarine",
+        "GUID": "{09219B7D-ABFA-4AD3-B4CB-1D600F1DA165}"
        }
       ]
      },
@@ -121,6 +148,9 @@
        },
        {
         "Id": "1019625249"
+       },
+       {
+        "Id": "1023233219"
        },
        {
         "Id": "1040188425"
@@ -235,6 +265,12 @@
         "GUID": "{48919AF6-78A5-448C-9C4E-A08E725BF75C}"
        },
        {
+        "Id": "3277996074",
+        "Name": "aftercheckingthesubmarine",
+        "ObjectPath": "\\States\\States_WorkingUnit_Ayana\\GameState\\aftercheckingthesubmarine",
+        "GUID": "{09219B7D-ABFA-4AD3-B4CB-1D600F1DA165}"
+       },
+       {
         "Id": "3604647259",
         "Name": "MainMenu",
         "ObjectPath": "\\States\\States_WorkingUnit_Ayana\\GameState\\MainMenu",
@@ -263,6 +299,6 @@
     ]
    }
   ],
-  "FileHash": "{15C6D2DA-45A3-3732-30A0-6D6A74974CE2}"
+  "FileHash": "{DF3B175B-0408-D9DD-CF80-3AE1E22B9A03}"
  }
 }

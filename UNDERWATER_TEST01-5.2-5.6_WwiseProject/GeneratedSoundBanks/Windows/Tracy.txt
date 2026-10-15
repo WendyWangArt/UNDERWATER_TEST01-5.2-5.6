@@ -1,5 +1,6 @@
 Event	ID	Name			Wwise Object Path	Notes
 	368771588	replacepipe_oct			\Wendy\Tracy_Octopus_Line\replacepipe_oct	
+	713683332	replacehelmet			\Wendy\Tracy_Octopus_Line\replacehelmet	
 	1157226589	sharchow_Oct			\Wendy\Tracy_Octopus_Line\sharchow_Oct	
 	2008266410	countcoral_oct			\Wendy\Tracy_Octopus_Line\countcoral_oct	
 	2447801730	askothers_oct			\Wendy\Tracy_Octopus_Line\askothers_oct	
@@ -13,4 +14,5 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	667506039	askothers	C:\Users\wendy.wang\Documents\Wendy\UNDERWATER_TEST01-5.2-5.6\UNDERWATER_TEST01-5.2-5.6_WwiseProject\.cache\F6\{F6387F16-AE37-C809-4EF3-6DE437B7E014}.wem		\Actor-Mixer Hierarchy\Wendy\Tracy's line\askothers		1059936
 	927030802	getout	C:\Users\wendy.wang\Documents\Wendy\UNDERWATER_TEST01-5.2-5.6\UNDERWATER_TEST01-5.2-5.6_WwiseProject\.cache\70\{7005C6E7-2488-30F5-4FD2-68BCCD00BFFD}.wem		\Actor-Mixer Hierarchy\Wendy\Tracy's line\getout		1367136
 	930208489	coralcount	C:\Users\wendy.wang\Documents\Wendy\UNDERWATER_TEST01-5.2-5.6\UNDERWATER_TEST01-5.2-5.6_WwiseProject\.cache\C0\{C03E26AE-B7D4-F25E-1FA3-5F4ABD778CD8}.wem		\Actor-Mixer Hierarchy\Wendy\Tracy's line\coralcount		452724
+	1042076887	replacehelmet	C:\Users\wendy.wang\Documents\Wendy\UNDERWATER_TEST01-5.2-5.6\UNDERWATER_TEST01-5.2-5.6_WwiseProject\.cache\DE\{DEB1FEE5-9283-778D-9FEA-07A035F7F30E}.wem		\Actor-Mixer Hierarchy\Wendy\Tracy's line\replacehelmet		696052
 

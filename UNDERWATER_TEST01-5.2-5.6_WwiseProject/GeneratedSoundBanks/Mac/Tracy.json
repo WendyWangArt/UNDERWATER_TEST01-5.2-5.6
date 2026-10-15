@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{7D67244B-AA98-45EB-BDFC-91D6660E7561}",
     "Language": "SFX",
-    "Hash": "{CC921E19-506E-4571-9FEC-F8EB2743EF0B}",
+    "Hash": "{ED50A5DF-40EF-717B-D1D8-06C97AC298EC}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Tracy",
     "ShortName": "Tracy",
     "Path": "Tracy.bnk",
@@ -62,6 +62,14 @@
       "Location": "Memory",
       "ShortName": "bens_coral_3.wav",
       "CachePath": "C0/{C03E26AE-B7D4-F25E-1FA3-5F4ABD778CD8}.wem"
+     },
+     {
+      "Id": "1042076887",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "larrys_helmet_3.wav",
+      "CachePath": "DE/{DEB1FEE5-9283-778D-9FEA-07A035F7F30E}.wem"
      }
     ],
     "Events": [
@@ -122,6 +130,20 @@
       ]
      },
      {
+      "Id": "713683332",
+      "Name": "replacehelmet",
+      "ObjectPath": "\\Events\\Wendy\\Tracy_Octopus_Line\\replacehelmet",
+      "GUID": "{CDAB05A7-80B9-47BD-85E4-5AFCF4200A83}",
+      "DurationType": "OneShot",
+      "DurationMin": "3.6247709",
+      "DurationMax": "3.6247709",
+      "MediaRefs": [
+       {
+        "Id": "1042076887"
+       }
+      ]
+     },
+     {
       "Id": "368771588",
       "Name": "replacepipe_oct",
       "ObjectPath": "\\Events\\Wendy\\Tracy_Octopus_Line\\replacepipe_oct",
@@ -152,6 +174,6 @@
     ]
    }
   ],
-  "FileHash": "{966616F3-E73A-2885-4E53-0051175B0AA0}"
+  "FileHash": "{04D140E1-42F7-B16F-7FC5-CA1D3545A8BD}"
  }
 }

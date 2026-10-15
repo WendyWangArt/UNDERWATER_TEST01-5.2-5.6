@@ -108,6 +108,39 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="countcoral_oct" ID="{61BFF3ED-3A4A-40D5-AC63-00174F002AC9}">
+							<ChildrenList>
+								<Action Name="" ID="{68EDF1BC-DA7B-416E-B46F-D528C6C8F602}" ShortID="326704894">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="coralcount" ID="{1A4B5D1D-10A0-4641-88D6-51F5490FACBB}" WorkUnitID="{9D44F546-BDB6-45B6-A857-42E1C25AF4A7}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="replacepipe_oct" ID="{142B53F1-D8EF-4D48-9D29-91B1EFCC1F7A}">
+							<ChildrenList>
+								<Action Name="" ID="{5F4065AA-CD1B-40CF-8E5F-9A796B8E2893}" ShortID="983284864">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="replacepipe" ID="{A31F07D8-AD7A-41C8-AEEE-756FF9CFC2BD}" WorkUnitID="{9D44F546-BDB6-45B6-A857-42E1C25AF4A7}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="replacehelmet" ID="{CDAB05A7-80B9-47BD-85E4-5AFCF4200A83}">
+							<ChildrenList>
+								<Action Name="" ID="{D7CD811C-FE88-4EAA-A4B4-4975FFF79053}" ShortID="606467381">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="replacehelmet" ID="{24FF4EEE-ECEB-46E9-804E-B5E97A7CFEB8}" WorkUnitID="{9D44F546-BDB6-45B6-A857-42E1C25AF4A7}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>

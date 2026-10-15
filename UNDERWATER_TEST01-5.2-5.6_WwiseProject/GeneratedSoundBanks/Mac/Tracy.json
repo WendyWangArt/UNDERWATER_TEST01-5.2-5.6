@@ -10,11 +10,19 @@
     "Type": "User",
     "GUID": "{7D67244B-AA98-45EB-BDFC-91D6660E7561}",
     "Language": "SFX",
-    "Hash": "{EFBDAB04-0526-0048-1870-BF4B1CFF91EA}",
+    "Hash": "{CC921E19-506E-4571-9FEC-F8EB2743EF0B}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Tracy",
     "ShortName": "Tracy",
     "Path": "Tracy.bnk",
     "Media": [
+     {
+      "Id": "21491751",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "sams_pipe_3.wav",
+      "CachePath": "44/{446F3E43-A4E9-958F-C8B8-D0E3EB3F45F6}.wem"
+     },
      {
       "Id": "204407445",
       "Language": "SFX",
@@ -46,6 +54,14 @@
       "Location": "Memory",
       "ShortName": "get_out_7.wav",
       "CachePath": "70/{7005C6E7-2488-30F5-4FD2-68BCCD00BFFD}.wem"
+     },
+     {
+      "Id": "930208489",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "bens_coral_3.wav",
+      "CachePath": "C0/{C03E26AE-B7D4-F25E-1FA3-5F4ABD778CD8}.wem"
      }
     ],
     "Events": [
@@ -60,6 +76,20 @@
       "MediaRefs": [
        {
         "Id": "667506039"
+       }
+      ]
+     },
+     {
+      "Id": "2008266410",
+      "Name": "countcoral_oct",
+      "ObjectPath": "\\Events\\Wendy\\Tracy_Octopus_Line\\countcoral_oct",
+      "GUID": "{61BFF3ED-3A4A-40D5-AC63-00174F002AC9}",
+      "DurationType": "OneShot",
+      "DurationMin": "2.3574376",
+      "DurationMax": "2.3574376",
+      "MediaRefs": [
+       {
+        "Id": "930208489"
        }
       ]
      },
@@ -92,6 +122,20 @@
       ]
      },
      {
+      "Id": "368771588",
+      "Name": "replacepipe_oct",
+      "ObjectPath": "\\Events\\Wendy\\Tracy_Octopus_Line\\replacepipe_oct",
+      "GUID": "{142B53F1-D8EF-4D48-9D29-91B1EFCC1F7A}",
+      "DurationType": "OneShot",
+      "DurationMin": "3.4395",
+      "DurationMax": "3.4395",
+      "MediaRefs": [
+       {
+        "Id": "21491751"
+       }
+      ]
+     },
+     {
       "Id": "1157226589",
       "Name": "sharchow_Oct",
       "ObjectPath": "\\Events\\Wendy\\Tracy_Octopus_Line\\sharchow_Oct",
@@ -108,6 +152,6 @@
     ]
    }
   ],
-  "FileHash": "{292B658F-7033-977F-5FA5-1D3249CAF382}"
+  "FileHash": "{966616F3-E73A-2885-4E53-0051175B0AA0}"
  }
 }

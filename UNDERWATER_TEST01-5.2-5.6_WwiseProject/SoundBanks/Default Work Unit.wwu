@@ -104,6 +104,16 @@
 						</SoundBank>
 					</ChildrenList>
 				</Folder>
+				<SoundBank Name="Tracy" ID="{7D67244B-AA98-45EB-BDFC-91D6660E7561}">
+					<ObjectInclusionList>
+						<ObjectRef Name="sharchow_Oct" ID="{D8E65D05-8896-41A5-8D41-474737B7FE44}" WorkUnitID="{45D080BD-1BFC-4D88-AFAF-F80D5846D679}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="getout_oct" ID="{1DD52189-E563-4246-B891-A4098A77FBD7}" WorkUnitID="{45D080BD-1BFC-4D88-AFAF-F80D5846D679}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="askothers_oct" ID="{72A47322-BFAE-480F-885D-36337FE98F3B}" WorkUnitID="{45D080BD-1BFC-4D88-AFAF-F80D5846D679}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="puppywork_oct" ID="{33AE99F8-F132-4B06-BB72-1945B427AD4F}" WorkUnitID="{45D080BD-1BFC-4D88-AFAF-F80D5846D679}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
 			</ChildrenList>
 		</WorkUnit>
 	</SoundBanks>

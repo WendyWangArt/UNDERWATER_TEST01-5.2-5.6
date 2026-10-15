@@ -1,0 +1,113 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "3579833608",
+    "Type": "User",
+    "GUID": "{7D67244B-AA98-45EB-BDFC-91D6660E7561}",
+    "Language": "SFX",
+    "Hash": "{EFBDAB04-0526-0048-1870-BF4B1CFF91EA}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\Tracy",
+    "ShortName": "Tracy",
+    "Path": "Tracy.bnk",
+    "Media": [
+     {
+      "Id": "204407445",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "puppywork403.wav",
+      "CachePath": "76/{76FF2D32-17F9-E1EB-EB9F-4D8F57E95463}.wem"
+     },
+     {
+      "Id": "389978851",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "shark_chow_1.wav",
+      "CachePath": "4F/{4FF6086D-C79C-C0AA-AB3A-775DFBA02E69}.wem"
+     },
+     {
+      "Id": "667506039",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "seeingsubmarine5.5.wav",
+      "CachePath": "F6/{F6387F16-AE37-C809-4EF3-6DE437B7E014}.wem"
+     },
+     {
+      "Id": "927030802",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "get_out_7.wav",
+      "CachePath": "70/{7005C6E7-2488-30F5-4FD2-68BCCD00BFFD}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "2447801730",
+      "Name": "askothers_oct",
+      "ObjectPath": "\\Events\\Wendy\\Tracy_Octopus_Line\\askothers_oct",
+      "GUID": "{72A47322-BFAE-480F-885D-36337FE98F3B}",
+      "DurationType": "OneShot",
+      "DurationMin": "5.52",
+      "DurationMax": "5.52",
+      "MediaRefs": [
+       {
+        "Id": "667506039"
+       }
+      ]
+     },
+     {
+      "Id": "3342947138",
+      "Name": "getout_oct",
+      "ObjectPath": "\\Events\\Wendy\\Tracy_Octopus_Line\\getout_oct",
+      "GUID": "{1DD52189-E563-4246-B891-A4098A77FBD7}",
+      "DurationType": "OneShot",
+      "DurationMin": "7.12",
+      "DurationMax": "7.12",
+      "MediaRefs": [
+       {
+        "Id": "927030802"
+       }
+      ]
+     },
+     {
+      "Id": "3850057969",
+      "Name": "puppywork_oct",
+      "ObjectPath": "\\Events\\Wendy\\Tracy_Octopus_Line\\puppywork_oct",
+      "GUID": "{33AE99F8-F132-4B06-BB72-1945B427AD4F}",
+      "DurationType": "OneShot",
+      "DurationMin": "4.12",
+      "DurationMax": "4.12",
+      "MediaRefs": [
+       {
+        "Id": "204407445"
+       }
+      ]
+     },
+     {
+      "Id": "1157226589",
+      "Name": "sharchow_Oct",
+      "ObjectPath": "\\Events\\Wendy\\Tracy_Octopus_Line\\sharchow_Oct",
+      "GUID": "{D8E65D05-8896-41A5-8D41-474737B7FE44}",
+      "DurationType": "OneShot",
+      "DurationMin": "3.6382084",
+      "DurationMax": "3.6382084",
+      "MediaRefs": [
+       {
+        "Id": "389978851"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{292B658F-7033-977F-5FA5-1D3249CAF382}"
+ }
+}

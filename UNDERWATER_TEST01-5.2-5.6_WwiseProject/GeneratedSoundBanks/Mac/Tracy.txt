@@ -1,0 +1,12 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1157226589	sharchow_Oct			\Wendy\Tracy_Octopus_Line\sharchow_Oct	
+	2447801730	askothers_oct			\Wendy\Tracy_Octopus_Line\askothers_oct	
+	3342947138	getout_oct			\Wendy\Tracy_Octopus_Line\getout_oct	
+	3850057969	puppywork_oct			\Wendy\Tracy_Octopus_Line\puppywork_oct	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	204407445	puppywork	C:\Users\wendy.wang\Documents\Wendy\UNDERWATER_TEST01-5.2-5.6\UNDERWATER_TEST01-5.2-5.6_WwiseProject\.cache\76\{76FF2D32-17F9-E1EB-EB9F-4D8F57E95463}.wem		\Actor-Mixer Hierarchy\Wendy\Tracy's line\puppywork		791136
+	389978851	Shark	C:\Users\wendy.wang\Documents\Wendy\UNDERWATER_TEST01-5.2-5.6\UNDERWATER_TEST01-5.2-5.6_WwiseProject\.cache\4F\{4FF6086D-C79C-C0AA-AB3A-775DFBA02E69}.wem		\Actor-Mixer Hierarchy\Wendy\Tracy's line\Shark		698632
+	667506039	askothers	C:\Users\wendy.wang\Documents\Wendy\UNDERWATER_TEST01-5.2-5.6\UNDERWATER_TEST01-5.2-5.6_WwiseProject\.cache\F6\{F6387F16-AE37-C809-4EF3-6DE437B7E014}.wem		\Actor-Mixer Hierarchy\Wendy\Tracy's line\askothers		1059936
+	927030802	getout	C:\Users\wendy.wang\Documents\Wendy\UNDERWATER_TEST01-5.2-5.6\UNDERWATER_TEST01-5.2-5.6_WwiseProject\.cache\70\{7005C6E7-2488-30F5-4FD2-68BCCD00BFFD}.wem		\Actor-Mixer Hierarchy\Wendy\Tracy's line\getout		1367136
+

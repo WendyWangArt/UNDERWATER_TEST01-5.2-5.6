@@ -132,6 +132,110 @@
 						</Sound>
 					</ChildrenList>
 				</Folder>
+				<Folder Name="Tracy's line" ID="{4606CC31-6FF8-4B92-9710-03EAAE0C9BAE}" ShortID="425217440">
+					<ChildrenList>
+						<Sound Name="Shark" ID="{8D42A71E-81AF-4CD3-839E-A4EDD4242C39}" ShortID="689723120">
+							<PropertyList>
+								<Property Name="ListenerRelativeRouting" Type="bool" Value="False"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{11E88737-2F31-44F3-AED4-A1DB60F72205}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{12B21E04-42A3-4A48-8129-2406DBED32A0}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="shark_chow_1" ID="{FEA822B3-B2AA-4340-9296-D4F6FE751395}">
+									<Language>SFX</Language>
+									<AudioFile>shark_chow_1.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="389978851"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="shark_chow_1" ID="{FEA822B3-B2AA-4340-9296-D4F6FE751395}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="puppywork" ID="{D3BA6746-0C13-4A2E-90F0-032D44099F11}" ShortID="601831082">
+							<PropertyList>
+								<Property Name="ListenerRelativeRouting" Type="bool" Value="False"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{11E88737-2F31-44F3-AED4-A1DB60F72205}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{12B21E04-42A3-4A48-8129-2406DBED32A0}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="puppywork403" ID="{75322B17-B19E-4199-85CE-721463F2335B}">
+									<Language>SFX</Language>
+									<AudioFile>puppywork403.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="204407445"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="puppywork403" ID="{75322B17-B19E-4199-85CE-721463F2335B}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="getout" ID="{8147E1C3-5724-43F2-9CC5-059FD3EF2DDD}" ShortID="991851913">
+							<PropertyList>
+								<Property Name="ListenerRelativeRouting" Type="bool" Value="False"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{11E88737-2F31-44F3-AED4-A1DB60F72205}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{12B21E04-42A3-4A48-8129-2406DBED32A0}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="get_out_7" ID="{92198B48-4603-430D-88EC-86FD24E21239}">
+									<Language>SFX</Language>
+									<AudioFile>get_out_7.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="927030802"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="get_out_7" ID="{92198B48-4603-430D-88EC-86FD24E21239}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="askothers" ID="{7B6F5300-35EF-413F-9ED8-689571B2E206}" ShortID="70025157">
+							<PropertyList>
+								<Property Name="ListenerRelativeRouting" Type="bool" Value="False"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{11E88737-2F31-44F3-AED4-A1DB60F72205}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{12B21E04-42A3-4A48-8129-2406DBED32A0}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="seeingsubmarine5_5" ID="{6BB6BA00-80EB-4DDE-BBD9-C4C477F2A40B}">
+									<Language>SFX</Language>
+									<AudioFile>seeingsubmarine5.5.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="667506039"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="seeingsubmarine5_5" ID="{6BB6BA00-80EB-4DDE-BBD9-C4C477F2A40B}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

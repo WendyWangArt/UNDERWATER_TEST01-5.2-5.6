@@ -587,6 +587,10 @@
 										<CustomState Name="" ID="{97FE6EBA-4F85-4748-B8BE-7E2B75A270E9}" ShortID="646075282"/>
 									</CustomState>
 									<CustomState>
+										<StateRef Name="aftercheckingthesubmarine" ID="{09219B7D-ABFA-4AD3-B4CB-1D600F1DA165}"/>
+										<CustomState Name="" ID="{52975343-4B0E-416F-866F-C6D5B2E3EC31}" ShortID="48889248"/>
+									</CustomState>
+									<CustomState>
 										<StateRef Name="TalkToBananafish" ID="{41D7A911-BC3A-4DD1-9104-030F7594790D}"/>
 										<CustomState Name="" ID="{4677572F-B103-41DC-8095-526B6FA93BA9}" ShortID="1036162384"/>
 									</CustomState>
@@ -683,6 +687,10 @@
 												<Property Name="Volume" Type="Real64" Value="-108"/>
 											</PropertyList>
 										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="aftercheckingthesubmarine" ID="{09219B7D-ABFA-4AD3-B4CB-1D600F1DA165}"/>
+										<CustomState Name="" ID="{956D57C1-FC04-478C-AFC6-FFAFF8CC6546}" ShortID="68291095"/>
 									</CustomState>
 									<CustomState>
 										<StateRef Name="TalkToBananafish" ID="{41D7A911-BC3A-4DD1-9104-030F7594790D}"/>

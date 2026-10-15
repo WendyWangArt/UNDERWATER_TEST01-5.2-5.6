@@ -29,6 +29,7 @@
 						<State Name="TalkToTurtleLarry" ID="{48919AF6-78A5-448C-9C4E-A08E725BF75C}"/>
 						<State Name="TalkToSeahorseSam" ID="{C0FEC5BE-2287-468C-B15F-C2B5431AF423}"/>
 						<State Name="Player_Explore" ID="{1024E66E-0AB5-439C-A9CE-A14396369C88}"/>
+						<State Name="aftercheckingthesubmarine" ID="{09219B7D-ABFA-4AD3-B4CB-1D600F1DA165}"/>
 					</ChildrenList>
 				</StateGroup>
 			</ChildrenList>

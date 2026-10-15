@@ -58,6 +58,13 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
+						<Action Name="" ID="{7585080C-F1EF-4340-A768-4E10171615B1}" ShortID="236699494">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="pianotrack" ID="{7815D886-831D-425B-A266-98AE281C0B4B}" WorkUnitID="{5A42FBE7-EEB5-45A5-BC4E-EC69B838458E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 						<Action Name="" ID="{C4F85660-80F1-4A1B-8301-B83B03E69884}" ShortID="977869864">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="22"/>
@@ -135,6 +142,20 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Player_Explore" ID="{1024E66E-0AB5-439C-A9CE-A14396369C88}" WorkUnitID="{62D4A0D7-BF17-4774-9AF7-0F747302BDA8}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="explore_aftercheckingthesubmarine" ID="{BC217A4E-C8DB-4600-BE5A-62B597231838}">
+					<ChildrenList>
+						<Action Name="" ID="{EB396A72-F66F-4076-A520-D65CEDDF25D1}" ShortID="320408019">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="aftercheckingthesubmarine" ID="{09219B7D-ABFA-4AD3-B4CB-1D600F1DA165}" WorkUnitID="{62D4A0D7-BF17-4774-9AF7-0F747302BDA8}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

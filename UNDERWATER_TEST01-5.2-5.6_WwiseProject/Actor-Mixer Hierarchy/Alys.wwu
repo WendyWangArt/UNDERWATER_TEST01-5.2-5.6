@@ -121,6 +121,14 @@
 										</CustomState>
 									</CustomState>
 									<CustomState>
+										<StateRef Name="aftercheckingthesubmarine" ID="{09219B7D-ABFA-4AD3-B4CB-1D600F1DA165}"/>
+										<CustomState Name="" ID="{27DAD5CC-2178-4863-8414-F736929AAE7C}" ShortID="218534604">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
 										<StateRef Name="TalkToBananafish" ID="{41D7A911-BC3A-4DD1-9104-030F7594790D}"/>
 										<CustomState Name="" ID="{4826FF86-0584-4BFD-A60E-10F1AAC5776A}" ShortID="162103982"/>
 									</CustomState>
@@ -214,6 +222,14 @@
 									<CustomState>
 										<StateRef Name="Camera_Explore" ID="{E47E30F9-9856-4A6D-A065-9318318AEA2D}"/>
 										<CustomState Name="" ID="{67912D49-6878-4689-9141-2796D7B38DD0}" ShortID="869991059">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="aftercheckingthesubmarine" ID="{09219B7D-ABFA-4AD3-B4CB-1D600F1DA165}"/>
+										<CustomState Name="" ID="{D602E4B9-EAA0-489C-B418-5DEDAB2AE972}" ShortID="453634180">
 											<PropertyList>
 												<Property Name="Volume" Type="Real64" Value="-108"/>
 											</PropertyList>
@@ -323,6 +339,14 @@
 										</CustomState>
 									</CustomState>
 									<CustomState>
+										<StateRef Name="aftercheckingthesubmarine" ID="{09219B7D-ABFA-4AD3-B4CB-1D600F1DA165}"/>
+										<CustomState Name="" ID="{0AF86299-6172-4516-8310-9B0B351A8BD2}" ShortID="327847359">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
 										<StateRef Name="TalkToBananafish" ID="{41D7A911-BC3A-4DD1-9104-030F7594790D}"/>
 										<CustomState Name="" ID="{E81FFF11-F675-4D43-A6C0-530FF2A83D81}" ShortID="553753733">
 											<PropertyList>
@@ -351,11 +375,11 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<AudioFileSource Name="Game_Level_Maintrack" ID="{765F7593-7747-4AF5-B280-8C47BE0E4713}">
+						<AudioFileSource Name="Main Theme Longer" ID="{FE7A4FE7-017C-40BA-AF86-E516A5052AD2}">
 							<Language>SFX</Language>
-							<AudioFile>Game_Level_Maintrack.wav</AudioFile>
+							<AudioFile>Main Theme Longer.wav</AudioFile>
 							<MediaIDList>
-								<MediaID ID="278173947"/>
+								<MediaID ID="1019625249"/>
 							</MediaIDList>
 						</AudioFileSource>
 					</ChildrenList>
@@ -427,6 +451,10 @@
 								</CustomState>
 							</CustomState>
 							<CustomState>
+								<StateRef Name="aftercheckingthesubmarine" ID="{09219B7D-ABFA-4AD3-B4CB-1D600F1DA165}"/>
+								<CustomState Name="" ID="{75E0EE71-C5C8-431E-901B-8687A6DC05CC}" ShortID="9098164"/>
+							</CustomState>
+							<CustomState>
 								<StateRef Name="TalkToBananafish" ID="{41D7A911-BC3A-4DD1-9104-030F7594790D}"/>
 								<CustomState Name="" ID="{23EEC536-4630-408F-90E1-F05BB03CD09C}" ShortID="303991669">
 									<PropertyList>
@@ -437,7 +465,114 @@
 						</CustomStateList>
 					</StateInfo>
 					<ActiveSourceList>
-						<ActiveSource Name="Game_Level_Maintrack" ID="{765F7593-7747-4AF5-B280-8C47BE0E4713}" Platform="Linked"/>
+						<ActiveSource Name="Main Theme Longer" ID="{FE7A4FE7-017C-40BA-AF86-E516A5052AD2}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="pianotrack" ID="{7815D886-831D-425B-A266-98AE281C0B4B}" ShortID="357369932">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{11E88737-2F31-44F3-AED4-A1DB60F72205}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{12B21E04-42A3-4A48-8129-2406DBED32A0}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Second Layer" ID="{138D083D-D667-480C-8981-C985D0DA5145}">
+							<Language>SFX</Language>
+							<AudioFile>Second Layer.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="1023233219"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<StateInfo>
+						<StateGroupList>
+							<StateGroupInfo>
+								<StateGroupRef Name="GameState" ID="{1C387382-33FD-48A4-AFB3-1F989B62080B}"/>
+							</StateGroupInfo>
+						</StateGroupList>
+						<CustomStateList>
+							<CustomState>
+								<StateRef Name="Outro" ID="{8B1A72B3-C055-4054-BFFF-BD35D62DB1F8}"/>
+								<CustomState Name="" ID="{D2044416-1A1B-45E4-8910-46F2F4B119DF}" ShortID="382659469">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64" Value="-108"/>
+									</PropertyList>
+								</CustomState>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="Player_Explore" ID="{1024E66E-0AB5-439C-A9CE-A14396369C88}"/>
+								<CustomState Name="" ID="{A8965AE4-CE62-4A98-A5F5-3008FC11398B}" ShortID="660496197">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64" Value="-108"/>
+									</PropertyList>
+								</CustomState>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="Intro" ID="{3FE367C4-DDC5-4459-895E-9229D9CA5F10}"/>
+								<CustomState Name="" ID="{E665C3DC-6718-4214-85C3-393EACAB562A}" ShortID="765519787">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64" Value="-108"/>
+									</PropertyList>
+								</CustomState>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="TalkToTurtleLarry" ID="{48919AF6-78A5-448C-9C4E-A08E725BF75C}"/>
+								<CustomState Name="" ID="{12C2A6D8-F78A-4ABD-8DC8-D9B22917DA4B}" ShortID="765395547">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64" Value="-108"/>
+									</PropertyList>
+								</CustomState>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="TalkToSeahorseSam" ID="{C0FEC5BE-2287-468C-B15F-C2B5431AF423}"/>
+								<CustomState Name="" ID="{BF73C8C7-5673-4FCA-8FE9-337F5B74F2F9}" ShortID="81344842">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64" Value="-108"/>
+									</PropertyList>
+								</CustomState>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="MainMenu" ID="{F34E3848-894B-468C-92C3-FB3A0659D3FB}"/>
+								<CustomState Name="" ID="{51FA91F9-07E4-4DC6-B10C-4167291A4D4B}" ShortID="983543363">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64" Value="-108"/>
+									</PropertyList>
+								</CustomState>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="None" ID="{1C2FC7C1-41DD-4735-8F34-E9B6B91589FE}"/>
+								<CustomState Name="" ID="{818A42A8-83F1-4C6C-84F8-0A8F9C9714C1}" ShortID="888181502">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64" Value="-108"/>
+									</PropertyList>
+								</CustomState>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="Camera_Explore" ID="{E47E30F9-9856-4A6D-A065-9318318AEA2D}"/>
+								<CustomState Name="" ID="{457AB3E2-1214-4A9D-8B77-82FCF7B70FFF}" ShortID="538496113">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64" Value="-108"/>
+									</PropertyList>
+								</CustomState>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="aftercheckingthesubmarine" ID="{09219B7D-ABFA-4AD3-B4CB-1D600F1DA165}"/>
+								<CustomState Name="" ID="{48DFF26C-5CC3-4C8D-966E-42277456FE30}" ShortID="461100672"/>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="TalkToBananafish" ID="{41D7A911-BC3A-4DD1-9104-030F7594790D}"/>
+								<CustomState Name="" ID="{0C0B26F5-A13D-44AC-803F-A3F8247B0C39}" ShortID="507154834">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64" Value="-108"/>
+									</PropertyList>
+								</CustomState>
+							</CustomState>
+						</CustomStateList>
+					</StateInfo>
+					<ActiveSourceList>
+						<ActiveSource Name="Second Layer" ID="{138D083D-D667-480C-8981-C985D0DA5145}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
 			</ChildrenList>

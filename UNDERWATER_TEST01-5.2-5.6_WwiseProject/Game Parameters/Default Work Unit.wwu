@@ -1,6 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{F5A6D32F-9BF1-4CB5-84B2-77FF3F583896}" SchemaVersion="123">
 	<GameParameters>
-		<WorkUnit Name="Default Work Unit" ID="{F5A6D32F-9BF1-4CB5-84B2-77FF3F583896}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{F5A6D32F-9BF1-4CB5-84B2-77FF3F583896}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="Master_Value" ID="{C4E6D231-44E0-4A55-A226-15970EA4237E}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="1"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="SFX_Value" ID="{DF9C9A38-3FBD-44C8-8B68-2CE44A3B5B72}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="1"/>
+					</PropertyList>
+				</GameParameter>
+			</ChildrenList>
+		</WorkUnit>
 	</GameParameters>
 </WwiseDocument>

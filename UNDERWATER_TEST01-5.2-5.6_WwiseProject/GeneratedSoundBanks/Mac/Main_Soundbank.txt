@@ -1,4 +1,5 @@
 Event	ID	Name			Wwise Object Path	Notes
+	596640013	MenuAtmosphereSound			\Ayana_WU\Ayana\MenuAtmosphereSound	
 	781908707	PlayIntro			\Default Work Unit\PlayIntro	
 	971685330	TalkToBanafish			\Default Work Unit\TalkToBanafish	
 	978628760	CameraExploring			\Default Work Unit\CameraExploring	
@@ -25,6 +26,7 @@ State	ID	Name	State Group			Notes
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	189255046	Seahorse	C:\Users\wendy.wang\Documents\Wendy\UNDERWATER_TEST01-5.2-5.6\UNDERWATER_TEST01-5.2-5.6_WwiseProject\.cache\BF\{BF9513D4-F80E-360F-B13F-D95ADB42B378}.wem		\Actor-Mixer Hierarchy\Alys\characters\Seahorse		4833888
 	341240292	Bananafish	C:\Users\wendy.wang\Documents\Wendy\UNDERWATER_TEST01-5.2-5.6\UNDERWATER_TEST01-5.2-5.6_WwiseProject\.cache\D7\{D7938B65-229C-0A7F-3DFA-2A8A0B877E9B}.wem		\Actor-Mixer Hierarchy\Alys\characters\Bananafish		8893536
+	689027265	Menu_Atmosphere_Sound	C:\Users\wendy.wang\Documents\Wendy\UNDERWATER_TEST01-5.2-5.6\UNDERWATER_TEST01-5.2-5.6_WwiseProject\.cache\51\{5108719E-7A9C-9E1B-7982-68C83C5C0464}.wem		\Actor-Mixer Hierarchy\Ayana\AmbientSound_Ayaana\Menu_Atmosphere_Sound		3462496
 	809611727	OceanAtmosphereAMbient	C:\Users\wendy.wang\Documents\Wendy\UNDERWATER_TEST01-5.2-5.6\UNDERWATER_TEST01-5.2-5.6_WwiseProject\.cache\F0\{F0B78290-8554-A98C-87E2-567BB7FF248A}.wem		\Actor-Mixer Hierarchy\Ayana\AmbientSound_Ayaana\OceanAtmosphereAMbient		11340896
 	1019625249	maintrack	C:\Users\wendy.wang\Documents\Wendy\UNDERWATER_TEST01-5.2-5.6\UNDERWATER_TEST01-5.2-5.6_WwiseProject\.cache\22\{22DF8B17-1C7C-12D3-EE3C-5257F6E0D8FD}.wem		\Actor-Mixer Hierarchy\Alys\maintrack		27759260
 	1023233219	pianotrack	C:\Users\wendy.wang\Documents\Wendy\UNDERWATER_TEST01-5.2-5.6\UNDERWATER_TEST01-5.2-5.6_WwiseProject\.cache\24\{244A8C46-9DB5-D471-7562-FA34430CFC8F}.wem		\Actor-Mixer Hierarchy\Alys\pianotrack		27759260

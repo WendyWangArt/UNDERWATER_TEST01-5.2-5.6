@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{A95A962B-14C1-4BDD-89E4-8F7F66A4CA91}",
     "Language": "SFX",
-    "Hash": "{444E315A-4834-F1BC-A5B5-C89002E14EC8}",
+    "Hash": "{42E59402-8CB4-BBBF-EE95-BAB8107C7120}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main_Soundbank",
     "ShortName": "Main_Soundbank",
     "Path": "Main_Soundbank.bnk",
@@ -30,6 +30,14 @@
       "Location": "Memory",
       "ShortName": "Banana Fish Bens Theme Idea 1 (1).wav",
       "CachePath": "D7/{D7938B65-229C-0A7F-3DFA-2A8A0B877E9B}.wem"
+     },
+     {
+      "Id": "689027265",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "menu_atmos.wav",
+      "CachePath": "51/{5108719E-7A9C-9E1B-7982-68C83C5C0464}.wem"
      },
      {
       "Id": "809611727",
@@ -108,6 +116,20 @@
         "Name": "aftercheckingthesubmarine",
         "ObjectPath": "\\States\\States_WorkingUnit_Ayana\\GameState\\aftercheckingthesubmarine",
         "GUID": "{09219B7D-ABFA-4AD3-B4CB-1D600F1DA165}"
+       }
+      ]
+     },
+     {
+      "Id": "596640013",
+      "Name": "MenuAtmosphereSound",
+      "ObjectPath": "\\Events\\Ayana_WU\\Ayana\\MenuAtmosphereSound",
+      "GUID": "{91AC7AE3-529A-432D-BC14-2E6448FEF91C}",
+      "DurationType": "OneShot",
+      "DurationMin": "18.033333",
+      "DurationMax": "18.033333",
+      "MediaRefs": [
+       {
+        "Id": "689027265"
        }
       ]
      },
@@ -299,6 +321,6 @@
     ]
    }
   ],
-  "FileHash": "{13BDC9EA-4FD9-E3A3-ED6F-2389BA0478FD}"
+  "FileHash": "{C0B7A003-F18D-E23B-7FD6-182B9F095BAA}"
  }
 }

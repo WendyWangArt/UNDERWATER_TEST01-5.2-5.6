@@ -10,11 +10,19 @@
     "Type": "User",
     "GUID": "{A95A962B-14C1-4BDD-89E4-8F7F66A4CA91}",
     "Language": "SFX",
-    "Hash": "{AAB0E745-3964-D20C-340C-5C49CFD388B0}",
+    "Hash": "{0FD42610-6653-DB65-AE78-352D12CF9EFB}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main_Soundbank",
     "ShortName": "Main_Soundbank",
     "Path": "Main_Soundbank.bnk",
     "Media": [
+     {
+      "Id": "715038",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "atmos_ver3.wav",
+      "CachePath": "7C/{7C798EC4-AFB6-B30F-0C7F-EEA5D70083DC}.wem"
+     },
      {
       "Id": "189255046",
       "Language": "SFX",
@@ -37,15 +45,15 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "menu_atmos.wav",
-      "CachePath": "51/{5108719E-7A9C-9E1B-7982-68C83C5C0464}.wem"
+      "CachePath": "49/{49C9D2F2-0542-9BB8-1675-B320F7E8E3E1}.wem"
      },
      {
-      "Id": "809611727",
+      "Id": "877530852",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
-      "ShortName": "atmos_ver1.wav",
-      "CachePath": "F0/{F0B78290-8554-A98C-87E2-567BB7FF248A}.wem"
+      "ShortName": "intro_atmos.wav",
+      "CachePath": "EB/{EB6E9FF6-5CF8-106E-F687-C2482C68E12D}.wem"
      },
      {
       "Id": "1019625249",
@@ -62,14 +70,6 @@
       "Location": "Memory",
       "ShortName": "Second Layer.wav",
       "CachePath": "24/{244A8C46-9DB5-D471-7562-FA34430CFC8F}.wem"
-     },
-     {
-      "Id": "1040188425",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "intro scene_ver1.wav",
-      "CachePath": "5E/{5EDBD614-76D5-CAD6-DEFA-35D186A3CBE1}.wem"
      },
      {
       "Id": "1042875977",
@@ -124,9 +124,7 @@
       "Name": "MenuAtmosphereSound",
       "ObjectPath": "\\Events\\Ayana_WU\\Ayana\\MenuAtmosphereSound",
       "GUID": "{91AC7AE3-529A-432D-BC14-2E6448FEF91C}",
-      "DurationType": "OneShot",
-      "DurationMin": "18.033333",
-      "DurationMax": "18.033333",
+      "DurationType": "Infinite",
       "MediaRefs": [
        {
         "Id": "689027265"
@@ -160,22 +158,22 @@
       "DurationType": "Infinite",
       "MediaRefs": [
        {
+        "Id": "715038"
+       },
+       {
         "Id": "189255046"
        },
        {
         "Id": "341240292"
        },
        {
-        "Id": "809611727"
+        "Id": "877530852"
        },
        {
         "Id": "1019625249"
        },
        {
         "Id": "1023233219"
-       },
-       {
-        "Id": "1040188425"
        },
        {
         "Id": "1042875977"
@@ -321,6 +319,6 @@
     ]
    }
   ],
-  "FileHash": "{FFDCB062-312B-3425-BBCD-415EB9091B3A}"
+  "FileHash": "{EE489EA8-C6C0-772F-5F99-8D4FDC46A70F}"
  }
 }

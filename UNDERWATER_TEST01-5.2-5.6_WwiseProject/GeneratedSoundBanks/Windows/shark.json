@@ -1,0 +1,47 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "2986888348",
+    "Type": "User",
+    "GUID": "{8E05FB7D-0CBA-433F-AE82-6015FEAD5DB1}",
+    "Language": "SFX",
+    "Hash": "{CB0F2ED0-09EE-707A-2CA7-DA0827F65FC2}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\shark",
+    "ShortName": "shark",
+    "Path": "shark.bnk",
+    "Media": [
+     {
+      "Id": "693338857",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "shark_swim.wav",
+      "CachePath": "6B/{6BF04063-6762-DD2D-D106-666460157BB9}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "414854855",
+      "Name": "SharkSwimLayer",
+      "ObjectPath": "\\Events\\Ayana_WU\\Ayana\\SharkSwimLayer",
+      "GUID": "{FDD7022C-7DE1-4816-961E-E3CAEE1141CD}",
+      "DurationType": "OneShot",
+      "DurationMin": "9.766666",
+      "DurationMax": "9.766666",
+      "MediaRefs": [
+       {
+        "Id": "693338857"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{E5AF0D50-0D47-37A5-C697-E4952D47D8A0}"
+ }
+}

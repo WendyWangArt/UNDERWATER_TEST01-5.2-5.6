@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	414854855	SharkSwimLayer			\Ayana_WU\Ayana\SharkSwimLayer	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	693338857	Shark_Swim	C:\Users\wendy.wang\Documents\Wendy\UNDERWATER_TEST01-5.2-5.6\UNDERWATER_TEST01-5.2-5.6_WwiseProject\.cache\6B\{6BF04063-6762-DD2D-D106-666460157BB9}.wem		\Actor-Mixer Hierarchy\Ayana\AmbientSound_Ayaana\Shark_Swim		1875296
+

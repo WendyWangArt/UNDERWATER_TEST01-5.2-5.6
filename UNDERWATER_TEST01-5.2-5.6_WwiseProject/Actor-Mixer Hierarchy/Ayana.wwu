@@ -523,11 +523,11 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="atmos_ver1" ID="{4B95504A-1AA4-41ED-9DE9-BC51E2BE4584}">
+								<AudioFileSource Name="atmos_ver3" ID="{02DFD20B-BA0E-477E-93FB-5C69D1428C5C}">
 									<Language>SFX</Language>
-									<AudioFile>atmos_ver1.wav</AudioFile>
+									<AudioFile>atmos_ver3.wav</AudioFile>
 									<MediaIDList>
-										<MediaID ID="809611727"/>
+										<MediaID ID="715038"/>
 									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
@@ -597,7 +597,7 @@
 								</CustomStateList>
 							</StateInfo>
 							<ActiveSourceList>
-								<ActiveSource Name="atmos_ver1" ID="{4B95504A-1AA4-41ED-9DE9-BC51E2BE4584}" Platform="Linked"/>
+								<ActiveSource Name="atmos_ver3" ID="{02DFD20B-BA0E-477E-93FB-5C69D1428C5C}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="Intro_Animation_SoundEffect" ID="{0539C3A5-316B-4B03-8597-752D32B35287}" ShortID="160910708">
@@ -617,11 +617,11 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="intro scene_ver1" ID="{597BA7FB-A148-44AF-81AC-7A04E64C9436}">
+								<AudioFileSource Name="intro_atmos" ID="{83CEBF3A-021C-48C1-B45B-2E1253D6657F}">
 									<Language>SFX</Language>
-									<AudioFile>intro scene_ver1.wav</AudioFile>
+									<AudioFile>intro_atmos.wav</AudioFile>
 									<MediaIDList>
-										<MediaID ID="1040188425"/>
+										<MediaID ID="877530852"/>
 									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
@@ -703,7 +703,7 @@
 								</CustomStateList>
 							</StateInfo>
 							<ActiveSourceList>
-								<ActiveSource Name="intro scene_ver1" ID="{597BA7FB-A148-44AF-81AC-7A04E64C9436}" Platform="Linked"/>
+								<ActiveSource Name="intro_atmos" ID="{83CEBF3A-021C-48C1-B45B-2E1253D6657F}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="Menu_Atmosphere_Sound" ID="{B89CCA76-4D9E-473B-A63C-7D2AAACA4B17}" ShortID="201474345">

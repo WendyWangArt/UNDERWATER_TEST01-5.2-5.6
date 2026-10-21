@@ -2,7 +2,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	3095305583	HammerSounds			\Ayana_WU\Ayana\HammerSounds	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	90061613	hammer_build_var3	C:\Users\wendy.wang\Documents\Wendy\UNDERWATER_TEST01-5.2-5.6\UNDERWATER_TEST01-5.2-5.6_WwiseProject\.cache\72\{72631DC6-2CF0-1DFD-57BB-A5D045E5838E}.wem		\Actor-Mixer Hierarchy\Ayana\Hammer_BUild_Sounds\hammer_build_var3		193288
-	193099040	hammer_build_var1	C:\Users\wendy.wang\Documents\Wendy\UNDERWATER_TEST01-5.2-5.6\UNDERWATER_TEST01-5.2-5.6_WwiseProject\.cache\E2\{E24B6985-2CBA-D86D-B886-3A49970A2505}.wem		\Actor-Mixer Hierarchy\Ayana\Hammer_BUild_Sounds\hammer_build_var1		223704
-	373598593	hammer_build_var2	C:\Users\wendy.wang\Documents\Wendy\UNDERWATER_TEST01-5.2-5.6\UNDERWATER_TEST01-5.2-5.6_WwiseProject\.cache\3D\{3DBDA5A2-2599-9540-58DF-4862C2E1BEC3}.wem		\Actor-Mixer Hierarchy\Ayana\Hammer_BUild_Sounds\hammer_build_var2		233348
+	153469329	hammer_build_var1	C:\Users\wendy.wang\Documents\Wendy\UNDERWATER_TEST01-5.2-5.6\UNDERWATER_TEST01-5.2-5.6_WwiseProject\.cache\67\{67E1BAD2-18A1-0C14-F673-B6BDD017B9A7}.wem		\Actor-Mixer Hierarchy\Ayana\Hammer_BUild_Sounds\hammer_build_var1		288096
+	156698721	hammer_build_var3	C:\Users\wendy.wang\Documents\Wendy\UNDERWATER_TEST01-5.2-5.6\UNDERWATER_TEST01-5.2-5.6_WwiseProject\.cache\B3\{B32D5045-7C0F-F16C-E784-590A256309C0}.wem		\Actor-Mixer Hierarchy\Ayana\Hammer_BUild_Sounds\hammer_build_var3		262496
+	889824709	hammer_build_var2	C:\Users\wendy.wang\Documents\Wendy\UNDERWATER_TEST01-5.2-5.6\UNDERWATER_TEST01-5.2-5.6_WwiseProject\.cache\51\{51EA3515-5F1A-8746-65D8-B7BE5A9069D9}.wem		\Actor-Mixer Hierarchy\Ayana\Hammer_BUild_Sounds\hammer_build_var2		313696
 

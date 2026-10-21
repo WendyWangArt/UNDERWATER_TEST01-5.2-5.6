@@ -4,6 +4,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	971685330	TalkToBanafish			\Default Work Unit\TalkToBanafish	
 	978628760	CameraExploring			\Default Work Unit\CameraExploring	
 	1478511929	TalkToSam			\Default Work Unit\TalkToSam	
+	2277948403	SubmarineLaunchingSound			\Default Work Unit\SubmarineLaunchingSound	
 	2326115826	explore_aftercheckingthesubmarine			\Default Work Unit\explore_aftercheckingthesubmarine	
 	2383189954	TalkToTurtle			\Default Work Unit\TalkToTurtle	
 	2707111291	playerExplore			\Default Work Unit\playerExplore	
@@ -28,6 +29,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	189255046	Seahorse	C:\Users\wendy.wang\Documents\Wendy\UNDERWATER_TEST01-5.2-5.6\UNDERWATER_TEST01-5.2-5.6_WwiseProject\.cache\BF\{BF9513D4-F80E-360F-B13F-D95ADB42B378}.wem		\Actor-Mixer Hierarchy\Alys\characters\Seahorse		4833888
 	341240292	Bananafish	C:\Users\wendy.wang\Documents\Wendy\UNDERWATER_TEST01-5.2-5.6\UNDERWATER_TEST01-5.2-5.6_WwiseProject\.cache\D7\{D7938B65-229C-0A7F-3DFA-2A8A0B877E9B}.wem		\Actor-Mixer Hierarchy\Alys\characters\Bananafish		8893536
 	689027265	Menu_Atmosphere_Sound	C:\Users\wendy.wang\Documents\Wendy\UNDERWATER_TEST01-5.2-5.6\UNDERWATER_TEST01-5.2-5.6_WwiseProject\.cache\49\{49C9D2F2-0542-9BB8-1675-B320F7E8E3E1}.wem		\Actor-Mixer Hierarchy\Ayana\AmbientSound_Ayaana\Menu_Atmosphere_Sound		3462496
+	766517160	submarine_launch	C:\Users\wendy.wang\Documents\Wendy\UNDERWATER_TEST01-5.2-5.6\UNDERWATER_TEST01-5.2-5.6_WwiseProject\.cache\5F\{5F2D0291-5571-56C8-D0FF-B1EB37809AE5}.wem		\Actor-Mixer Hierarchy\Ayana\AmbientSound_Ayaana\submarine_launch		3805696
 	877530852	Intro_Animation_SoundEffect	C:\Users\wendy.wang\Documents\Wendy\UNDERWATER_TEST01-5.2-5.6\UNDERWATER_TEST01-5.2-5.6_WwiseProject\.cache\EB\{EB6E9FF6-5CF8-106E-F687-C2482C68E12D}.wem		\Actor-Mixer Hierarchy\Ayana\AmbientSound_Ayaana\Intro_Animation_SoundEffect		4044896
 	1019625249	maintrack	C:\Users\wendy.wang\Documents\Wendy\UNDERWATER_TEST01-5.2-5.6\UNDERWATER_TEST01-5.2-5.6_WwiseProject\.cache\22\{22DF8B17-1C7C-12D3-EE3C-5257F6E0D8FD}.wem		\Actor-Mixer Hierarchy\Alys\maintrack		27759260
 	1023233219	pianotrack	C:\Users\wendy.wang\Documents\Wendy\UNDERWATER_TEST01-5.2-5.6\UNDERWATER_TEST01-5.2-5.6_WwiseProject\.cache\24\{244A8C46-9DB5-D471-7562-FA34430CFC8F}.wem		\Actor-Mixer Hierarchy\Alys\pianotrack		27759260

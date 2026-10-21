@@ -10,34 +10,34 @@
     "Type": "User",
     "GUID": "{BAC47711-0B11-4290-9E7F-5CFEE42A57A6}",
     "Language": "SFX",
-    "Hash": "{5AC3B0E8-FA73-7053-1CE0-3586C197C191}",
+    "Hash": "{96E748EE-7ED1-BCB7-55D5-B1384888ECA9}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Sound_HammerFix",
     "ShortName": "Sound_HammerFix",
     "Path": "Sound_HammerFix.bnk",
     "Media": [
      {
-      "Id": "90061613",
+      "Id": "153469329",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
-      "ShortName": "hammer_build_var3.wav",
-      "CachePath": "72/{72631DC6-2CF0-1DFD-57BB-A5D045E5838E}.wem"
+      "ShortName": "hammer_var1.wav",
+      "CachePath": "67/{67E1BAD2-18A1-0C14-F673-B6BDD017B9A7}.wem"
      },
      {
-      "Id": "193099040",
+      "Id": "156698721",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
-      "ShortName": "hammer_build_var1.wav",
-      "CachePath": "E2/{E24B6985-2CBA-D86D-B886-3A49970A2505}.wem"
+      "ShortName": "hammer_var3.wav",
+      "CachePath": "B3/{B32D5045-7C0F-F16C-E784-590A256309C0}.wem"
      },
      {
-      "Id": "373598593",
+      "Id": "889824709",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
-      "ShortName": "hammer_build_var2.wav",
-      "CachePath": "3D/{3DBDA5A2-2599-9540-58DF-4862C2E1BEC3}.wem"
+      "ShortName": "hammer_var2.wav",
+      "CachePath": "51/{51EA3515-5F1A-8746-65D8-B7BE5A9069D9}.wem"
      }
     ],
     "Events": [
@@ -47,23 +47,23 @@
       "ObjectPath": "\\Events\\Ayana_WU\\Ayana\\HammerSounds",
       "GUID": "{D50FAE38-7BD9-48D9-96C4-B7D970563815}",
       "DurationType": "OneShot",
-      "DurationMin": "1.0062083",
-      "DurationMax": "1.2148541",
+      "DurationMin": "1.3666667",
+      "DurationMax": "1.6333333",
       "MediaRefs": [
        {
-        "Id": "90061613"
+        "Id": "153469329"
        },
        {
-        "Id": "193099040"
+        "Id": "156698721"
        },
        {
-        "Id": "373598593"
+        "Id": "889824709"
        }
       ]
      }
     ]
    }
   ],
-  "FileHash": "{1D316002-5824-8542-08BD-23877EBC97FD}"
+  "FileHash": "{CE418468-C04B-0590-CBEE-B44759A2A22D}"
  }
 }

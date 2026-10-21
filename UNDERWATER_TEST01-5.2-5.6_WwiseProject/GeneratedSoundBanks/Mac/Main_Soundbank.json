@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{A95A962B-14C1-4BDD-89E4-8F7F66A4CA91}",
     "Language": "SFX",
-    "Hash": "{0FD42610-6653-DB65-AE78-352D12CF9EFB}",
+    "Hash": "{36917667-6CFC-86FA-BBFE-620D08C3B694}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main_Soundbank",
     "ShortName": "Main_Soundbank",
     "Path": "Main_Soundbank.bnk",
@@ -46,6 +46,14 @@
       "Location": "Memory",
       "ShortName": "menu_atmos.wav",
       "CachePath": "49/{49C9D2F2-0542-9BB8-1675-B320F7E8E3E1}.wem"
+     },
+     {
+      "Id": "766517160",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "submarine_launch.wav",
+      "CachePath": "5F/{5F2D0291-5571-56C8-D0FF-B1EB37809AE5}.wem"
      },
      {
       "Id": "877530852",
@@ -190,6 +198,29 @@
       ]
      },
      {
+      "Id": "2277948403",
+      "Name": "SubmarineLaunchingSound",
+      "ObjectPath": "\\Events\\Default Work Unit\\SubmarineLaunchingSound",
+      "GUID": "{9EF2B15F-50A4-4213-A220-845EA9D575E2}",
+      "DurationType": "OneShot",
+      "DurationMin": "19.820833",
+      "DurationMax": "19.820833",
+      "MediaRefs": [
+       {
+        "Id": "766517160"
+       }
+      ],
+      "ActionSetState": [
+       {
+        "GroupId": "4091656514",
+        "Id": "4184794294",
+        "Name": "Outro",
+        "ObjectPath": "\\States\\States_WorkingUnit_Ayana\\GameState\\Outro",
+        "GUID": "{8B1A72B3-C055-4054-BFFF-BD35D62DB1F8}"
+       }
+      ]
+     },
+     {
       "Id": "971685330",
       "Name": "TalkToBanafish",
       "ObjectPath": "\\Events\\Default Work Unit\\TalkToBanafish",
@@ -319,6 +350,6 @@
     ]
    }
   ],
-  "FileHash": "{3F447739-EB2E-F105-899C-D07AFF41A7C3}"
+  "FileHash": "{0175728B-849F-ED46-2C92-CB4D1EBC13AD}"
  }
 }

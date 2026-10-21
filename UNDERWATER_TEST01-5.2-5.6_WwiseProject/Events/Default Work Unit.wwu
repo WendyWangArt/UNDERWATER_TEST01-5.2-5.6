@@ -161,6 +161,27 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="SubmarineLaunchingSound" ID="{9EF2B15F-50A4-4213-A220-845EA9D575E2}">
+					<ChildrenList>
+						<Action Name="" ID="{53D83F42-D59C-4D0C-859C-CFA13F822CD5}" ShortID="399126969">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="submarine_launch" ID="{903831F5-8860-4C77-9701-DB659B79E848}" WorkUnitID="{F548A608-7B8E-4719-AAB2-5DDAFE6399C6}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{0F4C4231-AED0-4585-83AC-F7BAAF516C5D}" ShortID="1005572581">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Outro" ID="{8B1A72B3-C055-4054-BFFF-BD35D62DB1F8}" WorkUnitID="{62D4A0D7-BF17-4774-9AF7-0F747302BDA8}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

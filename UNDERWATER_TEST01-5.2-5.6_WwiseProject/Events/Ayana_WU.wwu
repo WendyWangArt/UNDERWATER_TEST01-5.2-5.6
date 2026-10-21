@@ -102,6 +102,17 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="SharkSwimLayer" ID="{FDD7022C-7DE1-4816-961E-E3CAEE1141CD}">
+							<ChildrenList>
+								<Action Name="" ID="{0AC6C3C6-439F-4BE8-A5F0-F8427E0A3DED}" ShortID="251127740">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Shark_Swim" ID="{981B02CA-4B98-4F5A-B27D-138F9744D9E7}" WorkUnitID="{F548A608-7B8E-4719-AAB2-5DDAFE6399C6}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Character_Speech" ID="{2CC9E2CF-340F-4E95-916B-2E88374DEEDD}" ShortID="970650429">

@@ -540,7 +540,11 @@
 								<CustomStateList>
 									<CustomState>
 										<StateRef Name="Outro" ID="{8B1A72B3-C055-4054-BFFF-BD35D62DB1F8}"/>
-										<CustomState Name="" ID="{1DD1BAF8-85E3-4A82-A623-E103B3D361FD}" ShortID="373023017"/>
+										<CustomState Name="" ID="{1DD1BAF8-85E3-4A82-A623-E103B3D361FD}" ShortID="373023017">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
 									</CustomState>
 									<CustomState>
 										<StateRef Name="Player_Explore" ID="{1024E66E-0AB5-439C-A9CE-A14396369C88}"/>

@@ -31,6 +31,9 @@
 							</ReferenceList>
 						</Action>
 						<Action Name="" ID="{31EFEA6A-4DD5-4D2B-AD11-0E7939DE72D4}" ShortID="340331313">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="16.7"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="maintrack" ID="{C910F180-53AA-47D3-9158-307D2721889A}" WorkUnitID="{5A42FBE7-EEB5-45A5-BC4E-EC69B838458E}"/>
@@ -38,6 +41,9 @@
 							</ReferenceList>
 						</Action>
 						<Action Name="" ID="{DE0F5ADD-55D8-4932-B841-DD4FE048AEB7}" ShortID="699483192">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="16.7"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Bananafish" ID="{7BA7011C-B2BC-4966-87DC-BD55DD08B53B}" WorkUnitID="{5A42FBE7-EEB5-45A5-BC4E-EC69B838458E}"/>
@@ -45,6 +51,9 @@
 							</ReferenceList>
 						</Action>
 						<Action Name="" ID="{6AB2F18F-8418-4E59-8761-5208EA86E1A9}" ShortID="919730449">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="16.7"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Seahorse" ID="{95A3469C-44FC-4834-B312-B78ACBB421DB}" WorkUnitID="{5A42FBE7-EEB5-45A5-BC4E-EC69B838458E}"/>
@@ -52,6 +61,9 @@
 							</ReferenceList>
 						</Action>
 						<Action Name="" ID="{B0881B9B-4706-46C4-BAD8-EC7FE82E7774}" ShortID="664185064">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="16.7"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="turtle" ID="{0832DC90-E421-4F54-923E-D590340A06E8}" WorkUnitID="{5A42FBE7-EEB5-45A5-BC4E-EC69B838458E}"/>
@@ -59,6 +71,9 @@
 							</ReferenceList>
 						</Action>
 						<Action Name="" ID="{7585080C-F1EF-4340-A768-4E10171615B1}" ShortID="236699494">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="16.7"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="pianotrack" ID="{7815D886-831D-425B-A266-98AE281C0B4B}" WorkUnitID="{5A42FBE7-EEB5-45A5-BC4E-EC69B838458E}"/>

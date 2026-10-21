@@ -19,6 +19,9 @@
 					</TransitionList>
 				</StateGroup>
 				<StateGroup Name="GameState" ID="{1C387382-33FD-48A4-AFB3-1F989B62080B}">
+					<PropertyList>
+						<Property Name="DefaultTransitionTime" Type="Real64" Value="0"/>
+					</PropertyList>
 					<ChildrenList>
 						<State Name="None" ID="{1C2FC7C1-41DD-4735-8F34-E9B6B91589FE}"/>
 						<State Name="Intro" ID="{3FE367C4-DDC5-4459-895E-9229D9CA5F10}"/>
@@ -31,6 +34,50 @@
 						<State Name="Player_Explore" ID="{1024E66E-0AB5-439C-A9CE-A14396369C88}"/>
 						<State Name="aftercheckingthesubmarine" ID="{09219B7D-ABFA-4AD3-B4CB-1D600F1DA165}"/>
 					</ChildrenList>
+					<TransitionList>
+						<Transition>
+							<StartState Name="Player_Explore" ID="{1024E66E-0AB5-439C-A9CE-A14396369C88}"/>
+							<EndState Name="TalkToBananafish" ID="{41D7A911-BC3A-4DD1-9104-030F7594790D}"/>
+							<Time>2</Time>
+							<IsShared>false</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="Player_Explore" ID="{1024E66E-0AB5-439C-A9CE-A14396369C88}"/>
+							<EndState Name="TalkToSeahorseSam" ID="{C0FEC5BE-2287-468C-B15F-C2B5431AF423}"/>
+							<Time>2</Time>
+							<IsShared>false</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="Player_Explore" ID="{1024E66E-0AB5-439C-A9CE-A14396369C88}"/>
+							<EndState Name="TalkToTurtleLarry" ID="{48919AF6-78A5-448C-9C4E-A08E725BF75C}"/>
+							<Time>2</Time>
+							<IsShared>false</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="TalkToBananafish" ID="{41D7A911-BC3A-4DD1-9104-030F7594790D}"/>
+							<EndState Name="Player_Explore" ID="{1024E66E-0AB5-439C-A9CE-A14396369C88}"/>
+							<Time>2</Time>
+							<IsShared>false</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="TalkToSeahorseSam" ID="{C0FEC5BE-2287-468C-B15F-C2B5431AF423}"/>
+							<EndState Name="Player_Explore" ID="{1024E66E-0AB5-439C-A9CE-A14396369C88}"/>
+							<Time>2</Time>
+							<IsShared>false</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="TalkToTurtleLarry" ID="{48919AF6-78A5-448C-9C4E-A08E725BF75C}"/>
+							<EndState Name="Player_Explore" ID="{1024E66E-0AB5-439C-A9CE-A14396369C88}"/>
+							<Time>2</Time>
+							<IsShared>false</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="Camera_Explore" ID="{E47E30F9-9856-4A6D-A065-9318318AEA2D}"/>
+							<EndState Name="Player_Explore" ID="{1024E66E-0AB5-439C-A9CE-A14396369C88}"/>
+							<Time>2</Time>
+							<IsShared>false</IsShared>
+						</Transition>
+					</TransitionList>
 				</StateGroup>
 			</ChildrenList>
 		</WorkUnit>

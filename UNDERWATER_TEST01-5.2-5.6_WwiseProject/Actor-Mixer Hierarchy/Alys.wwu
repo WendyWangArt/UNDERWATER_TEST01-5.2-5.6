@@ -130,7 +130,11 @@
 									</CustomState>
 									<CustomState>
 										<StateRef Name="TalkToBananafish" ID="{41D7A911-BC3A-4DD1-9104-030F7594790D}"/>
-										<CustomState Name="" ID="{4826FF86-0584-4BFD-A60E-10F1AAC5776A}" ShortID="162103982"/>
+										<CustomState Name="" ID="{4826FF86-0584-4BFD-A60E-10F1AAC5776A}" ShortID="162103982">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-5"/>
+											</PropertyList>
+										</CustomState>
 									</CustomState>
 								</CustomStateList>
 							</StateInfo>
@@ -193,7 +197,11 @@
 									</CustomState>
 									<CustomState>
 										<StateRef Name="TalkToTurtleLarry" ID="{48919AF6-78A5-448C-9C4E-A08E725BF75C}"/>
-										<CustomState Name="" ID="{8C579B8E-A5A4-4041-BCE6-4D9CF715FDD9}" ShortID="937147131"/>
+										<CustomState Name="" ID="{8C579B8E-A5A4-4041-BCE6-4D9CF715FDD9}" ShortID="937147131">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-5"/>
+											</PropertyList>
+										</CustomState>
 									</CustomState>
 									<CustomState>
 										<StateRef Name="TalkToSeahorseSam" ID="{C0FEC5BE-2287-468C-B15F-C2B5431AF423}"/>
@@ -312,7 +320,11 @@
 									</CustomState>
 									<CustomState>
 										<StateRef Name="TalkToSeahorseSam" ID="{C0FEC5BE-2287-468C-B15F-C2B5431AF423}"/>
-										<CustomState Name="" ID="{C5C76FFE-6780-4177-9FBF-7E27B12E7575}" ShortID="962582487"/>
+										<CustomState Name="" ID="{C5C76FFE-6780-4177-9FBF-7E27B12E7575}" ShortID="962582487">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-5"/>
+											</PropertyList>
+										</CustomState>
 									</CustomState>
 									<CustomState>
 										<StateRef Name="MainMenu" ID="{F34E3848-894B-468C-92C3-FB3A0659D3FB}"/>

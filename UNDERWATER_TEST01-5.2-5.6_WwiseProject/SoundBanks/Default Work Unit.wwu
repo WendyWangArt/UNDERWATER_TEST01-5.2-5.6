@@ -56,6 +56,7 @@
 				<SoundBank Name="Main_Soundbank" ID="{A95A962B-14C1-4BDD-89E4-8F7F66A4CA91}">
 					<ObjectInclusionList>
 						<ObjectRef Name="playerExplore" ID="{BE72B743-91D8-425A-B2E3-5D8B28880E33}" WorkUnitID="{F9F41F80-93D0-478B-98D6-F1C042AE4945}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="MenuAtmosphereSound" ID="{91AC7AE3-529A-432D-BC14-2E6448FEF91C}" WorkUnitID="{B66E3B40-DCB4-4AA1-B6BA-80E95D2B144B}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="CameraExploring" ID="{4BCF154F-3C34-4336-ADA3-D20D87B6BC80}" WorkUnitID="{F9F41F80-93D0-478B-98D6-F1C042AE4945}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="explore_aftercheckingthesubmarine" ID="{BC217A4E-C8DB-4600-BE5A-62B597231838}" WorkUnitID="{F9F41F80-93D0-478B-98D6-F1C042AE4945}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="TalkToSam" ID="{3E3DC693-6E97-4665-B301-BA282A606B6E}" WorkUnitID="{F9F41F80-93D0-478B-98D6-F1C042AE4945}" Origin="Manual" Filter="7"/>
@@ -120,9 +121,15 @@
 				</SoundBank>
 				<SoundBank Name="characternonsense" ID="{B5CF1CEA-4C3F-4E03-A384-F70EF295954E}">
 					<ObjectInclusionList>
+						<ObjectRef Name="Bens_Happyy" ID="{050B6B7F-6C37-438A-BD4B-D39D13453C9F}" WorkUnitID="{B66E3B40-DCB4-4AA1-B6BA-80E95D2B144B}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Sam_Angryy" ID="{C304941D-8BE5-438D-9C67-F222C3985111}" WorkUnitID="{B66E3B40-DCB4-4AA1-B6BA-80E95D2B144B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Larry_Happyy" ID="{91CFB841-3D00-4411-9146-DBFAD856E6E3}" WorkUnitID="{B66E3B40-DCB4-4AA1-B6BA-80E95D2B144B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Larry_Neutrall" ID="{1C7C9BE3-5553-46BB-A54D-0A57AB09F394}" WorkUnitID="{B66E3B40-DCB4-4AA1-B6BA-80E95D2B144B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Larry_Angryy" ID="{8E57683A-0F0C-498D-AA1C-371D4496FBE2}" WorkUnitID="{B66E3B40-DCB4-4AA1-B6BA-80E95D2B144B}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Sam_Neutrall" ID="{E993577F-9FB3-4AE7-90C9-FAAB2F7F1EAE}" WorkUnitID="{B66E3B40-DCB4-4AA1-B6BA-80E95D2B144B}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Sam_Happyy" ID="{AB8C5BFE-A162-4D98-A537-D07B7C2F1E78}" WorkUnitID="{B66E3B40-DCB4-4AA1-B6BA-80E95D2B144B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Bens_Neutrall" ID="{198F5593-1C29-4E08-9404-20C94644B984}" WorkUnitID="{B66E3B40-DCB4-4AA1-B6BA-80E95D2B144B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Bens_Angryy" ID="{0FB73780-A23F-4EC6-B672-F8F2D5925426}" WorkUnitID="{B66E3B40-DCB4-4AA1-B6BA-80E95D2B144B}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

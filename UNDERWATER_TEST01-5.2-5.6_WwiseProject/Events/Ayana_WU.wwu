@@ -91,6 +91,17 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="MenuAtmosphereSound" ID="{91AC7AE3-529A-432D-BC14-2E6448FEF91C}">
+							<ChildrenList>
+								<Action Name="" ID="{9D528F5F-D5C0-4CF5-ADAB-C03B6677C179}" ShortID="983517312">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Menu_Atmosphere_Sound" ID="{B89CCA76-4D9E-473B-A63C-7D2AAACA4B17}" WorkUnitID="{F548A608-7B8E-4719-AAB2-5DDAFE6399C6}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Character_Speech" ID="{2CC9E2CF-340F-4E95-916B-2E88374DEEDD}" ShortID="970650429">
@@ -123,6 +134,72 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Sam_Angry" ID="{B6388FB4-76AE-420E-B082-12B9441123F2}" WorkUnitID="{F548A608-7B8E-4719-AAB2-5DDAFE6399C6}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Bens_Angryy" ID="{0FB73780-A23F-4EC6-B672-F8F2D5925426}">
+							<ChildrenList>
+								<Action Name="" ID="{0A78DEA7-87D2-4652-8AD7-EAFF7BA5CAF6}" ShortID="1090734">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Bens_Angry" ID="{A0F43F68-C8C8-46BE-8741-79E604B348BB}" WorkUnitID="{F548A608-7B8E-4719-AAB2-5DDAFE6399C6}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Bens_Happyy" ID="{050B6B7F-6C37-438A-BD4B-D39D13453C9F}">
+							<ChildrenList>
+								<Action Name="" ID="{EDEA3DF8-8574-42EB-8A62-4822E2DD4B01}" ShortID="371378843">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Bens_Happy" ID="{A37AEF53-B531-4E2C-B059-5213FF058141}" WorkUnitID="{F548A608-7B8E-4719-AAB2-5DDAFE6399C6}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Bens_Neutrall" ID="{198F5593-1C29-4E08-9404-20C94644B984}">
+							<ChildrenList>
+								<Action Name="" ID="{2DCD7EE6-28B3-413B-AD5A-A9AD33C73D9E}" ShortID="1027243459">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Bens_Neutral" ID="{44ECFC7B-796C-451E-BCDE-1654EAB95873}" WorkUnitID="{F548A608-7B8E-4719-AAB2-5DDAFE6399C6}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Larry_Angryy" ID="{8E57683A-0F0C-498D-AA1C-371D4496FBE2}">
+							<ChildrenList>
+								<Action Name="" ID="{726BA060-0D98-4E69-992D-917FBBD0086B}" ShortID="641205795">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Larry_Angry" ID="{2A21AE13-7D17-45DE-AF83-4F1E5260BA7C}" WorkUnitID="{F548A608-7B8E-4719-AAB2-5DDAFE6399C6}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Larry_Happyy" ID="{91CFB841-3D00-4411-9146-DBFAD856E6E3}">
+							<ChildrenList>
+								<Action Name="" ID="{9682D74A-D2EB-4EA6-AF3E-A4BE78D3CDF5}" ShortID="858593531">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Larry_Happy" ID="{72C18F18-A851-473D-B60C-5E6402A2F472}" WorkUnitID="{F548A608-7B8E-4719-AAB2-5DDAFE6399C6}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Larry_Neutrall" ID="{1C7C9BE3-5553-46BB-A54D-0A57AB09F394}">
+							<ChildrenList>
+								<Action Name="" ID="{52104EE4-2244-42BA-98DC-FE3D8F5D62A2}" ShortID="110701410">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Larry_Neutral" ID="{285C6989-FD20-47EA-A09A-B9182A6C5C14}" WorkUnitID="{F548A608-7B8E-4719-AAB2-5DDAFE6399C6}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

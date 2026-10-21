@@ -1,15 +1,39 @@
 Event	ID	Name			Wwise Object Path	Notes
+	20657733	Bens_Happyy			\Ayana_WU\Character_Speech\Bens_Happyy	
 	180678838	Sam_Neutrall			\Ayana_WU\Character_Speech\Sam_Neutrall	
 	1228052045	Sam_Angryy			\Ayana_WU\Character_Speech\Sam_Angryy	
 	1356186906	Sam_Happyy			\Ayana_WU\Character_Speech\Sam_Happyy	
+	1485121022	Bens_Angryy			\Ayana_WU\Character_Speech\Bens_Angryy	
+	1657834188	Larry_Angryy			\Ayana_WU\Character_Speech\Larry_Angryy	
+	2769807087	Larry_Happyy			\Ayana_WU\Character_Speech\Larry_Happyy	
+	3068970345	Bens_Neutrall			\Ayana_WU\Character_Speech\Bens_Neutrall	
+	4114238059	Larry_Neutrall			\Ayana_WU\Character_Speech\Larry_Neutrall	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	10163476	sam_happy_var1	C:\Users\wendy.wang\Documents\Wendy\UNDERWATER_TEST01-5.2-5.6\UNDERWATER_TEST01-5.2-5.6_WwiseProject\.cache\F8\{F8E95554-E894-A632-4463-F182025F6D83}.wem		\Actor-Mixer Hierarchy\Ayana\Character_Nonsense\Sam\Sam_Happy\sam_happy_var1		1212096
+	178211589	larry_angry_var3	C:\Users\wendy.wang\Documents\Wendy\UNDERWATER_TEST01-5.2-5.6\UNDERWATER_TEST01-5.2-5.6_WwiseProject\.cache\DA\{DAFB8075-2394-8D17-41AF-A64D18334102}.wem		\Actor-Mixer Hierarchy\Ayana\Character_Nonsense\Larry\Larry_Angry\larry_angry_var3		865404
 	245717446	sam_happy_var2	C:\Users\wendy.wang\Documents\Wendy\UNDERWATER_TEST01-5.2-5.6\UNDERWATER_TEST01-5.2-5.6_WwiseProject\.cache\87\{877EF057-4A41-EDE8-01A5-18DD139D8836}.wem		\Actor-Mixer Hierarchy\Ayana\Character_Nonsense\Sam\Sam_Happy\sam_happy_var2		922884
 	257439336	sam_neutral_var1	C:\Users\wendy.wang\Documents\Wendy\UNDERWATER_TEST01-5.2-5.6\UNDERWATER_TEST01-5.2-5.6_WwiseProject\.cache\C8\{C894D2A0-26F9-2358-43ED-0466FC4F08D2}.wem		\Actor-Mixer Hierarchy\Ayana\Character_Nonsense\Sam\Sam_Neutral\sam_neutral_var1		1078572
+	272720308	bens_neutral_var1	C:\Users\wendy.wang\Documents\Wendy\UNDERWATER_TEST01-5.2-5.6\UNDERWATER_TEST01-5.2-5.6_WwiseProject\.cache\0F\{0FBFB380-E5C9-0A1E-6EAD-750BB7B33307}.wem		\Actor-Mixer Hierarchy\Ayana\Character_Nonsense\Bens\Bens_Neutral\bens_neutral_var1		1390980
+	356451158	bens_happy_var1	C:\Users\wendy.wang\Documents\Wendy\UNDERWATER_TEST01-5.2-5.6\UNDERWATER_TEST01-5.2-5.6_WwiseProject\.cache\A6\{A6EED2CF-EE1E-3191-0D19-54146746B041}.wem		\Actor-Mixer Hierarchy\Ayana\Character_Nonsense\Bens\Bens_Happy\bens_happy_var1		1249728
+	358183980	bens_happy_var2	C:\Users\wendy.wang\Documents\Wendy\UNDERWATER_TEST01-5.2-5.6\UNDERWATER_TEST01-5.2-5.6_WwiseProject\.cache\28\{282B8561-B239-4AF9-9962-D395FD356C8E}.wem		\Actor-Mixer Hierarchy\Ayana\Character_Nonsense\Bens\Bens_Happy\bens_happy_var2		1428616
+	403684094	bens_angry_var1	C:\Users\wendy.wang\Documents\Wendy\UNDERWATER_TEST01-5.2-5.6\UNDERWATER_TEST01-5.2-5.6_WwiseProject\.cache\68\{68D89209-8BA0-E97D-47C9-1282516D9184}.wem		\Actor-Mixer Hierarchy\Ayana\Character_Nonsense\Bens\Bens_Angry\bens_angry_var1		1562652
 	441861481	sam_happy_var3	C:\Users\wendy.wang\Documents\Wendy\UNDERWATER_TEST01-5.2-5.6\UNDERWATER_TEST01-5.2-5.6_WwiseProject\.cache\F0\{F01C6BA5-BEFD-D05C-F30F-293897657E1C}.wem		\Actor-Mixer Hierarchy\Ayana\Character_Nonsense\Sam\Sam_Happy\sam_happy_var3		677100
+	463579893	larry_happy_var2	C:\Users\wendy.wang\Documents\Wendy\UNDERWATER_TEST01-5.2-5.6\UNDERWATER_TEST01-5.2-5.6_WwiseProject\.cache\EC\{EC966E27-A924-84A7-8B7C-51F9DDF353E4}.wem		\Actor-Mixer Hierarchy\Ayana\Character_Nonsense\Larry\Larry_Happy\larry_happy_var2		779312
+	501496880	larry_happy_var3	C:\Users\wendy.wang\Documents\Wendy\UNDERWATER_TEST01-5.2-5.6\UNDERWATER_TEST01-5.2-5.6_WwiseProject\.cache\4B\{4B10FB6C-AB23-3A48-4B85-0282D0F9DA66}.wem		\Actor-Mixer Hierarchy\Ayana\Character_Nonsense\Larry\Larry_Happy\larry_happy_var3		888860
+	534567005	larry_neutral_var2	C:\Users\wendy.wang\Documents\Wendy\UNDERWATER_TEST01-5.2-5.6\UNDERWATER_TEST01-5.2-5.6_WwiseProject\.cache\A3\{A307395D-495B-E4C7-F29B-879B470FCFAA}.wem		\Actor-Mixer Hierarchy\Ayana\Character_Nonsense\Larry\Larry_Neutral\larry_neutral_var2		1101256
+	573130525	bens_angry_var2	C:\Users\wendy.wang\Documents\Wendy\UNDERWATER_TEST01-5.2-5.6\UNDERWATER_TEST01-5.2-5.6_WwiseProject\.cache\93\{93F550A3-34E3-4E95-CD59-1FF9C9F90BF7}.wem		\Actor-Mixer Hierarchy\Ayana\Character_Nonsense\Bens\Bens_Angry\bens_angry_var2		1435320
+	632400405	bens_neutral_var2	C:\Users\wendy.wang\Documents\Wendy\UNDERWATER_TEST01-5.2-5.6\UNDERWATER_TEST01-5.2-5.6_WwiseProject\.cache\26\{26DD088C-3483-889D-0ABC-53CBB58167C8}.wem		\Actor-Mixer Hierarchy\Ayana\Character_Nonsense\Bens\Bens_Neutral\bens_neutral_var2		1447688
+	639753624	larry_angry_var2	C:\Users\wendy.wang\Documents\Wendy\UNDERWATER_TEST01-5.2-5.6\UNDERWATER_TEST01-5.2-5.6_WwiseProject\.cache\11\{1198BD83-F809-0DB1-489F-BACE735F0B84}.wem		\Actor-Mixer Hierarchy\Ayana\Character_Nonsense\Larry\Larry_Angry\larry_angry_var2		684712
+	714827637	larry_happy_var1	C:\Users\wendy.wang\Documents\Wendy\UNDERWATER_TEST01-5.2-5.6\UNDERWATER_TEST01-5.2-5.6_WwiseProject\.cache\AC\{ACC46B72-91E4-23AD-DE16-7E7C450F1F0C}.wem		\Actor-Mixer Hierarchy\Ayana\Character_Nonsense\Larry\Larry_Happy\larry_happy_var1		1492924
+	812550119	bens_angry_var3	C:\Users\wendy.wang\Documents\Wendy\UNDERWATER_TEST01-5.2-5.6\UNDERWATER_TEST01-5.2-5.6_WwiseProject\.cache\1D\{1DFF7BEE-7959-337B-77CE-A8ECB583B0CE}.wem		\Actor-Mixer Hierarchy\Ayana\Character_Nonsense\Bens\Bens_Angry\bens_angry_var3		1134760
+	876145403	bens_neutral_var3	C:\Users\wendy.wang\Documents\Wendy\UNDERWATER_TEST01-5.2-5.6\UNDERWATER_TEST01-5.2-5.6_WwiseProject\.cache\92\{9247CA7B-9180-D0B2-02AF-138430A81D0A}.wem		\Actor-Mixer Hierarchy\Ayana\Character_Nonsense\Bens\Bens_Neutral\bens_neutral_var3		1517800
+	877896682	larry_angry_var1	C:\Users\wendy.wang\Documents\Wendy\UNDERWATER_TEST01-5.2-5.6\UNDERWATER_TEST01-5.2-5.6_WwiseProject\.cache\9A\{9A5A7E7F-C1DD-2604-136F-22E4C8D9CE6D}.wem		\Actor-Mixer Hierarchy\Ayana\Character_Nonsense\Larry\Larry_Angry\larry_angry_var1		636256
+	922479042	larry_neutral_var3	C:\Users\wendy.wang\Documents\Wendy\UNDERWATER_TEST01-5.2-5.6\UNDERWATER_TEST01-5.2-5.6_WwiseProject\.cache\06\{06F11196-94F8-95A8-7F29-6E059670364C}.wem		\Actor-Mixer Hierarchy\Ayana\Character_Nonsense\Larry\Larry_Neutral\larry_neutral_var3		963868
 	947648172	sam_angry_var1	C:\Users\wendy.wang\Documents\Wendy\UNDERWATER_TEST01-5.2-5.6\UNDERWATER_TEST01-5.2-5.6_WwiseProject\.cache\29\{2909A92B-34EB-CECC-61F1-D4DB30964CCC}.wem		\Actor-Mixer Hierarchy\Ayana\Character_Nonsense\Sam\Sam_Angry\sam_angry_var1		1422944
 	961692662	sam_neutral_var2	C:\Users\wendy.wang\Documents\Wendy\UNDERWATER_TEST01-5.2-5.6\UNDERWATER_TEST01-5.2-5.6_WwiseProject\.cache\88\{88D818A6-F832-5745-B7C0-F1982C0345A3}.wem		\Actor-Mixer Hierarchy\Ayana\Character_Nonsense\Sam\Sam_Neutral\sam_neutral_var2		1040940
+	1001675937	larry_neutral_var1	C:\Users\wendy.wang\Documents\Wendy\UNDERWATER_TEST01-5.2-5.6\UNDERWATER_TEST01-5.2-5.6_WwiseProject\.cache\18\{18F13793-1BE9-F44A-3BCC-4BF7A7C5CA6E}.wem		\Actor-Mixer Hierarchy\Ayana\Character_Nonsense\Larry\Larry_Neutral\larry_neutral_var1		1385052
+	1048759878	bens_happy_var3	C:\Users\wendy.wang\Documents\Wendy\UNDERWATER_TEST01-5.2-5.6\UNDERWATER_TEST01-5.2-5.6_WwiseProject\.cache\8C\{8C93B503-F923-DC0F-D715-DAB5E1AC6705}.wem		\Actor-Mixer Hierarchy\Ayana\Character_Nonsense\Bens\Bens_Happy\bens_happy_var3		799160
 	1069546633	sam_neutral_var3	C:\Users\wendy.wang\Documents\Wendy\UNDERWATER_TEST01-5.2-5.6\UNDERWATER_TEST01-5.2-5.6_WwiseProject\.cache\F7\{F7468821-A4D5-B461-64CD-BA640F183727}.wem		\Actor-Mixer Hierarchy\Ayana\Character_Nonsense\Sam\Sam_Neutral\sam_neutral_var3		802252
 	1069601922	sam_angry_var2	C:\Users\wendy.wang\Documents\Wendy\UNDERWATER_TEST01-5.2-5.6\UNDERWATER_TEST01-5.2-5.6_WwiseProject\.cache\19\{19C98BB6-C64C-9865-8C01-FE9EB6EA6EA3}.wem		\Actor-Mixer Hierarchy\Ayana\Character_Nonsense\Sam\Sam_Angry\sam_angry_var2		1278084
 

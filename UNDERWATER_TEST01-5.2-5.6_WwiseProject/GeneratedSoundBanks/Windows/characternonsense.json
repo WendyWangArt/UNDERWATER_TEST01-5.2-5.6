@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{B5CF1CEA-4C3F-4E03-A384-F70EF295954E}",
     "Language": "SFX",
-    "Hash": "{98F4A07D-CD32-EB20-B65A-28805F6C1991}",
+    "Hash": "{B13EE3AD-1302-E312-52DE-AA239C0F9CA0}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\characternonsense",
     "ShortName": "characternonsense",
     "Path": "characternonsense.bnk",
@@ -22,6 +22,14 @@
       "Location": "Memory",
       "ShortName": "sam_happy_var1.wav",
       "CachePath": "F8/{F8E95554-E894-A632-4463-F182025F6D83}.wem"
+     },
+     {
+      "Id": "178211589",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "larry_angry_var3.wav",
+      "CachePath": "DA/{DAFB8075-2394-8D17-41AF-A64D18334102}.wem"
      },
      {
       "Id": "245717446",
@@ -40,12 +48,132 @@
       "CachePath": "C8/{C894D2A0-26F9-2358-43ED-0466FC4F08D2}.wem"
      },
      {
+      "Id": "272720308",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "bens_neutral_var1.wav",
+      "CachePath": "0F/{0FBFB380-E5C9-0A1E-6EAD-750BB7B33307}.wem"
+     },
+     {
+      "Id": "356451158",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "bens_happy_var1.wav",
+      "CachePath": "A6/{A6EED2CF-EE1E-3191-0D19-54146746B041}.wem"
+     },
+     {
+      "Id": "358183980",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "bens_happy_var2.wav",
+      "CachePath": "28/{282B8561-B239-4AF9-9962-D395FD356C8E}.wem"
+     },
+     {
+      "Id": "403684094",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "bens_angry_var1.wav",
+      "CachePath": "68/{68D89209-8BA0-E97D-47C9-1282516D9184}.wem"
+     },
+     {
       "Id": "441861481",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "sam_happy_var3.wav",
       "CachePath": "F0/{F01C6BA5-BEFD-D05C-F30F-293897657E1C}.wem"
+     },
+     {
+      "Id": "463579893",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "larry_happy_var2.wav",
+      "CachePath": "EC/{EC966E27-A924-84A7-8B7C-51F9DDF353E4}.wem"
+     },
+     {
+      "Id": "501496880",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "larry_happy_var3.wav",
+      "CachePath": "4B/{4B10FB6C-AB23-3A48-4B85-0282D0F9DA66}.wem"
+     },
+     {
+      "Id": "534567005",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "larry_neutral_var2.wav",
+      "CachePath": "A3/{A307395D-495B-E4C7-F29B-879B470FCFAA}.wem"
+     },
+     {
+      "Id": "573130525",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "bens_angry_var2.wav",
+      "CachePath": "93/{93F550A3-34E3-4E95-CD59-1FF9C9F90BF7}.wem"
+     },
+     {
+      "Id": "632400405",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "bens_neutral_var2.wav",
+      "CachePath": "26/{26DD088C-3483-889D-0ABC-53CBB58167C8}.wem"
+     },
+     {
+      "Id": "639753624",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "larry_angry_var2.wav",
+      "CachePath": "11/{1198BD83-F809-0DB1-489F-BACE735F0B84}.wem"
+     },
+     {
+      "Id": "714827637",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "larry_happy_var1.wav",
+      "CachePath": "AC/{ACC46B72-91E4-23AD-DE16-7E7C450F1F0C}.wem"
+     },
+     {
+      "Id": "812550119",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "bens_angry_var3.wav",
+      "CachePath": "1D/{1DFF7BEE-7959-337B-77CE-A8ECB583B0CE}.wem"
+     },
+     {
+      "Id": "876145403",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "bens_neutral_var3.wav",
+      "CachePath": "92/{9247CA7B-9180-D0B2-02AF-138430A81D0A}.wem"
+     },
+     {
+      "Id": "877896682",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "larry_angry_var1.wav",
+      "CachePath": "9A/{9A5A7E7F-C1DD-2604-136F-22E4C8D9CE6D}.wem"
+     },
+     {
+      "Id": "922479042",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "larry_neutral_var3.wav",
+      "CachePath": "06/{06F11196-94F8-95A8-7F29-6E059670364C}.wem"
      },
      {
       "Id": "947648172",
@@ -62,6 +190,22 @@
       "Location": "Memory",
       "ShortName": "sam_neutral_var2.wav",
       "CachePath": "88/{88D818A6-F832-5745-B7C0-F1982C0345A3}.wem"
+     },
+     {
+      "Id": "1001675937",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "larry_neutral_var1.wav",
+      "CachePath": "18/{18F13793-1BE9-F44A-3BCC-4BF7A7C5CA6E}.wem"
+     },
+     {
+      "Id": "1048759878",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "bens_happy_var3.wav",
+      "CachePath": "8C/{8C93B503-F923-DC0F-D715-DAB5E1AC6705}.wem"
      },
      {
       "Id": "1069546633",
@@ -81,6 +225,126 @@
      }
     ],
     "Events": [
+     {
+      "Id": "1485121022",
+      "Name": "Bens_Angryy",
+      "ObjectPath": "\\Events\\Ayana_WU\\Character_Speech\\Bens_Angryy",
+      "GUID": "{0FB73780-A23F-4EC6-B672-F8F2D5925426}",
+      "DurationType": "OneShot",
+      "DurationMin": "5.9097085",
+      "DurationMax": "8.138312",
+      "MediaRefs": [
+       {
+        "Id": "403684094"
+       },
+       {
+        "Id": "573130525"
+       },
+       {
+        "Id": "812550119"
+       }
+      ]
+     },
+     {
+      "Id": "20657733",
+      "Name": "Bens_Happyy",
+      "ObjectPath": "\\Events\\Ayana_WU\\Character_Speech\\Bens_Happyy",
+      "GUID": "{050B6B7F-6C37-438A-BD4B-D39D13453C9F}",
+      "DurationType": "OneShot",
+      "DurationMin": "4.161792",
+      "DurationMax": "7.4402084",
+      "MediaRefs": [
+       {
+        "Id": "356451158"
+       },
+       {
+        "Id": "358183980"
+       },
+       {
+        "Id": "1048759878"
+       }
+      ]
+     },
+     {
+      "Id": "3068970345",
+      "Name": "Bens_Neutrall",
+      "ObjectPath": "\\Events\\Ayana_WU\\Character_Speech\\Bens_Neutrall",
+      "GUID": "{198F5593-1C29-4E08-9404-20C94644B984}",
+      "DurationType": "OneShot",
+      "DurationMin": "7.2441874",
+      "DurationMax": "7.9047084",
+      "MediaRefs": [
+       {
+        "Id": "272720308"
+       },
+       {
+        "Id": "632400405"
+       },
+       {
+        "Id": "876145403"
+       }
+      ]
+     },
+     {
+      "Id": "1657834188",
+      "Name": "Larry_Angryy",
+      "ObjectPath": "\\Events\\Ayana_WU\\Character_Speech\\Larry_Angryy",
+      "GUID": "{8E57683A-0F0C-498D-AA1C-371D4496FBE2}",
+      "DurationType": "OneShot",
+      "DurationMin": "3.3133333",
+      "DurationMax": "4.5068126",
+      "MediaRefs": [
+       {
+        "Id": "178211589"
+       },
+       {
+        "Id": "639753624"
+       },
+       {
+        "Id": "877896682"
+       }
+      ]
+     },
+     {
+      "Id": "2769807087",
+      "Name": "Larry_Happyy",
+      "ObjectPath": "\\Events\\Ayana_WU\\Character_Speech\\Larry_Happyy",
+      "GUID": "{91CFB841-3D00-4411-9146-DBFAD856E6E3}",
+      "DurationType": "OneShot",
+      "DurationMin": "4.058417",
+      "DurationMax": "7.775146",
+      "MediaRefs": [
+       {
+        "Id": "463579893"
+       },
+       {
+        "Id": "501496880"
+       },
+       {
+        "Id": "714827637"
+       }
+      ]
+     },
+     {
+      "Id": "4114238059",
+      "Name": "Larry_Neutrall",
+      "ObjectPath": "\\Events\\Ayana_WU\\Character_Speech\\Larry_Neutrall",
+      "GUID": "{1C7C9BE3-5553-46BB-A54D-0A57AB09F394}",
+      "DurationType": "OneShot",
+      "DurationMin": "5.0196457",
+      "DurationMax": "7.2133126",
+      "MediaRefs": [
+       {
+        "Id": "534567005"
+       },
+       {
+        "Id": "922479042"
+       },
+       {
+        "Id": "1001675937"
+       }
+      ]
+     },
      {
       "Id": "1228052045",
       "Name": "Sam_Angryy",
@@ -141,6 +405,6 @@
     ]
    }
   ],
-  "FileHash": "{1E88E0B5-58C7-20EE-7DE3-F5896042D4F1}"
+  "FileHash": "{A363652D-792D-FC4E-42A0-6212518139AA}"
  }
 }

@@ -1,0 +1,24 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2607556080	menu			\Default Work Unit\menu	
+	3402445284	playerexplorebutonlysetstates			\Default Work Unit\playerexplorebutonlysetstates	
+
+State Group	ID	Name			Wwise Object Path	Notes
+	4091656514	GameState			\States_WorkingUnit_Ayana\GameState	
+
+State	ID	Name	State Group			Notes
+	748895195	None	GameState			
+	1125500713	Intro	GameState			
+	2325769881	TalkToBananafish	GameState			
+	2596030337	TalkToSeahorseSam	GameState			
+	2607556080	menu	GameState			
+	2821513524	TalkToTurtleLarry	GameState			
+	3277996074	aftercheckingthesubmarine	GameState			
+	3402445284	playerexplorebutonlysetstates	GameState			
+	3604647259	MainMenu	GameState			
+	4015219260	Camera_Explore	GameState			
+	4184794294	Outro	GameState			
+	4195327770	Player_Explore	GameState			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	689027265	Menu_Atmosphere_Sound	C:\Users\wendy.wang\Documents\Wendy\UNDERWATER_TEST01-5.2-5.6\UNDERWATER_TEST01-5.2-5.6_WwiseProject\.cache\49\{49C9D2F2-0542-9BB8-1675-B320F7E8E3E1}.wem		\Actor-Mixer Hierarchy\Ayana\AmbientSound_Ayaana\Menu_Atmosphere_Sound		3462496
+

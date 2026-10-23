@@ -1,0 +1,155 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "3935299853",
+    "Type": "User",
+    "GUID": "{8EA33C33-C5FB-45DF-9DC3-8BF5491793B2}",
+    "Language": "SFX",
+    "Hash": "{5EF86D82-FF4A-7647-0997-0DCDB6456A32}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\extratest",
+    "ShortName": "extratest",
+    "Path": "extratest.bnk",
+    "Media": [
+     {
+      "Id": "689027265",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "menu_atmos.wav",
+      "CachePath": "49/{49C9D2F2-0542-9BB8-1675-B320F7E8E3E1}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "2607556080",
+      "Name": "menu",
+      "ObjectPath": "\\Events\\Default Work Unit\\menu",
+      "GUID": "{28FED710-780F-465E-8CB2-2F75EA2BD49F}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "689027265"
+       }
+      ],
+      "ActionSetState": [
+       {
+        "GroupId": "4091656514",
+        "Id": "2607556080",
+        "Name": "menu",
+        "ObjectPath": "\\States\\States_WorkingUnit_Ayana\\GameState\\menu",
+        "GUID": "{3537DBC0-8FCF-4A5E-969F-8EDE82706D7C}"
+       }
+      ]
+     },
+     {
+      "Id": "3402445284",
+      "Name": "playerexplorebutonlysetstates",
+      "ObjectPath": "\\Events\\Default Work Unit\\playerexplorebutonlysetstates",
+      "GUID": "{8BF83AFE-2B30-4C39-ACA7-AE9D607F8125}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0",
+      "ActionSetState": [
+       {
+        "GroupId": "4091656514",
+        "Id": "3402445284",
+        "Name": "playerexplorebutonlysetstates",
+        "ObjectPath": "\\States\\States_WorkingUnit_Ayana\\GameState\\playerexplorebutonlysetstates",
+        "GUID": "{B45CE2D1-1386-4E9C-8566-BDF759CF9097}"
+       }
+      ]
+     }
+    ],
+    "StateGroups": [
+     {
+      "Id": "4091656514",
+      "Name": "GameState",
+      "ObjectPath": "\\States\\States_WorkingUnit_Ayana\\GameState",
+      "GUID": "{1C387382-33FD-48A4-AFB3-1F989B62080B}",
+      "States": [
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\States_WorkingUnit_Ayana\\GameState\\None",
+        "GUID": "{1C2FC7C1-41DD-4735-8F34-E9B6B91589FE}"
+       },
+       {
+        "Id": "1125500713",
+        "Name": "Intro",
+        "ObjectPath": "\\States\\States_WorkingUnit_Ayana\\GameState\\Intro",
+        "GUID": "{3FE367C4-DDC5-4459-895E-9229D9CA5F10}"
+       },
+       {
+        "Id": "2325769881",
+        "Name": "TalkToBananafish",
+        "ObjectPath": "\\States\\States_WorkingUnit_Ayana\\GameState\\TalkToBananafish",
+        "GUID": "{41D7A911-BC3A-4DD1-9104-030F7594790D}"
+       },
+       {
+        "Id": "2596030337",
+        "Name": "TalkToSeahorseSam",
+        "ObjectPath": "\\States\\States_WorkingUnit_Ayana\\GameState\\TalkToSeahorseSam",
+        "GUID": "{C0FEC5BE-2287-468C-B15F-C2B5431AF423}"
+       },
+       {
+        "Id": "2607556080",
+        "Name": "menu",
+        "ObjectPath": "\\States\\States_WorkingUnit_Ayana\\GameState\\menu",
+        "GUID": "{3537DBC0-8FCF-4A5E-969F-8EDE82706D7C}"
+       },
+       {
+        "Id": "2821513524",
+        "Name": "TalkToTurtleLarry",
+        "ObjectPath": "\\States\\States_WorkingUnit_Ayana\\GameState\\TalkToTurtleLarry",
+        "GUID": "{48919AF6-78A5-448C-9C4E-A08E725BF75C}"
+       },
+       {
+        "Id": "3277996074",
+        "Name": "aftercheckingthesubmarine",
+        "ObjectPath": "\\States\\States_WorkingUnit_Ayana\\GameState\\aftercheckingthesubmarine",
+        "GUID": "{09219B7D-ABFA-4AD3-B4CB-1D600F1DA165}"
+       },
+       {
+        "Id": "3402445284",
+        "Name": "playerexplorebutonlysetstates",
+        "ObjectPath": "\\States\\States_WorkingUnit_Ayana\\GameState\\playerexplorebutonlysetstates",
+        "GUID": "{B45CE2D1-1386-4E9C-8566-BDF759CF9097}"
+       },
+       {
+        "Id": "3604647259",
+        "Name": "MainMenu",
+        "ObjectPath": "\\States\\States_WorkingUnit_Ayana\\GameState\\MainMenu",
+        "GUID": "{F34E3848-894B-468C-92C3-FB3A0659D3FB}"
+       },
+       {
+        "Id": "4015219260",
+        "Name": "Camera_Explore",
+        "ObjectPath": "\\States\\States_WorkingUnit_Ayana\\GameState\\Camera_Explore",
+        "GUID": "{E47E30F9-9856-4A6D-A065-9318318AEA2D}"
+       },
+       {
+        "Id": "4184794294",
+        "Name": "Outro",
+        "ObjectPath": "\\States\\States_WorkingUnit_Ayana\\GameState\\Outro",
+        "GUID": "{8B1A72B3-C055-4054-BFFF-BD35D62DB1F8}"
+       },
+       {
+        "Id": "4195327770",
+        "Name": "Player_Explore",
+        "ObjectPath": "\\States\\States_WorkingUnit_Ayana\\GameState\\Player_Explore",
+        "GUID": "{1024E66E-0AB5-439C-A9CE-A14396369C88}"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{8AB75F80-DD06-58E8-9FC2-821F69E73D34}"
+ }
+}

@@ -100,24 +100,10 @@
 				</Event>
 				<Event Name="playerExplore" ID="{BE72B743-91D8-425A-B2E3-5D8B28880E33}">
 					<ChildrenList>
-						<Action Name="" ID="{31EFEA6A-4DD5-4D2B-AD11-0E7939DE72D4}" ShortID="340331313">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="maintrack" ID="{C910F180-53AA-47D3-9158-307D2721889A}" WorkUnitID="{5A42FBE7-EEB5-45A5-BC4E-EC69B838458E}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
 						<Action Name="" ID="{B0881B9B-4706-46C4-BAD8-EC7FE82E7774}" ShortID="664185064">
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="turtle" ID="{0832DC90-E421-4F54-923E-D590340A06E8}" WorkUnitID="{5A42FBE7-EEB5-45A5-BC4E-EC69B838458E}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-						<Action Name="" ID="{DE0F5ADD-55D8-4932-B841-DD4FE048AEB7}" ShortID="699483192">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Bananafish" ID="{7BA7011C-B2BC-4966-87DC-BD55DD08B53B}" WorkUnitID="{5A42FBE7-EEB5-45A5-BC4E-EC69B838458E}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -132,6 +118,13 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="pianotrack" ID="{7815D886-831D-425B-A266-98AE281C0B4B}" WorkUnitID="{5A42FBE7-EEB5-45A5-BC4E-EC69B838458E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{0C46EFCA-0546-49FB-BE2A-4D3F318333C2}" ShortID="1053004870">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="transitiontest" ID="{071B3339-ADE5-4DEA-9F4A-0F3658641A38}" WorkUnitID="{C9C65301-A2C3-4042-A494-C425A369F672}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -191,6 +184,27 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="playerexplorebutonlysetstates" ID="{B45CE2D1-1386-4E9C-8566-BDF759CF9097}" WorkUnitID="{62D4A0D7-BF17-4774-9AF7-0F747302BDA8}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="menu" ID="{28FED710-780F-465E-8CB2-2F75EA2BD49F}">
+					<ChildrenList>
+						<Action Name="" ID="{449F2501-7F00-4B93-81BE-EF0846FBDCAB}" ShortID="920579761">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Menu_Atmosphere_Sound" ID="{B89CCA76-4D9E-473B-A63C-7D2AAACA4B17}" WorkUnitID="{F548A608-7B8E-4719-AAB2-5DDAFE6399C6}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{5A76450E-0CE9-4097-AE61-25FF073D275D}" ShortID="981808968">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="menu" ID="{3537DBC0-8FCF-4A5E-969F-8EDE82706D7C}" WorkUnitID="{62D4A0D7-BF17-4774-9AF7-0F747302BDA8}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

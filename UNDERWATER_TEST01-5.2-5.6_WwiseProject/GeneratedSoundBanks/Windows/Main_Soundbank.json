@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{A95A962B-14C1-4BDD-89E4-8F7F66A4CA91}",
     "Language": "SFX",
-    "Hash": "{B49B452D-521E-3B74-7D0A-2939FE32ADCA}",
+    "Hash": "{91F327D3-9F8A-6200-93C3-FE62172EF85B}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main_Soundbank",
     "ShortName": "Main_Soundbank",
     "Path": "Main_Soundbank.bnk",
@@ -24,6 +24,46 @@
       "CachePath": "7C/{7C798EC4-AFB6-B30F-0C7F-EEA5D70083DC}.wem"
      },
      {
+      "Id": "6094371",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Banana Fish Bens Theme Section 2.wav",
+      "CachePath": "F7/{F7355736-7FA2-A498-8352-40E797209F19}.wem"
+     },
+     {
+      "Id": "15822738",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Banana Fish Bens Theme Section 3 Stripped Back.wav",
+      "CachePath": "8D/{8D18967A-977A-EB4D-7514-5248BC129CD3}.wem"
+     },
+     {
+      "Id": "28605975",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Section 2 Stripped Back (83bpm).wav",
+      "CachePath": "29/{2994118D-8E28-6F8D-1AD2-808755D1217D}.wem"
+     },
+     {
+      "Id": "52855384",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Banana Fish Bens Theme Section 1 Stripped Back.wav",
+      "CachePath": "53/{53D50283-CAA3-22E7-2126-A53333891B03}.wem"
+     },
+     {
+      "Id": "108380767",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Section 1 Stripped Back (83bpm).wav",
+      "CachePath": "32/{3242349C-E286-C622-658E-0707E8244089}.wem"
+     },
+     {
       "Id": "189255046",
       "Language": "SFX",
       "Streaming": "false",
@@ -32,12 +72,28 @@
       "CachePath": "BF/{BF9513D4-F80E-360F-B13F-D95ADB42B378}.wem"
      },
      {
-      "Id": "341240292",
+      "Id": "383055841",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
-      "ShortName": "Banana Fish Bens Theme Idea 1 (1).wav",
-      "CachePath": "D7/{D7938B65-229C-0A7F-3DFA-2A8A0B877E9B}.wem"
+      "ShortName": "Banana Fish Bens Theme Section 3.wav",
+      "CachePath": "B4/{B40584A1-02D7-8475-2A3E-4EDB369D0CC0}.wem"
+     },
+     {
+      "Id": "578114160",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Banana Fish Bens Theme Section 2 Stripped Back.wav",
+      "CachePath": "E1/{E12DD4CC-95CE-CC9D-AF9A-67B8B1483B57}.wem"
+     },
+     {
+      "Id": "584662918",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Section 2 (83bpm).wav",
+      "CachePath": "D9/{D993F6CA-75D2-B900-A0B0-EE5A1BBB277D}.wem"
      },
      {
       "Id": "689027265",
@@ -48,12 +104,36 @@
       "CachePath": "49/{49C9D2F2-0542-9BB8-1675-B320F7E8E3E1}.wem"
      },
      {
+      "Id": "708178502",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Section 3 Stripped Back 83bpm).wav",
+      "CachePath": "B7/{B7072D5E-A3B0-B587-0D55-433907A06879}.wem"
+     },
+     {
       "Id": "766517160",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "submarine_launch.wav",
       "CachePath": "5F/{5F2D0291-5571-56C8-D0FF-B1EB37809AE5}.wem"
+     },
+     {
+      "Id": "827705350",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Section 1 (83bpm).wav",
+      "CachePath": "9C/{9C43150D-E498-F099-2124-07D9E34BA9D2}.wem"
+     },
+     {
+      "Id": "856472885",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Banana Fish Bens Theme Section 1.wav",
+      "CachePath": "97/{97C74D5E-EA8B-5FDA-2992-3741AADB8B8B}.wem"
      },
      {
       "Id": "877530852",
@@ -64,12 +144,12 @@
       "CachePath": "EB/{EB6E9FF6-5CF8-106E-F687-C2482C68E12D}.wem"
      },
      {
-      "Id": "1019625249",
+      "Id": "981041032",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
-      "ShortName": "Main Theme Longer.wav",
-      "CachePath": "22/{22DF8B17-1C7C-12D3-EE3C-5257F6E0D8FD}.wem"
+      "ShortName": "Section 3 (83bpm).wav",
+      "CachePath": "B1/{B1E93AE7-CF30-E869-4A98-CB19F3E92442}.wem"
      },
      {
       "Id": "1023233219",
@@ -150,16 +230,96 @@
         "Id": "189255046"
        },
        {
-        "Id": "341240292"
-       },
-       {
-        "Id": "1019625249"
-       },
-       {
         "Id": "1023233219"
        },
        {
         "Id": "1042875977"
+       }
+      ],
+      "SwitchContainers": [
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "4091656514",
+         "Id": "2325769881",
+         "GUID": "{41D7A911-BC3A-4DD1-9104-030F7594790D}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "6094371"
+         },
+         {
+          "Id": "15822738"
+         },
+         {
+          "Id": "52855384"
+         },
+         {
+          "Id": "383055841"
+         },
+         {
+          "Id": "578114160"
+         },
+         {
+          "Id": "856472885"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "4091656514",
+         "Id": "4195327770",
+         "GUID": "{1024E66E-0AB5-439C-A9CE-A14396369C88}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "28605975"
+         },
+         {
+          "Id": "108380767"
+         },
+         {
+          "Id": "584662918"
+         },
+         {
+          "Id": "708178502"
+         },
+         {
+          "Id": "827705350"
+         },
+         {
+          "Id": "981041032"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "4091656514",
+         "Id": "3402445284",
+         "GUID": "{B45CE2D1-1386-4E9C-8566-BDF759CF9097}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "28605975"
+         },
+         {
+          "Id": "108380767"
+         },
+         {
+          "Id": "584662918"
+         },
+         {
+          "Id": "708178502"
+         },
+         {
+          "Id": "827705350"
+         },
+         {
+          "Id": "981041032"
+         }
+        ]
        }
       ],
       "ActionSetState": [
@@ -169,25 +329,6 @@
         "Name": "Player_Explore",
         "ObjectPath": "\\States\\States_WorkingUnit_Ayana\\GameState\\Player_Explore",
         "GUID": "{1024E66E-0AB5-439C-A9CE-A14396369C88}"
-       }
-      ]
-     },
-     {
-      "Id": "3402445284",
-      "Name": "playerexplorebutonlysetstates",
-      "ObjectPath": "\\Events\\Default Work Unit\\playerexplorebutonlysetstates",
-      "GUID": "{8BF83AFE-2B30-4C39-ACA7-AE9D607F8125}",
-      "MaxAttenuation": "0",
-      "DurationType": "OneShot",
-      "DurationMin": "0",
-      "DurationMax": "0",
-      "ActionSetState": [
-       {
-        "GroupId": "4091656514",
-        "Id": "3402445284",
-        "Name": "playerexplorebutonlysetstates",
-        "ObjectPath": "\\States\\States_WorkingUnit_Ayana\\GameState\\playerexplorebutonlysetstates",
-        "GUID": "{B45CE2D1-1386-4E9C-8566-BDF759CF9097}"
        }
       ]
      },
@@ -328,6 +469,12 @@
         "GUID": "{C0FEC5BE-2287-468C-B15F-C2B5431AF423}"
        },
        {
+        "Id": "2607556080",
+        "Name": "menu",
+        "ObjectPath": "\\States\\States_WorkingUnit_Ayana\\GameState\\menu",
+        "GUID": "{3537DBC0-8FCF-4A5E-969F-8EDE82706D7C}"
+       },
+       {
         "Id": "2821513524",
         "Name": "TalkToTurtleLarry",
         "ObjectPath": "\\States\\States_WorkingUnit_Ayana\\GameState\\TalkToTurtleLarry",
@@ -374,6 +521,6 @@
     ]
    }
   ],
-  "FileHash": "{8E48BBE0-79EB-5836-CB28-496BC76BFE76}"
+  "FileHash": "{24AC8B02-FA3C-A646-E3EA-3F508CF22C95}"
  }
 }

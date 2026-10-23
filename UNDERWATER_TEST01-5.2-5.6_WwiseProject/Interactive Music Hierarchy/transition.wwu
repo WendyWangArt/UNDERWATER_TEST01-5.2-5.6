@@ -1,0 +1,2011 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{C9C65301-A2C3-4042-A494-C425A369F672}" SchemaVersion="123">
+	<InteractiveMusic>
+		<WorkUnit Name="transition" ID="{C9C65301-A2C3-4042-A494-C425A369F672}" PersistMode="Standalone">
+			<ChildrenList>
+				<MusicSwitchContainer Name="transitiontest" ID="{071B3339-ADE5-4DEA-9F4A-0F3658641A38}" ShortID="720541883">
+					<PropertyList>
+						<Property Name="ListenerRelativeRouting" Type="bool" Value="False"/>
+						<Property Name="Tempo" Type="Real64" Value="83"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{11E88737-2F31-44F3-AED4-A1DB60F72205}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{12B21E04-42A3-4A48-8129-2406DBED32A0}"/>
+						</Reference>
+						<Reference Name="TransitionRoot">
+							<Custom>
+								<MusicTransition Name="Root" ID="{6DADD20F-993C-4E18-9C01-4C123995707C}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicTransition Name="Transition" ID="{CDE70982-BDC7-4410-8289-4772837BA0F8}">
+											<TransitionInfo/>
+										</MusicTransition>
+										<MusicTransition Name="Transition" ID="{065DD547-07BE-40F9-974C-7A8C9069B92F}">
+											<PropertyList>
+												<Property Name="DestinationContextType" Type="int16" Value="2"/>
+												<Property Name="DestinationJumpPositionPreset" Type="int16" Value="1"/>
+												<Property Name="DestinationPlaylistJumpTo" Type="int16" Value="1"/>
+												<Property Name="EnableDestinationFadeIn" Type="bool" Value="True"/>
+												<Property Name="EnableSourceFadeOut" Type="bool" Value="True"/>
+												<Property Name="ExitSourceAt" Type="int16" Value="0"/>
+												<Property Name="SourceContextType" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="DestinationContextObject">
+													<ObjectRef Name="BananafishDialogueMusic" ID="{707A1981-4E19-4218-9780-70B5B4A9212F}" WorkUnitID="{C9C65301-A2C3-4042-A494-C425A369F672}"/>
+												</Reference>
+												<Reference Name="SourceContextObject">
+													<ObjectRef Name="Section 1 (83bpm)" ID="{59C8C66C-9F88-44AB-8482-458DC9B00978}" WorkUnitID="{C9C65301-A2C3-4042-A494-C425A369F672}"/>
+												</Reference>
+											</ReferenceList>
+											<TransitionInfo>
+												<JumpToPlaylistItemRef Name="" ID="{7EBC0018-D796-46DD-B1CF-63859C06F566}"/>
+												<SourceFadeOut>
+													<MusicFade Name="Source Fade-out" ID="{EE68FF6F-1C6E-44E3-822E-0F69365DECE7}">
+														<PropertyList>
+															<Property Name="FadeCurve" Type="int16" Value="1"/>
+															<Property Name="FadeOffset" Type="Real64" Value="1"/>
+															<Property Name="FadeTime" Type="Real64" Value="3"/>
+															<Property Name="FadeType" Type="int16" Value="1"/>
+														</PropertyList>
+													</MusicFade>
+												</SourceFadeOut>
+												<DestinationFadeIn>
+													<MusicFade Name="Destination Fade-in" ID="{AC1230A9-1B77-4080-AB66-5DCC778986DF}">
+														<PropertyList>
+															<Property Name="FadeCurve" Type="int16" Value="1"/>
+															<Property Name="FadeOffset" Type="Real64" Value="-1"/>
+															<Property Name="FadeTime" Type="Real64" Value="3"/>
+														</PropertyList>
+													</MusicFade>
+												</DestinationFadeIn>
+											</TransitionInfo>
+										</MusicTransition>
+										<MusicTransition Name="Transition" ID="{CBC3BB03-B17C-468C-B820-450DB285A369}">
+											<PropertyList>
+												<Property Name="DestinationContextType" Type="int16" Value="2"/>
+												<Property Name="DestinationJumpPositionPreset" Type="int16" Value="1"/>
+												<Property Name="DestinationPlaylistJumpTo" Type="int16" Value="1"/>
+												<Property Name="EnableDestinationFadeIn" Type="bool" Value="True"/>
+												<Property Name="EnableSourceFadeOut" Type="bool" Value="True"/>
+												<Property Name="ExitSourceAt" Type="int16" Value="0"/>
+												<Property Name="SourceContextType" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="DestinationContextObject">
+													<ObjectRef Name="BananafishDialogueMusic" ID="{707A1981-4E19-4218-9780-70B5B4A9212F}" WorkUnitID="{C9C65301-A2C3-4042-A494-C425A369F672}"/>
+												</Reference>
+												<Reference Name="SourceContextObject">
+													<ObjectRef Name="Section 1 Stripped Back (83bpm)" ID="{C0B2721D-3DCD-43A9-A77B-339020D6A046}" WorkUnitID="{C9C65301-A2C3-4042-A494-C425A369F672}"/>
+												</Reference>
+											</ReferenceList>
+											<TransitionInfo>
+												<JumpToPlaylistItemRef Name="" ID="{3750160E-30E9-4C2D-B813-D5A7FD85102C}"/>
+												<SourceFadeOut>
+													<MusicFade Name="Source Fade-out" ID="{612493D2-E9EE-4C5B-B482-7372573331F8}">
+														<PropertyList>
+															<Property Name="FadeCurve" Type="int16" Value="1"/>
+															<Property Name="FadeOffset" Type="Real64" Value="1"/>
+															<Property Name="FadeTime" Type="Real64" Value="3"/>
+															<Property Name="FadeType" Type="int16" Value="1"/>
+														</PropertyList>
+													</MusicFade>
+												</SourceFadeOut>
+												<DestinationFadeIn>
+													<MusicFade Name="Destination Fade-in" ID="{2B01FE33-C448-4F57-ABC8-6E2CCD53BD2B}">
+														<PropertyList>
+															<Property Name="FadeCurve" Type="int16" Value="1"/>
+															<Property Name="FadeOffset" Type="Real64" Value="-1"/>
+															<Property Name="FadeTime" Type="Real64" Value="3"/>
+														</PropertyList>
+													</MusicFade>
+												</DestinationFadeIn>
+											</TransitionInfo>
+										</MusicTransition>
+										<MusicTransition Name="Transition" ID="{7A3A7ECC-E217-49D4-91B9-4E6F9AA2E101}">
+											<PropertyList>
+												<Property Name="DestinationContextType" Type="int16" Value="2"/>
+												<Property Name="DestinationJumpPositionPreset" Type="int16" Value="1"/>
+												<Property Name="DestinationPlaylistJumpTo" Type="int16" Value="1"/>
+												<Property Name="EnableDestinationFadeIn" Type="bool" Value="True"/>
+												<Property Name="EnableSourceFadeOut" Type="bool" Value="True"/>
+												<Property Name="ExitSourceAt" Type="int16" Value="0"/>
+												<Property Name="SourceContextType" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="DestinationContextObject">
+													<ObjectRef Name="BananafishDialogueMusic" ID="{707A1981-4E19-4218-9780-70B5B4A9212F}" WorkUnitID="{C9C65301-A2C3-4042-A494-C425A369F672}"/>
+												</Reference>
+												<Reference Name="SourceContextObject">
+													<ObjectRef Name="Section 2 (83bpm)" ID="{A7C0B876-7EF5-4AAF-8090-BC74BC2D8A76}" WorkUnitID="{C9C65301-A2C3-4042-A494-C425A369F672}"/>
+												</Reference>
+											</ReferenceList>
+											<TransitionInfo>
+												<JumpToPlaylistItemRef Name="" ID="{D0D9AE8A-76B2-412E-B337-2A19C42D65C7}"/>
+												<SourceFadeOut>
+													<MusicFade Name="Source Fade-out" ID="{033E9422-9A6C-4352-85B0-CACE875D045C}">
+														<PropertyList>
+															<Property Name="FadeCurve" Type="int16" Value="1"/>
+															<Property Name="FadeOffset" Type="Real64" Value="1"/>
+															<Property Name="FadeTime" Type="Real64" Value="3"/>
+															<Property Name="FadeType" Type="int16" Value="1"/>
+														</PropertyList>
+													</MusicFade>
+												</SourceFadeOut>
+												<DestinationFadeIn>
+													<MusicFade Name="Destination Fade-in" ID="{68A475FC-81F5-41D6-AD0D-EBC5721F02D2}">
+														<PropertyList>
+															<Property Name="FadeCurve" Type="int16" Value="1"/>
+															<Property Name="FadeOffset" Type="Real64" Value="-1"/>
+															<Property Name="FadeTime" Type="Real64" Value="3"/>
+														</PropertyList>
+													</MusicFade>
+												</DestinationFadeIn>
+											</TransitionInfo>
+										</MusicTransition>
+										<MusicTransition Name="Transition" ID="{042426C4-743E-4C09-88F7-3928308B2FD9}">
+											<PropertyList>
+												<Property Name="DestinationContextType" Type="int16" Value="2"/>
+												<Property Name="DestinationJumpPositionPreset" Type="int16" Value="1"/>
+												<Property Name="DestinationPlaylistJumpTo" Type="int16" Value="1"/>
+												<Property Name="EnableDestinationFadeIn" Type="bool" Value="True"/>
+												<Property Name="EnableSourceFadeOut" Type="bool" Value="True"/>
+												<Property Name="ExitSourceAt" Type="int16" Value="0"/>
+												<Property Name="SourceContextType" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="DestinationContextObject">
+													<ObjectRef Name="BananafishDialogueMusic" ID="{707A1981-4E19-4218-9780-70B5B4A9212F}" WorkUnitID="{C9C65301-A2C3-4042-A494-C425A369F672}"/>
+												</Reference>
+												<Reference Name="SourceContextObject">
+													<ObjectRef Name="Section 2 Stripped Back (83bpm)" ID="{6A8B7FB0-A421-4356-BF15-323D5FCF0F1D}" WorkUnitID="{C9C65301-A2C3-4042-A494-C425A369F672}"/>
+												</Reference>
+											</ReferenceList>
+											<TransitionInfo>
+												<JumpToPlaylistItemRef Name="" ID="{7B3E6E30-12F6-4CC2-9E5E-C9F8A76D0622}"/>
+												<SourceFadeOut>
+													<MusicFade Name="Source Fade-out" ID="{CACE14B1-11DE-42E4-BE34-2B197C94BF2B}">
+														<PropertyList>
+															<Property Name="FadeCurve" Type="int16" Value="1"/>
+															<Property Name="FadeOffset" Type="Real64" Value="1"/>
+															<Property Name="FadeTime" Type="Real64" Value="3"/>
+															<Property Name="FadeType" Type="int16" Value="1"/>
+														</PropertyList>
+													</MusicFade>
+												</SourceFadeOut>
+												<DestinationFadeIn>
+													<MusicFade Name="Destination Fade-in" ID="{689416D9-F79E-47F9-B200-3F3D60A8E678}">
+														<PropertyList>
+															<Property Name="FadeCurve" Type="int16" Value="1"/>
+															<Property Name="FadeOffset" Type="Real64" Value="-1"/>
+															<Property Name="FadeTime" Type="Real64" Value="3"/>
+														</PropertyList>
+													</MusicFade>
+												</DestinationFadeIn>
+											</TransitionInfo>
+										</MusicTransition>
+										<MusicTransition Name="Transition" ID="{240AC403-3A31-4BD9-AFB5-3807998C1308}">
+											<PropertyList>
+												<Property Name="DestinationContextType" Type="int16" Value="2"/>
+												<Property Name="DestinationJumpPositionPreset" Type="int16" Value="1"/>
+												<Property Name="DestinationPlaylistJumpTo" Type="int16" Value="1"/>
+												<Property Name="EnableDestinationFadeIn" Type="bool" Value="True"/>
+												<Property Name="EnableSourceFadeOut" Type="bool" Value="True"/>
+												<Property Name="ExitSourceAt" Type="int16" Value="0"/>
+												<Property Name="SourceContextType" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="DestinationContextObject">
+													<ObjectRef Name="BananafishDialogueMusic" ID="{707A1981-4E19-4218-9780-70B5B4A9212F}" WorkUnitID="{C9C65301-A2C3-4042-A494-C425A369F672}"/>
+												</Reference>
+												<Reference Name="SourceContextObject">
+													<ObjectRef Name="Section 3 (83bpm)" ID="{7A8A4B8E-3EFE-4BAF-BDCD-97503FD6B48F}" WorkUnitID="{C9C65301-A2C3-4042-A494-C425A369F672}"/>
+												</Reference>
+											</ReferenceList>
+											<TransitionInfo>
+												<JumpToPlaylistItemRef Name="" ID="{D25C4C1F-4AC3-4388-BA36-96ACF62BFA1B}"/>
+												<SourceFadeOut>
+													<MusicFade Name="Source Fade-out" ID="{1F9F0F2C-4526-475B-B980-B8685A537979}">
+														<PropertyList>
+															<Property Name="FadeCurve" Type="int16" Value="1"/>
+															<Property Name="FadeOffset" Type="Real64" Value="1"/>
+															<Property Name="FadeTime" Type="Real64" Value="3"/>
+															<Property Name="FadeType" Type="int16" Value="1"/>
+														</PropertyList>
+													</MusicFade>
+												</SourceFadeOut>
+												<DestinationFadeIn>
+													<MusicFade Name="Destination Fade-in" ID="{5C137A4D-810A-4BA6-B70C-403D6FF2C1BE}">
+														<PropertyList>
+															<Property Name="FadeCurve" Type="int16" Value="1"/>
+															<Property Name="FadeOffset" Type="Real64" Value="-1"/>
+															<Property Name="FadeTime" Type="Real64" Value="3"/>
+														</PropertyList>
+													</MusicFade>
+												</DestinationFadeIn>
+											</TransitionInfo>
+										</MusicTransition>
+										<MusicTransition Name="Transition" ID="{94EE9E77-8F97-459E-9941-0E6EE03F0D17}">
+											<PropertyList>
+												<Property Name="DestinationContextType" Type="int16" Value="2"/>
+												<Property Name="DestinationJumpPositionPreset" Type="int16" Value="1"/>
+												<Property Name="DestinationPlaylistJumpTo" Type="int16" Value="1"/>
+												<Property Name="EnableDestinationFadeIn" Type="bool" Value="True"/>
+												<Property Name="EnableSourceFadeOut" Type="bool" Value="True"/>
+												<Property Name="ExitSourceAt" Type="int16" Value="0"/>
+												<Property Name="SourceContextType" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="DestinationContextObject">
+													<ObjectRef Name="BananafishDialogueMusic" ID="{707A1981-4E19-4218-9780-70B5B4A9212F}" WorkUnitID="{C9C65301-A2C3-4042-A494-C425A369F672}"/>
+												</Reference>
+												<Reference Name="SourceContextObject">
+													<ObjectRef Name="Section 3 Stripped Back 83bpm)" ID="{0B6AEAB4-6AAD-4D10-9269-1CCA203993CB}" WorkUnitID="{C9C65301-A2C3-4042-A494-C425A369F672}"/>
+												</Reference>
+											</ReferenceList>
+											<TransitionInfo>
+												<JumpToPlaylistItemRef Name="" ID="{0DDB3056-2648-4DA5-BFD9-F3BD16E2D6A6}"/>
+												<SourceFadeOut>
+													<MusicFade Name="Source Fade-out" ID="{ECC3A922-E85C-4F84-B389-869FCCC93908}">
+														<PropertyList>
+															<Property Name="FadeCurve" Type="int16" Value="1"/>
+															<Property Name="FadeOffset" Type="Real64" Value="1"/>
+															<Property Name="FadeTime" Type="Real64" Value="3"/>
+															<Property Name="FadeType" Type="int16" Value="1"/>
+														</PropertyList>
+													</MusicFade>
+												</SourceFadeOut>
+												<DestinationFadeIn>
+													<MusicFade Name="Destination Fade-in" ID="{FA41664F-4ABB-4FDA-BBA0-0DDA88AFED6C}">
+														<PropertyList>
+															<Property Name="FadeCurve" Type="int16" Value="1"/>
+															<Property Name="FadeOffset" Type="Real64" Value="-1"/>
+															<Property Name="FadeTime" Type="Real64" Value="3"/>
+														</PropertyList>
+													</MusicFade>
+												</DestinationFadeIn>
+											</TransitionInfo>
+										</MusicTransition>
+										<MusicTransition Name="Transition" ID="{AD42FCE2-34FB-46F2-ABC0-E7B77F17C453}">
+											<PropertyList>
+												<Property Name="DestinationContextType" Type="int16" Value="2"/>
+												<Property Name="DestinationJumpPositionPreset" Type="int16" Value="1"/>
+												<Property Name="DestinationPlaylistJumpTo" Type="int16" Value="1"/>
+												<Property Name="EnableDestinationFadeIn" Type="bool" Value="True"/>
+												<Property Name="EnableSourceFadeOut" Type="bool" Value="True"/>
+												<Property Name="ExitSourceAt" Type="int16" Value="0"/>
+												<Property Name="SourceContextType" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="DestinationContextObject">
+													<ObjectRef Name="maintrack" ID="{EC512893-4992-4B83-BAAA-0DB9207DC3A8}" WorkUnitID="{C9C65301-A2C3-4042-A494-C425A369F672}"/>
+												</Reference>
+												<Reference Name="SourceContextObject">
+													<ObjectRef Name="Banana Fish Bens Theme Section 1" ID="{055C13F1-C862-4735-B893-667A6BC437FE}" WorkUnitID="{C9C65301-A2C3-4042-A494-C425A369F672}"/>
+												</Reference>
+											</ReferenceList>
+											<TransitionInfo>
+												<JumpToPlaylistItemRef Name="" ID="{6C2231D8-A7A7-48CE-A07F-DB1A5DD4BAE1}"/>
+												<SourceFadeOut>
+													<MusicFade Name="Source Fade-out" ID="{E5520B57-32AC-47FB-8193-D07C79AE7D49}">
+														<PropertyList>
+															<Property Name="FadeCurve" Type="int16" Value="1"/>
+															<Property Name="FadeOffset" Type="Real64" Value="1"/>
+															<Property Name="FadeTime" Type="Real64" Value="3"/>
+															<Property Name="FadeType" Type="int16" Value="1"/>
+														</PropertyList>
+													</MusicFade>
+												</SourceFadeOut>
+												<DestinationFadeIn>
+													<MusicFade Name="Destination Fade-in" ID="{AEF43AB7-08E3-40FC-8939-4D755B14A0E1}">
+														<PropertyList>
+															<Property Name="FadeCurve" Type="int16" Value="1"/>
+															<Property Name="FadeOffset" Type="Real64" Value="-1"/>
+															<Property Name="FadeTime" Type="Real64" Value="3"/>
+														</PropertyList>
+													</MusicFade>
+												</DestinationFadeIn>
+											</TransitionInfo>
+										</MusicTransition>
+										<MusicTransition Name="Transition" ID="{CB93112C-D364-475D-8C9D-7FD252A7CD90}">
+											<PropertyList>
+												<Property Name="DestinationContextType" Type="int16" Value="2"/>
+												<Property Name="DestinationJumpPositionPreset" Type="int16" Value="1"/>
+												<Property Name="DestinationPlaylistJumpTo" Type="int16" Value="1"/>
+												<Property Name="EnableDestinationFadeIn" Type="bool" Value="True"/>
+												<Property Name="EnableSourceFadeOut" Type="bool" Value="True"/>
+												<Property Name="ExitSourceAt" Type="int16" Value="0"/>
+												<Property Name="SourceContextType" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="DestinationContextObject">
+													<ObjectRef Name="maintrack" ID="{EC512893-4992-4B83-BAAA-0DB9207DC3A8}" WorkUnitID="{C9C65301-A2C3-4042-A494-C425A369F672}"/>
+												</Reference>
+												<Reference Name="SourceContextObject">
+													<ObjectRef Name="Banana Fish Bens Theme Section 1 Stripped Back" ID="{0BE2DC7D-1FE2-4FB2-8C1E-715D21149554}" WorkUnitID="{C9C65301-A2C3-4042-A494-C425A369F672}"/>
+												</Reference>
+											</ReferenceList>
+											<TransitionInfo>
+												<JumpToPlaylistItemRef Name="" ID="{39FD1B62-43FF-4E9E-9409-C5526787A7E0}"/>
+												<SourceFadeOut>
+													<MusicFade Name="Source Fade-out" ID="{BF184D72-B027-4A2B-9419-C7B206734D79}">
+														<PropertyList>
+															<Property Name="FadeCurve" Type="int16" Value="1"/>
+															<Property Name="FadeOffset" Type="Real64" Value="1"/>
+															<Property Name="FadeTime" Type="Real64" Value="3"/>
+															<Property Name="FadeType" Type="int16" Value="1"/>
+														</PropertyList>
+													</MusicFade>
+												</SourceFadeOut>
+												<DestinationFadeIn>
+													<MusicFade Name="Destination Fade-in" ID="{6DC81F8B-1920-41A3-96C1-D2105568DF5C}">
+														<PropertyList>
+															<Property Name="FadeCurve" Type="int16" Value="1"/>
+															<Property Name="FadeOffset" Type="Real64" Value="-1"/>
+															<Property Name="FadeTime" Type="Real64" Value="3"/>
+														</PropertyList>
+													</MusicFade>
+												</DestinationFadeIn>
+											</TransitionInfo>
+										</MusicTransition>
+										<MusicTransition Name="Transition" ID="{2D803821-285C-450D-87AF-1851556F026B}">
+											<PropertyList>
+												<Property Name="DestinationContextType" Type="int16" Value="2"/>
+												<Property Name="DestinationJumpPositionPreset" Type="int16" Value="1"/>
+												<Property Name="DestinationPlaylistJumpTo" Type="int16" Value="1"/>
+												<Property Name="EnableDestinationFadeIn" Type="bool" Value="True"/>
+												<Property Name="EnableSourceFadeOut" Type="bool" Value="True"/>
+												<Property Name="ExitSourceAt" Type="int16" Value="0"/>
+												<Property Name="SourceContextType" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="DestinationContextObject">
+													<ObjectRef Name="maintrack" ID="{EC512893-4992-4B83-BAAA-0DB9207DC3A8}" WorkUnitID="{C9C65301-A2C3-4042-A494-C425A369F672}"/>
+												</Reference>
+												<Reference Name="SourceContextObject">
+													<ObjectRef Name="Banana Fish Bens Theme Section 2" ID="{3DC80FFE-7C6D-4B4D-810F-8AB54FC078A9}" WorkUnitID="{C9C65301-A2C3-4042-A494-C425A369F672}"/>
+												</Reference>
+											</ReferenceList>
+											<TransitionInfo>
+												<JumpToPlaylistItemRef Name="" ID="{43C31196-AAEB-4512-8375-82CB0324F997}"/>
+												<SourceFadeOut>
+													<MusicFade Name="Source Fade-out" ID="{5C72FABA-77D2-49F5-946B-604E4C63A38E}">
+														<PropertyList>
+															<Property Name="FadeCurve" Type="int16" Value="1"/>
+															<Property Name="FadeOffset" Type="Real64" Value="1"/>
+															<Property Name="FadeTime" Type="Real64" Value="3"/>
+															<Property Name="FadeType" Type="int16" Value="1"/>
+														</PropertyList>
+													</MusicFade>
+												</SourceFadeOut>
+												<DestinationFadeIn>
+													<MusicFade Name="Destination Fade-in" ID="{4F3D5F13-B5D5-45B8-A58E-93BCD47F4389}">
+														<PropertyList>
+															<Property Name="FadeCurve" Type="int16" Value="1"/>
+															<Property Name="FadeOffset" Type="Real64" Value="-1"/>
+															<Property Name="FadeTime" Type="Real64" Value="3"/>
+														</PropertyList>
+													</MusicFade>
+												</DestinationFadeIn>
+											</TransitionInfo>
+										</MusicTransition>
+										<MusicTransition Name="Transition" ID="{099246B0-09C7-486C-81E8-54BDCA548D08}">
+											<PropertyList>
+												<Property Name="DestinationContextType" Type="int16" Value="2"/>
+												<Property Name="DestinationJumpPositionPreset" Type="int16" Value="1"/>
+												<Property Name="DestinationPlaylistJumpTo" Type="int16" Value="1"/>
+												<Property Name="EnableDestinationFadeIn" Type="bool" Value="True"/>
+												<Property Name="EnableSourceFadeOut" Type="bool" Value="True"/>
+												<Property Name="ExitSourceAt" Type="int16" Value="0"/>
+												<Property Name="SourceContextType" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="DestinationContextObject">
+													<ObjectRef Name="maintrack" ID="{EC512893-4992-4B83-BAAA-0DB9207DC3A8}" WorkUnitID="{C9C65301-A2C3-4042-A494-C425A369F672}"/>
+												</Reference>
+												<Reference Name="SourceContextObject">
+													<ObjectRef Name="Banana Fish Bens Theme Section 2 Stripped Back" ID="{C7343E42-636F-4E5C-8CD5-9D8B372665F4}" WorkUnitID="{C9C65301-A2C3-4042-A494-C425A369F672}"/>
+												</Reference>
+											</ReferenceList>
+											<TransitionInfo>
+												<JumpToPlaylistItemRef Name="" ID="{085279D2-884E-4C7D-80E4-816E2BB94087}"/>
+												<SourceFadeOut>
+													<MusicFade Name="Source Fade-out" ID="{E5D277A6-CA64-4252-A1A5-8FEE6BFD11F9}">
+														<PropertyList>
+															<Property Name="FadeCurve" Type="int16" Value="1"/>
+															<Property Name="FadeOffset" Type="Real64" Value="1"/>
+															<Property Name="FadeTime" Type="Real64" Value="3"/>
+															<Property Name="FadeType" Type="int16" Value="1"/>
+														</PropertyList>
+													</MusicFade>
+												</SourceFadeOut>
+												<DestinationFadeIn>
+													<MusicFade Name="Destination Fade-in" ID="{061E60EF-6D08-4519-BE19-7003A62860B3}">
+														<PropertyList>
+															<Property Name="FadeCurve" Type="int16" Value="1"/>
+															<Property Name="FadeOffset" Type="Real64" Value="-1"/>
+															<Property Name="FadeTime" Type="Real64" Value="3"/>
+														</PropertyList>
+													</MusicFade>
+												</DestinationFadeIn>
+											</TransitionInfo>
+										</MusicTransition>
+										<MusicTransition Name="Transition" ID="{78425980-C92A-4AEA-9B43-15DAE6033BD0}">
+											<PropertyList>
+												<Property Name="DestinationContextType" Type="int16" Value="2"/>
+												<Property Name="DestinationJumpPositionPreset" Type="int16" Value="1"/>
+												<Property Name="DestinationPlaylistJumpTo" Type="int16" Value="1"/>
+												<Property Name="EnableDestinationFadeIn" Type="bool" Value="True"/>
+												<Property Name="EnableSourceFadeOut" Type="bool" Value="True"/>
+												<Property Name="ExitSourceAt" Type="int16" Value="0"/>
+												<Property Name="SourceContextType" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="DestinationContextObject">
+													<ObjectRef Name="maintrack" ID="{EC512893-4992-4B83-BAAA-0DB9207DC3A8}" WorkUnitID="{C9C65301-A2C3-4042-A494-C425A369F672}"/>
+												</Reference>
+												<Reference Name="SourceContextObject">
+													<ObjectRef Name="Banana Fish Bens Theme Section 3" ID="{716E3455-10A5-4DB2-A9B8-4E1980F745F8}" WorkUnitID="{C9C65301-A2C3-4042-A494-C425A369F672}"/>
+												</Reference>
+											</ReferenceList>
+											<TransitionInfo>
+												<JumpToPlaylistItemRef Name="" ID="{820FAFD5-DD12-48D6-BDA1-F3771B6F186C}"/>
+												<SourceFadeOut>
+													<MusicFade Name="Source Fade-out" ID="{7233BEBD-0587-45E7-B963-18CE21004C6F}">
+														<PropertyList>
+															<Property Name="FadeCurve" Type="int16" Value="1"/>
+															<Property Name="FadeOffset" Type="Real64" Value="1"/>
+															<Property Name="FadeTime" Type="Real64" Value="3"/>
+															<Property Name="FadeType" Type="int16" Value="1"/>
+														</PropertyList>
+													</MusicFade>
+												</SourceFadeOut>
+												<DestinationFadeIn>
+													<MusicFade Name="Destination Fade-in" ID="{F48EE6DF-C3D2-4DEB-A14A-B27CCD7316E9}">
+														<PropertyList>
+															<Property Name="FadeCurve" Type="int16" Value="1"/>
+															<Property Name="FadeOffset" Type="Real64" Value="-1"/>
+															<Property Name="FadeTime" Type="Real64" Value="3"/>
+														</PropertyList>
+													</MusicFade>
+												</DestinationFadeIn>
+											</TransitionInfo>
+										</MusicTransition>
+										<MusicTransition Name="Transition" ID="{3128A9F9-0398-4C83-9D46-A2C492EAABDB}">
+											<PropertyList>
+												<Property Name="DestinationContextType" Type="int16" Value="2"/>
+												<Property Name="DestinationJumpPositionPreset" Type="int16" Value="1"/>
+												<Property Name="DestinationPlaylistJumpTo" Type="int16" Value="1"/>
+												<Property Name="EnableDestinationFadeIn" Type="bool" Value="True"/>
+												<Property Name="EnableSourceFadeOut" Type="bool" Value="True"/>
+												<Property Name="ExitSourceAt" Type="int16" Value="0"/>
+												<Property Name="SourceContextType" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="DestinationContextObject">
+													<ObjectRef Name="maintrack" ID="{EC512893-4992-4B83-BAAA-0DB9207DC3A8}" WorkUnitID="{C9C65301-A2C3-4042-A494-C425A369F672}"/>
+												</Reference>
+												<Reference Name="SourceContextObject">
+													<ObjectRef Name="Banana Fish Bens Theme Section 3 Stripped Back" ID="{370D5775-E724-4E53-8125-6F1DBF189037}" WorkUnitID="{C9C65301-A2C3-4042-A494-C425A369F672}"/>
+												</Reference>
+											</ReferenceList>
+											<TransitionInfo>
+												<JumpToPlaylistItemRef Name="" ID="{566E2187-4678-4276-9143-021C8129DB05}"/>
+												<SourceFadeOut>
+													<MusicFade Name="Source Fade-out" ID="{9FF51C6C-F34C-4758-954D-DF591CC83FCF}">
+														<PropertyList>
+															<Property Name="FadeCurve" Type="int16" Value="1"/>
+															<Property Name="FadeOffset" Type="Real64" Value="1"/>
+															<Property Name="FadeTime" Type="Real64" Value="3"/>
+															<Property Name="FadeType" Type="int16" Value="1"/>
+														</PropertyList>
+													</MusicFade>
+												</SourceFadeOut>
+												<DestinationFadeIn>
+													<MusicFade Name="Destination Fade-in" ID="{F3FF584D-D4BA-4870-A15B-3A63F946CB44}">
+														<PropertyList>
+															<Property Name="FadeCurve" Type="int16" Value="1"/>
+															<Property Name="FadeOffset" Type="Real64" Value="-1"/>
+															<Property Name="FadeTime" Type="Real64" Value="3"/>
+														</PropertyList>
+													</MusicFade>
+												</DestinationFadeIn>
+											</TransitionInfo>
+										</MusicTransition>
+									</ChildrenList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</Custom>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicPlaylistContainer Name="maintrack" ID="{EC512893-4992-4B83-BAAA-0DB9207DC3A8}" ShortID="311678498">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{11E88737-2F31-44F3-AED4-A1DB60F72205}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{12B21E04-42A3-4A48-8129-2406DBED32A0}"/>
+								</Reference>
+								<Reference Name="PlaylistRoot">
+									<Custom>
+										<MusicPlaylistItem Name="" ID="{D0EEF4AA-D405-4797-A983-51F6DAFD234B}" ShortID="322826227">
+											<PropertyList>
+												<Property Name="LoopCount" Type="int16" Value="0"/>
+												<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+												<Property Name="PlayMode" Type="int16" Value="2"/>
+											</PropertyList>
+											<ChildrenList>
+												<MusicPlaylistItem Name="" ID="{6C2231D8-A7A7-48CE-A07F-DB1A5DD4BAE1}" ShortID="779363552">
+													<PropertyList>
+														<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Segment">
+															<ObjectRef Name="Section 1 (83bpm)" ID="{59C8C66C-9F88-44AB-8482-458DC9B00978}" WorkUnitID="{C9C65301-A2C3-4042-A494-C425A369F672}"/>
+														</Reference>
+													</ReferenceList>
+												</MusicPlaylistItem>
+												<MusicPlaylistItem Name="" ID="{39FD1B62-43FF-4E9E-9409-C5526787A7E0}" ShortID="319360970">
+													<PropertyList>
+														<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Segment">
+															<ObjectRef Name="Section 1 Stripped Back (83bpm)" ID="{C0B2721D-3DCD-43A9-A77B-339020D6A046}" WorkUnitID="{C9C65301-A2C3-4042-A494-C425A369F672}"/>
+														</Reference>
+													</ReferenceList>
+												</MusicPlaylistItem>
+												<MusicPlaylistItem Name="" ID="{820FAFD5-DD12-48D6-BDA1-F3771B6F186C}" ShortID="523715127">
+													<PropertyList>
+														<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Segment">
+															<ObjectRef Name="Section 3 (83bpm)" ID="{7A8A4B8E-3EFE-4BAF-BDCD-97503FD6B48F}" WorkUnitID="{C9C65301-A2C3-4042-A494-C425A369F672}"/>
+														</Reference>
+													</ReferenceList>
+												</MusicPlaylistItem>
+												<MusicPlaylistItem Name="" ID="{43C31196-AAEB-4512-8375-82CB0324F997}" ShortID="69097881">
+													<PropertyList>
+														<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Segment">
+															<ObjectRef Name="Section 2 (83bpm)" ID="{A7C0B876-7EF5-4AAF-8090-BC74BC2D8A76}" WorkUnitID="{C9C65301-A2C3-4042-A494-C425A369F672}"/>
+														</Reference>
+													</ReferenceList>
+												</MusicPlaylistItem>
+												<MusicPlaylistItem Name="" ID="{085279D2-884E-4C7D-80E4-816E2BB94087}" ShortID="93054870">
+													<PropertyList>
+														<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Segment">
+															<ObjectRef Name="Section 2 Stripped Back (83bpm)" ID="{6A8B7FB0-A421-4356-BF15-323D5FCF0F1D}" WorkUnitID="{C9C65301-A2C3-4042-A494-C425A369F672}"/>
+														</Reference>
+													</ReferenceList>
+												</MusicPlaylistItem>
+												<MusicPlaylistItem Name="" ID="{566E2187-4678-4276-9143-021C8129DB05}" ShortID="856316288">
+													<PropertyList>
+														<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Segment">
+															<ObjectRef Name="Section 3 Stripped Back 83bpm)" ID="{0B6AEAB4-6AAD-4D10-9269-1CCA203993CB}" WorkUnitID="{C9C65301-A2C3-4042-A494-C425A369F672}"/>
+														</Reference>
+													</ReferenceList>
+												</MusicPlaylistItem>
+											</ChildrenList>
+										</MusicPlaylistItem>
+									</Custom>
+								</Reference>
+								<Reference Name="TransitionRoot">
+									<Custom>
+										<MusicTransition Name="Root" ID="{B5717F37-B8E0-4CEE-9009-BF0CCAB97A96}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<ChildrenList>
+												<MusicTransition Name="Transition" ID="{B8D3A804-67A5-466C-8F28-5BF015F9F673}">
+													<TransitionInfo/>
+												</MusicTransition>
+											</ChildrenList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</Custom>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicSegment Name="Section 2 Stripped Back (83bpm)" ID="{6A8B7FB0-A421-4356-BF15-323D5FCF0F1D}" ShortID="57769731">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="54939.7590361446"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{11E88737-2F31-44F3-AED4-A1DB60F72205}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{12B21E04-42A3-4A48-8129-2406DBED32A0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="Section 2 Stripped Back (83bpm)" ID="{3EBE06B5-D94F-44C6-B856-134D2FBA054D}" ShortID="53532792">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{12B21E04-42A3-4A48-8129-2406DBED32A0}"/>
+												</Reference>
+												<Reference Name="TransitionRoot">
+													<Custom>
+														<MusicTransition Name="Root" ID="{78BA74F9-B313-415E-A6B0-9F68082E04EB}">
+															<PropertyList>
+																<Property Name="IsFolder" Type="bool" Value="True"/>
+															</PropertyList>
+															<TransitionInfo/>
+														</MusicTransition>
+													</Custom>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Section 2 Stripped Back (83bpm)" ID="{8C080905-7CC8-4B17-9D72-1112A4805751}">
+													<Language>SFX</Language>
+													<AudioFile>Section 2 Stripped Back (83bpm).wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="28605975"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{229CA9EF-3384-4604-BABD-07A3764093A9}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="Section 2 Stripped Back (83bpm)" ID="{4E919C40-766F-40E1-9DCF-3E8277B050C5}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="54939.75"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="Section 2 Stripped Back (83bpm)" ID="{8C080905-7CC8-4B17-9D72-1112A4805751}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{A44DAA95-1EA6-4526-81BA-36D5CF129FE4}">
+														<PropertyList>
+															<Property Name="TimeMs" Type="Real64" Value="2891.56626506024"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{D7303A3A-59A1-4C3C-825F-B0D1D5EDC219}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="49156.6265060241"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="Section 3 (83bpm)" ID="{7A8A4B8E-3EFE-4BAF-BDCD-97503FD6B48F}" ShortID="514532092">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="52048.2083333333"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{11E88737-2F31-44F3-AED4-A1DB60F72205}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{12B21E04-42A3-4A48-8129-2406DBED32A0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="Section 3 (83bpm)" ID="{675782E9-9EF5-496D-8433-85862FF53FEF}" ShortID="555312818">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{12B21E04-42A3-4A48-8129-2406DBED32A0}"/>
+												</Reference>
+												<Reference Name="TransitionRoot">
+													<Custom>
+														<MusicTransition Name="Root" ID="{D78B6F16-407B-429D-BC06-D6412D97259C}">
+															<PropertyList>
+																<Property Name="IsFolder" Type="bool" Value="True"/>
+															</PropertyList>
+															<TransitionInfo/>
+														</MusicTransition>
+													</Custom>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Section 3 (83bpm)" ID="{4238F203-7D94-4E05-BDFE-47AF4DC59AEA}">
+													<Language>SFX</Language>
+													<AudioFile>Section 3 (83bpm).wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="981041032"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{13E2ACDF-9979-4D38-9B8B-ECF3A5D5FF9A}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="Section 3 (83bpm)" ID="{8FF9B1F9-637C-4E91-B180-DCB654601079}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="52048.2083333333"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="Section 3 (83bpm)" ID="{4238F203-7D94-4E05-BDFE-47AF4DC59AEA}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{3C6A9F47-FF93-48AE-9611-74E0AC1DD3FE}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{669F734E-BE94-42F4-90EC-A66BBCFAF54E}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="46265.0602409639"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="Section 3 Stripped Back 83bpm)" ID="{0B6AEAB4-6AAD-4D10-9269-1CCA203993CB}" ShortID="844951680">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="52048.2083333333"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{11E88737-2F31-44F3-AED4-A1DB60F72205}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{12B21E04-42A3-4A48-8129-2406DBED32A0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="Section 3 Stripped Back 83bpm)" ID="{2E1324C2-66E2-468E-90CC-4653072B0E8B}" ShortID="652353993">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{12B21E04-42A3-4A48-8129-2406DBED32A0}"/>
+												</Reference>
+												<Reference Name="TransitionRoot">
+													<Custom>
+														<MusicTransition Name="Root" ID="{0DAB58CE-FA40-4796-BA12-E14B47BF4728}">
+															<PropertyList>
+																<Property Name="IsFolder" Type="bool" Value="True"/>
+															</PropertyList>
+															<TransitionInfo/>
+														</MusicTransition>
+													</Custom>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Section 3 Stripped Back 83bpm)" ID="{F3E4F07F-12AA-44C2-82A1-23BB332DAE2C}">
+													<Language>SFX</Language>
+													<AudioFile>Section 3 Stripped Back 83bpm).wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="708178502"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{C1DCDDE4-9337-4A36-AF74-E25F44AFD24D}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="Section 3 Stripped Back 83bpm)" ID="{29E0E76C-C81C-440D-A715-58A3CBAD6333}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="52048.2083333333"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="Section 3 Stripped Back 83bpm)" ID="{F3E4F07F-12AA-44C2-82A1-23BB332DAE2C}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{6619ECC1-DA49-446C-B27F-AFFED08EBAD7}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{3442ED6D-1184-4715-915A-25EE5B8DE766}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="46265.0602409639"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="Section 1 (83bpm)" ID="{59C8C66C-9F88-44AB-8482-458DC9B00978}" ShortID="951833780">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="52048.1912650603"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{11E88737-2F31-44F3-AED4-A1DB60F72205}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{12B21E04-42A3-4A48-8129-2406DBED32A0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="Section 1 (83bpm)" ID="{D351566F-1CC9-43B3-8388-EF86964D7AD3}" ShortID="504587486">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{12B21E04-42A3-4A48-8129-2406DBED32A0}"/>
+												</Reference>
+												<Reference Name="TransitionRoot">
+													<Custom>
+														<MusicTransition Name="Root" ID="{3C02C2FE-09D9-4E37-96B7-86A630135D5B}">
+															<PropertyList>
+																<Property Name="IsFolder" Type="bool" Value="True"/>
+															</PropertyList>
+															<TransitionInfo/>
+														</MusicTransition>
+													</Custom>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Section 1 (83bpm)" ID="{0A72DB7F-72BE-47A3-99A6-038288FD1097}">
+													<Language>SFX</Language>
+													<AudioFile>Section 1 (83bpm).wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="827705350"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{DC16F4C6-02B0-46CC-BC40-38CD68713770}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="Section 1 (83bpm)" ID="{7DEBADDD-CCF7-4DF1-BE3F-F782541D7C0E}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="49156.625"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="Section 1 (83bpm)" ID="{0A72DB7F-72BE-47A3-99A6-038288FD1097}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{6313C7F0-4782-4F0F-B773-3504D71CD329}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{E6C50E24-E094-4843-8165-2D8452C9F428}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="46265.0602409639"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="Section 1 Stripped Back (83bpm)" ID="{C0B2721D-3DCD-43A9-A77B-339020D6A046}" ShortID="484217901">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="52048.1927710843"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{11E88737-2F31-44F3-AED4-A1DB60F72205}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{12B21E04-42A3-4A48-8129-2406DBED32A0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="Section 1 Stripped Back (83bpm)" ID="{D1D7D936-8131-47DD-BBD4-0927BA822A10}" ShortID="249815225">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{12B21E04-42A3-4A48-8129-2406DBED32A0}"/>
+												</Reference>
+												<Reference Name="TransitionRoot">
+													<Custom>
+														<MusicTransition Name="Root" ID="{9768D60C-70AF-404C-B304-21566EF922EB}">
+															<PropertyList>
+																<Property Name="IsFolder" Type="bool" Value="True"/>
+															</PropertyList>
+															<TransitionInfo/>
+														</MusicTransition>
+													</Custom>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Section 1 Stripped Back (83bpm)" ID="{429EDB9A-91F0-4FB4-AE13-9403D3F8D595}">
+													<Language>SFX</Language>
+													<AudioFile>Section 1 Stripped Back (83bpm).wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="108380767"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{AC8E4A37-086A-46A1-B4B0-75358060D596}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="Section 1 Stripped Back (83bpm)" ID="{D8EB6853-1CEB-4C8D-B5DF-CDC76A5C86FF}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="52048.1875"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="Section 1 Stripped Back (83bpm)" ID="{429EDB9A-91F0-4FB4-AE13-9403D3F8D595}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{DB0EE9C6-B491-4F8C-8568-FCA4EC4F853A}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{36754FDB-2065-4CD7-BE79-8A034B49C261}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="46265.0602409639"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="Section 2 (83bpm)" ID="{A7C0B876-7EF5-4AAF-8090-BC74BC2D8A76}" ShortID="998571606">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="54939.7590361446"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{11E88737-2F31-44F3-AED4-A1DB60F72205}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{12B21E04-42A3-4A48-8129-2406DBED32A0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="Section 2 (83bpm)" ID="{5E50272D-097C-428D-9E48-AAB85340D370}" ShortID="468280582">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{12B21E04-42A3-4A48-8129-2406DBED32A0}"/>
+												</Reference>
+												<Reference Name="TransitionRoot">
+													<Custom>
+														<MusicTransition Name="Root" ID="{25727461-D76E-4E04-9712-8BCB54A98D63}">
+															<PropertyList>
+																<Property Name="IsFolder" Type="bool" Value="True"/>
+															</PropertyList>
+															<TransitionInfo/>
+														</MusicTransition>
+													</Custom>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Section 2 (83bpm)" ID="{A1AFD747-0EE1-45B9-8F07-21D7DB0CC5D9}">
+													<Language>SFX</Language>
+													<AudioFile>Section 2 (83bpm).wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="584662918"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{C4827492-D293-4BA4-A915-48D41B26564D}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="Section 2 (83bpm)" ID="{CCA0B18D-1D03-4CE6-B1E3-AD9998291F3B}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="54939.75"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="Section 2 (83bpm)" ID="{A1AFD747-0EE1-45B9-8F07-21D7DB0CC5D9}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{4DE402B4-2721-46DE-AE12-294B62E62501}">
+														<PropertyList>
+															<Property Name="TimeMs" Type="Real64" Value="2891.56626506024"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{B1738E32-9286-41B8-B2FE-6DA920DF721A}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="49156.6265060241"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+							</ChildrenList>
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="GameState" ID="{1C387382-33FD-48A4-AFB3-1F989B62080B}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="Outro" ID="{8B1A72B3-C055-4054-BFFF-BD35D62DB1F8}"/>
+										<CustomState Name="" ID="{010C21B1-5903-4854-B101-388122621E44}" ShortID="552266112">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-39"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Player_Explore" ID="{1024E66E-0AB5-439C-A9CE-A14396369C88}"/>
+										<CustomState Name="" ID="{85C823F9-EB52-4775-90A1-1B36B55108CD}" ShortID="786257568"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Intro" ID="{3FE367C4-DDC5-4459-895E-9229D9CA5F10}"/>
+										<CustomState Name="" ID="{915BC0DA-883F-4FB6-A58D-1E7DD13A74BB}" ShortID="11101644">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="TalkToTurtleLarry" ID="{48919AF6-78A5-448C-9C4E-A08E725BF75C}"/>
+										<CustomState Name="" ID="{98585050-2091-46BD-87BF-0980C8F52CFE}" ShortID="620075936">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="TalkToSeahorseSam" ID="{C0FEC5BE-2287-468C-B15F-C2B5431AF423}"/>
+										<CustomState Name="" ID="{B29A44C1-2168-4CF5-8304-52943919C940}" ShortID="235812652">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="MainMenu" ID="{F34E3848-894B-468C-92C3-FB3A0659D3FB}"/>
+										<CustomState Name="" ID="{C996D51C-4A0E-44B1-A4CE-38B7656C40F4}" ShortID="1062904074">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="None" ID="{1C2FC7C1-41DD-4735-8F34-E9B6B91589FE}"/>
+										<CustomState Name="" ID="{14C614A0-2258-4E0D-8C2A-065FF0F6AB6B}" ShortID="1004695835">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="menu" ID="{3537DBC0-8FCF-4A5E-969F-8EDE82706D7C}"/>
+										<CustomState Name="" ID="{4F494473-CAE6-43B8-BD00-CD99F9156B68}" ShortID="444632935">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Camera_Explore" ID="{E47E30F9-9856-4A6D-A065-9318318AEA2D}"/>
+										<CustomState Name="" ID="{10FE9ACA-5CAB-4B20-BB6F-71E69B40AC55}" ShortID="70606375">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="aftercheckingthesubmarine" ID="{09219B7D-ABFA-4AD3-B4CB-1D600F1DA165}"/>
+										<CustomState Name="" ID="{4D278D5C-9FDF-4013-847E-FF9048973FBB}" ShortID="1031350753"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="TalkToBananafish" ID="{41D7A911-BC3A-4DD1-9104-030F7594790D}"/>
+										<CustomState Name="" ID="{875930BF-FCB8-4CA9-832C-F1A802688F47}" ShortID="380827421">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="playerexplorebutonlysetstates" ID="{B45CE2D1-1386-4E9C-8566-BDF759CF9097}"/>
+										<CustomState Name="" ID="{F8E49271-3A26-4260-83E6-CE16CE37B9AE}" ShortID="448569128"/>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
+						</MusicPlaylistContainer>
+						<MusicPlaylistContainer Name="BananafishDialogueMusic" ID="{707A1981-4E19-4218-9780-70B5B4A9212F}" ShortID="725075796">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{11E88737-2F31-44F3-AED4-A1DB60F72205}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{12B21E04-42A3-4A48-8129-2406DBED32A0}"/>
+								</Reference>
+								<Reference Name="PlaylistRoot">
+									<Custom>
+										<MusicPlaylistItem Name="" ID="{4138E478-7A0C-4184-B36F-3BA08D611FF7}" ShortID="272789954">
+											<PropertyList>
+												<Property Name="LoopCount" Type="int16" Value="0"/>
+												<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+												<Property Name="PlayMode" Type="int16" Value="2"/>
+											</PropertyList>
+											<ChildrenList>
+												<MusicPlaylistItem Name="" ID="{7EBC0018-D796-46DD-B1CF-63859C06F566}" ShortID="710926577">
+													<PropertyList>
+														<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Segment">
+															<ObjectRef Name="Banana Fish Bens Theme Section 1" ID="{055C13F1-C862-4735-B893-667A6BC437FE}" WorkUnitID="{C9C65301-A2C3-4042-A494-C425A369F672}"/>
+														</Reference>
+													</ReferenceList>
+												</MusicPlaylistItem>
+												<MusicPlaylistItem Name="" ID="{3750160E-30E9-4C2D-B813-D5A7FD85102C}" ShortID="807072980">
+													<PropertyList>
+														<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Segment">
+															<ObjectRef Name="Banana Fish Bens Theme Section 1 Stripped Back" ID="{0BE2DC7D-1FE2-4FB2-8C1E-715D21149554}" WorkUnitID="{C9C65301-A2C3-4042-A494-C425A369F672}"/>
+														</Reference>
+													</ReferenceList>
+												</MusicPlaylistItem>
+												<MusicPlaylistItem Name="" ID="{D0D9AE8A-76B2-412E-B337-2A19C42D65C7}" ShortID="971248268">
+													<PropertyList>
+														<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Segment">
+															<ObjectRef Name="Banana Fish Bens Theme Section 2" ID="{3DC80FFE-7C6D-4B4D-810F-8AB54FC078A9}" WorkUnitID="{C9C65301-A2C3-4042-A494-C425A369F672}"/>
+														</Reference>
+													</ReferenceList>
+												</MusicPlaylistItem>
+												<MusicPlaylistItem Name="" ID="{7B3E6E30-12F6-4CC2-9E5E-C9F8A76D0622}" ShortID="833086779">
+													<PropertyList>
+														<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Segment">
+															<ObjectRef Name="Banana Fish Bens Theme Section 2 Stripped Back" ID="{C7343E42-636F-4E5C-8CD5-9D8B372665F4}" WorkUnitID="{C9C65301-A2C3-4042-A494-C425A369F672}"/>
+														</Reference>
+													</ReferenceList>
+												</MusicPlaylistItem>
+												<MusicPlaylistItem Name="" ID="{D25C4C1F-4AC3-4388-BA36-96ACF62BFA1B}" ShortID="995167211">
+													<PropertyList>
+														<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Segment">
+															<ObjectRef Name="Banana Fish Bens Theme Section 3" ID="{716E3455-10A5-4DB2-A9B8-4E1980F745F8}" WorkUnitID="{C9C65301-A2C3-4042-A494-C425A369F672}"/>
+														</Reference>
+													</ReferenceList>
+												</MusicPlaylistItem>
+												<MusicPlaylistItem Name="" ID="{0DDB3056-2648-4DA5-BFD9-F3BD16E2D6A6}" ShortID="875870748">
+													<PropertyList>
+														<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Segment">
+															<ObjectRef Name="Banana Fish Bens Theme Section 3 Stripped Back" ID="{370D5775-E724-4E53-8125-6F1DBF189037}" WorkUnitID="{C9C65301-A2C3-4042-A494-C425A369F672}"/>
+														</Reference>
+													</ReferenceList>
+												</MusicPlaylistItem>
+											</ChildrenList>
+										</MusicPlaylistItem>
+									</Custom>
+								</Reference>
+								<Reference Name="TransitionRoot">
+									<Custom>
+										<MusicTransition Name="Root" ID="{30D47F36-0C5D-4C1A-BDB1-38F962B11AD0}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<ChildrenList>
+												<MusicTransition Name="Transition" ID="{8471F140-ED97-493D-9F0F-C057DC1FB66E}">
+													<TransitionInfo/>
+												</MusicTransition>
+											</ChildrenList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</Custom>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicSegment Name="Banana Fish Bens Theme Section 1 Stripped Back" ID="{0BE2DC7D-1FE2-4FB2-8C1E-715D21149554}" ShortID="462628781">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="50602.4166666667"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{11E88737-2F31-44F3-AED4-A1DB60F72205}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{12B21E04-42A3-4A48-8129-2406DBED32A0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="Banana Fish Bens Theme Section 1 Stripped Back" ID="{C042AF60-2297-48C9-9BFB-5DC00C14BED1}" ShortID="276889751">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{12B21E04-42A3-4A48-8129-2406DBED32A0}"/>
+												</Reference>
+												<Reference Name="TransitionRoot">
+													<Custom>
+														<MusicTransition Name="Root" ID="{709A479C-1886-48F4-B44B-5978E9F0CEEB}">
+															<PropertyList>
+																<Property Name="IsFolder" Type="bool" Value="True"/>
+															</PropertyList>
+															<TransitionInfo/>
+														</MusicTransition>
+													</Custom>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Banana Fish Bens Theme Section 1 Stripped Back" ID="{726158A5-11C8-4E78-8FF2-80C8197B3D6D}">
+													<Language>SFX</Language>
+													<AudioFile>Banana Fish Bens Theme Section 1 Stripped Back.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="52855384"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{5BEA53D2-C4F4-42A3-8060-CD5B160D53C7}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="Banana Fish Bens Theme Section 1 Stripped Back" ID="{6EBF76E8-BB64-44E8-9816-2D64A22DF4E3}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="50602.4166666667"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="Banana Fish Bens Theme Section 1 Stripped Back" ID="{726158A5-11C8-4E78-8FF2-80C8197B3D6D}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{1E96386B-B26C-4A54-9750-9C7007294BC1}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{AB0F4138-F75C-4821-AB3B-721E86E1F33E}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="46265.0602409639"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="Banana Fish Bens Theme Section 1" ID="{055C13F1-C862-4735-B893-667A6BC437FE}" ShortID="164667522">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="50602.4166666667"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{11E88737-2F31-44F3-AED4-A1DB60F72205}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{12B21E04-42A3-4A48-8129-2406DBED32A0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="Banana Fish Bens Theme Section 1" ID="{9119E32C-1AA7-4398-A746-16337A14AA27}" ShortID="444836748">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{12B21E04-42A3-4A48-8129-2406DBED32A0}"/>
+												</Reference>
+												<Reference Name="TransitionRoot">
+													<Custom>
+														<MusicTransition Name="Root" ID="{52887EB0-2C6C-4769-A8B7-EE9119A657C8}">
+															<PropertyList>
+																<Property Name="IsFolder" Type="bool" Value="True"/>
+															</PropertyList>
+															<TransitionInfo/>
+														</MusicTransition>
+													</Custom>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Banana Fish Bens Theme Section 1" ID="{283DAFD7-0976-4284-B0C0-62C2051DD66A}">
+													<Language>SFX</Language>
+													<AudioFile>Banana Fish Bens Theme Section 1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="856472885"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{2D581EDE-5E78-4CDF-9127-84F3811D3A1E}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="Banana Fish Bens Theme Section 1" ID="{1643F618-00B9-40FE-A754-9E8FF03468E4}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="50602.4166666667"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="Banana Fish Bens Theme Section 1" ID="{283DAFD7-0976-4284-B0C0-62C2051DD66A}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{3779E070-5A5A-4B54-A268-48DBFFFCA8D8}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{2AFA31F8-D379-4089-85CB-FB024749BD72}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="46265.0602409639"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="Banana Fish Bens Theme Section 2 Stripped Back" ID="{C7343E42-636F-4E5C-8CD5-9D8B372665F4}" ShortID="878770810">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="49156.6265060241"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{11E88737-2F31-44F3-AED4-A1DB60F72205}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{12B21E04-42A3-4A48-8129-2406DBED32A0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="Banana Fish Bens Theme Section 2 Stripped Back" ID="{B0D2A99C-6527-4895-A8B1-BAA8892304CD}" ShortID="551824529">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{12B21E04-42A3-4A48-8129-2406DBED32A0}"/>
+												</Reference>
+												<Reference Name="TransitionRoot">
+													<Custom>
+														<MusicTransition Name="Root" ID="{74FE8045-7560-4C1F-99D4-A692116296CF}">
+															<PropertyList>
+																<Property Name="IsFolder" Type="bool" Value="True"/>
+															</PropertyList>
+															<TransitionInfo/>
+														</MusicTransition>
+													</Custom>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Banana Fish Bens Theme Section 2 Stripped Back" ID="{2A1F1FA8-2F8E-4366-B4DD-393DA6D4FD27}">
+													<Language>SFX</Language>
+													<AudioFile>Banana Fish Bens Theme Section 2 Stripped Back.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="578114160"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{154B06BE-CA0D-4228-8517-BB513131B838}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="Banana Fish Bens Theme Section 2 Stripped Back" ID="{394F01B5-771A-4A08-979E-C51605561D3A}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="49156.625"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="Banana Fish Bens Theme Section 2 Stripped Back" ID="{2A1F1FA8-2F8E-4366-B4DD-393DA6D4FD27}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{CD5752D5-534C-4657-AAD9-1AEB5060063C}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{B46C00B0-9748-4EF2-A09F-C5CCF198BB18}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="46265.0602409639"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="Banana Fish Bens Theme Section 2" ID="{3DC80FFE-7C6D-4B4D-810F-8AB54FC078A9}" ShortID="1058846642">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="49156.6265060241"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{11E88737-2F31-44F3-AED4-A1DB60F72205}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{12B21E04-42A3-4A48-8129-2406DBED32A0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="Banana Fish Bens Theme Section 2" ID="{984CC5AE-6D0B-4B9D-8B6C-FA13C2575125}" ShortID="940756231">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{12B21E04-42A3-4A48-8129-2406DBED32A0}"/>
+												</Reference>
+												<Reference Name="TransitionRoot">
+													<Custom>
+														<MusicTransition Name="Root" ID="{8DA402FC-1ECA-401C-8EDF-94F7F103CE73}">
+															<PropertyList>
+																<Property Name="IsFolder" Type="bool" Value="True"/>
+															</PropertyList>
+															<TransitionInfo/>
+														</MusicTransition>
+													</Custom>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Banana Fish Bens Theme Section 2" ID="{936AA0E0-5578-46E3-96B1-D511769A6BCC}">
+													<Language>SFX</Language>
+													<AudioFile>Banana Fish Bens Theme Section 2.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="6094371"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{8BF5D6D2-77D6-4B2D-8626-0450217BB041}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="Banana Fish Bens Theme Section 2" ID="{FB7DA26B-376A-48C4-9274-D7FD6A7C0CA2}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="49156.625"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="Banana Fish Bens Theme Section 2" ID="{936AA0E0-5578-46E3-96B1-D511769A6BCC}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{09E600E6-4CE7-41B2-B2FB-C7DB9FD4CE4F}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{1751342C-9918-41E3-B40D-C6683945306E}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="46265.0602409639"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="Banana Fish Bens Theme Section 3 Stripped Back" ID="{370D5775-E724-4E53-8125-6F1DBF189037}" ShortID="1045339917">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="52048.1927710843"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{11E88737-2F31-44F3-AED4-A1DB60F72205}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{12B21E04-42A3-4A48-8129-2406DBED32A0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="Banana Fish Bens Theme Section 3 Stripped Back" ID="{CA3DCC71-ED56-438C-92E0-1C138D894318}" ShortID="346159421">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{12B21E04-42A3-4A48-8129-2406DBED32A0}"/>
+												</Reference>
+												<Reference Name="TransitionRoot">
+													<Custom>
+														<MusicTransition Name="Root" ID="{6996CBC7-47F0-4A81-9FE0-DFA3CA6124DE}">
+															<PropertyList>
+																<Property Name="IsFolder" Type="bool" Value="True"/>
+															</PropertyList>
+															<TransitionInfo/>
+														</MusicTransition>
+													</Custom>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Banana Fish Bens Theme Section 3 Stripped Back" ID="{ED60F55F-2D8E-4ECC-B36F-1A61204A67EA}">
+													<Language>SFX</Language>
+													<AudioFile>Banana Fish Bens Theme Section 3 Stripped Back.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="15822738"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{77350574-0DD2-455E-ACF2-5A8D3F396BE8}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="Banana Fish Bens Theme Section 3 Stripped Back" ID="{125D8EDC-E3A0-498B-BB69-6FB48EAC7FA2}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="52048.1875"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="Banana Fish Bens Theme Section 3 Stripped Back" ID="{ED60F55F-2D8E-4ECC-B36F-1A61204A67EA}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{C45D3794-B9D9-4B77-9D07-E105793A8544}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{0C1509BD-52CA-40FC-92D2-4F76A460805B}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="46265.0602409639"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="Banana Fish Bens Theme Section 3" ID="{716E3455-10A5-4DB2-A9B8-4E1980F745F8}" ShortID="117805648">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="52048.1927710843"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{11E88737-2F31-44F3-AED4-A1DB60F72205}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{12B21E04-42A3-4A48-8129-2406DBED32A0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="Banana Fish Bens Theme Section 3" ID="{5A151779-B1AF-47FA-A291-C904CCFFC3A0}" ShortID="449173014">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{12B21E04-42A3-4A48-8129-2406DBED32A0}"/>
+												</Reference>
+												<Reference Name="TransitionRoot">
+													<Custom>
+														<MusicTransition Name="Root" ID="{5DBB063A-5647-4F79-9CF1-D1A0495CDAF2}">
+															<PropertyList>
+																<Property Name="IsFolder" Type="bool" Value="True"/>
+															</PropertyList>
+															<TransitionInfo/>
+														</MusicTransition>
+													</Custom>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Banana Fish Bens Theme Section 3" ID="{E3D0FED7-79A4-4072-86E8-41FB808284C3}">
+													<Language>SFX</Language>
+													<AudioFile>Banana Fish Bens Theme Section 3.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="383055841"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{A9D7CDBB-884D-4FB0-9E4A-DE045A08C4D8}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="Banana Fish Bens Theme Section 3" ID="{6972B87F-27D8-4D5C-A8F3-74EEC9BBE9B7}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="52048.1875"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="Banana Fish Bens Theme Section 3" ID="{E3D0FED7-79A4-4072-86E8-41FB808284C3}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{4DFDAFDD-544E-4C27-9489-F77216A474B1}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{71B04085-9EE9-447C-A750-EE6BAF00EF11}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="46265.0602409639"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+							</ChildrenList>
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="GameState" ID="{1C387382-33FD-48A4-AFB3-1F989B62080B}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="Outro" ID="{8B1A72B3-C055-4054-BFFF-BD35D62DB1F8}"/>
+										<CustomState Name="" ID="{ACF2FCD3-77F2-4A49-B5DF-E0F8896C5831}" ShortID="1070240084">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Player_Explore" ID="{1024E66E-0AB5-439C-A9CE-A14396369C88}"/>
+										<CustomState Name="" ID="{4138933B-0514-4372-8D1F-131BE32311E7}" ShortID="990399758">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Intro" ID="{3FE367C4-DDC5-4459-895E-9229D9CA5F10}"/>
+										<CustomState Name="" ID="{500E8CC6-6BA8-46DE-958D-01324D4B70D3}" ShortID="388390354">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="TalkToTurtleLarry" ID="{48919AF6-78A5-448C-9C4E-A08E725BF75C}"/>
+										<CustomState Name="" ID="{CDB00FC9-A723-4CAE-873E-1DE74E364DDB}" ShortID="798711134">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="TalkToSeahorseSam" ID="{C0FEC5BE-2287-468C-B15F-C2B5431AF423}"/>
+										<CustomState Name="" ID="{F404D512-8F4E-431C-B09D-C84A3F2129EF}" ShortID="322904360">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="MainMenu" ID="{F34E3848-894B-468C-92C3-FB3A0659D3FB}"/>
+										<CustomState Name="" ID="{C4DFB279-C4FB-4380-A895-271E1A7D4F48}" ShortID="1001115320">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="None" ID="{1C2FC7C1-41DD-4735-8F34-E9B6B91589FE}"/>
+										<CustomState Name="" ID="{3078043D-395C-496E-A0E6-A35CB6C77BBD}" ShortID="131944101">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="menu" ID="{3537DBC0-8FCF-4A5E-969F-8EDE82706D7C}"/>
+										<CustomState Name="" ID="{28102815-F422-40BE-8C18-45FD7B9C5996}" ShortID="394088475">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Camera_Explore" ID="{E47E30F9-9856-4A6D-A065-9318318AEA2D}"/>
+										<CustomState Name="" ID="{F6BAE379-0484-47B2-813E-CFDC0D083B61}" ShortID="787550615">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="aftercheckingthesubmarine" ID="{09219B7D-ABFA-4AD3-B4CB-1D600F1DA165}"/>
+										<CustomState Name="" ID="{29656742-DC09-46E9-BC55-BF5F97B256B7}" ShortID="156724634">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="TalkToBananafish" ID="{41D7A911-BC3A-4DD1-9104-030F7594790D}"/>
+										<CustomState Name="" ID="{AD90DA59-472C-4A29-9699-381486F633F3}" ShortID="122837190"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="playerexplorebutonlysetstates" ID="{B45CE2D1-1386-4E9C-8566-BDF759CF9097}"/>
+										<CustomState Name="" ID="{35D24055-6475-437F-A344-86D556739416}" ShortID="965758567">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
+						</MusicPlaylistContainer>
+					</ChildrenList>
+					<ObjectLists>
+						<ObjectList Name="Arguments">
+							<Reference>
+								<ObjectRef Name="GameState" ID="{1C387382-33FD-48A4-AFB3-1F989B62080B}" WorkUnitID="{62D4A0D7-BF17-4774-9AF7-0F747302BDA8}"/>
+							</Reference>
+						</ObjectList>
+						<ObjectList Name="Entries">
+							<Reference>
+								<Local>
+									<MultiSwitchEntry Name="" ID="{DBD6DA70-96A8-447E-B3E8-CB80FD922E83}">
+										<ReferenceList>
+											<Reference Name="AudioNode">
+												<ObjectRef Name="BananafishDialogueMusic" ID="{707A1981-4E19-4218-9780-70B5B4A9212F}" WorkUnitID="{C9C65301-A2C3-4042-A494-C425A369F672}"/>
+											</Reference>
+										</ReferenceList>
+										<ObjectLists>
+											<ObjectList Name="EntryPath">
+												<Reference>
+													<ObjectRef Name="TalkToBananafish" ID="{41D7A911-BC3A-4DD1-9104-030F7594790D}" WorkUnitID="{62D4A0D7-BF17-4774-9AF7-0F747302BDA8}"/>
+												</Reference>
+											</ObjectList>
+										</ObjectLists>
+									</MultiSwitchEntry>
+								</Local>
+							</Reference>
+							<Reference>
+								<Local>
+									<MultiSwitchEntry Name="" ID="{4F919836-5DFD-4A72-895E-03F566C5FC27}">
+										<ReferenceList>
+											<Reference Name="AudioNode">
+												<ObjectRef Name="maintrack" ID="{EC512893-4992-4B83-BAAA-0DB9207DC3A8}" WorkUnitID="{C9C65301-A2C3-4042-A494-C425A369F672}"/>
+											</Reference>
+										</ReferenceList>
+										<ObjectLists>
+											<ObjectList Name="EntryPath">
+												<Reference>
+													<ObjectRef Name="Player_Explore" ID="{1024E66E-0AB5-439C-A9CE-A14396369C88}" WorkUnitID="{62D4A0D7-BF17-4774-9AF7-0F747302BDA8}"/>
+												</Reference>
+											</ObjectList>
+										</ObjectLists>
+									</MultiSwitchEntry>
+								</Local>
+							</Reference>
+						</ObjectList>
+					</ObjectLists>
+				</MusicSwitchContainer>
+			</ChildrenList>
+		</WorkUnit>
+	</InteractiveMusic>
+</WwiseDocument>

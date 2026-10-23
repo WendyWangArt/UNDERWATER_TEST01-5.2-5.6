@@ -126,6 +126,12 @@
         "GUID": "{C0FEC5BE-2287-468C-B15F-C2B5431AF423}"
        },
        {
+        "Id": "2607556080",
+        "Name": "menu",
+        "ObjectPath": "\\States\\States_WorkingUnit_Ayana\\GameState\\menu",
+        "GUID": "{3537DBC0-8FCF-4A5E-969F-8EDE82706D7C}"
+       },
+       {
         "Id": "2821513524",
         "Name": "TalkToTurtleLarry",
         "ObjectPath": "\\States\\States_WorkingUnit_Ayana\\GameState\\TalkToTurtleLarry",
@@ -172,6 +178,6 @@
     ]
    }
   ],
-  "FileHash": "{3A678145-58FF-A15C-543C-23F30FD230DE}"
+  "FileHash": "{A7B7770F-3589-D4D1-6CAF-EA6C3400D74A}"
  }
 }

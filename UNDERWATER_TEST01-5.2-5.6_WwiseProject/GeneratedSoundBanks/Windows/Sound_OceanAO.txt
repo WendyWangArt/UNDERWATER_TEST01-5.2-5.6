@@ -9,6 +9,7 @@ State	ID	Name	State Group			Notes
 	1125500713	Intro	GameState			
 	2325769881	TalkToBananafish	GameState			
 	2596030337	TalkToSeahorseSam	GameState			
+	2607556080	menu	GameState			
 	2821513524	TalkToTurtleLarry	GameState			
 	3277996074	aftercheckingthesubmarine	GameState			
 	3402445284	playerexplorebutonlysetstates	GameState			

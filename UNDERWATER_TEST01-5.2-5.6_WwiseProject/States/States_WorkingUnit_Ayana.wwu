@@ -34,6 +34,7 @@
 						<State Name="Player_Explore" ID="{1024E66E-0AB5-439C-A9CE-A14396369C88}"/>
 						<State Name="aftercheckingthesubmarine" ID="{09219B7D-ABFA-4AD3-B4CB-1D600F1DA165}"/>
 						<State Name="playerexplorebutonlysetstates" ID="{B45CE2D1-1386-4E9C-8566-BDF759CF9097}"/>
+						<State Name="menu" ID="{3537DBC0-8FCF-4A5E-969F-8EDE82706D7C}"/>
 					</ChildrenList>
 					<TransitionList>
 						<Transition>

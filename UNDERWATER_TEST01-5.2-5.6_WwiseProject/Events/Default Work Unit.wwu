@@ -30,56 +30,6 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
-						<Action Name="" ID="{31EFEA6A-4DD5-4D2B-AD11-0E7939DE72D4}" ShortID="340331313">
-							<PropertyList>
-								<Property Name="Delay" Type="Real64" Value="16.7"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="maintrack" ID="{C910F180-53AA-47D3-9158-307D2721889A}" WorkUnitID="{5A42FBE7-EEB5-45A5-BC4E-EC69B838458E}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-						<Action Name="" ID="{DE0F5ADD-55D8-4932-B841-DD4FE048AEB7}" ShortID="699483192">
-							<PropertyList>
-								<Property Name="Delay" Type="Real64" Value="16.7"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Bananafish" ID="{7BA7011C-B2BC-4966-87DC-BD55DD08B53B}" WorkUnitID="{5A42FBE7-EEB5-45A5-BC4E-EC69B838458E}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-						<Action Name="" ID="{6AB2F18F-8418-4E59-8761-5208EA86E1A9}" ShortID="919730449">
-							<PropertyList>
-								<Property Name="Delay" Type="Real64" Value="16.7"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Seahorse" ID="{95A3469C-44FC-4834-B312-B78ACBB421DB}" WorkUnitID="{5A42FBE7-EEB5-45A5-BC4E-EC69B838458E}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-						<Action Name="" ID="{B0881B9B-4706-46C4-BAD8-EC7FE82E7774}" ShortID="664185064">
-							<PropertyList>
-								<Property Name="Delay" Type="Real64" Value="16.7"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="turtle" ID="{0832DC90-E421-4F54-923E-D590340A06E8}" WorkUnitID="{5A42FBE7-EEB5-45A5-BC4E-EC69B838458E}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-						<Action Name="" ID="{7585080C-F1EF-4340-A768-4E10171615B1}" ShortID="236699494">
-							<PropertyList>
-								<Property Name="Delay" Type="Real64" Value="16.7"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="pianotrack" ID="{7815D886-831D-425B-A266-98AE281C0B4B}" WorkUnitID="{5A42FBE7-EEB5-45A5-BC4E-EC69B838458E}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
 						<Action Name="" ID="{C4F85660-80F1-4A1B-8301-B83B03E69884}" ShortID="977869864">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="22"/>
@@ -150,6 +100,41 @@
 				</Event>
 				<Event Name="playerExplore" ID="{BE72B743-91D8-425A-B2E3-5D8B28880E33}">
 					<ChildrenList>
+						<Action Name="" ID="{31EFEA6A-4DD5-4D2B-AD11-0E7939DE72D4}" ShortID="340331313">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="maintrack" ID="{C910F180-53AA-47D3-9158-307D2721889A}" WorkUnitID="{5A42FBE7-EEB5-45A5-BC4E-EC69B838458E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{B0881B9B-4706-46C4-BAD8-EC7FE82E7774}" ShortID="664185064">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="turtle" ID="{0832DC90-E421-4F54-923E-D590340A06E8}" WorkUnitID="{5A42FBE7-EEB5-45A5-BC4E-EC69B838458E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{DE0F5ADD-55D8-4932-B841-DD4FE048AEB7}" ShortID="699483192">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Bananafish" ID="{7BA7011C-B2BC-4966-87DC-BD55DD08B53B}" WorkUnitID="{5A42FBE7-EEB5-45A5-BC4E-EC69B838458E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{6AB2F18F-8418-4E59-8761-5208EA86E1A9}" ShortID="919730449">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Seahorse" ID="{95A3469C-44FC-4834-B312-B78ACBB421DB}" WorkUnitID="{5A42FBE7-EEB5-45A5-BC4E-EC69B838458E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{7585080C-F1EF-4340-A768-4E10171615B1}" ShortID="236699494">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="pianotrack" ID="{7815D886-831D-425B-A266-98AE281C0B4B}" WorkUnitID="{5A42FBE7-EEB5-45A5-BC4E-EC69B838458E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 						<Action Name="" ID="{FBF73944-7235-4C28-B5F0-451738E82A77}" ShortID="244971285">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="22"/>
@@ -192,6 +177,20 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Outro" ID="{8B1A72B3-C055-4054-BFFF-BD35D62DB1F8}" WorkUnitID="{62D4A0D7-BF17-4774-9AF7-0F747302BDA8}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="playerexplorebutonlysetstates" ID="{8BF83AFE-2B30-4C39-ACA7-AE9D607F8125}">
+					<ChildrenList>
+						<Action Name="" ID="{378F8957-3407-4727-A763-4A01F04FF7D2}" ShortID="153834326">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="playerexplorebutonlysetstates" ID="{B45CE2D1-1386-4E9C-8566-BDF759CF9097}" WorkUnitID="{62D4A0D7-BF17-4774-9AF7-0F747302BDA8}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

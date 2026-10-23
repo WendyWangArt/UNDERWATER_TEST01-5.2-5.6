@@ -11,6 +11,7 @@ State	ID	Name	State Group			Notes
 	2596030337	TalkToSeahorseSam	GameState			
 	2821513524	TalkToTurtleLarry	GameState			
 	3277996074	aftercheckingthesubmarine	GameState			
+	3402445284	playerexplorebutonlysetstates	GameState			
 	3604647259	MainMenu	GameState			
 	4015219260	Camera_Explore	GameState			
 	4184794294	Outro	GameState			

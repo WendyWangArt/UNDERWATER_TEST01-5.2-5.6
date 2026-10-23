@@ -8,6 +8,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	2326115826	explore_aftercheckingthesubmarine			\Default Work Unit\explore_aftercheckingthesubmarine	
 	2383189954	TalkToTurtle			\Default Work Unit\TalkToTurtle	
 	2707111291	playerExplore			\Default Work Unit\playerExplore	
+	3402445284	playerexplorebutonlysetstates			\Default Work Unit\playerexplorebutonlysetstates	
 
 State Group	ID	Name			Wwise Object Path	Notes
 	4091656514	GameState			\States_WorkingUnit_Ayana\GameState	
@@ -19,6 +20,7 @@ State	ID	Name	State Group			Notes
 	2596030337	TalkToSeahorseSam	GameState			
 	2821513524	TalkToTurtleLarry	GameState			
 	3277996074	aftercheckingthesubmarine	GameState			
+	3402445284	playerexplorebutonlysetstates	GameState			
 	3604647259	MainMenu	GameState			
 	4015219260	Camera_Explore	GameState			
 	4184794294	Outro	GameState			

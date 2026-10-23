@@ -48,6 +48,7 @@
 						<ObjectRef Name="TalkToSam" ID="{3E3DC693-6E97-4665-B301-BA282A606B6E}" WorkUnitID="{F9F41F80-93D0-478B-98D6-F1C042AE4945}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="PlayIntro" ID="{2D5D827B-DD27-47A2-8C7D-12FE4FF9B972}" WorkUnitID="{F9F41F80-93D0-478B-98D6-F1C042AE4945}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="TalkToTurtle" ID="{C8D0A495-7335-4919-961A-2A9BE39B9803}" WorkUnitID="{F9F41F80-93D0-478B-98D6-F1C042AE4945}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="playerexplorebutonlysetstates" ID="{8BF83AFE-2B30-4C39-ACA7-AE9D607F8125}" WorkUnitID="{F9F41F80-93D0-478B-98D6-F1C042AE4945}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="TalkToBanafish" ID="{03FE54AB-3B9A-4D05-838A-6ADD99169193}" WorkUnitID="{F9F41F80-93D0-478B-98D6-F1C042AE4945}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>

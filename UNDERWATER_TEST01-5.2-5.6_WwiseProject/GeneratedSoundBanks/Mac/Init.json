@@ -138,6 +138,12 @@
         "GUID": "{09219B7D-ABFA-4AD3-B4CB-1D600F1DA165}"
        },
        {
+        "Id": "3402445284",
+        "Name": "playerexplorebutonlysetstates",
+        "ObjectPath": "\\States\\States_WorkingUnit_Ayana\\GameState\\playerexplorebutonlysetstates",
+        "GUID": "{B45CE2D1-1386-4E9C-8566-BDF759CF9097}"
+       },
+       {
         "Id": "3604647259",
         "Name": "MainMenu",
         "ObjectPath": "\\States\\States_WorkingUnit_Ayana\\GameState\\MainMenu",
@@ -166,6 +172,6 @@
     ]
    }
   ],
-  "FileHash": "{2CA3058F-E120-605A-2294-1B9B6B0B8E1F}"
+  "FileHash": "{3A678145-58FF-A15C-543C-23F30FD230DE}"
  }
 }

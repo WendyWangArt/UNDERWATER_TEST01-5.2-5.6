@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{A95A962B-14C1-4BDD-89E4-8F7F66A4CA91}",
     "Language": "SFX",
-    "Hash": "{AF61BF3D-3212-FB9E-B68C-A3BF805E3E0C}",
+    "Hash": "{B49B452D-521E-3B74-7D0A-2939FE32ADCA}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main_Soundbank",
     "ShortName": "Main_Soundbank",
     "Path": "Main_Soundbank.bnk",
@@ -144,10 +144,24 @@
       "Name": "playerExplore",
       "ObjectPath": "\\Events\\Default Work Unit\\playerExplore",
       "GUID": "{BE72B743-91D8-425A-B2E3-5D8B28880E33}",
-      "MaxAttenuation": "0",
-      "DurationType": "OneShot",
-      "DurationMin": "0",
-      "DurationMax": "0",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "189255046"
+       },
+       {
+        "Id": "341240292"
+       },
+       {
+        "Id": "1019625249"
+       },
+       {
+        "Id": "1023233219"
+       },
+       {
+        "Id": "1042875977"
+       }
+      ],
       "ActionSetState": [
        {
         "GroupId": "4091656514",
@@ -155,6 +169,25 @@
         "Name": "Player_Explore",
         "ObjectPath": "\\States\\States_WorkingUnit_Ayana\\GameState\\Player_Explore",
         "GUID": "{1024E66E-0AB5-439C-A9CE-A14396369C88}"
+       }
+      ]
+     },
+     {
+      "Id": "3402445284",
+      "Name": "playerexplorebutonlysetstates",
+      "ObjectPath": "\\Events\\Default Work Unit\\playerexplorebutonlysetstates",
+      "GUID": "{8BF83AFE-2B30-4C39-ACA7-AE9D607F8125}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0",
+      "ActionSetState": [
+       {
+        "GroupId": "4091656514",
+        "Id": "3402445284",
+        "Name": "playerexplorebutonlysetstates",
+        "ObjectPath": "\\States\\States_WorkingUnit_Ayana\\GameState\\playerexplorebutonlysetstates",
+        "GUID": "{B45CE2D1-1386-4E9C-8566-BDF759CF9097}"
        }
       ]
      },
@@ -169,22 +202,7 @@
         "Id": "715038"
        },
        {
-        "Id": "189255046"
-       },
-       {
-        "Id": "341240292"
-       },
-       {
         "Id": "877530852"
-       },
-       {
-        "Id": "1019625249"
-       },
-       {
-        "Id": "1023233219"
-       },
-       {
-        "Id": "1042875977"
        }
       ],
       "ActionSetState": [
@@ -322,6 +340,12 @@
         "GUID": "{09219B7D-ABFA-4AD3-B4CB-1D600F1DA165}"
        },
        {
+        "Id": "3402445284",
+        "Name": "playerexplorebutonlysetstates",
+        "ObjectPath": "\\States\\States_WorkingUnit_Ayana\\GameState\\playerexplorebutonlysetstates",
+        "GUID": "{B45CE2D1-1386-4E9C-8566-BDF759CF9097}"
+       },
+       {
         "Id": "3604647259",
         "Name": "MainMenu",
         "ObjectPath": "\\States\\States_WorkingUnit_Ayana\\GameState\\MainMenu",
@@ -350,6 +374,6 @@
     ]
    }
   ],
-  "FileHash": "{9F9B6524-6505-A816-9A64-71C173E040D6}"
+  "FileHash": "{8E48BBE0-79EB-5836-CB28-496BC76BFE76}"
  }
 }

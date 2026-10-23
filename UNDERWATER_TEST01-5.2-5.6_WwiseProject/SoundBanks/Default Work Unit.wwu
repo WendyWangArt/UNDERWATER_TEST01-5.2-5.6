@@ -130,7 +130,10 @@
 				<SoundBank Name="extratest" ID="{8EA33C33-C5FB-45DF-9DC3-8BF5491793B2}">
 					<ObjectInclusionList>
 						<ObjectRef Name="menu" ID="{28FED710-780F-465E-8CB2-2F75EA2BD49F}" WorkUnitID="{F9F41F80-93D0-478B-98D6-F1C042AE4945}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="ending_TurtleLarry_" ID="{D1AFCC0E-2D63-4A78-AD0E-823A312C3FA4}" WorkUnitID="{F9F41F80-93D0-478B-98D6-F1C042AE4945}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="ending_SSSAm" ID="{05F5950B-0F8C-4B7E-820C-0118B8CE1A70}" WorkUnitID="{F9F41F80-93D0-478B-98D6-F1C042AE4945}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="playerexplorebutonlysetstates" ID="{8BF83AFE-2B30-4C39-ACA7-AE9D607F8125}" WorkUnitID="{F9F41F80-93D0-478B-98D6-F1C042AE4945}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="ending_BNNFBens" ID="{2254057E-684A-4E3C-BFBE-473A17752CC3}" WorkUnitID="{F9F41F80-93D0-478B-98D6-F1C042AE4945}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{A95A962B-14C1-4BDD-89E4-8F7F66A4CA91}",
     "Language": "SFX",
-    "Hash": "{ED4B1632-E285-8B90-9822-CF1B5A3402A4}",
+    "Hash": "{82968531-29B6-67CA-431A-3AEBAA6D1EB3}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main_Soundbank",
     "ShortName": "Main_Soundbank",
     "Path": "Main_Soundbank.bnk",
@@ -88,6 +88,14 @@
       "CachePath": "95/{95AABFA7-24BA-BC15-5583-B01FBA15B004}.wem"
      },
      {
+      "Id": "468478001",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Banana Fish Bens Ending Music.wav",
+      "CachePath": "B1/{B18754F4-7F01-D0F2-B21D-2F07F2BD5002}.wem"
+     },
+     {
       "Id": "565919851",
       "Language": "SFX",
       "Streaming": "false",
@@ -150,6 +158,14 @@
       "Location": "Memory",
       "ShortName": "Seahorse Sam Section 1 (83bpm) Stripped Back.wav",
       "CachePath": "4B/{4BBD5BE0-B1B0-1C16-7EDE-2B82D54401A2}.wem"
+     },
+     {
+      "Id": "779132188",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Seahorse Sam Ending Music.wav",
+      "CachePath": "EA/{EA2DA722-45E1-003C-628B-6BC943BF18B5}.wem"
      },
      {
       "Id": "827705350",
@@ -355,6 +371,32 @@
           "Id": "973401590"
          }
         ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "4091656514",
+         "Id": "4221266268",
+         "GUID": "{645DF600-C54C-45FB-A71D-7DA912457570}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "468478001"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "4091656514",
+         "Id": "3903479535",
+         "GUID": "{41DDC73A-AF51-440B-B4E4-7B773BB5FDF0}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "779132188"
+         }
+        ]
        }
       ],
       "ActionSetState": [
@@ -480,6 +522,12 @@
       "GUID": "{1C387382-33FD-48A4-AFB3-1F989B62080B}",
       "States": [
        {
+        "Id": "740813057",
+        "Name": "Ending_TurtleLarry",
+        "ObjectPath": "\\States\\States_WorkingUnit_Ayana\\GameState\\Ending_TurtleLarry",
+        "GUID": "{CBDE138E-5EDC-4B0F-8D0B-A50AA8F3F48D}"
+       },
+       {
         "Id": "748895195",
         "Name": "None",
         "ObjectPath": "\\States\\States_WorkingUnit_Ayana\\GameState\\None",
@@ -534,6 +582,12 @@
         "GUID": "{F34E3848-894B-468C-92C3-FB3A0659D3FB}"
        },
        {
+        "Id": "3903479535",
+        "Name": "Ending_Seahorse_Sam",
+        "ObjectPath": "\\States\\States_WorkingUnit_Ayana\\GameState\\Ending_Seahorse_Sam",
+        "GUID": "{41DDC73A-AF51-440B-B4E4-7B773BB5FDF0}"
+       },
+       {
         "Id": "4015219260",
         "Name": "Camera_Explore",
         "ObjectPath": "\\States\\States_WorkingUnit_Ayana\\GameState\\Camera_Explore",
@@ -550,12 +604,18 @@
         "Name": "Player_Explore",
         "ObjectPath": "\\States\\States_WorkingUnit_Ayana\\GameState\\Player_Explore",
         "GUID": "{1024E66E-0AB5-439C-A9CE-A14396369C88}"
+       },
+       {
+        "Id": "4221266268",
+        "Name": "Ending_BananafishBens",
+        "ObjectPath": "\\States\\States_WorkingUnit_Ayana\\GameState\\Ending_BananafishBens",
+        "GUID": "{645DF600-C54C-45FB-A71D-7DA912457570}"
        }
       ]
      }
     ]
    }
   ],
-  "FileHash": "{9E9A0F67-3370-9DDE-C7E2-D770546A9554}"
+  "FileHash": "{80A7D421-B903-CA4C-986D-69EC9A866F5E}"
  }
 }

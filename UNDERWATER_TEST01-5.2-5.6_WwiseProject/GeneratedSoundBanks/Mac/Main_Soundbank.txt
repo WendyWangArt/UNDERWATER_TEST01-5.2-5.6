@@ -12,6 +12,7 @@ State Group	ID	Name			Wwise Object Path	Notes
 	4091656514	GameState			\States_WorkingUnit_Ayana\GameState	
 
 State	ID	Name	State Group			Notes
+	740813057	Ending_TurtleLarry	GameState			
 	748895195	None	GameState			
 	1125500713	Intro	GameState			
 	2325769881	TalkToBananafish	GameState			
@@ -21,9 +22,11 @@ State	ID	Name	State Group			Notes
 	3277996074	aftercheckingthesubmarine	GameState			
 	3402445284	playerexplorebutonlysetstates	GameState			
 	3604647259	MainMenu	GameState			
+	3903479535	Ending_Seahorse_Sam	GameState			
 	4015219260	Camera_Explore	GameState			
 	4184794294	Outro	GameState			
 	4195327770	Player_Explore	GameState			
+	4221266268	Ending_BananafishBens	GameState			
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	715038	OceanAtmosphereAMbient	C:\Users\wendy.wang\Documents\Wendy\UNDERWATER_TEST01-5.2-5.6\UNDERWATER_TEST01-5.2-5.6_WwiseProject\.cache\7C\{7C798EC4-AFB6-B30F-0C7F-EEA5D70083DC}.wem		\Actor-Mixer Hierarchy\Ayana\AmbientSound_Ayaana\OceanAtmosphereAMbient		11372896
@@ -35,6 +38,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	108380767	Section 1 Stripped Back (83bpm)	C:\Users\wendy.wang\Documents\Wendy\UNDERWATER_TEST01-5.2-5.6\UNDERWATER_TEST01-5.2-5.6_WwiseProject\.cache\32\{3242349C-E286-C622-658E-0707E8244089}.wem		\Interactive Music Hierarchy\transition\transitiontest\maintrack\Section 1 Stripped Back (83bpm)\Section 1 Stripped Back (83bpm)		9993492
 	383055841	Banana Fish Bens Theme Section 3	C:\Users\wendy.wang\Documents\Wendy\UNDERWATER_TEST01-5.2-5.6\UNDERWATER_TEST01-5.2-5.6_WwiseProject\.cache\B4\{B40584A1-02D7-8475-2A3E-4EDB369D0CC0}.wem		\Interactive Music Hierarchy\transition\transitiontest\BananafishDialogueMusic\Banana Fish Bens Theme Section 3\Banana Fish Bens Theme Section 3		9993460
 	393254990	Seahorse Sam Section 3 (83bpm)	C:\Users\wendy.wang\Documents\Wendy\UNDERWATER_TEST01-5.2-5.6\UNDERWATER_TEST01-5.2-5.6_WwiseProject\.cache\95\{95AABFA7-24BA-BC15-5583-B01FBA15B004}.wem		\Interactive Music Hierarchy\transition\transitiontest\SeahorseSamDialogueMusic\Seahorse Sam Section 3 (83bpm)\Seahorse Sam Section 3 (83bpm)		9160724
+	468478001	Banana Fish Bens Ending Music	C:\Users\wendy.wang\Documents\Wendy\UNDERWATER_TEST01-5.2-5.6\UNDERWATER_TEST01-5.2-5.6_WwiseProject\.cache\B1\{B18754F4-7F01-D0F2-B21D-2F07F2BD5002}.wem		\Interactive Music Hierarchy\transition\transitiontest\Banana Fish Bens Ending Music\Banana Fish Bens Ending Music		4441652
 	565919851	Seahorse Sam Section 3 (83bpm) Stripped Back	C:\Users\wendy.wang\Documents\Wendy\UNDERWATER_TEST01-5.2-5.6\UNDERWATER_TEST01-5.2-5.6_WwiseProject\.cache\49\{493C3B51-A113-0616-54CC-50ECCCA3A3A4}.wem		\Interactive Music Hierarchy\transition\transitiontest\SeahorseSamDialogueMusic\Seahorse Sam Section 3 (83bpm) Stripped Back\Seahorse Sam Section 3 (83bpm) Stripped Back		9160724
 	578114160	Banana Fish Bens Theme Section 2 Stripped Back	C:\Users\wendy.wang\Documents\Wendy\UNDERWATER_TEST01-5.2-5.6\UNDERWATER_TEST01-5.2-5.6_WwiseProject\.cache\E1\{E12DD4CC-95CE-CC9D-AF9A-67B8B1483B57}.wem		\Interactive Music Hierarchy\transition\transitiontest\BananafishDialogueMusic\Banana Fish Bens Theme Section 2 Stripped Back\Banana Fish Bens Theme Section 2 Stripped Back		9438280
 	584662918	Section 2 (83bpm)	C:\Users\wendy.wang\Documents\Wendy\UNDERWATER_TEST01-5.2-5.6\UNDERWATER_TEST01-5.2-5.6_WwiseProject\.cache\D9\{D993F6CA-75D2-B900-A0B0-EE5A1BBB277D}.wem		\Interactive Music Hierarchy\transition\transitiontest\maintrack\Section 2 (83bpm)\Section 2 (83bpm)		10548640
@@ -43,6 +47,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	716898262	Seahorse Sam Section 2 (83bpm) Stripped Back	C:\Users\wendy.wang\Documents\Wendy\UNDERWATER_TEST01-5.2-5.6\UNDERWATER_TEST01-5.2-5.6_WwiseProject\.cache\75\{75FCBB0C-C03D-D36B-D21C-D8D3B6D6220F}.wem		\Interactive Music Hierarchy\transition\transitiontest\SeahorseSamDialogueMusic\Seahorse Sam Section 2 (83bpm) Stripped Back\Seahorse Sam Section 2 (83bpm) Stripped Back		9438284
 	766517160	submarine_launch	C:\Users\wendy.wang\Documents\Wendy\UNDERWATER_TEST01-5.2-5.6\UNDERWATER_TEST01-5.2-5.6_WwiseProject\.cache\5F\{5F2D0291-5571-56C8-D0FF-B1EB37809AE5}.wem		\Actor-Mixer Hierarchy\Ayana\AmbientSound_Ayaana\submarine_launch		3805696
 	773308108	Seahorse Sam Section 1 (83bpm) Stripped Back	C:\Users\wendy.wang\Documents\Wendy\UNDERWATER_TEST01-5.2-5.6\UNDERWATER_TEST01-5.2-5.6_WwiseProject\.cache\4B\{4BBD5BE0-B1B0-1C16-7EDE-2B82D54401A2}.wem		\Interactive Music Hierarchy\transition\transitiontest\SeahorseSamDialogueMusic\Seahorse Sam Section 1 (83bpm) Stripped Back\Seahorse Sam Section 1 (83bpm) Stripped Back		9438280
+	779132188	Seahorse Sam Ending Music	C:\Users\wendy.wang\Documents\Wendy\UNDERWATER_TEST01-5.2-5.6\UNDERWATER_TEST01-5.2-5.6_WwiseProject\.cache\EA\{EA2DA722-45E1-003C-628B-6BC943BF18B5}.wem		\Interactive Music Hierarchy\transition\transitiontest\Seahorse Sam Ending Music\Seahorse Sam Ending Music		3123100
 	827705350	Section 1 (83bpm)	C:\Users\wendy.wang\Documents\Wendy\UNDERWATER_TEST01-5.2-5.6\UNDERWATER_TEST01-5.2-5.6_WwiseProject\.cache\9C\{9C43150D-E498-F099-2124-07D9E34BA9D2}.wem		\Interactive Music Hierarchy\transition\transitiontest\maintrack\Section 1 (83bpm)\Section 1 (83bpm)		9438312
 	856472885	Banana Fish Bens Theme Section 1	C:\Users\wendy.wang\Documents\Wendy\UNDERWATER_TEST01-5.2-5.6\UNDERWATER_TEST01-5.2-5.6_WwiseProject\.cache\97\{97C74D5E-EA8B-5FDA-2992-3741AADB8B8B}.wem		\Interactive Music Hierarchy\transition\transitiontest\BananafishDialogueMusic\Banana Fish Bens Theme Section 1\Banana Fish Bens Theme Section 1		9715872
 	877530852	Intro_Animation_SoundEffect	C:\Users\wendy.wang\Documents\Wendy\UNDERWATER_TEST01-5.2-5.6\UNDERWATER_TEST01-5.2-5.6_WwiseProject\.cache\EB\{EB6E9FF6-5CF8-106E-F687-C2482C68E12D}.wem		\Actor-Mixer Hierarchy\Ayana\AmbientSound_Ayaana\Intro_Animation_SoundEffect		4044896

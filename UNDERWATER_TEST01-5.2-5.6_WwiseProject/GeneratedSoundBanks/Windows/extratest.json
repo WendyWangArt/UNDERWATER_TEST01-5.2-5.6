@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{8EA33C33-C5FB-45DF-9DC3-8BF5491793B2}",
     "Language": "SFX",
-    "Hash": "{5EF86D82-FF4A-7647-0997-0DCDB6456A32}",
+    "Hash": "{150EDF81-4464-218A-AF93-0A8D8C9B53AB}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\extratest",
     "ShortName": "extratest",
     "Path": "extratest.bnk",
@@ -25,6 +25,63 @@
      }
     ],
     "Events": [
+     {
+      "Id": "4187016065",
+      "Name": "ending_BNNFBens",
+      "ObjectPath": "\\Events\\Default Work Unit\\ending_BNNFBens",
+      "GUID": "{2254057E-684A-4E3C-BFBE-473A17752CC3}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0",
+      "ActionSetState": [
+       {
+        "GroupId": "4091656514",
+        "Id": "4221266268",
+        "Name": "Ending_BananafishBens",
+        "ObjectPath": "\\States\\States_WorkingUnit_Ayana\\GameState\\Ending_BananafishBens",
+        "GUID": "{645DF600-C54C-45FB-A71D-7DA912457570}"
+       }
+      ]
+     },
+     {
+      "Id": "2841690346",
+      "Name": "ending_SSSAm",
+      "ObjectPath": "\\Events\\Default Work Unit\\ending_SSSAm",
+      "GUID": "{05F5950B-0F8C-4B7E-820C-0118B8CE1A70}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0",
+      "ActionSetState": [
+       {
+        "GroupId": "4091656514",
+        "Id": "3903479535",
+        "Name": "Ending_Seahorse_Sam",
+        "ObjectPath": "\\States\\States_WorkingUnit_Ayana\\GameState\\Ending_Seahorse_Sam",
+        "GUID": "{41DDC73A-AF51-440B-B4E4-7B773BB5FDF0}"
+       }
+      ]
+     },
+     {
+      "Id": "2211695820",
+      "Name": "ending_TurtleLarry_",
+      "ObjectPath": "\\Events\\Default Work Unit\\ending_TurtleLarry_",
+      "GUID": "{D1AFCC0E-2D63-4A78-AD0E-823A312C3FA4}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0",
+      "ActionSetState": [
+       {
+        "GroupId": "4091656514",
+        "Id": "740813057",
+        "Name": "Ending_TurtleLarry",
+        "ObjectPath": "\\States\\States_WorkingUnit_Ayana\\GameState\\Ending_TurtleLarry",
+        "GUID": "{CBDE138E-5EDC-4B0F-8D0B-A50AA8F3F48D}"
+       }
+      ]
+     },
      {
       "Id": "2607556080",
       "Name": "menu",
@@ -73,6 +130,12 @@
       "ObjectPath": "\\States\\States_WorkingUnit_Ayana\\GameState",
       "GUID": "{1C387382-33FD-48A4-AFB3-1F989B62080B}",
       "States": [
+       {
+        "Id": "740813057",
+        "Name": "Ending_TurtleLarry",
+        "ObjectPath": "\\States\\States_WorkingUnit_Ayana\\GameState\\Ending_TurtleLarry",
+        "GUID": "{CBDE138E-5EDC-4B0F-8D0B-A50AA8F3F48D}"
+       },
        {
         "Id": "748895195",
         "Name": "None",
@@ -128,6 +191,12 @@
         "GUID": "{F34E3848-894B-468C-92C3-FB3A0659D3FB}"
        },
        {
+        "Id": "3903479535",
+        "Name": "Ending_Seahorse_Sam",
+        "ObjectPath": "\\States\\States_WorkingUnit_Ayana\\GameState\\Ending_Seahorse_Sam",
+        "GUID": "{41DDC73A-AF51-440B-B4E4-7B773BB5FDF0}"
+       },
+       {
         "Id": "4015219260",
         "Name": "Camera_Explore",
         "ObjectPath": "\\States\\States_WorkingUnit_Ayana\\GameState\\Camera_Explore",
@@ -144,12 +213,18 @@
         "Name": "Player_Explore",
         "ObjectPath": "\\States\\States_WorkingUnit_Ayana\\GameState\\Player_Explore",
         "GUID": "{1024E66E-0AB5-439C-A9CE-A14396369C88}"
+       },
+       {
+        "Id": "4221266268",
+        "Name": "Ending_BananafishBens",
+        "ObjectPath": "\\States\\States_WorkingUnit_Ayana\\GameState\\Ending_BananafishBens",
+        "GUID": "{645DF600-C54C-45FB-A71D-7DA912457570}"
        }
       ]
      }
     ]
    }
   ],
-  "FileHash": "{8AB75F80-DD06-58E8-9FC2-821F69E73D34}"
+  "FileHash": "{5E748830-22A0-3512-02B4-90F4A1A53738}"
  }
 }

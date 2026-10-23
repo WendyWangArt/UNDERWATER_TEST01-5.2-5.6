@@ -102,6 +102,12 @@
       "GUID": "{1C387382-33FD-48A4-AFB3-1F989B62080B}",
       "States": [
        {
+        "Id": "740813057",
+        "Name": "Ending_TurtleLarry",
+        "ObjectPath": "\\States\\States_WorkingUnit_Ayana\\GameState\\Ending_TurtleLarry",
+        "GUID": "{CBDE138E-5EDC-4B0F-8D0B-A50AA8F3F48D}"
+       },
+       {
         "Id": "748895195",
         "Name": "None",
         "ObjectPath": "\\States\\States_WorkingUnit_Ayana\\GameState\\None",
@@ -156,6 +162,12 @@
         "GUID": "{F34E3848-894B-468C-92C3-FB3A0659D3FB}"
        },
        {
+        "Id": "3903479535",
+        "Name": "Ending_Seahorse_Sam",
+        "ObjectPath": "\\States\\States_WorkingUnit_Ayana\\GameState\\Ending_Seahorse_Sam",
+        "GUID": "{41DDC73A-AF51-440B-B4E4-7B773BB5FDF0}"
+       },
+       {
         "Id": "4015219260",
         "Name": "Camera_Explore",
         "ObjectPath": "\\States\\States_WorkingUnit_Ayana\\GameState\\Camera_Explore",
@@ -172,12 +184,18 @@
         "Name": "Player_Explore",
         "ObjectPath": "\\States\\States_WorkingUnit_Ayana\\GameState\\Player_Explore",
         "GUID": "{1024E66E-0AB5-439C-A9CE-A14396369C88}"
+       },
+       {
+        "Id": "4221266268",
+        "Name": "Ending_BananafishBens",
+        "ObjectPath": "\\States\\States_WorkingUnit_Ayana\\GameState\\Ending_BananafishBens",
+        "GUID": "{645DF600-C54C-45FB-A71D-7DA912457570}"
        }
       ]
      }
     ]
    }
   ],
-  "FileHash": "{491AB967-C8CA-5637-E440-03FC94D81FD0}"
+  "FileHash": "{E3F1FABC-AB27-B867-D0F4-54C37D340BF8}"
  }
 }

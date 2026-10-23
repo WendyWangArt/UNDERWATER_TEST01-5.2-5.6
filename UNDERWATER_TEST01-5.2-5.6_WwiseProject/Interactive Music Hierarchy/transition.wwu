@@ -517,6 +517,544 @@
 												</DestinationFadeIn>
 											</TransitionInfo>
 										</MusicTransition>
+										<MusicTransition Name="Transition" ID="{C66CC608-3501-4C03-8C4B-C5CF0277A06A}">
+											<PropertyList>
+												<Property Name="DestinationContextType" Type="int16" Value="2"/>
+												<Property Name="DestinationJumpPositionPreset" Type="int16" Value="1"/>
+												<Property Name="DestinationPlaylistJumpTo" Type="int16" Value="1"/>
+												<Property Name="EnableDestinationFadeIn" Type="bool" Value="True"/>
+												<Property Name="EnableSourceFadeOut" Type="bool" Value="True"/>
+												<Property Name="ExitSourceAt" Type="int16" Value="0"/>
+												<Property Name="SourceContextType" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="DestinationContextObject">
+													<ObjectRef Name="SeahorseSamDialogueMusic" ID="{787B5D6D-5ACF-48E2-91E0-6E9E5953E23E}" WorkUnitID="{C9C65301-A2C3-4042-A494-C425A369F672}"/>
+												</Reference>
+												<Reference Name="SourceContextObject">
+													<ObjectRef Name="Section 2 Stripped Back (83bpm)" ID="{6A8B7FB0-A421-4356-BF15-323D5FCF0F1D}" WorkUnitID="{C9C65301-A2C3-4042-A494-C425A369F672}"/>
+												</Reference>
+											</ReferenceList>
+											<TransitionInfo>
+												<JumpToPlaylistItemRef Name="" ID="{4545C578-90E1-4C95-BEC9-3DC21840C4B9}"/>
+												<SourceFadeOut>
+													<MusicFade Name="Source Fade-out" ID="{0CD3A811-F873-4B89-860E-AC2013F5122B}">
+														<PropertyList>
+															<Property Name="FadeCurve" Type="int16" Value="1"/>
+															<Property Name="FadeOffset" Type="Real64" Value="1"/>
+															<Property Name="FadeTime" Type="Real64" Value="3"/>
+															<Property Name="FadeType" Type="int16" Value="1"/>
+														</PropertyList>
+													</MusicFade>
+												</SourceFadeOut>
+												<DestinationFadeIn>
+													<MusicFade Name="Destination Fade-in" ID="{BC5BD52B-64E6-46E7-BAE0-B31DBDF2D629}">
+														<PropertyList>
+															<Property Name="FadeCurve" Type="int16" Value="1"/>
+															<Property Name="FadeOffset" Type="Real64" Value="-1"/>
+															<Property Name="FadeTime" Type="Real64" Value="3"/>
+														</PropertyList>
+													</MusicFade>
+												</DestinationFadeIn>
+											</TransitionInfo>
+										</MusicTransition>
+										<MusicTransition Name="Transition" ID="{1DAAC855-F4E6-4E20-8893-9C4048E4F955}">
+											<PropertyList>
+												<Property Name="DestinationContextType" Type="int16" Value="2"/>
+												<Property Name="DestinationJumpPositionPreset" Type="int16" Value="1"/>
+												<Property Name="DestinationPlaylistJumpTo" Type="int16" Value="1"/>
+												<Property Name="EnableDestinationFadeIn" Type="bool" Value="True"/>
+												<Property Name="EnableSourceFadeOut" Type="bool" Value="True"/>
+												<Property Name="ExitSourceAt" Type="int16" Value="0"/>
+												<Property Name="SourceContextType" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="DestinationContextObject">
+													<ObjectRef Name="maintrack" ID="{EC512893-4992-4B83-BAAA-0DB9207DC3A8}" WorkUnitID="{C9C65301-A2C3-4042-A494-C425A369F672}"/>
+												</Reference>
+												<Reference Name="SourceContextObject">
+													<ObjectRef Name="Seahorse Sam Section 1 (83bpm) Stripped Back" ID="{D6764A90-3961-4C27-A4FD-EB88CEB884DD}" WorkUnitID="{C9C65301-A2C3-4042-A494-C425A369F672}"/>
+												</Reference>
+											</ReferenceList>
+											<TransitionInfo>
+												<JumpToPlaylistItemRef Name="" ID="{39FD1B62-43FF-4E9E-9409-C5526787A7E0}"/>
+												<SourceFadeOut>
+													<MusicFade Name="Source Fade-out" ID="{A300FD06-7BBF-4ADA-A613-EE674486EA27}">
+														<PropertyList>
+															<Property Name="FadeCurve" Type="int16" Value="1"/>
+															<Property Name="FadeOffset" Type="Real64" Value="1"/>
+															<Property Name="FadeTime" Type="Real64" Value="3"/>
+															<Property Name="FadeType" Type="int16" Value="1"/>
+														</PropertyList>
+													</MusicFade>
+												</SourceFadeOut>
+												<DestinationFadeIn>
+													<MusicFade Name="Destination Fade-in" ID="{2140567F-0097-4F62-9999-031799296C10}">
+														<PropertyList>
+															<Property Name="FadeCurve" Type="int16" Value="1"/>
+															<Property Name="FadeOffset" Type="Real64" Value="-1"/>
+															<Property Name="FadeTime" Type="Real64" Value="3"/>
+														</PropertyList>
+													</MusicFade>
+												</DestinationFadeIn>
+											</TransitionInfo>
+										</MusicTransition>
+										<MusicTransition Name="Transition" ID="{CE22E436-8FC0-47F2-8F4A-608769DD2B21}">
+											<PropertyList>
+												<Property Name="DestinationContextType" Type="int16" Value="2"/>
+												<Property Name="DestinationJumpPositionPreset" Type="int16" Value="1"/>
+												<Property Name="DestinationPlaylistJumpTo" Type="int16" Value="1"/>
+												<Property Name="EnableDestinationFadeIn" Type="bool" Value="True"/>
+												<Property Name="EnableSourceFadeOut" Type="bool" Value="True"/>
+												<Property Name="ExitSourceAt" Type="int16" Value="0"/>
+												<Property Name="SourceContextType" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="DestinationContextObject">
+													<ObjectRef Name="maintrack" ID="{EC512893-4992-4B83-BAAA-0DB9207DC3A8}" WorkUnitID="{C9C65301-A2C3-4042-A494-C425A369F672}"/>
+												</Reference>
+												<Reference Name="SourceContextObject">
+													<ObjectRef Name="Seahorse Sam Section 3 (83bpm)" ID="{9B88BFC7-512D-40C2-9195-011F3AAD2270}" WorkUnitID="{C9C65301-A2C3-4042-A494-C425A369F672}"/>
+												</Reference>
+											</ReferenceList>
+											<TransitionInfo>
+												<JumpToPlaylistItemRef Name="" ID="{820FAFD5-DD12-48D6-BDA1-F3771B6F186C}"/>
+												<SourceFadeOut>
+													<MusicFade Name="Source Fade-out" ID="{5398A047-F801-43D2-AAC7-49F1793D109D}">
+														<PropertyList>
+															<Property Name="FadeCurve" Type="int16" Value="1"/>
+															<Property Name="FadeOffset" Type="Real64" Value="1"/>
+															<Property Name="FadeTime" Type="Real64" Value="3"/>
+															<Property Name="FadeType" Type="int16" Value="1"/>
+														</PropertyList>
+													</MusicFade>
+												</SourceFadeOut>
+												<DestinationFadeIn>
+													<MusicFade Name="Destination Fade-in" ID="{B4C01DAA-35C9-43D3-BA25-5EC6B487FE12}">
+														<PropertyList>
+															<Property Name="FadeCurve" Type="int16" Value="1"/>
+															<Property Name="FadeOffset" Type="Real64" Value="-1"/>
+															<Property Name="FadeTime" Type="Real64" Value="3"/>
+														</PropertyList>
+													</MusicFade>
+												</DestinationFadeIn>
+											</TransitionInfo>
+										</MusicTransition>
+										<MusicTransition Name="Transition" ID="{EE9073E0-47E8-43C5-9C28-B80338D87C1F}">
+											<PropertyList>
+												<Property Name="DestinationContextType" Type="int16" Value="2"/>
+												<Property Name="DestinationJumpPositionPreset" Type="int16" Value="1"/>
+												<Property Name="DestinationPlaylistJumpTo" Type="int16" Value="1"/>
+												<Property Name="EnableDestinationFadeIn" Type="bool" Value="True"/>
+												<Property Name="EnableSourceFadeOut" Type="bool" Value="True"/>
+												<Property Name="ExitSourceAt" Type="int16" Value="0"/>
+												<Property Name="SourceContextType" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="DestinationContextObject">
+													<ObjectRef Name="maintrack" ID="{EC512893-4992-4B83-BAAA-0DB9207DC3A8}" WorkUnitID="{C9C65301-A2C3-4042-A494-C425A369F672}"/>
+												</Reference>
+												<Reference Name="SourceContextObject">
+													<ObjectRef Name="Seahorse Sam Section 3 (83bpm) Stripped Back" ID="{DCF1EF24-18B8-4D61-B10B-3CE9E2BCFD2D}" WorkUnitID="{C9C65301-A2C3-4042-A494-C425A369F672}"/>
+												</Reference>
+											</ReferenceList>
+											<TransitionInfo>
+												<JumpToPlaylistItemRef Name="" ID="{566E2187-4678-4276-9143-021C8129DB05}"/>
+												<SourceFadeOut>
+													<MusicFade Name="Source Fade-out" ID="{D477236C-964C-4582-8976-EF4F5FE363A3}">
+														<PropertyList>
+															<Property Name="FadeCurve" Type="int16" Value="1"/>
+															<Property Name="FadeOffset" Type="Real64" Value="1"/>
+															<Property Name="FadeTime" Type="Real64" Value="3"/>
+															<Property Name="FadeType" Type="int16" Value="1"/>
+														</PropertyList>
+													</MusicFade>
+												</SourceFadeOut>
+												<DestinationFadeIn>
+													<MusicFade Name="Destination Fade-in" ID="{CDBA034B-79BF-49DF-BEEA-AE3ECE070287}">
+														<PropertyList>
+															<Property Name="FadeCurve" Type="int16" Value="1"/>
+															<Property Name="FadeOffset" Type="Real64" Value="-1"/>
+															<Property Name="FadeTime" Type="Real64" Value="3"/>
+														</PropertyList>
+													</MusicFade>
+												</DestinationFadeIn>
+											</TransitionInfo>
+										</MusicTransition>
+										<MusicTransition Name="Transition" ID="{9B5F5341-C026-4651-94B0-E9C1A39F6325}">
+											<PropertyList>
+												<Property Name="DestinationContextType" Type="int16" Value="2"/>
+												<Property Name="DestinationJumpPositionPreset" Type="int16" Value="1"/>
+												<Property Name="DestinationPlaylistJumpTo" Type="int16" Value="1"/>
+												<Property Name="EnableDestinationFadeIn" Type="bool" Value="True"/>
+												<Property Name="EnableSourceFadeOut" Type="bool" Value="True"/>
+												<Property Name="ExitSourceAt" Type="int16" Value="0"/>
+												<Property Name="SourceContextType" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="DestinationContextObject">
+													<ObjectRef Name="SeahorseSamDialogueMusic" ID="{787B5D6D-5ACF-48E2-91E0-6E9E5953E23E}" WorkUnitID="{C9C65301-A2C3-4042-A494-C425A369F672}"/>
+												</Reference>
+												<Reference Name="SourceContextObject">
+													<ObjectRef Name="Section 1 (83bpm)" ID="{59C8C66C-9F88-44AB-8482-458DC9B00978}" WorkUnitID="{C9C65301-A2C3-4042-A494-C425A369F672}"/>
+												</Reference>
+											</ReferenceList>
+											<TransitionInfo>
+												<JumpToPlaylistItemRef Name="" ID="{A5AF81C0-44B6-4E95-AAC8-A66E9F4F5C26}"/>
+												<SourceFadeOut>
+													<MusicFade Name="Source Fade-out" ID="{3DED449E-1423-41A0-997C-88AEE853BE4B}">
+														<PropertyList>
+															<Property Name="FadeCurve" Type="int16" Value="1"/>
+															<Property Name="FadeOffset" Type="Real64" Value="1"/>
+															<Property Name="FadeTime" Type="Real64" Value="3"/>
+															<Property Name="FadeType" Type="int16" Value="1"/>
+														</PropertyList>
+													</MusicFade>
+												</SourceFadeOut>
+												<DestinationFadeIn>
+													<MusicFade Name="Destination Fade-in" ID="{E7E2478C-BEE5-4341-8D7F-84B16D7C6B56}">
+														<PropertyList>
+															<Property Name="FadeCurve" Type="int16" Value="1"/>
+															<Property Name="FadeOffset" Type="Real64" Value="-1"/>
+															<Property Name="FadeTime" Type="Real64" Value="3"/>
+														</PropertyList>
+													</MusicFade>
+												</DestinationFadeIn>
+											</TransitionInfo>
+										</MusicTransition>
+										<MusicTransition Name="Transition" ID="{B78E32D4-B973-4294-B8C9-12752B62D624}">
+											<PropertyList>
+												<Property Name="DestinationContextType" Type="int16" Value="2"/>
+												<Property Name="DestinationJumpPositionPreset" Type="int16" Value="1"/>
+												<Property Name="DestinationPlaylistJumpTo" Type="int16" Value="1"/>
+												<Property Name="EnableDestinationFadeIn" Type="bool" Value="True"/>
+												<Property Name="EnableSourceFadeOut" Type="bool" Value="True"/>
+												<Property Name="ExitSourceAt" Type="int16" Value="0"/>
+												<Property Name="SourceContextType" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="DestinationContextObject">
+													<ObjectRef Name="SeahorseSamDialogueMusic" ID="{787B5D6D-5ACF-48E2-91E0-6E9E5953E23E}" WorkUnitID="{C9C65301-A2C3-4042-A494-C425A369F672}"/>
+												</Reference>
+												<Reference Name="SourceContextObject">
+													<ObjectRef Name="Section 2 (83bpm)" ID="{A7C0B876-7EF5-4AAF-8090-BC74BC2D8A76}" WorkUnitID="{C9C65301-A2C3-4042-A494-C425A369F672}"/>
+												</Reference>
+											</ReferenceList>
+											<TransitionInfo>
+												<JumpToPlaylistItemRef Name="" ID="{9F9CB786-ECEF-413C-B0F6-363C513CAE4A}"/>
+												<SourceFadeOut>
+													<MusicFade Name="Source Fade-out" ID="{B3690FD9-98F6-490C-95F1-BA2BC8D8834A}">
+														<PropertyList>
+															<Property Name="FadeCurve" Type="int16" Value="1"/>
+															<Property Name="FadeOffset" Type="Real64" Value="1"/>
+															<Property Name="FadeTime" Type="Real64" Value="3"/>
+															<Property Name="FadeType" Type="int16" Value="1"/>
+														</PropertyList>
+													</MusicFade>
+												</SourceFadeOut>
+												<DestinationFadeIn>
+													<MusicFade Name="Destination Fade-in" ID="{771F6593-A4F8-48F5-BFBA-5439100638C9}">
+														<PropertyList>
+															<Property Name="FadeCurve" Type="int16" Value="1"/>
+															<Property Name="FadeOffset" Type="Real64" Value="-1"/>
+															<Property Name="FadeTime" Type="Real64" Value="3"/>
+														</PropertyList>
+													</MusicFade>
+												</DestinationFadeIn>
+											</TransitionInfo>
+										</MusicTransition>
+										<MusicTransition Name="Transition" ID="{DCF4E7FE-A6A9-45C7-B299-E5E097014448}">
+											<PropertyList>
+												<Property Name="DestinationContextType" Type="int16" Value="2"/>
+												<Property Name="DestinationJumpPositionPreset" Type="int16" Value="1"/>
+												<Property Name="DestinationPlaylistJumpTo" Type="int16" Value="1"/>
+												<Property Name="EnableDestinationFadeIn" Type="bool" Value="True"/>
+												<Property Name="EnableSourceFadeOut" Type="bool" Value="True"/>
+												<Property Name="ExitSourceAt" Type="int16" Value="0"/>
+												<Property Name="SourceContextType" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="DestinationContextObject">
+													<ObjectRef Name="maintrack" ID="{EC512893-4992-4B83-BAAA-0DB9207DC3A8}" WorkUnitID="{C9C65301-A2C3-4042-A494-C425A369F672}"/>
+												</Reference>
+												<Reference Name="SourceContextObject">
+													<ObjectRef Name="Seahorse Sam Section 1 (83bpm)" ID="{233815E7-5233-409D-86C8-1BB66EB9D1DB}" WorkUnitID="{C9C65301-A2C3-4042-A494-C425A369F672}"/>
+												</Reference>
+											</ReferenceList>
+											<TransitionInfo>
+												<JumpToPlaylistItemRef Name="" ID="{6C2231D8-A7A7-48CE-A07F-DB1A5DD4BAE1}"/>
+												<SourceFadeOut>
+													<MusicFade Name="Source Fade-out" ID="{7764C751-FD6A-4CC6-91D5-F8485D9F4948}">
+														<PropertyList>
+															<Property Name="FadeCurve" Type="int16" Value="1"/>
+															<Property Name="FadeOffset" Type="Real64" Value="1"/>
+															<Property Name="FadeTime" Type="Real64" Value="3"/>
+															<Property Name="FadeType" Type="int16" Value="1"/>
+														</PropertyList>
+													</MusicFade>
+												</SourceFadeOut>
+												<DestinationFadeIn>
+													<MusicFade Name="Destination Fade-in" ID="{5A263EAE-83DC-43DD-B1E2-545934E0217B}">
+														<PropertyList>
+															<Property Name="FadeCurve" Type="int16" Value="1"/>
+															<Property Name="FadeOffset" Type="Real64" Value="-1"/>
+															<Property Name="FadeTime" Type="Real64" Value="3"/>
+														</PropertyList>
+													</MusicFade>
+												</DestinationFadeIn>
+											</TransitionInfo>
+										</MusicTransition>
+										<MusicTransition Name="Transition" ID="{C08AAEEA-348A-405D-8800-B050DD3BD79D}">
+											<PropertyList>
+												<Property Name="DestinationContextType" Type="int16" Value="2"/>
+												<Property Name="DestinationJumpPositionPreset" Type="int16" Value="1"/>
+												<Property Name="DestinationPlaylistJumpTo" Type="int16" Value="1"/>
+												<Property Name="EnableDestinationFadeIn" Type="bool" Value="True"/>
+												<Property Name="EnableSourceFadeOut" Type="bool" Value="True"/>
+												<Property Name="ExitSourceAt" Type="int16" Value="0"/>
+												<Property Name="SourceContextType" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="DestinationContextObject">
+													<ObjectRef Name="SeahorseSamDialogueMusic" ID="{787B5D6D-5ACF-48E2-91E0-6E9E5953E23E}" WorkUnitID="{C9C65301-A2C3-4042-A494-C425A369F672}"/>
+												</Reference>
+												<Reference Name="SourceContextObject">
+													<ObjectRef Name="Section 3 (83bpm)" ID="{7A8A4B8E-3EFE-4BAF-BDCD-97503FD6B48F}" WorkUnitID="{C9C65301-A2C3-4042-A494-C425A369F672}"/>
+												</Reference>
+											</ReferenceList>
+											<TransitionInfo>
+												<JumpToPlaylistItemRef Name="" ID="{5D215D88-C233-4E42-8E10-616B51120032}"/>
+												<SourceFadeOut>
+													<MusicFade Name="Source Fade-out" ID="{5EA9630D-DB8B-4D50-8262-3D3286285A85}">
+														<PropertyList>
+															<Property Name="FadeCurve" Type="int16" Value="1"/>
+															<Property Name="FadeOffset" Type="Real64" Value="1"/>
+															<Property Name="FadeTime" Type="Real64" Value="3"/>
+															<Property Name="FadeType" Type="int16" Value="1"/>
+														</PropertyList>
+													</MusicFade>
+												</SourceFadeOut>
+												<DestinationFadeIn>
+													<MusicFade Name="Destination Fade-in" ID="{C323E27C-2930-4012-98DF-23F08B3A65C7}">
+														<PropertyList>
+															<Property Name="FadeCurve" Type="int16" Value="1"/>
+															<Property Name="FadeOffset" Type="Real64" Value="-1"/>
+															<Property Name="FadeTime" Type="Real64" Value="3"/>
+														</PropertyList>
+													</MusicFade>
+												</DestinationFadeIn>
+											</TransitionInfo>
+										</MusicTransition>
+										<MusicTransition Name="Transition" ID="{D88B4284-1D7C-4547-BAFD-3576E4A02ECC}">
+											<PropertyList>
+												<Property Name="DestinationContextType" Type="int16" Value="2"/>
+												<Property Name="DestinationJumpPositionPreset" Type="int16" Value="1"/>
+												<Property Name="DestinationPlaylistJumpTo" Type="int16" Value="1"/>
+												<Property Name="EnableDestinationFadeIn" Type="bool" Value="True"/>
+												<Property Name="EnableSourceFadeOut" Type="bool" Value="True"/>
+												<Property Name="ExitSourceAt" Type="int16" Value="0"/>
+												<Property Name="SourceContextType" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="DestinationContextObject">
+													<ObjectRef Name="SeahorseSamDialogueMusic" ID="{787B5D6D-5ACF-48E2-91E0-6E9E5953E23E}" WorkUnitID="{C9C65301-A2C3-4042-A494-C425A369F672}"/>
+												</Reference>
+												<Reference Name="SourceContextObject">
+													<ObjectRef Name="Section 1 Stripped Back (83bpm)" ID="{C0B2721D-3DCD-43A9-A77B-339020D6A046}" WorkUnitID="{C9C65301-A2C3-4042-A494-C425A369F672}"/>
+												</Reference>
+											</ReferenceList>
+											<TransitionInfo>
+												<JumpToPlaylistItemRef Name="" ID="{81DCC441-89E8-47D7-8B58-D6ADD90B135A}"/>
+												<SourceFadeOut>
+													<MusicFade Name="Source Fade-out" ID="{37EB982C-3360-43BE-B614-D937B11C90BF}">
+														<PropertyList>
+															<Property Name="FadeCurve" Type="int16" Value="1"/>
+															<Property Name="FadeOffset" Type="Real64" Value="1"/>
+															<Property Name="FadeTime" Type="Real64" Value="3"/>
+															<Property Name="FadeType" Type="int16" Value="1"/>
+														</PropertyList>
+													</MusicFade>
+												</SourceFadeOut>
+												<DestinationFadeIn>
+													<MusicFade Name="Destination Fade-in" ID="{8CDECFDD-F0A6-4F16-A075-1D6F102E2D56}">
+														<PropertyList>
+															<Property Name="FadeCurve" Type="int16" Value="1"/>
+															<Property Name="FadeOffset" Type="Real64" Value="-1"/>
+															<Property Name="FadeTime" Type="Real64" Value="3"/>
+														</PropertyList>
+													</MusicFade>
+												</DestinationFadeIn>
+											</TransitionInfo>
+										</MusicTransition>
+										<MusicTransition Name="Transition" ID="{2D511F79-481A-4D51-A9E9-637168D07100}">
+											<PropertyList>
+												<Property Name="DestinationContextType" Type="int16" Value="2"/>
+												<Property Name="DestinationJumpPositionPreset" Type="int16" Value="1"/>
+												<Property Name="DestinationPlaylistJumpTo" Type="int16" Value="1"/>
+												<Property Name="EnableDestinationFadeIn" Type="bool" Value="True"/>
+												<Property Name="EnableSourceFadeOut" Type="bool" Value="True"/>
+												<Property Name="ExitSourceAt" Type="int16" Value="0"/>
+												<Property Name="SourceContextType" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="DestinationContextObject">
+													<ObjectRef Name="maintrack" ID="{EC512893-4992-4B83-BAAA-0DB9207DC3A8}" WorkUnitID="{C9C65301-A2C3-4042-A494-C425A369F672}"/>
+												</Reference>
+												<Reference Name="SourceContextObject">
+													<ObjectRef Name="Seahorse Sam Section 2 (83bpm) Stripped Back" ID="{D5AB037F-C1EC-4230-9EE6-C09036F46E5A}" WorkUnitID="{C9C65301-A2C3-4042-A494-C425A369F672}"/>
+												</Reference>
+											</ReferenceList>
+											<TransitionInfo>
+												<JumpToPlaylistItemRef Name="" ID="{085279D2-884E-4C7D-80E4-816E2BB94087}"/>
+												<SourceFadeOut>
+													<MusicFade Name="Source Fade-out" ID="{C0AA589A-0831-48DE-8393-2846182DA824}">
+														<PropertyList>
+															<Property Name="FadeCurve" Type="int16" Value="1"/>
+															<Property Name="FadeOffset" Type="Real64" Value="1"/>
+															<Property Name="FadeTime" Type="Real64" Value="3"/>
+															<Property Name="FadeType" Type="int16" Value="1"/>
+														</PropertyList>
+													</MusicFade>
+												</SourceFadeOut>
+												<DestinationFadeIn>
+													<MusicFade Name="Destination Fade-in" ID="{D5697E65-C08A-45E6-8AD9-4DEA28564FF1}">
+														<PropertyList>
+															<Property Name="FadeCurve" Type="int16" Value="1"/>
+															<Property Name="FadeOffset" Type="Real64" Value="-1"/>
+															<Property Name="FadeTime" Type="Real64" Value="3"/>
+														</PropertyList>
+													</MusicFade>
+												</DestinationFadeIn>
+											</TransitionInfo>
+										</MusicTransition>
+										<MusicTransition Name="Transition" ID="{668ACCE4-A8E8-419E-9B58-69CA47341C69}">
+											<PropertyList>
+												<Property Name="DestinationContextType" Type="int16" Value="2"/>
+												<Property Name="DestinationJumpPositionPreset" Type="int16" Value="1"/>
+												<Property Name="DestinationPlaylistJumpTo" Type="int16" Value="1"/>
+												<Property Name="EnableDestinationFadeIn" Type="bool" Value="True"/>
+												<Property Name="EnableSourceFadeOut" Type="bool" Value="True"/>
+												<Property Name="ExitSourceAt" Type="int16" Value="0"/>
+												<Property Name="SourceContextType" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="DestinationContextObject">
+													<ObjectRef Name="maintrack" ID="{EC512893-4992-4B83-BAAA-0DB9207DC3A8}" WorkUnitID="{C9C65301-A2C3-4042-A494-C425A369F672}"/>
+												</Reference>
+												<Reference Name="SourceContextObject">
+													<ObjectRef Name="Seahorse Sam Section 3 (83bpm) Stripped Back" ID="{DCF1EF24-18B8-4D61-B10B-3CE9E2BCFD2D}" WorkUnitID="{C9C65301-A2C3-4042-A494-C425A369F672}"/>
+												</Reference>
+											</ReferenceList>
+											<TransitionInfo>
+												<JumpToPlaylistItemRef Name="" ID="{566E2187-4678-4276-9143-021C8129DB05}"/>
+												<SourceFadeOut>
+													<MusicFade Name="Source Fade-out" ID="{CC2383E1-10AE-40B5-965F-396807DCE91C}">
+														<PropertyList>
+															<Property Name="FadeCurve" Type="int16" Value="1"/>
+															<Property Name="FadeOffset" Type="Real64" Value="1"/>
+															<Property Name="FadeTime" Type="Real64" Value="3"/>
+															<Property Name="FadeType" Type="int16" Value="1"/>
+														</PropertyList>
+													</MusicFade>
+												</SourceFadeOut>
+												<DestinationFadeIn>
+													<MusicFade Name="Destination Fade-in" ID="{D25072C5-94A6-462C-A27B-28EFC4860DAB}">
+														<PropertyList>
+															<Property Name="FadeCurve" Type="int16" Value="1"/>
+															<Property Name="FadeOffset" Type="Real64" Value="-1"/>
+															<Property Name="FadeTime" Type="Real64" Value="3"/>
+														</PropertyList>
+													</MusicFade>
+												</DestinationFadeIn>
+											</TransitionInfo>
+										</MusicTransition>
+										<MusicTransition Name="Transition" ID="{F4B5BC27-C2BE-4650-942D-0EAB63CC9847}">
+											<PropertyList>
+												<Property Name="DestinationContextType" Type="int16" Value="2"/>
+												<Property Name="DestinationJumpPositionPreset" Type="int16" Value="1"/>
+												<Property Name="DestinationPlaylistJumpTo" Type="int16" Value="1"/>
+												<Property Name="EnableDestinationFadeIn" Type="bool" Value="True"/>
+												<Property Name="EnableSourceFadeOut" Type="bool" Value="True"/>
+												<Property Name="ExitSourceAt" Type="int16" Value="0"/>
+												<Property Name="SourceContextType" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="DestinationContextObject">
+													<ObjectRef Name="maintrack" ID="{EC512893-4992-4B83-BAAA-0DB9207DC3A8}" WorkUnitID="{C9C65301-A2C3-4042-A494-C425A369F672}"/>
+												</Reference>
+												<Reference Name="SourceContextObject">
+													<ObjectRef Name="Seahorse Sam Section 2 (83bpm)" ID="{06D0E0AD-19F6-43BC-8608-ABC1FA0BAAB9}" WorkUnitID="{C9C65301-A2C3-4042-A494-C425A369F672}"/>
+												</Reference>
+											</ReferenceList>
+											<TransitionInfo>
+												<JumpToPlaylistItemRef Name="" ID="{43C31196-AAEB-4512-8375-82CB0324F997}"/>
+												<SourceFadeOut>
+													<MusicFade Name="Source Fade-out" ID="{5250763C-EC40-45B6-A69A-B83DE88FC749}">
+														<PropertyList>
+															<Property Name="FadeCurve" Type="int16" Value="1"/>
+															<Property Name="FadeOffset" Type="Real64" Value="1"/>
+															<Property Name="FadeTime" Type="Real64" Value="3"/>
+															<Property Name="FadeType" Type="int16" Value="1"/>
+														</PropertyList>
+													</MusicFade>
+												</SourceFadeOut>
+												<DestinationFadeIn>
+													<MusicFade Name="Destination Fade-in" ID="{617EBFC9-1DC7-47B0-85CA-A5C01896C951}">
+														<PropertyList>
+															<Property Name="FadeCurve" Type="int16" Value="1"/>
+															<Property Name="FadeOffset" Type="Real64" Value="-1"/>
+															<Property Name="FadeTime" Type="Real64" Value="3"/>
+														</PropertyList>
+													</MusicFade>
+												</DestinationFadeIn>
+											</TransitionInfo>
+										</MusicTransition>
+										<MusicTransition Name="Transition" ID="{5090D94F-ED36-422A-B82C-AFADED7B40BE}">
+											<PropertyList>
+												<Property Name="DestinationContextType" Type="int16" Value="2"/>
+												<Property Name="EnableSourceFadeOut" Type="bool" Value="True"/>
+												<Property Name="ExitSourceAt" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="DestinationContextObject">
+													<ObjectRef Name="Banana Fish Bens Ending Music" ID="{1A76874D-F96C-460E-B1CB-96F4AA40C724}" WorkUnitID="{C9C65301-A2C3-4042-A494-C425A369F672}"/>
+												</Reference>
+											</ReferenceList>
+											<TransitionInfo>
+												<SourceFadeOut>
+													<MusicFade Name="Source Fade-out" ID="{A1BC0981-9A37-43D9-A045-CC4AEC4A3707}">
+														<PropertyList>
+															<Property Name="FadeCurve" Type="int16" Value="1"/>
+															<Property Name="FadeTime" Type="Real64" Value="5"/>
+															<Property Name="FadeType" Type="int16" Value="1"/>
+														</PropertyList>
+													</MusicFade>
+												</SourceFadeOut>
+											</TransitionInfo>
+										</MusicTransition>
+										<MusicTransition Name="Transition" ID="{81CAF95D-6756-447A-A191-437165953AFB}">
+											<PropertyList>
+												<Property Name="DestinationContextType" Type="int16" Value="2"/>
+												<Property Name="EnableSourceFadeOut" Type="bool" Value="True"/>
+												<Property Name="ExitSourceAt" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="DestinationContextObject">
+													<ObjectRef Name="Seahorse Sam Ending Music" ID="{3C7B77A2-8D46-407A-9E34-1E24D0DCEF55}" WorkUnitID="{C9C65301-A2C3-4042-A494-C425A369F672}"/>
+												</Reference>
+											</ReferenceList>
+											<TransitionInfo>
+												<SourceFadeOut>
+													<MusicFade Name="Source Fade-out" ID="{ABEE3C10-9BD5-4CA1-9FFC-83ACD9DEDCB9}">
+														<PropertyList>
+															<Property Name="FadeCurve" Type="int16" Value="1"/>
+															<Property Name="FadeTime" Type="Real64" Value="5"/>
+															<Property Name="FadeType" Type="int16" Value="1"/>
+														</PropertyList>
+													</MusicFade>
+												</SourceFadeOut>
+											</TransitionInfo>
+										</MusicTransition>
 									</ChildrenList>
 									<TransitionInfo/>
 								</MusicTransition>
@@ -536,13 +1074,12 @@
 									<Custom>
 										<MusicPlaylistItem Name="" ID="{D0EEF4AA-D405-4797-A983-51F6DAFD234B}" ShortID="322826227">
 											<PropertyList>
-												<Property Name="LoopCount" Type="int16" Value="0"/>
-												<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
-												<Property Name="PlayMode" Type="int16" Value="2"/>
+												<Property Name="PlayMode" Type="int16" Value="1"/>
 											</PropertyList>
 											<ChildrenList>
-												<MusicPlaylistItem Name="" ID="{6C2231D8-A7A7-48CE-A07F-DB1A5DD4BAE1}" ShortID="779363552">
+												<MusicPlaylistItem Name="" ID="{D9389126-B0A9-472F-AE49-E26FE3A3D4F1}" ShortID="292652595">
 													<PropertyList>
+														<Property Name="LoopCount" Type="int16" Value="0"/>
 														<Property Name="PlaylistItemType" Type="int16" Value="1"/>
 													</PropertyList>
 													<ReferenceList>
@@ -551,55 +1088,73 @@
 														</Reference>
 													</ReferenceList>
 												</MusicPlaylistItem>
-												<MusicPlaylistItem Name="" ID="{39FD1B62-43FF-4E9E-9409-C5526787A7E0}" ShortID="319360970">
+												<MusicPlaylistItem Name="" ID="{4B031966-AF34-49D9-B058-D1D7D3CFC9AF}" ShortID="900914519">
 													<PropertyList>
-														<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+														<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+														<Property Name="PlayMode" Type="int16" Value="2"/>
 													</PropertyList>
-													<ReferenceList>
-														<Reference Name="Segment">
-															<ObjectRef Name="Section 1 Stripped Back (83bpm)" ID="{C0B2721D-3DCD-43A9-A77B-339020D6A046}" WorkUnitID="{C9C65301-A2C3-4042-A494-C425A369F672}"/>
-														</Reference>
-													</ReferenceList>
-												</MusicPlaylistItem>
-												<MusicPlaylistItem Name="" ID="{820FAFD5-DD12-48D6-BDA1-F3771B6F186C}" ShortID="523715127">
-													<PropertyList>
-														<Property Name="PlaylistItemType" Type="int16" Value="1"/>
-													</PropertyList>
-													<ReferenceList>
-														<Reference Name="Segment">
-															<ObjectRef Name="Section 3 (83bpm)" ID="{7A8A4B8E-3EFE-4BAF-BDCD-97503FD6B48F}" WorkUnitID="{C9C65301-A2C3-4042-A494-C425A369F672}"/>
-														</Reference>
-													</ReferenceList>
-												</MusicPlaylistItem>
-												<MusicPlaylistItem Name="" ID="{43C31196-AAEB-4512-8375-82CB0324F997}" ShortID="69097881">
-													<PropertyList>
-														<Property Name="PlaylistItemType" Type="int16" Value="1"/>
-													</PropertyList>
-													<ReferenceList>
-														<Reference Name="Segment">
-															<ObjectRef Name="Section 2 (83bpm)" ID="{A7C0B876-7EF5-4AAF-8090-BC74BC2D8A76}" WorkUnitID="{C9C65301-A2C3-4042-A494-C425A369F672}"/>
-														</Reference>
-													</ReferenceList>
-												</MusicPlaylistItem>
-												<MusicPlaylistItem Name="" ID="{085279D2-884E-4C7D-80E4-816E2BB94087}" ShortID="93054870">
-													<PropertyList>
-														<Property Name="PlaylistItemType" Type="int16" Value="1"/>
-													</PropertyList>
-													<ReferenceList>
-														<Reference Name="Segment">
-															<ObjectRef Name="Section 2 Stripped Back (83bpm)" ID="{6A8B7FB0-A421-4356-BF15-323D5FCF0F1D}" WorkUnitID="{C9C65301-A2C3-4042-A494-C425A369F672}"/>
-														</Reference>
-													</ReferenceList>
-												</MusicPlaylistItem>
-												<MusicPlaylistItem Name="" ID="{566E2187-4678-4276-9143-021C8129DB05}" ShortID="856316288">
-													<PropertyList>
-														<Property Name="PlaylistItemType" Type="int16" Value="1"/>
-													</PropertyList>
-													<ReferenceList>
-														<Reference Name="Segment">
-															<ObjectRef Name="Section 3 Stripped Back 83bpm)" ID="{0B6AEAB4-6AAD-4D10-9269-1CCA203993CB}" WorkUnitID="{C9C65301-A2C3-4042-A494-C425A369F672}"/>
-														</Reference>
-													</ReferenceList>
+													<ChildrenList>
+														<MusicPlaylistItem Name="" ID="{6C2231D8-A7A7-48CE-A07F-DB1A5DD4BAE1}" ShortID="779363552">
+															<PropertyList>
+																<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+															</PropertyList>
+															<ReferenceList>
+																<Reference Name="Segment">
+																	<ObjectRef Name="Section 1 (83bpm)" ID="{59C8C66C-9F88-44AB-8482-458DC9B00978}" WorkUnitID="{C9C65301-A2C3-4042-A494-C425A369F672}"/>
+																</Reference>
+															</ReferenceList>
+														</MusicPlaylistItem>
+														<MusicPlaylistItem Name="" ID="{39FD1B62-43FF-4E9E-9409-C5526787A7E0}" ShortID="319360970">
+															<PropertyList>
+																<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+															</PropertyList>
+															<ReferenceList>
+																<Reference Name="Segment">
+																	<ObjectRef Name="Section 1 Stripped Back (83bpm)" ID="{C0B2721D-3DCD-43A9-A77B-339020D6A046}" WorkUnitID="{C9C65301-A2C3-4042-A494-C425A369F672}"/>
+																</Reference>
+															</ReferenceList>
+														</MusicPlaylistItem>
+														<MusicPlaylistItem Name="" ID="{820FAFD5-DD12-48D6-BDA1-F3771B6F186C}" ShortID="523715127">
+															<PropertyList>
+																<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+															</PropertyList>
+															<ReferenceList>
+																<Reference Name="Segment">
+																	<ObjectRef Name="Section 3 (83bpm)" ID="{7A8A4B8E-3EFE-4BAF-BDCD-97503FD6B48F}" WorkUnitID="{C9C65301-A2C3-4042-A494-C425A369F672}"/>
+																</Reference>
+															</ReferenceList>
+														</MusicPlaylistItem>
+														<MusicPlaylistItem Name="" ID="{43C31196-AAEB-4512-8375-82CB0324F997}" ShortID="69097881">
+															<PropertyList>
+																<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+															</PropertyList>
+															<ReferenceList>
+																<Reference Name="Segment">
+																	<ObjectRef Name="Section 2 (83bpm)" ID="{A7C0B876-7EF5-4AAF-8090-BC74BC2D8A76}" WorkUnitID="{C9C65301-A2C3-4042-A494-C425A369F672}"/>
+																</Reference>
+															</ReferenceList>
+														</MusicPlaylistItem>
+														<MusicPlaylistItem Name="" ID="{085279D2-884E-4C7D-80E4-816E2BB94087}" ShortID="93054870">
+															<PropertyList>
+																<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+															</PropertyList>
+															<ReferenceList>
+																<Reference Name="Segment">
+																	<ObjectRef Name="Section 2 Stripped Back (83bpm)" ID="{6A8B7FB0-A421-4356-BF15-323D5FCF0F1D}" WorkUnitID="{C9C65301-A2C3-4042-A494-C425A369F672}"/>
+																</Reference>
+															</ReferenceList>
+														</MusicPlaylistItem>
+														<MusicPlaylistItem Name="" ID="{566E2187-4678-4276-9143-021C8129DB05}" ShortID="856316288">
+															<PropertyList>
+																<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+															</PropertyList>
+															<ReferenceList>
+																<Reference Name="Segment">
+																	<ObjectRef Name="Section 3 Stripped Back 83bpm)" ID="{0B6AEAB4-6AAD-4D10-9269-1CCA203993CB}" WorkUnitID="{C9C65301-A2C3-4042-A494-C425A369F672}"/>
+																</Reference>
+															</ReferenceList>
+														</MusicPlaylistItem>
+													</ChildrenList>
 												</MusicPlaylistItem>
 											</ChildrenList>
 										</MusicPlaylistItem>
@@ -1167,6 +1722,14 @@
 										<CustomState Name="" ID="{85C823F9-EB52-4775-90A1-1B36B55108CD}" ShortID="786257568"/>
 									</CustomState>
 									<CustomState>
+										<StateRef Name="Ending_Seahorse_Sam" ID="{41DDC73A-AF51-440B-B4E4-7B773BB5FDF0}"/>
+										<CustomState Name="" ID="{9BC4EEC0-7CA7-4403-93F3-E66B7E97DCFF}" ShortID="935661265">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
 										<StateRef Name="Intro" ID="{3FE367C4-DDC5-4459-895E-9229D9CA5F10}"/>
 										<CustomState Name="" ID="{915BC0DA-883F-4FB6-A58D-1E7DD13A74BB}" ShortID="11101644">
 											<PropertyList>
@@ -1177,6 +1740,14 @@
 									<CustomState>
 										<StateRef Name="TalkToTurtleLarry" ID="{48919AF6-78A5-448C-9C4E-A08E725BF75C}"/>
 										<CustomState Name="" ID="{98585050-2091-46BD-87BF-0980C8F52CFE}" ShortID="620075936">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Ending_BananafishBens" ID="{645DF600-C54C-45FB-A71D-7DA912457570}"/>
+										<CustomState Name="" ID="{3EAEF97F-580E-4B22-B85E-0E2632584F93}" ShortID="226378816">
 											<PropertyList>
 												<Property Name="Volume" Type="Real64" Value="-108"/>
 											</PropertyList>
@@ -1225,6 +1796,14 @@
 									<CustomState>
 										<StateRef Name="aftercheckingthesubmarine" ID="{09219B7D-ABFA-4AD3-B4CB-1D600F1DA165}"/>
 										<CustomState Name="" ID="{4D278D5C-9FDF-4013-847E-FF9048973FBB}" ShortID="1031350753"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Ending_TurtleLarry" ID="{CBDE138E-5EDC-4B0F-8D0B-A50AA8F3F48D}"/>
+										<CustomState Name="" ID="{F47341A6-E933-403F-9C86-4D32EDF1D325}" ShortID="170916610">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
 									</CustomState>
 									<CustomState>
 										<StateRef Name="TalkToBananafish" ID="{41D7A911-BC3A-4DD1-9104-030F7594790D}"/>
@@ -1880,6 +2459,14 @@
 										</CustomState>
 									</CustomState>
 									<CustomState>
+										<StateRef Name="Ending_Seahorse_Sam" ID="{41DDC73A-AF51-440B-B4E4-7B773BB5FDF0}"/>
+										<CustomState Name="" ID="{E96D2D8A-9947-413F-BA74-18647B4B292E}" ShortID="31338925">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
 										<StateRef Name="Intro" ID="{3FE367C4-DDC5-4459-895E-9229D9CA5F10}"/>
 										<CustomState Name="" ID="{500E8CC6-6BA8-46DE-958D-01324D4B70D3}" ShortID="388390354">
 											<PropertyList>
@@ -1890,6 +2477,14 @@
 									<CustomState>
 										<StateRef Name="TalkToTurtleLarry" ID="{48919AF6-78A5-448C-9C4E-A08E725BF75C}"/>
 										<CustomState Name="" ID="{CDB00FC9-A723-4CAE-873E-1DE74E364DDB}" ShortID="798711134">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Ending_BananafishBens" ID="{645DF600-C54C-45FB-A71D-7DA912457570}"/>
+										<CustomState Name="" ID="{145E634E-681B-4E6E-853C-0777D85A0B4C}" ShortID="77424725">
 											<PropertyList>
 												<Property Name="Volume" Type="Real64" Value="-108"/>
 											</PropertyList>
@@ -1944,6 +2539,14 @@
 										</CustomState>
 									</CustomState>
 									<CustomState>
+										<StateRef Name="Ending_TurtleLarry" ID="{CBDE138E-5EDC-4B0F-8D0B-A50AA8F3F48D}"/>
+										<CustomState Name="" ID="{CA308FCD-9649-482F-8E03-C4498487C9A0}" ShortID="106924327">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
 										<StateRef Name="TalkToBananafish" ID="{41D7A911-BC3A-4DD1-9104-030F7594790D}"/>
 										<CustomState Name="" ID="{AD90DA59-472C-4A29-9699-381486F633F3}" ShortID="122837190"/>
 									</CustomState>
@@ -1958,7 +2561,1239 @@
 								</CustomStateList>
 							</StateInfo>
 						</MusicPlaylistContainer>
+						<MusicPlaylistContainer Name="SeahorseSamDialogueMusic" ID="{787B5D6D-5ACF-48E2-91E0-6E9E5953E23E}" ShortID="323619665">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{11E88737-2F31-44F3-AED4-A1DB60F72205}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{12B21E04-42A3-4A48-8129-2406DBED32A0}"/>
+								</Reference>
+								<Reference Name="PlaylistRoot">
+									<Custom>
+										<MusicPlaylistItem Name="" ID="{52605C62-76EF-456F-AA4F-C7C632546B70}" ShortID="971780735">
+											<PropertyList>
+												<Property Name="LoopCount" Type="int16" Value="0"/>
+												<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+												<Property Name="PlayMode" Type="int16" Value="2"/>
+											</PropertyList>
+											<ChildrenList>
+												<MusicPlaylistItem Name="" ID="{A5AF81C0-44B6-4E95-AAC8-A66E9F4F5C26}" ShortID="56914332">
+													<PropertyList>
+														<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Segment">
+															<ObjectRef Name="Seahorse Sam Section 1 (83bpm)" ID="{233815E7-5233-409D-86C8-1BB66EB9D1DB}" WorkUnitID="{C9C65301-A2C3-4042-A494-C425A369F672}"/>
+														</Reference>
+													</ReferenceList>
+												</MusicPlaylistItem>
+												<MusicPlaylistItem Name="" ID="{81DCC441-89E8-47D7-8B58-D6ADD90B135A}" ShortID="2988815">
+													<PropertyList>
+														<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Segment">
+															<ObjectRef Name="Seahorse Sam Section 1 (83bpm) Stripped Back" ID="{D6764A90-3961-4C27-A4FD-EB88CEB884DD}" WorkUnitID="{C9C65301-A2C3-4042-A494-C425A369F672}"/>
+														</Reference>
+													</ReferenceList>
+												</MusicPlaylistItem>
+												<MusicPlaylistItem Name="" ID="{9F9CB786-ECEF-413C-B0F6-363C513CAE4A}" ShortID="16569807">
+													<PropertyList>
+														<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Segment">
+															<ObjectRef Name="Seahorse Sam Section 2 (83bpm)" ID="{06D0E0AD-19F6-43BC-8608-ABC1FA0BAAB9}" WorkUnitID="{C9C65301-A2C3-4042-A494-C425A369F672}"/>
+														</Reference>
+													</ReferenceList>
+												</MusicPlaylistItem>
+												<MusicPlaylistItem Name="" ID="{4545C578-90E1-4C95-BEC9-3DC21840C4B9}" ShortID="868141549">
+													<PropertyList>
+														<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Segment">
+															<ObjectRef Name="Seahorse Sam Section 2 (83bpm) Stripped Back" ID="{D5AB037F-C1EC-4230-9EE6-C09036F46E5A}" WorkUnitID="{C9C65301-A2C3-4042-A494-C425A369F672}"/>
+														</Reference>
+													</ReferenceList>
+												</MusicPlaylistItem>
+												<MusicPlaylistItem Name="" ID="{5D215D88-C233-4E42-8E10-616B51120032}" ShortID="966411091">
+													<PropertyList>
+														<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Segment">
+															<ObjectRef Name="Seahorse Sam Section 3 (83bpm)" ID="{9B88BFC7-512D-40C2-9195-011F3AAD2270}" WorkUnitID="{C9C65301-A2C3-4042-A494-C425A369F672}"/>
+														</Reference>
+													</ReferenceList>
+												</MusicPlaylistItem>
+												<MusicPlaylistItem Name="" ID="{D76F9224-7E0A-4588-9B01-03E5A0E8CEB2}" ShortID="22668745">
+													<PropertyList>
+														<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Segment">
+															<ObjectRef Name="Seahorse Sam Section 3 (83bpm) Stripped Back" ID="{DCF1EF24-18B8-4D61-B10B-3CE9E2BCFD2D}" WorkUnitID="{C9C65301-A2C3-4042-A494-C425A369F672}"/>
+														</Reference>
+													</ReferenceList>
+												</MusicPlaylistItem>
+											</ChildrenList>
+										</MusicPlaylistItem>
+									</Custom>
+								</Reference>
+								<Reference Name="TransitionRoot">
+									<Custom>
+										<MusicTransition Name="Root" ID="{DA6D120D-EC75-4271-994D-E1A90D9B779B}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<ChildrenList>
+												<MusicTransition Name="Transition" ID="{A9DFACAF-7044-4B4E-A4CE-307B72904ADC}">
+													<TransitionInfo/>
+												</MusicTransition>
+											</ChildrenList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</Custom>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicSegment Name="Seahorse Sam Section 1 (83bpm)" ID="{233815E7-5233-409D-86C8-1BB66EB9D1DB}" ShortID="701513097">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="47710.843373494"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{11E88737-2F31-44F3-AED4-A1DB60F72205}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{12B21E04-42A3-4A48-8129-2406DBED32A0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="Seahorse Sam Section 1 (83bpm)" ID="{2FA046D3-BA56-4EE6-8260-960293450ACF}" ShortID="1837747">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{12B21E04-42A3-4A48-8129-2406DBED32A0}"/>
+												</Reference>
+												<Reference Name="TransitionRoot">
+													<Custom>
+														<MusicTransition Name="Root" ID="{1780F499-5B35-4A96-865D-31367C000997}">
+															<PropertyList>
+																<Property Name="IsFolder" Type="bool" Value="True"/>
+															</PropertyList>
+															<TransitionInfo/>
+														</MusicTransition>
+													</Custom>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Seahorse Sam Section 1 (83bpm)" ID="{79BCE8EA-75C9-4455-89C5-216772887DFB}">
+													<Language>SFX</Language>
+													<AudioFile>Seahorse Sam Section 1 (83bpm).wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="106742706"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{632D9563-C2AB-49D2-8BA6-DCEF43F792CD}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="Seahorse Sam Section 1 (83bpm)" ID="{782B2099-1FB5-405E-AB36-0BEF6F5193E4}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="47710.8333333333"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="Seahorse Sam Section 1 (83bpm)" ID="{79BCE8EA-75C9-4455-89C5-216772887DFB}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{18414FE9-F208-46EF-B263-DE464B0F3F7A}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{AF67F815-6E51-476A-A868-FE001390B2D0}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="46265.0602409639"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="Seahorse Sam Section 2 (83bpm)" ID="{06D0E0AD-19F6-43BC-8608-ABC1FA0BAAB9}" ShortID="829672278">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="49156.6458333333"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{11E88737-2F31-44F3-AED4-A1DB60F72205}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{12B21E04-42A3-4A48-8129-2406DBED32A0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="Seahorse Sam Section 2 (83bpm)" ID="{22BA7B84-F18B-4C32-A858-4D22564C508E}" ShortID="360480595">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{12B21E04-42A3-4A48-8129-2406DBED32A0}"/>
+												</Reference>
+												<Reference Name="TransitionRoot">
+													<Custom>
+														<MusicTransition Name="Root" ID="{F77DAC10-40E6-44B8-BBF4-2FB828091038}">
+															<PropertyList>
+																<Property Name="IsFolder" Type="bool" Value="True"/>
+															</PropertyList>
+															<TransitionInfo/>
+														</MusicTransition>
+													</Custom>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Seahorse Sam Section 2 (83bpm)" ID="{02DC1068-49DF-47BA-B6FC-3B516494FDF0}">
+													<Language>SFX</Language>
+													<AudioFile>Seahorse Sam Section 2 (83bpm).wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="973401590"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{75392FC8-5118-41C5-B8F2-6E006B3481D0}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="Seahorse Sam Section 2 (83bpm)" ID="{0CAD265E-B057-428C-B73D-66C50E246516}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="49156.6458333333"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="Seahorse Sam Section 2 (83bpm)" ID="{02DC1068-49DF-47BA-B6FC-3B516494FDF0}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{827AA3A8-F9A5-439D-BC62-4EF280FCFDA5}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{33A6A42F-82BD-43B1-BBB9-D66360C7BA4C}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="46265.0602409639"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="Seahorse Sam Section 1 (83bpm) Stripped Back" ID="{D6764A90-3961-4C27-A4FD-EB88CEB884DD}" ShortID="58885807">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="49156.6265060241"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{11E88737-2F31-44F3-AED4-A1DB60F72205}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{12B21E04-42A3-4A48-8129-2406DBED32A0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="Seahorse Sam Section 1 (83bpm) Stripped Back" ID="{1B499C2E-0A7F-4232-A512-730448DAE93A}" ShortID="784405973">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{12B21E04-42A3-4A48-8129-2406DBED32A0}"/>
+												</Reference>
+												<Reference Name="TransitionRoot">
+													<Custom>
+														<MusicTransition Name="Root" ID="{D49CFE3A-38D1-477A-8DE2-75E4E8BF4714}">
+															<PropertyList>
+																<Property Name="IsFolder" Type="bool" Value="True"/>
+															</PropertyList>
+															<TransitionInfo/>
+														</MusicTransition>
+													</Custom>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Seahorse Sam Section 1 (83bpm) Stripped Back" ID="{15326C5B-1B8A-4DB4-9BF1-0AD1EDC543BF}">
+													<Language>SFX</Language>
+													<AudioFile>Seahorse Sam Section 1 (83bpm) Stripped Back.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="773308108"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{B017DC13-B4B8-4A4E-AC2F-52D3435C7F66}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="Seahorse Sam Section 1 (83bpm) Stripped Back" ID="{B8889ED0-521A-4362-8B5F-BD2B0FDB07B1}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="49156.625"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="Seahorse Sam Section 1 (83bpm) Stripped Back" ID="{15326C5B-1B8A-4DB4-9BF1-0AD1EDC543BF}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{905CC28A-A2C5-4D99-B1AB-2AD2FA847324}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{D33284AC-5F37-4802-B6D4-425B7728CB56}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="46265.0602409639"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="Seahorse Sam Section 2 (83bpm) Stripped Back" ID="{D5AB037F-C1EC-4230-9EE6-C09036F46E5A}" ShortID="996652566">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="49156.6458333333"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{11E88737-2F31-44F3-AED4-A1DB60F72205}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{12B21E04-42A3-4A48-8129-2406DBED32A0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="Seahorse Sam Section 2 (83bpm) Stripped Back" ID="{F16D1E8D-758C-4D54-9BD3-ACBC85398F7F}" ShortID="1070513505">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{12B21E04-42A3-4A48-8129-2406DBED32A0}"/>
+												</Reference>
+												<Reference Name="TransitionRoot">
+													<Custom>
+														<MusicTransition Name="Root" ID="{69478405-1B9F-4354-8AA0-0BD8BA565E44}">
+															<PropertyList>
+																<Property Name="IsFolder" Type="bool" Value="True"/>
+															</PropertyList>
+															<TransitionInfo/>
+														</MusicTransition>
+													</Custom>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Seahorse Sam Section 2 (83bpm) Stripped Back" ID="{EAFD6B6A-E268-401C-9E82-9A8C4C6BD3A9}">
+													<Language>SFX</Language>
+													<AudioFile>Seahorse Sam Section 2 (83bpm) Stripped Back.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="716898262"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{E3B11E70-CFA6-4540-B596-05708C094DF9}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="Seahorse Sam Section 2 (83bpm) Stripped Back" ID="{D92EA214-C580-4524-BA84-25A4B1CF8857}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="49156.6458333333"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="Seahorse Sam Section 2 (83bpm) Stripped Back" ID="{EAFD6B6A-E268-401C-9E82-9A8C4C6BD3A9}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{9FAB642A-5A33-4910-9B8A-BB2C3290E21E}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{9349BEBB-A869-4D99-BD3C-B27CFE13FA70}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="46265.0602409639"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="Seahorse Sam Section 3 (83bpm) Stripped Back" ID="{DCF1EF24-18B8-4D61-B10B-3CE9E2BCFD2D}" ShortID="975313848">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="47710.8541666667"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{11E88737-2F31-44F3-AED4-A1DB60F72205}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{12B21E04-42A3-4A48-8129-2406DBED32A0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="Seahorse Sam Section 3 (83bpm) Stripped Back" ID="{0E007BAC-8DD7-4E16-9B67-749C3EB51A6C}" ShortID="27109710">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{12B21E04-42A3-4A48-8129-2406DBED32A0}"/>
+												</Reference>
+												<Reference Name="TransitionRoot">
+													<Custom>
+														<MusicTransition Name="Root" ID="{F801F541-D41D-4340-B65A-D14D6BA23E11}">
+															<PropertyList>
+																<Property Name="IsFolder" Type="bool" Value="True"/>
+															</PropertyList>
+															<TransitionInfo/>
+														</MusicTransition>
+													</Custom>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Seahorse Sam Section 3 (83bpm) Stripped Back" ID="{765B57AD-9FC0-41CE-907C-275E49F3A5E8}">
+													<Language>SFX</Language>
+													<AudioFile>Seahorse Sam Section 3 (83bpm) Stripped Back.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="565919851"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{C6C3DB01-7756-46B1-98CF-44B8BD541CD3}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="Seahorse Sam Section 3 (83bpm) Stripped Back" ID="{628F1727-B734-408B-BDB8-EB3A859919FC}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="47710.8541666667"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="Seahorse Sam Section 3 (83bpm) Stripped Back" ID="{765B57AD-9FC0-41CE-907C-275E49F3A5E8}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{3A836323-2D82-40F3-9D9D-00A54363C7C4}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{5188572C-5FFE-4E78-A75A-58B8E4C4E5B3}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="46265.0602409639"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="Seahorse Sam Section 3 (83bpm)" ID="{9B88BFC7-512D-40C2-9195-011F3AAD2270}" ShortID="599730753">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="47710.8541666667"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{11E88737-2F31-44F3-AED4-A1DB60F72205}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{12B21E04-42A3-4A48-8129-2406DBED32A0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="Seahorse Sam Section 3 (83bpm)" ID="{8A1C5551-50EB-48DA-9B78-1142C6F4C09E}" ShortID="657869649">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{12B21E04-42A3-4A48-8129-2406DBED32A0}"/>
+												</Reference>
+												<Reference Name="TransitionRoot">
+													<Custom>
+														<MusicTransition Name="Root" ID="{8314329A-4CA4-4944-9102-BE54543AA503}">
+															<PropertyList>
+																<Property Name="IsFolder" Type="bool" Value="True"/>
+															</PropertyList>
+															<TransitionInfo/>
+														</MusicTransition>
+													</Custom>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Seahorse Sam Section 3 (83bpm)" ID="{9AB9D667-D289-40AD-A5B3-070D1EF20626}">
+													<Language>SFX</Language>
+													<AudioFile>Seahorse Sam Section 3 (83bpm).wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="393254990"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{0540287A-124B-4018-8B5C-14C5B6C5BD3A}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="Seahorse Sam Section 3 (83bpm)" ID="{20EA040A-9DE0-4C66-87EB-59FFE2CD34BC}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="47710.8541666667"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="Seahorse Sam Section 3 (83bpm)" ID="{9AB9D667-D289-40AD-A5B3-070D1EF20626}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{ED1CADC6-7787-43E4-87EE-225EFCD8C7D5}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{8B313BFA-B6C9-4A7B-88BA-B8ED394A676D}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="46265.0602409639"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+							</ChildrenList>
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="GameState" ID="{1C387382-33FD-48A4-AFB3-1F989B62080B}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="Outro" ID="{8B1A72B3-C055-4054-BFFF-BD35D62DB1F8}"/>
+										<CustomState Name="" ID="{6E3C7967-47F5-4BFB-8CCC-75C46240600B}" ShortID="681996485">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Player_Explore" ID="{1024E66E-0AB5-439C-A9CE-A14396369C88}"/>
+										<CustomState Name="" ID="{E1B59336-C17C-468A-BEEC-A6A20FB4A242}" ShortID="875691879">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Ending_Seahorse_Sam" ID="{41DDC73A-AF51-440B-B4E4-7B773BB5FDF0}"/>
+										<CustomState Name="" ID="{A5AB488C-4EF7-499A-A8D1-70D6E0C0A59D}" ShortID="563477152">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Intro" ID="{3FE367C4-DDC5-4459-895E-9229D9CA5F10}"/>
+										<CustomState Name="" ID="{F8DEE541-ADB3-4C94-9EA7-7AC7944620D1}" ShortID="325862029">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="TalkToTurtleLarry" ID="{48919AF6-78A5-448C-9C4E-A08E725BF75C}"/>
+										<CustomState Name="" ID="{8C8CF945-E289-4039-BDE3-DC8B72174568}" ShortID="217805058">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Ending_BananafishBens" ID="{645DF600-C54C-45FB-A71D-7DA912457570}"/>
+										<CustomState Name="" ID="{ED331A68-0687-488D-A6D3-2FC00B8EC51D}" ShortID="42475617">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="TalkToSeahorseSam" ID="{C0FEC5BE-2287-468C-B15F-C2B5431AF423}"/>
+										<CustomState Name="" ID="{6EB6DEB0-B97B-4ECE-9AA3-D51313422C02}" ShortID="409948583"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="MainMenu" ID="{F34E3848-894B-468C-92C3-FB3A0659D3FB}"/>
+										<CustomState Name="" ID="{7C80FD8D-CF0C-4B7B-9041-FE8D5C2E7512}" ShortID="935341063">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="None" ID="{1C2FC7C1-41DD-4735-8F34-E9B6B91589FE}"/>
+										<CustomState Name="" ID="{71A3DB11-5F51-4D81-A079-EA6A20198086}" ShortID="1042509706">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="menu" ID="{3537DBC0-8FCF-4A5E-969F-8EDE82706D7C}"/>
+										<CustomState Name="" ID="{E4174D39-B07A-400B-98F8-A15A7ECF8380}" ShortID="40401351">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Camera_Explore" ID="{E47E30F9-9856-4A6D-A065-9318318AEA2D}"/>
+										<CustomState Name="" ID="{A7F81141-DDC7-4690-8429-93379B2FA271}" ShortID="47456824">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="aftercheckingthesubmarine" ID="{09219B7D-ABFA-4AD3-B4CB-1D600F1DA165}"/>
+										<CustomState Name="" ID="{5BA4CD34-E0B2-4D8E-8B5E-3F07477A250D}" ShortID="239372971">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Ending_TurtleLarry" ID="{CBDE138E-5EDC-4B0F-8D0B-A50AA8F3F48D}"/>
+										<CustomState Name="" ID="{D57E6803-CB9B-47FC-A99C-B449FF0BBE87}" ShortID="612493931">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="TalkToBananafish" ID="{41D7A911-BC3A-4DD1-9104-030F7594790D}"/>
+										<CustomState Name="" ID="{0A1FAA3C-8D8D-41F2-9376-50B2F16B1AF4}" ShortID="43268680">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="playerexplorebutonlysetstates" ID="{B45CE2D1-1386-4E9C-8566-BDF759CF9097}"/>
+										<CustomState Name="" ID="{257848E5-E4B2-47F4-BB35-EB8AB7086292}" ShortID="709737163">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
+						</MusicPlaylistContainer>
+						<MusicSegment Name="Banana Fish Bens Ending Music" ID="{1A76874D-F96C-460E-B1CB-96F4AA40C724}" ShortID="955266174">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="25301.1955321285"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{11E88737-2F31-44F3-AED4-A1DB60F72205}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{12B21E04-42A3-4A48-8129-2406DBED32A0}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="Banana Fish Bens Ending Music" ID="{0267EB25-9D05-4867-8727-D0BBB9B25101}" ShortID="177982678">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{12B21E04-42A3-4A48-8129-2406DBED32A0}"/>
+										</Reference>
+										<Reference Name="TransitionRoot">
+											<Custom>
+												<MusicTransition Name="Root" ID="{18839A14-06AA-4DFC-97D8-22E1AB558D58}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</Custom>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Banana Fish Bens Ending Music" ID="{D17FE6C1-D40C-4492-8870-2F7DA255CAB4}">
+											<Language>SFX</Language>
+											<AudioFile>Banana Fish Bens Ending Music.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="468478001"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{D6B078A4-7250-45DE-89A6-F57D156F8592}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="Banana Fish Bens Ending Music" ID="{E6612D2A-26F0-453E-83A6-10A1375E95AB}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="23132.5208333333"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="Banana Fish Bens Ending Music" ID="{D17FE6C1-D40C-4492-8870-2F7DA255CAB4}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+							</ChildrenList>
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="GameState" ID="{1C387382-33FD-48A4-AFB3-1F989B62080B}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="Outro" ID="{8B1A72B3-C055-4054-BFFF-BD35D62DB1F8}"/>
+										<CustomState Name="" ID="{422EC613-C25D-4DCC-91C5-D0F927785432}" ShortID="174347338"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Player_Explore" ID="{1024E66E-0AB5-439C-A9CE-A14396369C88}"/>
+										<CustomState Name="" ID="{295C34B5-53D5-4442-B5D8-4FA0516ABE5C}" ShortID="794716675">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Ending_Seahorse_Sam" ID="{41DDC73A-AF51-440B-B4E4-7B773BB5FDF0}"/>
+										<CustomState Name="" ID="{6B26AD1F-EF3B-4979-BF8A-6F3D5F737C1A}" ShortID="578571295">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Intro" ID="{3FE367C4-DDC5-4459-895E-9229D9CA5F10}"/>
+										<CustomState Name="" ID="{FA19FE05-C383-4331-AC7D-45D4EF61CBCD}" ShortID="169431012">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="TalkToTurtleLarry" ID="{48919AF6-78A5-448C-9C4E-A08E725BF75C}"/>
+										<CustomState Name="" ID="{9ADCFF89-8145-4080-998C-E802B25E9AA9}" ShortID="13798411">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Ending_BananafishBens" ID="{645DF600-C54C-45FB-A71D-7DA912457570}"/>
+										<CustomState Name="" ID="{F51A8E12-30C1-4C4D-90AE-C8DCFF553FF6}" ShortID="738131972"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="TalkToSeahorseSam" ID="{C0FEC5BE-2287-468C-B15F-C2B5431AF423}"/>
+										<CustomState Name="" ID="{D7A68A37-2916-4866-A67E-032F7EA197D7}" ShortID="80506665">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="MainMenu" ID="{F34E3848-894B-468C-92C3-FB3A0659D3FB}"/>
+										<CustomState Name="" ID="{2F0FBA39-0743-42FD-B37E-C79FB53E4D5F}" ShortID="895120811">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="None" ID="{1C2FC7C1-41DD-4735-8F34-E9B6B91589FE}"/>
+										<CustomState Name="" ID="{2FC39BBB-8D0C-4194-9E7A-40EB702A20AD}" ShortID="990373354">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="menu" ID="{3537DBC0-8FCF-4A5E-969F-8EDE82706D7C}"/>
+										<CustomState Name="" ID="{E642CB95-B1F5-4DFD-AB9A-E7F1B1F9B611}" ShortID="369955621">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Camera_Explore" ID="{E47E30F9-9856-4A6D-A065-9318318AEA2D}"/>
+										<CustomState Name="" ID="{0546AC26-2F93-4126-A17E-B50BAC269747}" ShortID="939673001">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="aftercheckingthesubmarine" ID="{09219B7D-ABFA-4AD3-B4CB-1D600F1DA165}"/>
+										<CustomState Name="" ID="{01025937-7D49-4FA4-9FFF-8477EDC0819E}" ShortID="646997748">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Ending_TurtleLarry" ID="{CBDE138E-5EDC-4B0F-8D0B-A50AA8F3F48D}"/>
+										<CustomState Name="" ID="{C93AF198-2D9F-4ADE-8FCE-6B44798AC728}" ShortID="789014345">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="TalkToBananafish" ID="{41D7A911-BC3A-4DD1-9104-030F7594790D}"/>
+										<CustomState Name="" ID="{94432D73-8981-43BE-BA92-D89C63454EE8}" ShortID="284054180">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="playerexplorebutonlysetstates" ID="{B45CE2D1-1386-4E9C-8566-BDF759CF9097}"/>
+										<CustomState Name="" ID="{2AF27F95-F96E-4AA0-84D7-8E7851BE00A1}" ShortID="422729379">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
+							<ObjectLists>
+								<ObjectList Name="Cues">
+									<Reference>
+										<Local>
+											<MusicCue Name="Entry Cue" ID="{1BE0DA5C-3296-4801-A444-1A6EABCEAA9D}">
+												<PropertyList>
+													<Property Name="TimeMs" Type="Real64" Value="2891.56626506024"/>
+												</PropertyList>
+											</MusicCue>
+										</Local>
+									</Reference>
+									<Reference>
+										<Local>
+											<MusicCue Name="Exit Cue" ID="{9E464A4B-8392-49A5-B5F5-7F3095AE06A7}">
+												<PropertyList>
+													<Property Name="CueType" Type="int16" Value="1"/>
+													<Property Name="TimeMs" Type="Real64" Value="23132.5208333333"/>
+												</PropertyList>
+											</MusicCue>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</MusicSegment>
+						<MusicSegment Name="Seahorse Sam Ending Music" ID="{3C7B77A2-8D46-407A-9E34-1E24D0DCEF55}" ShortID="492082351">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="16265.0625"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{11E88737-2F31-44F3-AED4-A1DB60F72205}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{12B21E04-42A3-4A48-8129-2406DBED32A0}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="Seahorse Sam Ending Music" ID="{5A7EFB0A-F17C-4DAA-AA1B-BA949782CE2A}" ShortID="689651529">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{12B21E04-42A3-4A48-8129-2406DBED32A0}"/>
+										</Reference>
+										<Reference Name="TransitionRoot">
+											<Custom>
+												<MusicTransition Name="Root" ID="{187C50E2-1C82-4F4E-8B5B-6180729FFE39}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</Custom>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Seahorse Sam Ending Music" ID="{DCFC80A1-994A-477C-9372-FA36A48F85C1}">
+											<Language>SFX</Language>
+											<AudioFile>Seahorse Sam Ending Music.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="779132188"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{01E80275-4339-45F8-B8DD-25F9D1329AF6}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="Seahorse Sam Ending Music" ID="{CCDE9494-7DB0-4B1E-9BF3-5596846E500B}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="16265.0625"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="Seahorse Sam Ending Music" ID="{DCFC80A1-994A-477C-9372-FA36A48F85C1}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+							</ChildrenList>
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="GameState" ID="{1C387382-33FD-48A4-AFB3-1F989B62080B}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="Outro" ID="{8B1A72B3-C055-4054-BFFF-BD35D62DB1F8}"/>
+										<CustomState Name="" ID="{919674B9-5B6E-4977-AF58-64A95143CD1F}" ShortID="372996862"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Player_Explore" ID="{1024E66E-0AB5-439C-A9CE-A14396369C88}"/>
+										<CustomState Name="" ID="{2D3BA362-6AE3-4221-BE1C-6DACAF0918CD}" ShortID="7088162">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Ending_Seahorse_Sam" ID="{41DDC73A-AF51-440B-B4E4-7B773BB5FDF0}"/>
+										<CustomState Name="" ID="{4C2B6FE3-E54E-4CE2-9316-72FC8A535CA6}" ShortID="67786286"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Intro" ID="{3FE367C4-DDC5-4459-895E-9229D9CA5F10}"/>
+										<CustomState Name="" ID="{CC50C495-A56B-4A07-802E-80DD7743BFE8}" ShortID="190236403">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="TalkToTurtleLarry" ID="{48919AF6-78A5-448C-9C4E-A08E725BF75C}"/>
+										<CustomState Name="" ID="{21F3563A-D105-46E6-926D-D86538765036}" ShortID="851220856">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Ending_BananafishBens" ID="{645DF600-C54C-45FB-A71D-7DA912457570}"/>
+										<CustomState Name="" ID="{F9753871-5A7E-4CD3-8A71-CB8607548C6D}" ShortID="346665703">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="TalkToSeahorseSam" ID="{C0FEC5BE-2287-468C-B15F-C2B5431AF423}"/>
+										<CustomState Name="" ID="{D8CF6B17-AD65-4583-B91D-649358C1B977}" ShortID="434926124">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="MainMenu" ID="{F34E3848-894B-468C-92C3-FB3A0659D3FB}"/>
+										<CustomState Name="" ID="{12BEE122-0F21-4293-A2FE-7790160E3DB9}" ShortID="600402721">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="None" ID="{1C2FC7C1-41DD-4735-8F34-E9B6B91589FE}"/>
+										<CustomState Name="" ID="{14DD1319-9506-46B1-B0E6-6A3FFFAD07E5}" ShortID="518174301">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="menu" ID="{3537DBC0-8FCF-4A5E-969F-8EDE82706D7C}"/>
+										<CustomState Name="" ID="{1089ED1D-B2FD-4AEE-A64D-02504A69CCAD}" ShortID="758025841">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Camera_Explore" ID="{E47E30F9-9856-4A6D-A065-9318318AEA2D}"/>
+										<CustomState Name="" ID="{E15665EC-6C01-4309-AC46-5C3058EF8342}" ShortID="487162224">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="aftercheckingthesubmarine" ID="{09219B7D-ABFA-4AD3-B4CB-1D600F1DA165}"/>
+										<CustomState Name="" ID="{397F9139-1DA9-4517-96BF-C3D307F45402}" ShortID="31615644">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Ending_TurtleLarry" ID="{CBDE138E-5EDC-4B0F-8D0B-A50AA8F3F48D}"/>
+										<CustomState Name="" ID="{DDDC8621-6B9B-48ED-A3FA-EDA144CEE0E6}" ShortID="903672827">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="TalkToBananafish" ID="{41D7A911-BC3A-4DD1-9104-030F7594790D}"/>
+										<CustomState Name="" ID="{41392A80-4E74-45BD-8554-5E97BFBAD0C9}" ShortID="76224461">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="playerexplorebutonlysetstates" ID="{B45CE2D1-1386-4E9C-8566-BDF759CF9097}"/>
+										<CustomState Name="" ID="{5E081DF1-2CFB-4947-8CA0-F1591261DB85}" ShortID="380320693">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
+							<ObjectLists>
+								<ObjectList Name="Cues">
+									<Reference>
+										<Local>
+											<MusicCue Name="Entry Cue" ID="{D4F5C13C-2E22-4F8D-9EE3-F19AF0C542D1}">
+												<PropertyList>
+													<Property Name="TimeMs" Type="Real64" Value="3188.53148547513"/>
+												</PropertyList>
+											</MusicCue>
+										</Local>
+									</Reference>
+									<Reference>
+										<Local>
+											<MusicCue Name="Exit Cue" ID="{1346E171-3030-416A-861E-8F0C64A81F04}">
+												<PropertyList>
+													<Property Name="CueType" Type="int16" Value="1"/>
+													<Property Name="TimeMs" Type="Real64" Value="16265.0625"/>
+												</PropertyList>
+											</MusicCue>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</MusicSegment>
 					</ChildrenList>
+					<StateInfo>
+						<StateGroupList>
+							<StateGroupInfo>
+								<StateGroupRef Name="GameState" ID="{1C387382-33FD-48A4-AFB3-1F989B62080B}"/>
+							</StateGroupInfo>
+						</StateGroupList>
+						<CustomStateList>
+							<CustomState>
+								<StateRef Name="Outro" ID="{8B1A72B3-C055-4054-BFFF-BD35D62DB1F8}"/>
+								<CustomState Name="" ID="{AF5E5D12-9615-47D1-AF8A-49F948530CE3}" ShortID="299086999"/>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="Player_Explore" ID="{1024E66E-0AB5-439C-A9CE-A14396369C88}"/>
+								<CustomState Name="" ID="{D977157A-7D0D-42A7-9882-40A6783084EE}" ShortID="185563452"/>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="Ending_Seahorse_Sam" ID="{41DDC73A-AF51-440B-B4E4-7B773BB5FDF0}"/>
+								<CustomState Name="" ID="{709CAF94-AAD2-481E-86C4-33F65C4A932B}" ShortID="180019026"/>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="Intro" ID="{3FE367C4-DDC5-4459-895E-9229D9CA5F10}"/>
+								<CustomState Name="" ID="{20D4BF11-70EC-4BD8-BEA4-9D027108F297}" ShortID="446553544"/>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="TalkToTurtleLarry" ID="{48919AF6-78A5-448C-9C4E-A08E725BF75C}"/>
+								<CustomState Name="" ID="{EB080C90-1D35-476A-A724-B47D81311294}" ShortID="900193245"/>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="Ending_BananafishBens" ID="{645DF600-C54C-45FB-A71D-7DA912457570}"/>
+								<CustomState Name="" ID="{9853E687-BB0C-4AA9-8703-B6F537309803}" ShortID="247175031"/>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="TalkToSeahorseSam" ID="{C0FEC5BE-2287-468C-B15F-C2B5431AF423}"/>
+								<CustomState Name="" ID="{767F554F-4F1E-4DF3-84F0-3467D0D73590}" ShortID="530150366"/>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="MainMenu" ID="{F34E3848-894B-468C-92C3-FB3A0659D3FB}"/>
+								<CustomState Name="" ID="{78A8A638-4F13-4F83-81A5-EA8423C16CF8}" ShortID="933590164"/>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="None" ID="{1C2FC7C1-41DD-4735-8F34-E9B6B91589FE}"/>
+								<CustomState Name="" ID="{0192C4E4-12AD-49E1-9178-8ECEF77CFAAE}" ShortID="908151950"/>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="menu" ID="{3537DBC0-8FCF-4A5E-969F-8EDE82706D7C}"/>
+								<CustomState Name="" ID="{27182DC5-5C7A-4FEB-B132-FDFE1C66FF8A}" ShortID="43297762"/>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="Camera_Explore" ID="{E47E30F9-9856-4A6D-A065-9318318AEA2D}"/>
+								<CustomState Name="" ID="{007FEF03-FA83-4039-B049-2D8555D8E6FD}" ShortID="1021091532"/>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="aftercheckingthesubmarine" ID="{09219B7D-ABFA-4AD3-B4CB-1D600F1DA165}"/>
+								<CustomState Name="" ID="{0CDC2D40-2B4D-41C9-8C00-9252DCD9D627}" ShortID="829686818"/>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="Ending_TurtleLarry" ID="{CBDE138E-5EDC-4B0F-8D0B-A50AA8F3F48D}"/>
+								<CustomState Name="" ID="{FF5615A5-A534-4D33-8273-CBBE9C2C0FA6}" ShortID="477869171"/>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="TalkToBananafish" ID="{41D7A911-BC3A-4DD1-9104-030F7594790D}"/>
+								<CustomState Name="" ID="{2A0410EB-0A67-4152-97C5-5C771CC14E02}" ShortID="707835531"/>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="playerexplorebutonlysetstates" ID="{B45CE2D1-1386-4E9C-8566-BDF759CF9097}"/>
+								<CustomState Name="" ID="{377384A9-C53A-4FB2-8EA3-666E42D25F3D}" ShortID="835850716"/>
+							</CustomState>
+						</CustomStateList>
+					</StateInfo>
 					<ObjectLists>
 						<ObjectList Name="Arguments">
 							<Reference>
@@ -1996,6 +3831,78 @@
 											<ObjectList Name="EntryPath">
 												<Reference>
 													<ObjectRef Name="Player_Explore" ID="{1024E66E-0AB5-439C-A9CE-A14396369C88}" WorkUnitID="{62D4A0D7-BF17-4774-9AF7-0F747302BDA8}"/>
+												</Reference>
+											</ObjectList>
+										</ObjectLists>
+									</MultiSwitchEntry>
+								</Local>
+							</Reference>
+							<Reference>
+								<Local>
+									<MultiSwitchEntry Name="" ID="{CD512A59-8A68-4A97-AD97-63E62055346E}">
+										<ReferenceList>
+											<Reference Name="AudioNode">
+												<ObjectRef Name="maintrack" ID="{EC512893-4992-4B83-BAAA-0DB9207DC3A8}" WorkUnitID="{C9C65301-A2C3-4042-A494-C425A369F672}"/>
+											</Reference>
+										</ReferenceList>
+										<ObjectLists>
+											<ObjectList Name="EntryPath">
+												<Reference>
+													<ObjectRef Name="playerexplorebutonlysetstates" ID="{B45CE2D1-1386-4E9C-8566-BDF759CF9097}" WorkUnitID="{62D4A0D7-BF17-4774-9AF7-0F747302BDA8}"/>
+												</Reference>
+											</ObjectList>
+										</ObjectLists>
+									</MultiSwitchEntry>
+								</Local>
+							</Reference>
+							<Reference>
+								<Local>
+									<MultiSwitchEntry Name="" ID="{14753256-0468-47AF-A344-972A7E0D318F}">
+										<ReferenceList>
+											<Reference Name="AudioNode">
+												<ObjectRef Name="SeahorseSamDialogueMusic" ID="{787B5D6D-5ACF-48E2-91E0-6E9E5953E23E}" WorkUnitID="{C9C65301-A2C3-4042-A494-C425A369F672}"/>
+											</Reference>
+										</ReferenceList>
+										<ObjectLists>
+											<ObjectList Name="EntryPath">
+												<Reference>
+													<ObjectRef Name="TalkToSeahorseSam" ID="{C0FEC5BE-2287-468C-B15F-C2B5431AF423}" WorkUnitID="{62D4A0D7-BF17-4774-9AF7-0F747302BDA8}"/>
+												</Reference>
+											</ObjectList>
+										</ObjectLists>
+									</MultiSwitchEntry>
+								</Local>
+							</Reference>
+							<Reference>
+								<Local>
+									<MultiSwitchEntry Name="" ID="{8B04875E-F162-4A24-8139-BF2124F2DEAD}">
+										<ReferenceList>
+											<Reference Name="AudioNode">
+												<ObjectRef Name="Banana Fish Bens Ending Music" ID="{1A76874D-F96C-460E-B1CB-96F4AA40C724}" WorkUnitID="{C9C65301-A2C3-4042-A494-C425A369F672}"/>
+											</Reference>
+										</ReferenceList>
+										<ObjectLists>
+											<ObjectList Name="EntryPath">
+												<Reference>
+													<ObjectRef Name="Ending_BananafishBens" ID="{645DF600-C54C-45FB-A71D-7DA912457570}" WorkUnitID="{62D4A0D7-BF17-4774-9AF7-0F747302BDA8}"/>
+												</Reference>
+											</ObjectList>
+										</ObjectLists>
+									</MultiSwitchEntry>
+								</Local>
+							</Reference>
+							<Reference>
+								<Local>
+									<MultiSwitchEntry Name="" ID="{A1B0FE3C-276A-4578-AEA9-DC62F342AFBC}">
+										<ReferenceList>
+											<Reference Name="AudioNode">
+												<ObjectRef Name="Seahorse Sam Ending Music" ID="{3C7B77A2-8D46-407A-9E34-1E24D0DCEF55}" WorkUnitID="{C9C65301-A2C3-4042-A494-C425A369F672}"/>
+											</Reference>
+										</ReferenceList>
+										<ObjectLists>
+											<ObjectList Name="EntryPath">
+												<Reference>
+													<ObjectRef Name="Ending_Seahorse_Sam" ID="{41DDC73A-AF51-440B-B4E4-7B773BB5FDF0}" WorkUnitID="{62D4A0D7-BF17-4774-9AF7-0F747302BDA8}"/>
 												</Reference>
 											</ObjectList>
 										</ObjectLists>

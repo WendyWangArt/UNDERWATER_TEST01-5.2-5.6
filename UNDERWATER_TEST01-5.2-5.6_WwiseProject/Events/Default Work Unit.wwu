@@ -107,13 +107,6 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
-						<Action Name="" ID="{6AB2F18F-8418-4E59-8761-5208EA86E1A9}" ShortID="919730449">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Seahorse" ID="{95A3469C-44FC-4834-B312-B78ACBB421DB}" WorkUnitID="{5A42FBE7-EEB5-45A5-BC4E-EC69B838458E}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
 						<Action Name="" ID="{7585080C-F1EF-4340-A768-4E10171615B1}" ShortID="236699494">
 							<ReferenceList>
 								<Reference Name="Target">
@@ -135,20 +128,6 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Player_Explore" ID="{1024E66E-0AB5-439C-A9CE-A14396369C88}" WorkUnitID="{62D4A0D7-BF17-4774-9AF7-0F747302BDA8}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="explore_aftercheckingthesubmarine" ID="{BC217A4E-C8DB-4600-BE5A-62B597231838}">
-					<ChildrenList>
-						<Action Name="" ID="{EB396A72-F66F-4076-A520-D65CEDDF25D1}" ShortID="320408019">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="22"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="aftercheckingthesubmarine" ID="{09219B7D-ABFA-4AD3-B4CB-1D600F1DA165}" WorkUnitID="{62D4A0D7-BF17-4774-9AF7-0F747302BDA8}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -205,6 +184,48 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="menu" ID="{3537DBC0-8FCF-4A5E-969F-8EDE82706D7C}" WorkUnitID="{62D4A0D7-BF17-4774-9AF7-0F747302BDA8}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="ending_TurtleLarry_" ID="{D1AFCC0E-2D63-4A78-AD0E-823A312C3FA4}">
+					<ChildrenList>
+						<Action Name="" ID="{7C43AE41-2416-46F8-B8F3-AAB78E7873CC}" ShortID="514288629">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Ending_TurtleLarry" ID="{CBDE138E-5EDC-4B0F-8D0B-A50AA8F3F48D}" WorkUnitID="{62D4A0D7-BF17-4774-9AF7-0F747302BDA8}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="ending_BNNFBens" ID="{2254057E-684A-4E3C-BFBE-473A17752CC3}">
+					<ChildrenList>
+						<Action Name="" ID="{B7F6AF31-8FD3-42E5-9A1A-7051ECCC162D}" ShortID="179564980">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Ending_BananafishBens" ID="{645DF600-C54C-45FB-A71D-7DA912457570}" WorkUnitID="{62D4A0D7-BF17-4774-9AF7-0F747302BDA8}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="ending_SSSAm" ID="{05F5950B-0F8C-4B7E-820C-0118B8CE1A70}">
+					<ChildrenList>
+						<Action Name="" ID="{A1ADAFD6-F011-4397-B29F-E14901B69CE9}" ShortID="646629937">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Ending_Seahorse_Sam" ID="{41DDC73A-AF51-440B-B4E4-7B773BB5FDF0}" WorkUnitID="{62D4A0D7-BF17-4774-9AF7-0F747302BDA8}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

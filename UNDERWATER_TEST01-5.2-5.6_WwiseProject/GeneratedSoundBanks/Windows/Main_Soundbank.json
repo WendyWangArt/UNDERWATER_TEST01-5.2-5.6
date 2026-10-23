@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{A95A962B-14C1-4BDD-89E4-8F7F66A4CA91}",
     "Language": "SFX",
-    "Hash": "{91F327D3-9F8A-6200-93C3-FE62172EF85B}",
+    "Hash": "{ED4B1632-E285-8B90-9822-CF1B5A3402A4}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main_Soundbank",
     "ShortName": "Main_Soundbank",
     "Path": "Main_Soundbank.bnk",
@@ -56,6 +56,14 @@
       "CachePath": "53/{53D50283-CAA3-22E7-2126-A53333891B03}.wem"
      },
      {
+      "Id": "106742706",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Seahorse Sam Section 1 (83bpm).wav",
+      "CachePath": "70/{70787AC1-E28D-AFDB-6764-0D3FBD500ABD}.wem"
+     },
+     {
       "Id": "108380767",
       "Language": "SFX",
       "Streaming": "false",
@@ -64,20 +72,28 @@
       "CachePath": "32/{3242349C-E286-C622-658E-0707E8244089}.wem"
      },
      {
-      "Id": "189255046",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "seahorse track.wav",
-      "CachePath": "BF/{BF9513D4-F80E-360F-B13F-D95ADB42B378}.wem"
-     },
-     {
       "Id": "383055841",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Banana Fish Bens Theme Section 3.wav",
       "CachePath": "B4/{B40584A1-02D7-8475-2A3E-4EDB369D0CC0}.wem"
+     },
+     {
+      "Id": "393254990",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Seahorse Sam Section 3 (83bpm).wav",
+      "CachePath": "95/{95AABFA7-24BA-BC15-5583-B01FBA15B004}.wem"
+     },
+     {
+      "Id": "565919851",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Seahorse Sam Section 3 (83bpm) Stripped Back.wav",
+      "CachePath": "49/{493C3B51-A113-0616-54CC-50ECCCA3A3A4}.wem"
      },
      {
       "Id": "578114160",
@@ -112,12 +128,28 @@
       "CachePath": "B7/{B7072D5E-A3B0-B587-0D55-433907A06879}.wem"
      },
      {
+      "Id": "716898262",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Seahorse Sam Section 2 (83bpm) Stripped Back.wav",
+      "CachePath": "75/{75FCBB0C-C03D-D36B-D21C-D8D3B6D6220F}.wem"
+     },
+     {
       "Id": "766517160",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "submarine_launch.wav",
       "CachePath": "5F/{5F2D0291-5571-56C8-D0FF-B1EB37809AE5}.wem"
+     },
+     {
+      "Id": "773308108",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Seahorse Sam Section 1 (83bpm) Stripped Back.wav",
+      "CachePath": "4B/{4BBD5BE0-B1B0-1C16-7EDE-2B82D54401A2}.wem"
      },
      {
       "Id": "827705350",
@@ -144,20 +176,20 @@
       "CachePath": "EB/{EB6E9FF6-5CF8-106E-F687-C2482C68E12D}.wem"
      },
      {
+      "Id": "973401590",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Seahorse Sam Section 2 (83bpm).wav",
+      "CachePath": "B2/{B278C648-E749-4FFC-AFE2-21D91A866965}.wem"
+     },
+     {
       "Id": "981041032",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Section 3 (83bpm).wav",
       "CachePath": "B1/{B1E93AE7-CF30-E869-4A98-CB19F3E92442}.wem"
-     },
-     {
-      "Id": "1023233219",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Second Layer.wav",
-      "CachePath": "24/{244A8C46-9DB5-D471-7562-FA34430CFC8F}.wem"
      },
      {
       "Id": "1042875977",
@@ -189,25 +221,6 @@
       ]
      },
      {
-      "Id": "2326115826",
-      "Name": "explore_aftercheckingthesubmarine",
-      "ObjectPath": "\\Events\\Default Work Unit\\explore_aftercheckingthesubmarine",
-      "GUID": "{BC217A4E-C8DB-4600-BE5A-62B597231838}",
-      "MaxAttenuation": "0",
-      "DurationType": "OneShot",
-      "DurationMin": "0",
-      "DurationMax": "0",
-      "ActionSetState": [
-       {
-        "GroupId": "4091656514",
-        "Id": "3277996074",
-        "Name": "aftercheckingthesubmarine",
-        "ObjectPath": "\\States\\States_WorkingUnit_Ayana\\GameState\\aftercheckingthesubmarine",
-        "GUID": "{09219B7D-ABFA-4AD3-B4CB-1D600F1DA165}"
-       }
-      ]
-     },
-     {
       "Id": "596640013",
       "Name": "MenuAtmosphereSound",
       "ObjectPath": "\\Events\\Ayana_WU\\Ayana\\MenuAtmosphereSound",
@@ -226,12 +239,6 @@
       "GUID": "{BE72B743-91D8-425A-B2E3-5D8B28880E33}",
       "DurationType": "Infinite",
       "MediaRefs": [
-       {
-        "Id": "189255046"
-       },
-       {
-        "Id": "1023233219"
-       },
        {
         "Id": "1042875977"
        }
@@ -318,6 +325,34 @@
          },
          {
           "Id": "981041032"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "4091656514",
+         "Id": "2596030337",
+         "GUID": "{C0FEC5BE-2287-468C-B15F-C2B5431AF423}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "106742706"
+         },
+         {
+          "Id": "393254990"
+         },
+         {
+          "Id": "565919851"
+         },
+         {
+          "Id": "716898262"
+         },
+         {
+          "Id": "773308108"
+         },
+         {
+          "Id": "973401590"
          }
         ]
        }
@@ -521,6 +556,6 @@
     ]
    }
   ],
-  "FileHash": "{24AC8B02-FA3C-A646-E3EA-3F508CF22C95}"
+  "FileHash": "{9E9A0F67-3370-9DDE-C7E2-D770546A9554}"
  }
 }

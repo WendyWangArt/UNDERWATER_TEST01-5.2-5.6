@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{3DF7BCD7-49C7-4D05-BBDF-7F4464626164}",
     "Language": "SFX",
-    "Hash": "{09122D69-8874-9331-B56B-BE4B7FAF77B6}",
+    "Hash": "{B2604576-76EB-F6B2-0FD2-A106D07A4BC5}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\voiceover\\VO_larryending",
     "ShortName": "VO_larryending",
     "Path": "VO_larryending.bnk",
@@ -42,6 +42,6 @@
     ]
    }
   ],
-  "FileHash": "{A2D618DD-A00D-3B7A-8980-C8DD7AD83BB0}"
+  "FileHash": "{D183545D-9644-5A6B-4FD7-6B4093B8A20F}"
  }
 }

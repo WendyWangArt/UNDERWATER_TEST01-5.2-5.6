@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{0DA6C39E-E159-4010-A044-304AF9712852}",
     "Language": "SFX",
-    "Hash": "{FB72AB30-5C5E-CD53-5D02-C791D0CBAD5D}",
+    "Hash": "{0D47C64B-034B-A1DF-EFFC-E515D43D9EA4}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Sound_TentacleSwapps",
     "ShortName": "Sound_TentacleSwapps",
     "Path": "Sound_TentacleSwapps.bnk",
@@ -64,6 +64,6 @@
     ]
    }
   ],
-  "FileHash": "{2ED3052E-E265-D0B2-B5A9-EEE55CDB8BE5}"
+  "FileHash": "{70DCF1AF-FE2F-AC47-9595-C12F5DC90A61}"
  }
 }

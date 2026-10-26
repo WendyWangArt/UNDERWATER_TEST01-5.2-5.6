@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{B5CF1CEA-4C3F-4E03-A384-F70EF295954E}",
     "Language": "SFX",
-    "Hash": "{B13EE3AD-1302-E312-52DE-AA239C0F9CA0}",
+    "Hash": "{6130809E-6D9E-26A9-100C-797BEE6CA834}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\characternonsense",
     "ShortName": "characternonsense",
     "Path": "characternonsense.bnk",
@@ -405,6 +405,6 @@
     ]
    }
   ],
-  "FileHash": "{DD9156BF-5FCF-64AC-E906-AD77FA97EE85}"
+  "FileHash": "{B6C7024B-7C90-2DF8-A50F-829E2394DC4D}"
  }
 }

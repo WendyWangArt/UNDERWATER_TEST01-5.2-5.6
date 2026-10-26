@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{BAC47711-0B11-4290-9E7F-5CFEE42A57A6}",
     "Language": "SFX",
-    "Hash": "{96E748EE-7ED1-BCB7-55D5-B1384888ECA9}",
+    "Hash": "{2025CDC7-7F95-CF80-6FEB-0EC27C3004C8}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Sound_HammerFix",
     "ShortName": "Sound_HammerFix",
     "Path": "Sound_HammerFix.bnk",
@@ -64,6 +64,6 @@
     ]
    }
   ],
-  "FileHash": "{BA4BBB25-F322-B83B-81FE-203B7D50BA52}"
+  "FileHash": "{AE9BF7DC-74A3-3A85-A037-AFCA4E8A0CE0}"
  }
 }

@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{8E6922F4-2CC5-428A-885F-25BA9DA17DB1}",
     "Language": "SFX",
-    "Hash": "{34381205-B553-A350-27C3-E75F2EF0991D}",
+    "Hash": "{C9013FFF-4DF4-AE18-552F-7063248D087A}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Sound_TentacleGrabs",
     "ShortName": "Sound_TentacleGrabs",
     "Path": "Sound_TentacleGrabs.bnk",
@@ -64,6 +64,6 @@
     ]
    }
   ],
-  "FileHash": "{12BBF53C-A9E3-2079-F188-4C08C3C0A325}"
+  "FileHash": "{69AAF941-CA69-7F14-9D03-008E84A875FB}"
  }
 }

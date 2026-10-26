@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{F26AEA48-A0C3-4A08-9391-143CCF716E9C}",
     "Language": "SFX",
-    "Hash": "{13375456-D002-B440-72C8-C66CA3E9F13D}",
+    "Hash": "{4E7053C7-E140-AA52-B488-3107D700E48B}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\voiceover\\VO_bensending",
     "ShortName": "VO_bensending",
     "Path": "VO_bensending.bnk",
@@ -42,6 +42,6 @@
     ]
    }
   ],
-  "FileHash": "{5567A655-3B6A-4E41-68F7-29E11423D3EA}"
+  "FileHash": "{1F94EC41-30A2-838A-474A-2366C461E5A9}"
  }
 }

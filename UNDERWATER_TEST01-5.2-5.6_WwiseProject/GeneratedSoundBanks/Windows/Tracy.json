@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{7D67244B-AA98-45EB-BDFC-91D6660E7561}",
     "Language": "SFX",
-    "Hash": "{ED50A5DF-40EF-717B-D1D8-06C97AC298EC}",
+    "Hash": "{400F848A-0C7D-0A92-B97C-5595582AD527}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Tracy",
     "ShortName": "Tracy",
     "Path": "Tracy.bnk",
@@ -174,6 +174,6 @@
     ]
    }
   ],
-  "FileHash": "{78A4947D-620C-49E4-61B7-D0664C4F8092}"
+  "FileHash": "{EFBC7199-47AB-ECB3-AFA0-61B9278A6907}"
  }
 }

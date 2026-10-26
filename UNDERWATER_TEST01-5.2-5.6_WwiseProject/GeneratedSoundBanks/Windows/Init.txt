@@ -6,25 +6,33 @@ State	ID	Name	State Group			Notes
 	748895195	None	OceanAmbientSounds			
 	2214273349	OceanLevelAS	OceanAmbientSounds			
 	3743802017	introAnimation	OceanAmbientSounds			
+	740813057	Ending_TurtleLarry	GameState			
 	748895195	None	GameState			
 	1125500713	Intro	GameState			
 	2325769881	TalkToBananafish	GameState			
 	2596030337	TalkToSeahorseSam	GameState			
+	2607556080	menu	GameState			
 	2821513524	TalkToTurtleLarry	GameState			
 	3277996074	aftercheckingthesubmarine	GameState			
+	3402445284	playerexplorebutonlysetstates	GameState			
 	3604647259	MainMenu	GameState			
+	3903479535	Ending_Seahorse_Sam	GameState			
 	4015219260	Camera_Explore	GameState			
 	4184794294	Outro	GameState			
 	4195327770	Player_Explore	GameState			
+	4221266268	Ending_BananafishBens	GameState			
 
 Game Parameter	ID	Name			Wwise Object Path	Notes
+	481239092	Music_Value			\Default Work Unit\Music_Value	
 	684532956	SFX_Value			\Default Work Unit\SFX_Value	
 	1022265813	Master_Value			\Default Work Unit\Master_Value	
+	1860240839	Narrative_Value			\Default Work Unit\Narrative_Value	
 
 Audio Bus	ID	Name			Wwise Object Path	Notes
 	493417818	Music Audio Bus			\Default Work Unit\Master Audio Bus\Music Audio Bus	
+	1530229465	SFX Audio Bus_			\Default Work Unit\Master Audio Bus\SFX Audio Bus_	
+	2799397637	Narrative Audio Bus			\Default Work Unit\Master Audio Bus\Narrative Audio Bus	
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
-	4084199202	SFX Audio Bus			\Default Work Unit\Master Audio Bus\SFX Audio Bus	
 
 Audio Devices	ID	Name	Type				Notes
 	2317455096	No_Output	No Output			

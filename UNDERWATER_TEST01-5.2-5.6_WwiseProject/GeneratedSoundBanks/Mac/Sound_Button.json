@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{BC1C18A6-F9B6-4F71-869A-7ACB0DE7E153}",
     "Language": "SFX",
-    "Hash": "{74BB4FE8-009E-3384-BA8F-CA3FAA119A21}",
+    "Hash": "{EC3C7378-7CC0-FFB8-3152-7BA7D0A1E9DF}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Sound_Button",
     "ShortName": "Sound_Button",
     "Path": "Sound_Button.bnk",
@@ -42,6 +42,6 @@
     ]
    }
   ],
-  "FileHash": "{38FAFE66-CEC3-4583-F27D-38C1970C890A}"
+  "FileHash": "{AEDC23E7-2A3E-5913-88A8-10115EFE2A66}"
  }
 }

@@ -1055,6 +1055,521 @@
 												</SourceFadeOut>
 											</TransitionInfo>
 										</MusicTransition>
+										<MusicTransition Name="Transition" ID="{101609BE-7BBE-4C9B-B798-E343FE325442}">
+											<PropertyList>
+												<Property Name="DestinationContextType" Type="int16" Value="2"/>
+												<Property Name="EnableSourceFadeOut" Type="bool" Value="True"/>
+												<Property Name="ExitSourceAt" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="DestinationContextObject">
+													<ObjectRef Name="TurtleLarry_Ending Music" ID="{C5D22F73-6737-4BE5-A73E-730CFC434FD5}" WorkUnitID="{C9C65301-A2C3-4042-A494-C425A369F672}"/>
+												</Reference>
+											</ReferenceList>
+											<TransitionInfo>
+												<SourceFadeOut>
+													<MusicFade Name="Source Fade-out" ID="{33223A48-013C-484F-9C80-6E01822D3349}">
+														<PropertyList>
+															<Property Name="FadeCurve" Type="int16" Value="1"/>
+															<Property Name="FadeTime" Type="Real64" Value="5"/>
+															<Property Name="FadeType" Type="int16" Value="1"/>
+														</PropertyList>
+													</MusicFade>
+												</SourceFadeOut>
+											</TransitionInfo>
+										</MusicTransition>
+										<MusicTransition Name="Transition" ID="{A6C596E6-A36A-4AD7-BF3E-C06A8ABDD351}">
+											<PropertyList>
+												<Property Name="DestinationContextType" Type="int16" Value="2"/>
+												<Property Name="DestinationJumpPositionPreset" Type="int16" Value="1"/>
+												<Property Name="DestinationPlaylistJumpTo" Type="int16" Value="1"/>
+												<Property Name="EnableDestinationFadeIn" Type="bool" Value="True"/>
+												<Property Name="EnableSourceFadeOut" Type="bool" Value="True"/>
+												<Property Name="ExitSourceAt" Type="int16" Value="0"/>
+												<Property Name="SourceContextType" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="DestinationContextObject">
+													<ObjectRef Name="LarryTurtleDialogueMusic" ID="{685DFFE3-61A5-4B72-B3F0-38E20BB394DA}" WorkUnitID="{C9C65301-A2C3-4042-A494-C425A369F672}"/>
+												</Reference>
+												<Reference Name="SourceContextObject">
+													<ObjectRef Name="Section 2 Stripped Back (83bpm)" ID="{6A8B7FB0-A421-4356-BF15-323D5FCF0F1D}" WorkUnitID="{C9C65301-A2C3-4042-A494-C425A369F672}"/>
+												</Reference>
+											</ReferenceList>
+											<TransitionInfo>
+												<JumpToPlaylistItemRef Name="" ID="{8013AF76-E54F-48D9-BA20-B26DDAE1256F}"/>
+												<SourceFadeOut>
+													<MusicFade Name="Source Fade-out" ID="{93CB20B1-C03A-47CC-8DF1-7B391189B38B}">
+														<PropertyList>
+															<Property Name="FadeCurve" Type="int16" Value="1"/>
+															<Property Name="FadeOffset" Type="Real64" Value="1"/>
+															<Property Name="FadeTime" Type="Real64" Value="3"/>
+															<Property Name="FadeType" Type="int16" Value="1"/>
+														</PropertyList>
+													</MusicFade>
+												</SourceFadeOut>
+												<DestinationFadeIn>
+													<MusicFade Name="Destination Fade-in" ID="{DACC5264-D94E-4DB3-9848-8CF74BB7CBB8}">
+														<PropertyList>
+															<Property Name="FadeCurve" Type="int16" Value="1"/>
+															<Property Name="FadeOffset" Type="Real64" Value="-1"/>
+															<Property Name="FadeTime" Type="Real64" Value="3"/>
+														</PropertyList>
+													</MusicFade>
+												</DestinationFadeIn>
+											</TransitionInfo>
+										</MusicTransition>
+										<MusicTransition Name="Transition" ID="{F80D02AE-DD38-486D-B4EA-047F539D9EF2}">
+											<PropertyList>
+												<Property Name="DestinationContextType" Type="int16" Value="2"/>
+												<Property Name="DestinationJumpPositionPreset" Type="int16" Value="1"/>
+												<Property Name="DestinationPlaylistJumpTo" Type="int16" Value="1"/>
+												<Property Name="EnableDestinationFadeIn" Type="bool" Value="True"/>
+												<Property Name="EnableSourceFadeOut" Type="bool" Value="True"/>
+												<Property Name="ExitSourceAt" Type="int16" Value="0"/>
+												<Property Name="SourceContextType" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="DestinationContextObject">
+													<ObjectRef Name="maintrack" ID="{EC512893-4992-4B83-BAAA-0DB9207DC3A8}" WorkUnitID="{C9C65301-A2C3-4042-A494-C425A369F672}"/>
+												</Reference>
+												<Reference Name="SourceContextObject">
+													<ObjectRef Name="Turtle Larry Theme Section 2" ID="{59C0C228-8F18-4F6A-B77C-ED9B91523D85}" WorkUnitID="{C9C65301-A2C3-4042-A494-C425A369F672}"/>
+												</Reference>
+											</ReferenceList>
+											<TransitionInfo>
+												<JumpToPlaylistItemRef Name="" ID="{43C31196-AAEB-4512-8375-82CB0324F997}"/>
+												<SourceFadeOut>
+													<MusicFade Name="Source Fade-out" ID="{4EF3F2D9-096D-4E8E-9D2E-238FC5FB3F1F}">
+														<PropertyList>
+															<Property Name="FadeCurve" Type="int16" Value="1"/>
+															<Property Name="FadeOffset" Type="Real64" Value="1"/>
+															<Property Name="FadeTime" Type="Real64" Value="3"/>
+															<Property Name="FadeType" Type="int16" Value="1"/>
+														</PropertyList>
+													</MusicFade>
+												</SourceFadeOut>
+												<DestinationFadeIn>
+													<MusicFade Name="Destination Fade-in" ID="{46D5E53F-F3D5-4FF7-BF04-5D7104BAD593}">
+														<PropertyList>
+															<Property Name="FadeCurve" Type="int16" Value="1"/>
+															<Property Name="FadeOffset" Type="Real64" Value="-1"/>
+															<Property Name="FadeTime" Type="Real64" Value="3"/>
+														</PropertyList>
+													</MusicFade>
+												</DestinationFadeIn>
+											</TransitionInfo>
+										</MusicTransition>
+										<MusicTransition Name="Transition" ID="{76087E92-C082-4A2E-A1EE-87AA950A3512}">
+											<PropertyList>
+												<Property Name="DestinationContextType" Type="int16" Value="2"/>
+												<Property Name="DestinationJumpPositionPreset" Type="int16" Value="1"/>
+												<Property Name="DestinationPlaylistJumpTo" Type="int16" Value="1"/>
+												<Property Name="EnableDestinationFadeIn" Type="bool" Value="True"/>
+												<Property Name="EnableSourceFadeOut" Type="bool" Value="True"/>
+												<Property Name="ExitSourceAt" Type="int16" Value="0"/>
+												<Property Name="SourceContextType" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="DestinationContextObject">
+													<ObjectRef Name="LarryTurtleDialogueMusic" ID="{685DFFE3-61A5-4B72-B3F0-38E20BB394DA}" WorkUnitID="{C9C65301-A2C3-4042-A494-C425A369F672}"/>
+												</Reference>
+												<Reference Name="SourceContextObject">
+													<ObjectRef Name="Section 3 (83bpm)" ID="{7A8A4B8E-3EFE-4BAF-BDCD-97503FD6B48F}" WorkUnitID="{C9C65301-A2C3-4042-A494-C425A369F672}"/>
+												</Reference>
+											</ReferenceList>
+											<TransitionInfo>
+												<JumpToPlaylistItemRef Name="" ID="{82616295-2FC1-4581-974D-79FC3EBBBC4F}"/>
+												<SourceFadeOut>
+													<MusicFade Name="Source Fade-out" ID="{1648EE5D-C678-4573-A559-1A88B05F65B8}">
+														<PropertyList>
+															<Property Name="FadeCurve" Type="int16" Value="1"/>
+															<Property Name="FadeOffset" Type="Real64" Value="1"/>
+															<Property Name="FadeTime" Type="Real64" Value="3"/>
+															<Property Name="FadeType" Type="int16" Value="1"/>
+														</PropertyList>
+													</MusicFade>
+												</SourceFadeOut>
+												<DestinationFadeIn>
+													<MusicFade Name="Destination Fade-in" ID="{E32123B8-7EFB-436D-AAF2-898B1DA0ED75}">
+														<PropertyList>
+															<Property Name="FadeCurve" Type="int16" Value="1"/>
+															<Property Name="FadeOffset" Type="Real64" Value="-1"/>
+															<Property Name="FadeTime" Type="Real64" Value="3"/>
+														</PropertyList>
+													</MusicFade>
+												</DestinationFadeIn>
+											</TransitionInfo>
+										</MusicTransition>
+										<MusicTransition Name="Transition" ID="{F76B24A8-98F7-49AF-9E29-75894B7CC3CF}">
+											<PropertyList>
+												<Property Name="DestinationContextType" Type="int16" Value="2"/>
+												<Property Name="DestinationJumpPositionPreset" Type="int16" Value="1"/>
+												<Property Name="DestinationPlaylistJumpTo" Type="int16" Value="1"/>
+												<Property Name="EnableDestinationFadeIn" Type="bool" Value="True"/>
+												<Property Name="EnableSourceFadeOut" Type="bool" Value="True"/>
+												<Property Name="ExitSourceAt" Type="int16" Value="0"/>
+												<Property Name="SourceContextType" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="DestinationContextObject">
+													<ObjectRef Name="maintrack" ID="{EC512893-4992-4B83-BAAA-0DB9207DC3A8}" WorkUnitID="{C9C65301-A2C3-4042-A494-C425A369F672}"/>
+												</Reference>
+												<Reference Name="SourceContextObject">
+													<ObjectRef Name="Turtle Larry Theme Section 2 Stripped Back" ID="{32CA3F5C-0E8C-4628-80A4-1D0EEAF60D16}" WorkUnitID="{C9C65301-A2C3-4042-A494-C425A369F672}"/>
+												</Reference>
+											</ReferenceList>
+											<TransitionInfo>
+												<JumpToPlaylistItemRef Name="" ID="{085279D2-884E-4C7D-80E4-816E2BB94087}"/>
+												<SourceFadeOut>
+													<MusicFade Name="Source Fade-out" ID="{FC0D14A3-E48A-40D0-A125-B4AE1C95569C}">
+														<PropertyList>
+															<Property Name="FadeCurve" Type="int16" Value="1"/>
+															<Property Name="FadeOffset" Type="Real64" Value="1"/>
+															<Property Name="FadeTime" Type="Real64" Value="3"/>
+															<Property Name="FadeType" Type="int16" Value="1"/>
+														</PropertyList>
+													</MusicFade>
+												</SourceFadeOut>
+												<DestinationFadeIn>
+													<MusicFade Name="Destination Fade-in" ID="{DF72C705-5216-4DC7-A888-9546630FD067}">
+														<PropertyList>
+															<Property Name="FadeCurve" Type="int16" Value="1"/>
+															<Property Name="FadeOffset" Type="Real64" Value="-1"/>
+															<Property Name="FadeTime" Type="Real64" Value="3"/>
+														</PropertyList>
+													</MusicFade>
+												</DestinationFadeIn>
+											</TransitionInfo>
+										</MusicTransition>
+										<MusicTransition Name="Transition" ID="{69D7BA3E-999F-48BA-9EC9-0F2B84994160}">
+											<PropertyList>
+												<Property Name="DestinationContextType" Type="int16" Value="2"/>
+												<Property Name="DestinationJumpPositionPreset" Type="int16" Value="1"/>
+												<Property Name="DestinationPlaylistJumpTo" Type="int16" Value="1"/>
+												<Property Name="EnableDestinationFadeIn" Type="bool" Value="True"/>
+												<Property Name="EnableSourceFadeOut" Type="bool" Value="True"/>
+												<Property Name="ExitSourceAt" Type="int16" Value="0"/>
+												<Property Name="SourceContextType" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="DestinationContextObject">
+													<ObjectRef Name="maintrack" ID="{EC512893-4992-4B83-BAAA-0DB9207DC3A8}" WorkUnitID="{C9C65301-A2C3-4042-A494-C425A369F672}"/>
+												</Reference>
+												<Reference Name="SourceContextObject">
+													<ObjectRef Name="Turtle Larry Theme Section 3 Stripped Back" ID="{65E02C6C-2DD3-4511-80A5-C1ABA89F4955}" WorkUnitID="{C9C65301-A2C3-4042-A494-C425A369F672}"/>
+												</Reference>
+											</ReferenceList>
+											<TransitionInfo>
+												<JumpToPlaylistItemRef Name="" ID="{566E2187-4678-4276-9143-021C8129DB05}"/>
+												<SourceFadeOut>
+													<MusicFade Name="Source Fade-out" ID="{B8E0AE5A-22C8-482C-ADFA-0EE234C0E1A1}">
+														<PropertyList>
+															<Property Name="FadeCurve" Type="int16" Value="1"/>
+															<Property Name="FadeOffset" Type="Real64" Value="1"/>
+															<Property Name="FadeTime" Type="Real64" Value="3"/>
+															<Property Name="FadeType" Type="int16" Value="1"/>
+														</PropertyList>
+													</MusicFade>
+												</SourceFadeOut>
+												<DestinationFadeIn>
+													<MusicFade Name="Destination Fade-in" ID="{6C2177F0-A2DC-4CCE-A1F0-00E88D374415}">
+														<PropertyList>
+															<Property Name="FadeCurve" Type="int16" Value="1"/>
+															<Property Name="FadeOffset" Type="Real64" Value="-1"/>
+															<Property Name="FadeTime" Type="Real64" Value="3"/>
+														</PropertyList>
+													</MusicFade>
+												</DestinationFadeIn>
+											</TransitionInfo>
+										</MusicTransition>
+										<MusicTransition Name="Transition" ID="{88DDB0A6-6E42-4B6F-B949-627709CFA072}">
+											<PropertyList>
+												<Property Name="DestinationContextType" Type="int16" Value="2"/>
+												<Property Name="DestinationJumpPositionPreset" Type="int16" Value="1"/>
+												<Property Name="DestinationPlaylistJumpTo" Type="int16" Value="1"/>
+												<Property Name="EnableDestinationFadeIn" Type="bool" Value="True"/>
+												<Property Name="EnableSourceFadeOut" Type="bool" Value="True"/>
+												<Property Name="ExitSourceAt" Type="int16" Value="0"/>
+												<Property Name="SourceContextType" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="DestinationContextObject">
+													<ObjectRef Name="LarryTurtleDialogueMusic" ID="{685DFFE3-61A5-4B72-B3F0-38E20BB394DA}" WorkUnitID="{C9C65301-A2C3-4042-A494-C425A369F672}"/>
+												</Reference>
+												<Reference Name="SourceContextObject">
+													<ObjectRef Name="Section 1 Stripped Back (83bpm)" ID="{C0B2721D-3DCD-43A9-A77B-339020D6A046}" WorkUnitID="{C9C65301-A2C3-4042-A494-C425A369F672}"/>
+												</Reference>
+											</ReferenceList>
+											<TransitionInfo>
+												<JumpToPlaylistItemRef Name="" ID="{14F4A6CC-B192-4B05-92B0-AA48080F8C87}"/>
+												<SourceFadeOut>
+													<MusicFade Name="Source Fade-out" ID="{7F04448B-69D5-4984-B96B-1B9D80B1428C}">
+														<PropertyList>
+															<Property Name="FadeCurve" Type="int16" Value="1"/>
+															<Property Name="FadeOffset" Type="Real64" Value="1"/>
+															<Property Name="FadeTime" Type="Real64" Value="3"/>
+															<Property Name="FadeType" Type="int16" Value="1"/>
+														</PropertyList>
+													</MusicFade>
+												</SourceFadeOut>
+												<DestinationFadeIn>
+													<MusicFade Name="Destination Fade-in" ID="{20644E1A-C431-49DC-BE2C-178123CB7ACD}">
+														<PropertyList>
+															<Property Name="FadeCurve" Type="int16" Value="1"/>
+															<Property Name="FadeOffset" Type="Real64" Value="-1"/>
+															<Property Name="FadeTime" Type="Real64" Value="3"/>
+														</PropertyList>
+													</MusicFade>
+												</DestinationFadeIn>
+											</TransitionInfo>
+										</MusicTransition>
+										<MusicTransition Name="Transition" ID="{C14B57E6-5DF8-4F5B-B20E-B544B6C3B388}">
+											<PropertyList>
+												<Property Name="DestinationContextType" Type="int16" Value="2"/>
+												<Property Name="DestinationJumpPositionPreset" Type="int16" Value="1"/>
+												<Property Name="DestinationPlaylistJumpTo" Type="int16" Value="1"/>
+												<Property Name="EnableDestinationFadeIn" Type="bool" Value="True"/>
+												<Property Name="EnableSourceFadeOut" Type="bool" Value="True"/>
+												<Property Name="ExitSourceAt" Type="int16" Value="0"/>
+												<Property Name="SourceContextType" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="DestinationContextObject">
+													<ObjectRef Name="maintrack" ID="{EC512893-4992-4B83-BAAA-0DB9207DC3A8}" WorkUnitID="{C9C65301-A2C3-4042-A494-C425A369F672}"/>
+												</Reference>
+												<Reference Name="SourceContextObject">
+													<ObjectRef Name="Turtle Larry Theme Section 1 Stripped Back" ID="{03E3B6FA-C852-4533-9FCC-24B54BFB4FD3}" WorkUnitID="{C9C65301-A2C3-4042-A494-C425A369F672}"/>
+												</Reference>
+											</ReferenceList>
+											<TransitionInfo>
+												<JumpToPlaylistItemRef Name="" ID="{39FD1B62-43FF-4E9E-9409-C5526787A7E0}"/>
+												<SourceFadeOut>
+													<MusicFade Name="Source Fade-out" ID="{58C2F4FA-9EE5-4344-92BD-972CA4177B1D}">
+														<PropertyList>
+															<Property Name="FadeCurve" Type="int16" Value="1"/>
+															<Property Name="FadeOffset" Type="Real64" Value="1"/>
+															<Property Name="FadeTime" Type="Real64" Value="3"/>
+															<Property Name="FadeType" Type="int16" Value="1"/>
+														</PropertyList>
+													</MusicFade>
+												</SourceFadeOut>
+												<DestinationFadeIn>
+													<MusicFade Name="Destination Fade-in" ID="{3CDBF754-6EAB-4037-8F9F-9AAFFB8C4857}">
+														<PropertyList>
+															<Property Name="FadeCurve" Type="int16" Value="1"/>
+															<Property Name="FadeOffset" Type="Real64" Value="-1"/>
+															<Property Name="FadeTime" Type="Real64" Value="3"/>
+														</PropertyList>
+													</MusicFade>
+												</DestinationFadeIn>
+											</TransitionInfo>
+										</MusicTransition>
+										<MusicTransition Name="Transition" ID="{9B4FCE18-7B52-4FAC-BFED-923B201E9857}">
+											<PropertyList>
+												<Property Name="DestinationContextType" Type="int16" Value="2"/>
+												<Property Name="DestinationJumpPositionPreset" Type="int16" Value="1"/>
+												<Property Name="DestinationPlaylistJumpTo" Type="int16" Value="1"/>
+												<Property Name="EnableDestinationFadeIn" Type="bool" Value="True"/>
+												<Property Name="EnableSourceFadeOut" Type="bool" Value="True"/>
+												<Property Name="ExitSourceAt" Type="int16" Value="0"/>
+												<Property Name="SourceContextType" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="DestinationContextObject">
+													<ObjectRef Name="LarryTurtleDialogueMusic" ID="{685DFFE3-61A5-4B72-B3F0-38E20BB394DA}" WorkUnitID="{C9C65301-A2C3-4042-A494-C425A369F672}"/>
+												</Reference>
+												<Reference Name="SourceContextObject">
+													<ObjectRef Name="Section 1 (83bpm)" ID="{59C8C66C-9F88-44AB-8482-458DC9B00978}" WorkUnitID="{C9C65301-A2C3-4042-A494-C425A369F672}"/>
+												</Reference>
+											</ReferenceList>
+											<TransitionInfo>
+												<JumpToPlaylistItemRef Name="" ID="{706B79AE-534B-40A7-B2F9-946C2288B49E}"/>
+												<SourceFadeOut>
+													<MusicFade Name="Source Fade-out" ID="{B4AEDB80-16E6-4111-A3FE-AAD1CC21B69B}">
+														<PropertyList>
+															<Property Name="FadeCurve" Type="int16" Value="1"/>
+															<Property Name="FadeOffset" Type="Real64" Value="1"/>
+															<Property Name="FadeTime" Type="Real64" Value="3"/>
+															<Property Name="FadeType" Type="int16" Value="1"/>
+														</PropertyList>
+													</MusicFade>
+												</SourceFadeOut>
+												<DestinationFadeIn>
+													<MusicFade Name="Destination Fade-in" ID="{C8E447E5-2421-43AD-9796-024E579EDCC5}">
+														<PropertyList>
+															<Property Name="FadeCurve" Type="int16" Value="1"/>
+															<Property Name="FadeOffset" Type="Real64" Value="-1"/>
+															<Property Name="FadeTime" Type="Real64" Value="3"/>
+														</PropertyList>
+													</MusicFade>
+												</DestinationFadeIn>
+											</TransitionInfo>
+										</MusicTransition>
+										<MusicTransition Name="Transition" ID="{21291389-F549-452A-B857-94D205EE5135}">
+											<PropertyList>
+												<Property Name="DestinationContextType" Type="int16" Value="2"/>
+												<Property Name="DestinationJumpPositionPreset" Type="int16" Value="1"/>
+												<Property Name="DestinationPlaylistJumpTo" Type="int16" Value="1"/>
+												<Property Name="EnableDestinationFadeIn" Type="bool" Value="True"/>
+												<Property Name="EnableSourceFadeOut" Type="bool" Value="True"/>
+												<Property Name="ExitSourceAt" Type="int16" Value="0"/>
+												<Property Name="SourceContextType" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="DestinationContextObject">
+													<ObjectRef Name="LarryTurtleDialogueMusic" ID="{685DFFE3-61A5-4B72-B3F0-38E20BB394DA}" WorkUnitID="{C9C65301-A2C3-4042-A494-C425A369F672}"/>
+												</Reference>
+												<Reference Name="SourceContextObject">
+													<ObjectRef Name="Section 3 Stripped Back 83bpm)" ID="{0B6AEAB4-6AAD-4D10-9269-1CCA203993CB}" WorkUnitID="{C9C65301-A2C3-4042-A494-C425A369F672}"/>
+												</Reference>
+											</ReferenceList>
+											<TransitionInfo>
+												<JumpToPlaylistItemRef Name="" ID="{F8A1D231-60C9-4C60-BA92-71E195546A68}"/>
+												<SourceFadeOut>
+													<MusicFade Name="Source Fade-out" ID="{06A4C9D9-3F2F-43FD-A43D-5F63FC258B44}">
+														<PropertyList>
+															<Property Name="FadeCurve" Type="int16" Value="1"/>
+															<Property Name="FadeOffset" Type="Real64" Value="1"/>
+															<Property Name="FadeTime" Type="Real64" Value="3"/>
+															<Property Name="FadeType" Type="int16" Value="1"/>
+														</PropertyList>
+													</MusicFade>
+												</SourceFadeOut>
+												<DestinationFadeIn>
+													<MusicFade Name="Destination Fade-in" ID="{E878E239-0FC6-4305-9BBA-05B31B92396F}">
+														<PropertyList>
+															<Property Name="FadeCurve" Type="int16" Value="1"/>
+															<Property Name="FadeOffset" Type="Real64" Value="-1"/>
+															<Property Name="FadeTime" Type="Real64" Value="3"/>
+														</PropertyList>
+													</MusicFade>
+												</DestinationFadeIn>
+											</TransitionInfo>
+										</MusicTransition>
+										<MusicTransition Name="Transition" ID="{521DA2FA-2558-4227-9A47-0D515549C5D4}">
+											<PropertyList>
+												<Property Name="DestinationContextType" Type="int16" Value="2"/>
+												<Property Name="DestinationJumpPositionPreset" Type="int16" Value="1"/>
+												<Property Name="DestinationPlaylistJumpTo" Type="int16" Value="1"/>
+												<Property Name="EnableDestinationFadeIn" Type="bool" Value="True"/>
+												<Property Name="EnableSourceFadeOut" Type="bool" Value="True"/>
+												<Property Name="ExitSourceAt" Type="int16" Value="0"/>
+												<Property Name="SourceContextType" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="DestinationContextObject">
+													<ObjectRef Name="LarryTurtleDialogueMusic" ID="{685DFFE3-61A5-4B72-B3F0-38E20BB394DA}" WorkUnitID="{C9C65301-A2C3-4042-A494-C425A369F672}"/>
+												</Reference>
+												<Reference Name="SourceContextObject">
+													<ObjectRef Name="Section 2 (83bpm)" ID="{A7C0B876-7EF5-4AAF-8090-BC74BC2D8A76}" WorkUnitID="{C9C65301-A2C3-4042-A494-C425A369F672}"/>
+												</Reference>
+											</ReferenceList>
+											<TransitionInfo>
+												<JumpToPlaylistItemRef Name="" ID="{8013AF76-E54F-48D9-BA20-B26DDAE1256F}"/>
+												<SourceFadeOut>
+													<MusicFade Name="Source Fade-out" ID="{B7EDB12A-A933-4ADA-AEE9-CAEE86D786C8}">
+														<PropertyList>
+															<Property Name="FadeCurve" Type="int16" Value="1"/>
+															<Property Name="FadeOffset" Type="Real64" Value="1"/>
+															<Property Name="FadeTime" Type="Real64" Value="3"/>
+															<Property Name="FadeType" Type="int16" Value="1"/>
+														</PropertyList>
+													</MusicFade>
+												</SourceFadeOut>
+												<DestinationFadeIn>
+													<MusicFade Name="Destination Fade-in" ID="{CC91B62E-DC29-4FFB-B72F-CB63D0AFF6B0}">
+														<PropertyList>
+															<Property Name="FadeCurve" Type="int16" Value="1"/>
+															<Property Name="FadeOffset" Type="Real64" Value="-1"/>
+															<Property Name="FadeTime" Type="Real64" Value="3"/>
+														</PropertyList>
+													</MusicFade>
+												</DestinationFadeIn>
+											</TransitionInfo>
+										</MusicTransition>
+										<MusicTransition Name="Transition" ID="{88B7967D-7E77-4B26-8281-52220D005744}">
+											<PropertyList>
+												<Property Name="DestinationContextType" Type="int16" Value="2"/>
+												<Property Name="DestinationJumpPositionPreset" Type="int16" Value="1"/>
+												<Property Name="DestinationPlaylistJumpTo" Type="int16" Value="1"/>
+												<Property Name="EnableDestinationFadeIn" Type="bool" Value="True"/>
+												<Property Name="EnableSourceFadeOut" Type="bool" Value="True"/>
+												<Property Name="ExitSourceAt" Type="int16" Value="0"/>
+												<Property Name="SourceContextType" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="DestinationContextObject">
+													<ObjectRef Name="maintrack" ID="{EC512893-4992-4B83-BAAA-0DB9207DC3A8}" WorkUnitID="{C9C65301-A2C3-4042-A494-C425A369F672}"/>
+												</Reference>
+												<Reference Name="SourceContextObject">
+													<ObjectRef Name="Turtle Larry Theme Section 3" ID="{C03A83CF-E24F-4C75-97C4-F7860E10F82F}" WorkUnitID="{C9C65301-A2C3-4042-A494-C425A369F672}"/>
+												</Reference>
+											</ReferenceList>
+											<TransitionInfo>
+												<JumpToPlaylistItemRef Name="" ID="{820FAFD5-DD12-48D6-BDA1-F3771B6F186C}"/>
+												<SourceFadeOut>
+													<MusicFade Name="Source Fade-out" ID="{404E12D2-94AA-4381-B663-898D90B1E3E8}">
+														<PropertyList>
+															<Property Name="FadeCurve" Type="int16" Value="1"/>
+															<Property Name="FadeOffset" Type="Real64" Value="1"/>
+															<Property Name="FadeTime" Type="Real64" Value="3"/>
+															<Property Name="FadeType" Type="int16" Value="1"/>
+														</PropertyList>
+													</MusicFade>
+												</SourceFadeOut>
+												<DestinationFadeIn>
+													<MusicFade Name="Destination Fade-in" ID="{61631806-CF91-4E64-8A8B-8E065300E177}">
+														<PropertyList>
+															<Property Name="FadeCurve" Type="int16" Value="1"/>
+															<Property Name="FadeOffset" Type="Real64" Value="-1"/>
+															<Property Name="FadeTime" Type="Real64" Value="3"/>
+														</PropertyList>
+													</MusicFade>
+												</DestinationFadeIn>
+											</TransitionInfo>
+										</MusicTransition>
+										<MusicTransition Name="Transition" ID="{44740D23-9DDC-4999-A063-D1E85DE094D5}">
+											<PropertyList>
+												<Property Name="DestinationContextType" Type="int16" Value="2"/>
+												<Property Name="DestinationJumpPositionPreset" Type="int16" Value="1"/>
+												<Property Name="DestinationPlaylistJumpTo" Type="int16" Value="1"/>
+												<Property Name="EnableDestinationFadeIn" Type="bool" Value="True"/>
+												<Property Name="EnableSourceFadeOut" Type="bool" Value="True"/>
+												<Property Name="ExitSourceAt" Type="int16" Value="0"/>
+												<Property Name="SourceContextType" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="DestinationContextObject">
+													<ObjectRef Name="maintrack" ID="{EC512893-4992-4B83-BAAA-0DB9207DC3A8}" WorkUnitID="{C9C65301-A2C3-4042-A494-C425A369F672}"/>
+												</Reference>
+												<Reference Name="SourceContextObject">
+													<ObjectRef Name="Turtle Larry Theme Section 1" ID="{4A53ECDE-4756-47C8-A35C-1F26BBB55EF6}" WorkUnitID="{C9C65301-A2C3-4042-A494-C425A369F672}"/>
+												</Reference>
+											</ReferenceList>
+											<TransitionInfo>
+												<JumpToPlaylistItemRef Name="" ID="{6C2231D8-A7A7-48CE-A07F-DB1A5DD4BAE1}"/>
+												<SourceFadeOut>
+													<MusicFade Name="Source Fade-out" ID="{CF32513B-4516-4FF3-A2DF-6AF661F27EC3}">
+														<PropertyList>
+															<Property Name="FadeCurve" Type="int16" Value="1"/>
+															<Property Name="FadeOffset" Type="Real64" Value="1"/>
+															<Property Name="FadeTime" Type="Real64" Value="3"/>
+															<Property Name="FadeType" Type="int16" Value="1"/>
+														</PropertyList>
+													</MusicFade>
+												</SourceFadeOut>
+												<DestinationFadeIn>
+													<MusicFade Name="Destination Fade-in" ID="{1801E416-0EC4-40A8-A498-1D803FC84E4D}">
+														<PropertyList>
+															<Property Name="FadeCurve" Type="int16" Value="1"/>
+															<Property Name="FadeOffset" Type="Real64" Value="-1"/>
+															<Property Name="FadeTime" Type="Real64" Value="3"/>
+														</PropertyList>
+													</MusicFade>
+												</DestinationFadeIn>
+											</TransitionInfo>
+										</MusicTransition>
 									</ChildrenList>
 									<TransitionInfo/>
 								</MusicTransition>
@@ -3724,6 +4239,982 @@
 								</ObjectList>
 							</ObjectLists>
 						</MusicSegment>
+						<MusicPlaylistContainer Name="LarryTurtleDialogueMusic" ID="{685DFFE3-61A5-4B72-B3F0-38E20BB394DA}" ShortID="212876278">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{11E88737-2F31-44F3-AED4-A1DB60F72205}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{12B21E04-42A3-4A48-8129-2406DBED32A0}"/>
+								</Reference>
+								<Reference Name="PlaylistRoot">
+									<Custom>
+										<MusicPlaylistItem Name="" ID="{38E6DEA4-7C1E-4053-B9D9-8E94411160CD}" ShortID="228224076">
+											<PropertyList>
+												<Property Name="LoopCount" Type="int16" Value="0"/>
+												<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+												<Property Name="PlayMode" Type="int16" Value="2"/>
+											</PropertyList>
+											<ChildrenList>
+												<MusicPlaylistItem Name="" ID="{706B79AE-534B-40A7-B2F9-946C2288B49E}" ShortID="406042003">
+													<PropertyList>
+														<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Segment">
+															<ObjectRef Name="Turtle Larry Theme Section 1" ID="{4A53ECDE-4756-47C8-A35C-1F26BBB55EF6}" WorkUnitID="{C9C65301-A2C3-4042-A494-C425A369F672}"/>
+														</Reference>
+													</ReferenceList>
+												</MusicPlaylistItem>
+												<MusicPlaylistItem Name="" ID="{14F4A6CC-B192-4B05-92B0-AA48080F8C87}" ShortID="674589302">
+													<PropertyList>
+														<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Segment">
+															<ObjectRef Name="Turtle Larry Theme Section 1 Stripped Back" ID="{03E3B6FA-C852-4533-9FCC-24B54BFB4FD3}" WorkUnitID="{C9C65301-A2C3-4042-A494-C425A369F672}"/>
+														</Reference>
+													</ReferenceList>
+												</MusicPlaylistItem>
+												<MusicPlaylistItem Name="" ID="{8013AF76-E54F-48D9-BA20-B26DDAE1256F}" ShortID="565729246">
+													<PropertyList>
+														<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Segment">
+															<ObjectRef Name="Turtle Larry Theme Section 2" ID="{59C0C228-8F18-4F6A-B77C-ED9B91523D85}" WorkUnitID="{C9C65301-A2C3-4042-A494-C425A369F672}"/>
+														</Reference>
+													</ReferenceList>
+												</MusicPlaylistItem>
+												<MusicPlaylistItem Name="" ID="{B892364B-8D9A-4B3F-B858-B3041E7BDC2A}" ShortID="166850765">
+													<PropertyList>
+														<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Segment">
+															<ObjectRef Name="Turtle Larry Theme Section 2 Stripped Back" ID="{32CA3F5C-0E8C-4628-80A4-1D0EEAF60D16}" WorkUnitID="{C9C65301-A2C3-4042-A494-C425A369F672}"/>
+														</Reference>
+													</ReferenceList>
+												</MusicPlaylistItem>
+												<MusicPlaylistItem Name="" ID="{82616295-2FC1-4581-974D-79FC3EBBBC4F}" ShortID="616448846">
+													<PropertyList>
+														<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Segment">
+															<ObjectRef Name="Turtle Larry Theme Section 3" ID="{C03A83CF-E24F-4C75-97C4-F7860E10F82F}" WorkUnitID="{C9C65301-A2C3-4042-A494-C425A369F672}"/>
+														</Reference>
+													</ReferenceList>
+												</MusicPlaylistItem>
+												<MusicPlaylistItem Name="" ID="{F8A1D231-60C9-4C60-BA92-71E195546A68}" ShortID="626140871">
+													<PropertyList>
+														<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Segment">
+															<ObjectRef Name="Turtle Larry Theme Section 3 Stripped Back" ID="{65E02C6C-2DD3-4511-80A5-C1ABA89F4955}" WorkUnitID="{C9C65301-A2C3-4042-A494-C425A369F672}"/>
+														</Reference>
+													</ReferenceList>
+												</MusicPlaylistItem>
+											</ChildrenList>
+										</MusicPlaylistItem>
+									</Custom>
+								</Reference>
+								<Reference Name="TransitionRoot">
+									<Custom>
+										<MusicTransition Name="Root" ID="{837DCDA4-3443-40DD-9376-68AEC5B45510}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<ChildrenList>
+												<MusicTransition Name="Transition" ID="{F71A3D21-2F04-46F8-B599-093D45BD0114}">
+													<TransitionInfo/>
+												</MusicTransition>
+											</ChildrenList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</Custom>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicSegment Name="Turtle Larry Theme Section 1 Stripped Back" ID="{03E3B6FA-C852-4533-9FCC-24B54BFB4FD3}" ShortID="244580254">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="52048.1927710843"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{11E88737-2F31-44F3-AED4-A1DB60F72205}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{12B21E04-42A3-4A48-8129-2406DBED32A0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="Turtle Larry Theme Section 1 Stripped Back" ID="{05893BD9-70B6-44DE-931A-A1251CD360FE}" ShortID="695208573">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{12B21E04-42A3-4A48-8129-2406DBED32A0}"/>
+												</Reference>
+												<Reference Name="TransitionRoot">
+													<Custom>
+														<MusicTransition Name="Root" ID="{174CF73E-D492-49F9-83C0-50C623DDC055}">
+															<PropertyList>
+																<Property Name="IsFolder" Type="bool" Value="True"/>
+															</PropertyList>
+															<TransitionInfo/>
+														</MusicTransition>
+													</Custom>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Turtle Larry Theme Section 1 Stripped Back" ID="{EBC95E6D-E91C-4472-A25C-B8A95E4B90D7}">
+													<Language>SFX</Language>
+													<AudioFile>Turtle Larry Theme Section 1 Stripped Back.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="791251635"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{0B16E9EC-0686-40D9-BF8C-387BE562DEA8}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="Turtle Larry Theme Section 1 Stripped Back" ID="{1C6B7BDF-0EFA-4978-A247-896641AC3EB0}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="52048.1875"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="Turtle Larry Theme Section 1 Stripped Back" ID="{EBC95E6D-E91C-4472-A25C-B8A95E4B90D7}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{08161161-240C-4D02-9B6A-BA568E18AA7B}">
+														<PropertyList>
+															<Property Name="TimeMs" Type="Real64" Value="2891.56626506024"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{455A0B6C-296D-49D2-88FB-5D880F8C016D}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="49156.6265060241"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="Turtle Larry Theme Section 1" ID="{4A53ECDE-4756-47C8-A35C-1F26BBB55EF6}" ShortID="253213149">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="52048.1927710843"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{11E88737-2F31-44F3-AED4-A1DB60F72205}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{12B21E04-42A3-4A48-8129-2406DBED32A0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="Turtle Larry Theme Section 1" ID="{7A899FEE-970A-4F95-8EE0-91662B779CBC}" ShortID="667296843">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{12B21E04-42A3-4A48-8129-2406DBED32A0}"/>
+												</Reference>
+												<Reference Name="TransitionRoot">
+													<Custom>
+														<MusicTransition Name="Root" ID="{E298A8A5-B957-4A73-85C5-BEA1EFE06D7E}">
+															<PropertyList>
+																<Property Name="IsFolder" Type="bool" Value="True"/>
+															</PropertyList>
+															<TransitionInfo/>
+														</MusicTransition>
+													</Custom>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Turtle Larry Theme Section 1" ID="{C7F0DB85-CDA4-43B2-AB62-39DBA9819CB2}">
+													<Language>SFX</Language>
+													<AudioFile>Turtle Larry Theme Section 1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="407153033"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{88BECBC6-C128-4FE1-96CE-5E776B1619CB}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="Turtle Larry Theme Section 1" ID="{D9377D81-2287-4372-A108-B2DBC8AAB704}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="52048.1875"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="Turtle Larry Theme Section 1" ID="{C7F0DB85-CDA4-43B2-AB62-39DBA9819CB2}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{BFF3F31C-F0AC-4B1D-814F-D747B8319AE4}">
+														<PropertyList>
+															<Property Name="TimeMs" Type="Real64" Value="2891.56626506024"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{E260EACA-6D4D-43BC-8FF6-8AEF06EAA07D}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="49156.6265060241"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="Turtle Larry Theme Section 2" ID="{59C0C228-8F18-4F6A-B77C-ED9B91523D85}" ShortID="377150363">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="52048.2083333333"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{11E88737-2F31-44F3-AED4-A1DB60F72205}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{12B21E04-42A3-4A48-8129-2406DBED32A0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="Turtle Larry Theme Section 2" ID="{70EB2243-E6CF-4134-A387-5DDD30A9C718}" ShortID="1025736649">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{12B21E04-42A3-4A48-8129-2406DBED32A0}"/>
+												</Reference>
+												<Reference Name="TransitionRoot">
+													<Custom>
+														<MusicTransition Name="Root" ID="{E9E79C80-4C70-4BA3-A965-AEDFC004EFBA}">
+															<PropertyList>
+																<Property Name="IsFolder" Type="bool" Value="True"/>
+															</PropertyList>
+															<TransitionInfo/>
+														</MusicTransition>
+													</Custom>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Turtle Larry Theme Section 2" ID="{010B00E4-4F9C-4B08-8B72-3679400EF5F6}">
+													<Language>SFX</Language>
+													<AudioFile>Turtle Larry Theme Section 2.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="746050460"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{D1E782F1-32FA-4A75-A1B9-1C7578F348A2}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="Turtle Larry Theme Section 2" ID="{4DA6589D-0811-48B7-A73B-F180CBD572D6}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="52048.2083333333"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="Turtle Larry Theme Section 2" ID="{010B00E4-4F9C-4B08-8B72-3679400EF5F6}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{15794DD4-4EB9-416C-9B36-C3385E9C2703}">
+														<PropertyList>
+															<Property Name="TimeMs" Type="Real64" Value="2891.56626506024"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{FEE04F82-69C4-4651-876F-74EC32A7008B}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="49156.6265060241"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="Turtle Larry Theme Section 3" ID="{C03A83CF-E24F-4C75-97C4-F7860E10F82F}" ShortID="732128947">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="54939.7708333333"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{11E88737-2F31-44F3-AED4-A1DB60F72205}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{12B21E04-42A3-4A48-8129-2406DBED32A0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="Turtle Larry Theme Section 3" ID="{E2AF7F17-1037-460B-A2A9-0009FA743267}" ShortID="1044080395">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{12B21E04-42A3-4A48-8129-2406DBED32A0}"/>
+												</Reference>
+												<Reference Name="TransitionRoot">
+													<Custom>
+														<MusicTransition Name="Root" ID="{9133CFA3-1847-4751-8BBE-D11519F8D5EC}">
+															<PropertyList>
+																<Property Name="IsFolder" Type="bool" Value="True"/>
+															</PropertyList>
+															<TransitionInfo/>
+														</MusicTransition>
+													</Custom>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Turtle Larry Theme Section 3" ID="{E8066266-6B80-444A-92D4-67862B1FD4BA}">
+													<Language>SFX</Language>
+													<AudioFile>Turtle Larry Theme Section 3.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="893983824"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{6E06BDA7-2FB4-441C-933C-A74CDA6FFAE9}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="Turtle Larry Theme Section 3" ID="{4F2EF7BF-54DE-41A0-BC1F-7BAEF7653E59}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="54939.7708333333"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="Turtle Larry Theme Section 3" ID="{E8066266-6B80-444A-92D4-67862B1FD4BA}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{D1B278C1-F152-4585-A40F-250A58BDC03C}">
+														<PropertyList>
+															<Property Name="TimeMs" Type="Real64" Value="2891.56626506024"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{C307A323-DF38-41B5-8AC2-6E95CD7AD9F4}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="49156.6265060241"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="Turtle Larry Theme Section 2 Stripped Back" ID="{32CA3F5C-0E8C-4628-80A4-1D0EEAF60D16}" ShortID="1028366250">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="52048.2083333333"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{11E88737-2F31-44F3-AED4-A1DB60F72205}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{12B21E04-42A3-4A48-8129-2406DBED32A0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="Turtle Larry Theme Section 2 Stripped Back" ID="{4F50EBFA-E104-4E13-8C38-7DF3117C95A5}" ShortID="1046737933">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{12B21E04-42A3-4A48-8129-2406DBED32A0}"/>
+												</Reference>
+												<Reference Name="TransitionRoot">
+													<Custom>
+														<MusicTransition Name="Root" ID="{620E32F4-5C7C-4954-940B-ED2250D36379}">
+															<PropertyList>
+																<Property Name="IsFolder" Type="bool" Value="True"/>
+															</PropertyList>
+															<TransitionInfo/>
+														</MusicTransition>
+													</Custom>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Turtle Larry Theme Section 2 Stripped Back" ID="{8431681D-8A4C-4A7C-BF22-276DECD12E4B}">
+													<Language>SFX</Language>
+													<AudioFile>Turtle Larry Theme Section 2 Stripped Back.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="159161628"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{8D69A84B-0B04-4257-A415-1D227F7710BA}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="Turtle Larry Theme Section 2 Stripped Back" ID="{787EA088-5D6D-448C-A591-8C2D2CBBAEC0}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="52048.2083333333"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="Turtle Larry Theme Section 2 Stripped Back" ID="{8431681D-8A4C-4A7C-BF22-276DECD12E4B}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{0D6351A5-3032-47AE-802E-00CD9E4B6E00}">
+														<PropertyList>
+															<Property Name="TimeMs" Type="Real64" Value="2891.56626506024"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{DB9CC60E-7744-42F0-B005-943A5C3F634B}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="49156.6265060241"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="Turtle Larry Theme Section 3 Stripped Back" ID="{65E02C6C-2DD3-4511-80A5-C1ABA89F4955}" ShortID="536088828">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="54939.7708333333"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{11E88737-2F31-44F3-AED4-A1DB60F72205}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{12B21E04-42A3-4A48-8129-2406DBED32A0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="Turtle Larry Theme Section 3 Stripped Back" ID="{8B26047E-7BB7-4959-B8DB-A2608ED78AA6}" ShortID="209334410">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{12B21E04-42A3-4A48-8129-2406DBED32A0}"/>
+												</Reference>
+												<Reference Name="TransitionRoot">
+													<Custom>
+														<MusicTransition Name="Root" ID="{F138873B-8CFC-43F9-817A-978F72B8F248}">
+															<PropertyList>
+																<Property Name="IsFolder" Type="bool" Value="True"/>
+															</PropertyList>
+															<TransitionInfo/>
+														</MusicTransition>
+													</Custom>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Turtle Larry Theme Section 3 Stripped Back" ID="{9F7CD852-C79F-4F76-A225-4A03953F2F1F}">
+													<Language>SFX</Language>
+													<AudioFile>Turtle Larry Theme Section 3 Stripped Back.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="734516390"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{2A1576E4-1CE9-4B7C-B7A4-B0984DE28A62}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="Turtle Larry Theme Section 3 Stripped Back" ID="{5874AC5F-6BE1-4282-80F6-31A241BA712F}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="54939.7708333333"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="Turtle Larry Theme Section 3 Stripped Back" ID="{9F7CD852-C79F-4F76-A225-4A03953F2F1F}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{74AA523B-4E8D-476B-87B0-6B88E35CBA31}">
+														<PropertyList>
+															<Property Name="TimeMs" Type="Real64" Value="2891.56626506024"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{40CA971D-F2B9-4985-9BC1-FF62C3BA92FE}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="49156.6265060241"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+							</ChildrenList>
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="GameState" ID="{1C387382-33FD-48A4-AFB3-1F989B62080B}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="Outro" ID="{8B1A72B3-C055-4054-BFFF-BD35D62DB1F8}"/>
+										<CustomState Name="" ID="{CD78E0F0-B2F8-457A-9EC8-A22383F725B1}" ShortID="535741531">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Player_Explore" ID="{1024E66E-0AB5-439C-A9CE-A14396369C88}"/>
+										<CustomState Name="" ID="{D54FEA90-B8EB-4B1B-B969-15F235052933}" ShortID="340271926">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Ending_Seahorse_Sam" ID="{41DDC73A-AF51-440B-B4E4-7B773BB5FDF0}"/>
+										<CustomState Name="" ID="{4E8BFA6C-C933-421D-ABB1-B257EFC6D8CA}" ShortID="422547280">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Intro" ID="{3FE367C4-DDC5-4459-895E-9229D9CA5F10}"/>
+										<CustomState Name="" ID="{C6EE25BC-2068-4B06-B439-92799323C9C8}" ShortID="646726737">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="TalkToTurtleLarry" ID="{48919AF6-78A5-448C-9C4E-A08E725BF75C}"/>
+										<CustomState Name="" ID="{B8B8CDF4-1AC6-4005-82D6-4CBF4E5622A3}" ShortID="389575494"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Ending_BananafishBens" ID="{645DF600-C54C-45FB-A71D-7DA912457570}"/>
+										<CustomState Name="" ID="{78223E06-BE8A-471C-BA6A-663FE3DADD32}" ShortID="816474091">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="TalkToSeahorseSam" ID="{C0FEC5BE-2287-468C-B15F-C2B5431AF423}"/>
+										<CustomState Name="" ID="{92752247-06A3-4EC7-BC1F-FC505258F7BF}" ShortID="649297148">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="MainMenu" ID="{F34E3848-894B-468C-92C3-FB3A0659D3FB}"/>
+										<CustomState Name="" ID="{4730A16A-B9BC-400D-8047-E157A72C4781}" ShortID="286574215">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="None" ID="{1C2FC7C1-41DD-4735-8F34-E9B6B91589FE}"/>
+										<CustomState Name="" ID="{4AFD5D3C-336D-4B57-AC0D-7B2350B60A85}" ShortID="1071302085">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="menu" ID="{3537DBC0-8FCF-4A5E-969F-8EDE82706D7C}"/>
+										<CustomState Name="" ID="{01A52A46-F519-474B-B0C5-C8306AF7D923}" ShortID="255682197">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Camera_Explore" ID="{E47E30F9-9856-4A6D-A065-9318318AEA2D}"/>
+										<CustomState Name="" ID="{0225A658-1553-4307-B6C4-C30E5889A2C8}" ShortID="1028443846">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="aftercheckingthesubmarine" ID="{09219B7D-ABFA-4AD3-B4CB-1D600F1DA165}"/>
+										<CustomState Name="" ID="{5998214D-F2BC-4341-9E85-6C82AE02EEA5}" ShortID="197624822">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Ending_TurtleLarry" ID="{CBDE138E-5EDC-4B0F-8D0B-A50AA8F3F48D}"/>
+										<CustomState Name="" ID="{B19AC72D-B492-4ADD-816B-C70C4CCD32E9}" ShortID="808668891">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="TalkToBananafish" ID="{41D7A911-BC3A-4DD1-9104-030F7594790D}"/>
+										<CustomState Name="" ID="{FC34B747-A7EB-4D9E-90D2-053A59E5CC7B}" ShortID="372511852">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="playerexplorebutonlysetstates" ID="{B45CE2D1-1386-4E9C-8566-BDF759CF9097}"/>
+										<CustomState Name="" ID="{E13E2A82-49FF-4E3A-AC6C-C7005BA68E0C}" ShortID="670305460">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
+						</MusicPlaylistContainer>
+						<MusicSegment Name="TurtleLarry_Ending Music" ID="{C5D22F73-6737-4BE5-A73E-730CFC434FD5}" ShortID="714283966">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="46987.9518072289"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{11E88737-2F31-44F3-AED4-A1DB60F72205}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{12B21E04-42A3-4A48-8129-2406DBED32A0}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="Turtle Larry Ending Music" ID="{C13C8C17-5124-4076-A8E6-0B98F0CD4D80}" ShortID="813473834">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{12B21E04-42A3-4A48-8129-2406DBED32A0}"/>
+										</Reference>
+										<Reference Name="TransitionRoot">
+											<Custom>
+												<MusicTransition Name="Root" ID="{6B46EE81-F60A-4906-8255-2DFB33D2B25E}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</Custom>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Turtle Larry Ending Music" ID="{890C4E64-0D59-4E73-8825-C1B908BC71B2}">
+											<Language>SFX</Language>
+											<AudioFile>Turtle Larry Ending Music.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1019371776"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{1D2AC14C-EC49-46E5-99EE-34FB9D2072AD}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="Turtle Larry Ending Music" ID="{2DE3D3DA-084C-4693-900E-2A2CB80FF520}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="20240.9583333333"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="Turtle Larry Ending Music" ID="{890C4E64-0D59-4E73-8825-C1B908BC71B2}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+							</ChildrenList>
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="GameState" ID="{1C387382-33FD-48A4-AFB3-1F989B62080B}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="Outro" ID="{8B1A72B3-C055-4054-BFFF-BD35D62DB1F8}"/>
+										<CustomState Name="" ID="{2B6D1949-30D0-4A05-8D46-5B2ECC96104E}" ShortID="603250320"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Player_Explore" ID="{1024E66E-0AB5-439C-A9CE-A14396369C88}"/>
+										<CustomState Name="" ID="{410F4BB7-608A-4216-9358-B67D02682484}" ShortID="45264272">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Ending_Seahorse_Sam" ID="{41DDC73A-AF51-440B-B4E4-7B773BB5FDF0}"/>
+										<CustomState Name="" ID="{AD85BD6B-757C-44F5-AC21-54079BB417BE}" ShortID="897370312">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Intro" ID="{3FE367C4-DDC5-4459-895E-9229D9CA5F10}"/>
+										<CustomState Name="" ID="{0D8D8A09-88A2-416D-B6EA-BE3779EFD063}" ShortID="390637010">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="TalkToTurtleLarry" ID="{48919AF6-78A5-448C-9C4E-A08E725BF75C}"/>
+										<CustomState Name="" ID="{0F606ABB-529F-434B-B4A2-CF727BD11411}" ShortID="594793472">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Ending_BananafishBens" ID="{645DF600-C54C-45FB-A71D-7DA912457570}"/>
+										<CustomState Name="" ID="{269F8374-175B-42B9-AC90-D7A3D9403366}" ShortID="1020724030">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="TalkToSeahorseSam" ID="{C0FEC5BE-2287-468C-B15F-C2B5431AF423}"/>
+										<CustomState Name="" ID="{C202BDEE-194F-4BC2-9C70-C2CE3D6EB4BB}" ShortID="567301857">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="MainMenu" ID="{F34E3848-894B-468C-92C3-FB3A0659D3FB}"/>
+										<CustomState Name="" ID="{71FD8CB7-C239-4DA6-A7D0-2451FE15D71E}" ShortID="951865183">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="None" ID="{1C2FC7C1-41DD-4735-8F34-E9B6B91589FE}"/>
+										<CustomState Name="" ID="{CEE8395A-3C86-4EBD-9FAF-A47AEDAC2FB5}" ShortID="327629841">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="menu" ID="{3537DBC0-8FCF-4A5E-969F-8EDE82706D7C}"/>
+										<CustomState Name="" ID="{1E556EEB-A603-474E-B97C-B94A7BF10DBD}" ShortID="538501848">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Camera_Explore" ID="{E47E30F9-9856-4A6D-A065-9318318AEA2D}"/>
+										<CustomState Name="" ID="{DCA25B12-701F-48A0-A9AF-7365BEB5B3DF}" ShortID="40398364">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="aftercheckingthesubmarine" ID="{09219B7D-ABFA-4AD3-B4CB-1D600F1DA165}"/>
+										<CustomState Name="" ID="{164E5633-9C94-4289-9FD6-8C03694AA26E}" ShortID="817811579">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Ending_TurtleLarry" ID="{CBDE138E-5EDC-4B0F-8D0B-A50AA8F3F48D}"/>
+										<CustomState Name="" ID="{7BB0B9C2-D0FE-467F-99CF-FC2952F066D8}" ShortID="731278232"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="TalkToBananafish" ID="{41D7A911-BC3A-4DD1-9104-030F7594790D}"/>
+										<CustomState Name="" ID="{3A7FE0A2-F0CD-4B3A-AFBF-70436A9C67E3}" ShortID="938470940">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="playerexplorebutonlysetstates" ID="{B45CE2D1-1386-4E9C-8566-BDF759CF9097}"/>
+										<CustomState Name="" ID="{9ADE8157-F9A0-4222-91C7-2EACC133AD77}" ShortID="1706154">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
+							<ObjectLists>
+								<ObjectList Name="Cues">
+									<Reference>
+										<Local>
+											<MusicCue Name="Entry Cue" ID="{6A1FAB65-2EF9-4AA5-829D-814080248996}">
+												<PropertyList>
+													<Property Name="TimeMs" Type="Real64" Value="2891.56626506024"/>
+												</PropertyList>
+											</MusicCue>
+										</Local>
+									</Reference>
+									<Reference>
+										<Local>
+											<MusicCue Name="Exit Cue" ID="{B61A25E7-E0F1-4B9A-B495-B03A8063C278}">
+												<PropertyList>
+													<Property Name="CueType" Type="int16" Value="1"/>
+													<Property Name="TimeMs" Type="Real64" Value="20240.9638554217"/>
+												</PropertyList>
+											</MusicCue>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</MusicSegment>
 					</ChildrenList>
 					<StateInfo>
 						<StateGroupList>
@@ -3903,6 +5394,42 @@
 											<ObjectList Name="EntryPath">
 												<Reference>
 													<ObjectRef Name="Ending_Seahorse_Sam" ID="{41DDC73A-AF51-440B-B4E4-7B773BB5FDF0}" WorkUnitID="{62D4A0D7-BF17-4774-9AF7-0F747302BDA8}"/>
+												</Reference>
+											</ObjectList>
+										</ObjectLists>
+									</MultiSwitchEntry>
+								</Local>
+							</Reference>
+							<Reference>
+								<Local>
+									<MultiSwitchEntry Name="" ID="{08720C64-A6DB-46C3-8804-9D6E02E4FFB2}">
+										<ReferenceList>
+											<Reference Name="AudioNode">
+												<ObjectRef Name="LarryTurtleDialogueMusic" ID="{685DFFE3-61A5-4B72-B3F0-38E20BB394DA}" WorkUnitID="{C9C65301-A2C3-4042-A494-C425A369F672}"/>
+											</Reference>
+										</ReferenceList>
+										<ObjectLists>
+											<ObjectList Name="EntryPath">
+												<Reference>
+													<ObjectRef Name="TalkToTurtleLarry" ID="{48919AF6-78A5-448C-9C4E-A08E725BF75C}" WorkUnitID="{62D4A0D7-BF17-4774-9AF7-0F747302BDA8}"/>
+												</Reference>
+											</ObjectList>
+										</ObjectLists>
+									</MultiSwitchEntry>
+								</Local>
+							</Reference>
+							<Reference>
+								<Local>
+									<MultiSwitchEntry Name="" ID="{AF8B5ACB-FC21-47E5-A9CD-FAB416FC46BB}">
+										<ReferenceList>
+											<Reference Name="AudioNode">
+												<ObjectRef Name="TurtleLarry_Ending Music" ID="{C5D22F73-6737-4BE5-A73E-730CFC434FD5}" WorkUnitID="{C9C65301-A2C3-4042-A494-C425A369F672}"/>
+											</Reference>
+										</ReferenceList>
+										<ObjectLists>
+											<ObjectList Name="EntryPath">
+												<Reference>
+													<ObjectRef Name="Ending_TurtleLarry" ID="{CBDE138E-5EDC-4B0F-8D0B-A50AA8F3F48D}" WorkUnitID="{62D4A0D7-BF17-4774-9AF7-0F747302BDA8}"/>
 												</Reference>
 											</ObjectList>
 										</ObjectLists>

@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{A95A962B-14C1-4BDD-89E4-8F7F66A4CA91}",
     "Language": "SFX",
-    "Hash": "{1ED53C8D-2781-1ED6-5E5D-79F3891A9346}",
+    "Hash": "{484A7816-D522-550C-CEAC-D0C2861F84DD}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main_Soundbank",
     "ShortName": "Main_Soundbank",
     "Path": "Main_Soundbank.bnk",
@@ -72,6 +72,14 @@
       "CachePath": "32/{3242349C-E286-C622-658E-0707E8244089}.wem"
      },
      {
+      "Id": "159161628",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Turtle Larry Theme Section 2 Stripped Back.wav",
+      "CachePath": "5A/{5AC01DE3-B5F8-D925-0290-7C085D81AE1D}.wem"
+     },
+     {
       "Id": "383055841",
       "Language": "SFX",
       "Streaming": "false",
@@ -86,6 +94,14 @@
       "Location": "Memory",
       "ShortName": "Seahorse Sam Section 3 (83bpm).wav",
       "CachePath": "95/{95AABFA7-24BA-BC15-5583-B01FBA15B004}.wem"
+     },
+     {
+      "Id": "407153033",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Turtle Larry Theme Section 1.wav",
+      "CachePath": "D2/{D26908EC-382F-A5D8-844B-84BDE58E3095}.wem"
      },
      {
       "Id": "468478001",
@@ -144,6 +160,22 @@
       "CachePath": "75/{75FCBB0C-C03D-D36B-D21C-D8D3B6D6220F}.wem"
      },
      {
+      "Id": "734516390",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Turtle Larry Theme Section 3 Stripped Back.wav",
+      "CachePath": "11/{1134AEBB-DB36-6CE3-68F6-19456C45566D}.wem"
+     },
+     {
+      "Id": "746050460",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Turtle Larry Theme Section 2.wav",
+      "CachePath": "E0/{E06CC909-C3CA-ECDE-1EC1-89EBE8A49FC7}.wem"
+     },
+     {
       "Id": "766517160",
       "Language": "SFX",
       "Streaming": "false",
@@ -166,6 +198,14 @@
       "Location": "Memory",
       "ShortName": "Seahorse Sam Ending Music.wav",
       "CachePath": "EA/{EA2DA722-45E1-003C-628B-6BC943BF18B5}.wem"
+     },
+     {
+      "Id": "791251635",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Turtle Larry Theme Section 1 Stripped Back.wav",
+      "CachePath": "7A/{7A54AEF7-1494-DF65-C7E4-6442EAC0FAEE}.wem"
      },
      {
       "Id": "827705350",
@@ -192,6 +232,14 @@
       "CachePath": "EB/{EB6E9FF6-5CF8-106E-F687-C2482C68E12D}.wem"
      },
      {
+      "Id": "893983824",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Turtle Larry Theme Section 3.wav",
+      "CachePath": "A6/{A6EB4BB8-BE40-5EE1-0A7B-ED77B0BB2070}.wem"
+     },
+     {
       "Id": "973401590",
       "Language": "SFX",
       "Streaming": "false",
@@ -208,12 +256,12 @@
       "CachePath": "B1/{B1E93AE7-CF30-E869-4A98-CB19F3E92442}.wem"
      },
      {
-      "Id": "1042875977",
+      "Id": "1019371776",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
-      "ShortName": "LarryTrack.wav",
-      "CachePath": "04/{0498B7D4-B15D-B318-07FB-C820B90D4975}.wem"
+      "ShortName": "Turtle Larry Ending Music.wav",
+      "CachePath": "E2/{E23F1997-7491-F58D-C8F8-75E76CBF37DE}.wem"
      }
     ],
     "Events": [
@@ -254,11 +302,6 @@
       "ObjectPath": "\\Events\\Default Work Unit\\playerExplore",
       "GUID": "{BE72B743-91D8-425A-B2E3-5D8B28880E33}",
       "DurationType": "Infinite",
-      "MediaRefs": [
-       {
-        "Id": "1042875977"
-       }
-      ],
       "SwitchContainers": [
        {
         "SwitchValue": {
@@ -395,6 +438,47 @@
         "MediaRefs": [
          {
           "Id": "779132188"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "4091656514",
+         "Id": "2821513524",
+         "GUID": "{48919AF6-78A5-448C-9C4E-A08E725BF75C}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "159161628"
+         },
+         {
+          "Id": "407153033"
+         },
+         {
+          "Id": "734516390"
+         },
+         {
+          "Id": "746050460"
+         },
+         {
+          "Id": "791251635"
+         },
+         {
+          "Id": "893983824"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "4091656514",
+         "Id": "740813057",
+         "GUID": "{CBDE138E-5EDC-4B0F-8D0B-A50AA8F3F48D}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "1019371776"
          }
         ]
        }
@@ -616,6 +700,6 @@
     ]
    }
   ],
-  "FileHash": "{E86729A5-03B2-22C0-2EDB-069B40B231E5}"
+  "FileHash": "{3D9D11F5-EA48-F04F-8AAE-420237828D11}"
  }
 }

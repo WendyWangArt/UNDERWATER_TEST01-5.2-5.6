@@ -1,0 +1,8 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2385628198	FootSteps			\Ayana_WU\Ayana\FootSteps	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	500653839	tentacle_step_var3	C:\Users\wendy.wang\Documents\Wendy\UNDERWATER_TEST01-5.2-5.6\UNDERWATER_TEST01-5.2-5.6_WwiseProject\.cache\8F\{8F9F1E6F-0722-3510-EBFB-63795D9009B1}.wem		\Actor-Mixer Hierarchy\Ayana\FootSteps\tentacle_step_var3		140896
+	897030565	tentacle_step_var1	C:\Users\wendy.wang\Documents\Wendy\UNDERWATER_TEST01-5.2-5.6\UNDERWATER_TEST01-5.2-5.6_WwiseProject\.cache\7A\{7A2EA3FF-9A4B-7AA1-C2CE-9D117C2AA2ED}.wem		\Actor-Mixer Hierarchy\Ayana\FootSteps\tentacle_step_var1		134496
+	948622091	tentacle_step_var2	C:\Users\wendy.wang\Documents\Wendy\UNDERWATER_TEST01-5.2-5.6\UNDERWATER_TEST01-5.2-5.6_WwiseProject\.cache\78\{784B42F8-222A-7ECD-FC49-221B044528B4}.wem		\Actor-Mixer Hierarchy\Ayana\FootSteps\tentacle_step_var2		128096
+

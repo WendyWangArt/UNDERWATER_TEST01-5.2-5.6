@@ -138,6 +138,13 @@
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>
+				<SoundBank Name="footsteps" ID="{2CAB4C19-0ED1-4E1D-A982-5D29AFF6266D}">
+					<ObjectInclusionList>
+						<ObjectRef Name="FootSteps" ID="{ED296711-CFD0-4F8D-9804-1790A20020FB}" WorkUnitID="{B66E3B40-DCB4-4AA1-B6BA-80E95D2B144B}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
 			</ChildrenList>
 		</WorkUnit>
 	</SoundBanks>

@@ -1,0 +1,69 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "2385628198",
+    "Type": "User",
+    "GUID": "{2CAB4C19-0ED1-4E1D-A982-5D29AFF6266D}",
+    "Language": "SFX",
+    "Hash": "{B4038288-81D3-2A14-A798-969D82C5A22D}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\footsteps",
+    "ShortName": "footsteps",
+    "Path": "footsteps.bnk",
+    "Media": [
+     {
+      "Id": "500653839",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "tentacle_step_var3.wav",
+      "CachePath": "8F/{8F9F1E6F-0722-3510-EBFB-63795D9009B1}.wem"
+     },
+     {
+      "Id": "897030565",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "tentacle_step_var1.wav",
+      "CachePath": "7A/{7A2EA3FF-9A4B-7AA1-C2CE-9D117C2AA2ED}.wem"
+     },
+     {
+      "Id": "948622091",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "tentacle_step_var2.wav",
+      "CachePath": "78/{784B42F8-222A-7ECD-FC49-221B044528B4}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "2385628198",
+      "Name": "FootSteps",
+      "ObjectPath": "\\Events\\Ayana_WU\\Ayana\\FootSteps",
+      "GUID": "{ED296711-CFD0-4F8D-9804-1790A20020FB}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.6666667",
+      "DurationMax": "0.73333335",
+      "MediaRefs": [
+       {
+        "Id": "500653839"
+       },
+       {
+        "Id": "897030565"
+       },
+       {
+        "Id": "948622091"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{83183B93-045E-7898-25C7-760EDB4F2466}"
+ }
+}

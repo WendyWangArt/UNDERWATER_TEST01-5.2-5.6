@@ -16,6 +16,16 @@
 				</Event>
 				<Event Name="PlayIntro" ID="{2D5D827B-DD27-47A2-8C7D-12FE4FF9B972}">
 					<ChildrenList>
+						<Action Name="" ID="{17259304-92A7-4C41-B20E-C9FB631C383D}" ShortID="1005327695">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="transitiontest" ID="{071B3339-ADE5-4DEA-9F4A-0F3658641A38}" WorkUnitID="{C9C65301-A2C3-4042-A494-C425A369F672}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 						<Action Name="" ID="{DE4F736D-55FE-41CA-BE4E-638343290919}" ShortID="513409968">
 							<ReferenceList>
 								<Reference Name="Target">
@@ -100,6 +110,16 @@
 				</Event>
 				<Event Name="playerExplore" ID="{BE72B743-91D8-425A-B2E3-5D8B28880E33}">
 					<ChildrenList>
+						<Action Name="" ID="{EA37C9F0-0362-45E4-B2E4-FDCB5C6D7A09}" ShortID="1049538984">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="transitiontest" ID="{071B3339-ADE5-4DEA-9F4A-0F3658641A38}" WorkUnitID="{C9C65301-A2C3-4042-A494-C425A369F672}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 						<Action Name="" ID="{0C46EFCA-0546-49FB-BE2A-4D3F318333C2}" ShortID="1053004870">
 							<ReferenceList>
 								<Reference Name="Target">
@@ -156,6 +176,16 @@
 				</Event>
 				<Event Name="menu" ID="{28FED710-780F-465E-8CB2-2F75EA2BD49F}">
 					<ChildrenList>
+						<Action Name="" ID="{D643DDD3-FF95-410C-BF03-D33A2E4DE23F}" ShortID="439206367">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="transitiontest" ID="{071B3339-ADE5-4DEA-9F4A-0F3658641A38}" WorkUnitID="{C9C65301-A2C3-4042-A494-C425A369F672}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 						<Action Name="" ID="{449F2501-7F00-4B93-81BE-EF0846FBDCAB}" ShortID="920579761">
 							<ReferenceList>
 								<Reference Name="Target">

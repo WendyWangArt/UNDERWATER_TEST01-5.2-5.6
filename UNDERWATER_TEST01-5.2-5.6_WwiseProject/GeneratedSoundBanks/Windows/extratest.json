@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{8EA33C33-C5FB-45DF-9DC3-8BF5491793B2}",
     "Language": "SFX",
-    "Hash": "{5851A84A-480B-A200-553C-396FFD0DBEFD}",
+    "Hash": "{43A27E07-4338-0312-38E4-AA3CEB20E31A}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\extratest",
     "ShortName": "extratest",
     "Path": "extratest.bnk",
@@ -225,6 +225,6 @@
     ]
    }
   ],
-  "FileHash": "{6607F346-0B8C-87D4-A809-EBC9A36C250A}"
+  "FileHash": "{DFD1F168-C462-0DFB-94E6-962A0E5C27A1}"
  }
 }

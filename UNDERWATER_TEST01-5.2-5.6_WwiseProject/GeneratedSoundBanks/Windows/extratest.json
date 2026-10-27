@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{8EA33C33-C5FB-45DF-9DC3-8BF5491793B2}",
     "Language": "SFX",
-    "Hash": "{43A27E07-4338-0312-38E4-AA3CEB20E31A}",
+    "Hash": "{C9B9DAEC-18CC-A233-D71C-16CAEF46A560}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\extratest",
     "ShortName": "extratest",
     "Path": "extratest.bnk",
@@ -22,6 +22,14 @@
       "Location": "Memory",
       "ShortName": "menu_atmos.wav",
       "CachePath": "49/{49C9D2F2-0542-9BB8-1675-B320F7E8E3E1}.wem"
+     },
+     {
+      "Id": "877530852",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "intro_atmos.wav",
+      "CachePath": "EB/{EB6E9FF6-5CF8-106E-F687-C2482C68E12D}.wem"
      }
     ],
     "Events": [
@@ -100,6 +108,20 @@
         "Name": "menu",
         "ObjectPath": "\\States\\States_WorkingUnit_Ayana\\GameState\\menu",
         "GUID": "{3537DBC0-8FCF-4A5E-969F-8EDE82706D7C}"
+       }
+      ]
+     },
+     {
+      "Id": "2923435497",
+      "Name": "newintro",
+      "ObjectPath": "\\Events\\Ayana_WU\\newintro",
+      "GUID": "{FC531ECE-BBAD-46CC-8A02-44DF410D5776}",
+      "DurationType": "OneShot",
+      "DurationMin": "21.066668",
+      "DurationMax": "21.066668",
+      "MediaRefs": [
+       {
+        "Id": "877530852"
        }
       ]
      },
@@ -225,6 +247,6 @@
     ]
    }
   ],
-  "FileHash": "{DFD1F168-C462-0DFB-94E6-962A0E5C27A1}"
+  "FileHash": "{92016466-58AD-35E1-F110-5705B1DC0DC8}"
  }
 }

@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{A95A962B-14C1-4BDD-89E4-8F7F66A4CA91}",
     "Language": "SFX",
-    "Hash": "{7C867B3A-B552-79FC-97E4-0052CEDE4AA7}",
+    "Hash": "{2568FA43-FB67-B06B-531C-31F1F5B19255}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main_Soundbank",
     "ShortName": "Main_Soundbank",
     "Path": "Main_Soundbank.bnk",
@@ -270,10 +270,12 @@
       "Name": "CameraExploring",
       "ObjectPath": "\\Events\\Default Work Unit\\CameraExploring",
       "GUID": "{4BCF154F-3C34-4336-ADA3-D20D87B6BC80}",
-      "MaxAttenuation": "0",
-      "DurationType": "OneShot",
-      "DurationMin": "0",
-      "DurationMax": "0",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "715038"
+       }
+      ],
       "ActionSetState": [
        {
         "GroupId": "4091656514",
@@ -498,11 +500,10 @@
       "Name": "PlayIntro",
       "ObjectPath": "\\Events\\Default Work Unit\\PlayIntro",
       "GUID": "{2D5D827B-DD27-47A2-8C7D-12FE4FF9B972}",
-      "DurationType": "Infinite",
+      "DurationType": "OneShot",
+      "DurationMin": "21.066668",
+      "DurationMax": "21.066668",
       "MediaRefs": [
-       {
-        "Id": "715038"
-       },
        {
         "Id": "877530852"
        }
@@ -700,6 +701,6 @@
     ]
    }
   ],
-  "FileHash": "{089D876A-E045-CD87-60A8-5E3325641C78}"
+  "FileHash": "{B63FE69C-829A-D21E-D83B-3467CFD9F32A}"
  }
 }

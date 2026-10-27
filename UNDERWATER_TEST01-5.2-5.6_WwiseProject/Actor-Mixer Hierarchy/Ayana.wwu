@@ -625,6 +625,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="Intro_Animation_SoundEffect" ID="{0539C3A5-316B-4B03-8597-752D32B35287}" ShortID="160910708">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>10</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{11E88737-2F31-44F3-AED4-A1DB60F72205}"/>
@@ -898,6 +905,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="Shark_Swim" ID="{981B02CA-4B98-4F5A-B27D-138F9744D9E7}" ShortID="697775146">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-4</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{11E88737-2F31-44F3-AED4-A1DB60F72205}"/>
@@ -922,6 +936,11 @@
 						<Sound Name="submarine_launch" ID="{903831F5-8860-4C77-9701-DB659B79E848}" ShortID="492617742">
 							<PropertyList>
 								<Property Name="ListenerRelativeRouting" Type="bool" Value="False"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-2</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -1057,6 +1076,35 @@
 								<ActiveSource Name="submarine_launch" ID="{E67092FD-764D-4C82-93FA-B8586488DFD5}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
+						<Sound Name="newintrosoundeffect" ID="{CD489886-CFF4-4384-AF9C-DEE2F7687F20}" ShortID="1049948985">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-2</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{11E88737-2F31-44F3-AED4-A1DB60F72205}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{12B21E04-42A3-4A48-8129-2406DBED32A0}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="intro_atmos" ID="{42B67E15-E034-4BEF-A3A9-9D7B31F45BA3}">
+									<Language>SFX</Language>
+									<AudioFile>intro_atmos.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="877530852"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="intro_atmos" ID="{42B67E15-E034-4BEF-A3A9-9D7B31F45BA3}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Character_Nonsense" ID="{6BF0B81A-9689-4603-8CED-2D90D3E3B9CC}" ShortID="790675179">
@@ -1066,6 +1114,11 @@
 								<RandomSequenceContainer Name="Sam_Happy" ID="{54CF1014-0EFE-48F0-8E12-C3A18127B077}" ShortID="916015125">
 									<PropertyList>
 										<Property Name="ListenerRelativeRouting" Type="bool" Value="False"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -1147,6 +1200,11 @@
 								<RandomSequenceContainer Name="Sam_Angry" ID="{B6388FB4-76AE-420E-B082-12B9441123F2}" ShortID="127280413">
 									<PropertyList>
 										<Property Name="ListenerRelativeRouting" Type="bool" Value="False"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -1206,6 +1264,11 @@
 								<RandomSequenceContainer Name="Sam_Neutral" ID="{128F9639-DAFF-4FB4-BC51-B93D7DBA5B7F}" ShortID="204838444">
 									<PropertyList>
 										<Property Name="ListenerRelativeRouting" Type="bool" Value="False"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -1293,7 +1356,7 @@
 										<Property Name="ListenerRelativeRouting" Type="bool" Value="False"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-2.5</Value>
+												<Value>1</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -1379,7 +1442,7 @@
 										<Property Name="ListenerRelativeRouting" Type="bool" Value="False"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-1.5</Value>
+												<Value>1</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -1463,6 +1526,11 @@
 								<RandomSequenceContainer Name="Bens_Neutral" ID="{44ECFC7B-796C-451E-BCDE-1654EAB95873}" ShortID="894091470">
 									<PropertyList>
 										<Property Name="ListenerRelativeRouting" Type="bool" Value="False"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>1</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -1808,6 +1876,13 @@
 					</ChildrenList>
 				</Folder>
 				<RandomSequenceContainer Name="FootSteps" ID="{047D0370-009D-4757-BA3E-F10B7E2FAFA8}" ShortID="22952639">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-4</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{11E88737-2F31-44F3-AED4-A1DB60F72205}"/>

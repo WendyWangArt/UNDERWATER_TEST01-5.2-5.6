@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{D55906D8-0876-4870-B9AB-A44D698794F2}",
     "Language": "SFX",
-    "Hash": "{5AAA2A91-56A4-CE04-6ABF-B80FF63114F4}",
+    "Hash": "{8A04725E-4C82-8260-D3B1-7D81C317DDA1}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\voiceover\\VO_sanending",
     "ShortName": "VO_sanending",
     "Path": "VO_sanending.bnk",
@@ -42,6 +42,6 @@
     ]
    }
   ],
-  "FileHash": "{DE985B8F-F657-1B51-CF8B-67C6F0667BD1}"
+  "FileHash": "{BBE1F399-E455-7067-21AE-E231DE3ABFD2}"
  }
 }

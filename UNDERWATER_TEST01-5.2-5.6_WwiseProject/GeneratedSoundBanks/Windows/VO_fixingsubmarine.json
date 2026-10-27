@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{5F08D42A-8743-45A5-91CD-341B468A71E5}",
     "Language": "SFX",
-    "Hash": "{B7BB6B1A-EAE2-3F63-308B-F3359DC0504F}",
+    "Hash": "{123920E4-620D-4842-CEF4-632E9CE3E493}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\voiceover\\VO_fixingsubmarine",
     "ShortName": "VO_fixingsubmarine",
     "Path": "VO_fixingsubmarine.bnk",
@@ -42,6 +42,6 @@
     ]
    }
   ],
-  "FileHash": "{461D71FE-C1D5-E5A5-3A15-6C2D3145ACEB}"
+  "FileHash": "{7A0B3FCC-2572-BE2E-768F-59637C5F9F63}"
  }
 }

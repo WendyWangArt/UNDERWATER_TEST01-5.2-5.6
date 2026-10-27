@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{8E05FB7D-0CBA-433F-AE82-6015FEAD5DB1}",
     "Language": "SFX",
-    "Hash": "{54B70C4E-CBD9-78B7-BB57-3A67D9053227}",
+    "Hash": "{A5B836B3-BE87-896B-30FB-49B0316C6F8B}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\shark",
     "ShortName": "shark",
     "Path": "shark.bnk",
@@ -42,6 +42,6 @@
     ]
    }
   ],
-  "FileHash": "{3FBF74EE-8A23-B14C-A81A-4DD6CB96A989}"
+  "FileHash": "{FA2CBA00-77FF-A10D-9EA1-82EBA698F0E9}"
  }
 }

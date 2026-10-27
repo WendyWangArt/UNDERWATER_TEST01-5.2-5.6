@@ -229,6 +229,17 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
+				<Event Name="newintro" ID="{FC531ECE-BBAD-46CC-8A02-44DF410D5776}">
+					<ChildrenList>
+						<Action Name="" ID="{E6B24C3D-915D-41F6-9A0E-154690B4426F}" ShortID="468245218">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="newintrosoundeffect" ID="{CD489886-CFF4-4384-AF9C-DEE2F7687F20}" WorkUnitID="{F548A608-7B8E-4719-AAB2-5DDAFE6399C6}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

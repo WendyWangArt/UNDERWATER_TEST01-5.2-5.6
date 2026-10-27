@@ -2,6 +2,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	2211695820	ending_TurtleLarry_			\Default Work Unit\ending_TurtleLarry_	
 	2607556080	menu			\Default Work Unit\menu	
 	2841690346	ending_SSSAm			\Default Work Unit\ending_SSSAm	
+	2923435497	newintro			\Ayana_WU\newintro	
 	3402445284	playerexplorebutonlysetstates			\Default Work Unit\playerexplorebutonlysetstates	
 	4187016065	ending_BNNFBens			\Default Work Unit\ending_BNNFBens	
 
@@ -27,4 +28,5 @@ State	ID	Name	State Group			Notes
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	689027265	Menu_Atmosphere_Sound	C:\Users\wendy.wang\Documents\Wendy\UNDERWATER_TEST01-5.2-5.6\UNDERWATER_TEST01-5.2-5.6_WwiseProject\.cache\49\{49C9D2F2-0542-9BB8-1675-B320F7E8E3E1}.wem		\Actor-Mixer Hierarchy\Ayana\AmbientSound_Ayaana\Menu_Atmosphere_Sound		3462496
+	877530852	newintrosoundeffect	C:\Users\wendy.wang\Documents\Wendy\UNDERWATER_TEST01-5.2-5.6\UNDERWATER_TEST01-5.2-5.6_WwiseProject\.cache\EB\{EB6E9FF6-5CF8-106E-F687-C2482C68E12D}.wem		\Actor-Mixer Hierarchy\Ayana\AmbientSound_Ayaana\newintrosoundeffect		4044896
 

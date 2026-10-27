@@ -6,6 +6,13 @@
 				<Folder Name="Tim's Lines" ID="{D9E34C6F-7714-4454-AEA0-84F4FAAD1FC6}" ShortID="139769216">
 					<ChildrenList>
 						<Sound Name="VO_AnimationIntro" ID="{EE466799-2CE0-463D-AB2E-50C02CA2F1AB}" ShortID="845441457">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>5</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{11E88737-2F31-44F3-AED4-A1DB60F72205}"/>
@@ -30,6 +37,11 @@
 						<Sound Name="VO_FinihsingFixing" ID="{D35B89BC-10F3-4873-99B8-DC5A8FA75544}" ShortID="979072250">
 							<PropertyList>
 								<Property Name="ListenerRelativeRouting" Type="bool" Value="False"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>2</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -58,6 +70,11 @@
 						<Sound Name="VO_Bens_Ending" ID="{CE3FB86C-0A68-4144-A0A3-77747FC9AE46}" ShortID="1866475">
 							<PropertyList>
 								<Property Name="ListenerRelativeRouting" Type="bool" Value="False"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>2</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -83,6 +100,11 @@
 						<Sound Name="VO_Larry_Ending" ID="{AC750A63-580A-4078-9E9B-349712016E34}" ShortID="905525626">
 							<PropertyList>
 								<Property Name="ListenerRelativeRouting" Type="bool" Value="False"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>2</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -108,6 +130,11 @@
 						<Sound Name="VO_Sam_Ending" ID="{B7647507-BDF1-4DDD-ADE6-AF1F7880BB7A}" ShortID="949785236">
 							<PropertyList>
 								<Property Name="ListenerRelativeRouting" Type="bool" Value="False"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>2</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -137,6 +164,11 @@
 						<Sound Name="Shark" ID="{8D42A71E-81AF-4CD3-839E-A4EDD4242C39}" ShortID="689723120">
 							<PropertyList>
 								<Property Name="ListenerRelativeRouting" Type="bool" Value="False"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>2</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -162,6 +194,11 @@
 						<Sound Name="puppywork" ID="{D3BA6746-0C13-4A2E-90F0-032D44099F11}" ShortID="601831082">
 							<PropertyList>
 								<Property Name="ListenerRelativeRouting" Type="bool" Value="False"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>2</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -187,6 +224,11 @@
 						<Sound Name="getout" ID="{8147E1C3-5724-43F2-9CC5-059FD3EF2DDD}" ShortID="991851913">
 							<PropertyList>
 								<Property Name="ListenerRelativeRouting" Type="bool" Value="False"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>2</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -212,6 +254,11 @@
 						<Sound Name="askothers" ID="{7B6F5300-35EF-413F-9ED8-689571B2E206}" ShortID="70025157">
 							<PropertyList>
 								<Property Name="ListenerRelativeRouting" Type="bool" Value="False"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>2</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -237,6 +284,11 @@
 						<Sound Name="replacepipe" ID="{A31F07D8-AD7A-41C8-AEEE-756FF9CFC2BD}" ShortID="99249762">
 							<PropertyList>
 								<Property Name="ListenerRelativeRouting" Type="bool" Value="False"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>2</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -262,6 +314,11 @@
 						<Sound Name="coralcount" ID="{1A4B5D1D-10A0-4641-88D6-51F5490FACBB}" ShortID="149284079">
 							<PropertyList>
 								<Property Name="ListenerRelativeRouting" Type="bool" Value="False"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>2</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -287,6 +344,11 @@
 						<Sound Name="replacehelmet" ID="{24FF4EEE-ECEB-46E9-804E-B5E97A7CFEB8}" ShortID="789305021">
 							<PropertyList>
 								<Property Name="ListenerRelativeRouting" Type="bool" Value="False"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>2</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">

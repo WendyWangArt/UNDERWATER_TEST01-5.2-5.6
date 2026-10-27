@@ -33,13 +33,6 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
-						<Action Name="" ID="{C8BAC0AD-A45F-4A36-80F4-EC500AFDF2FC}" ShortID="962424858">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="OceanAtmosphereAMbient" ID="{A56689C1-E6E4-4834-BB7B-C508AB85E547}" WorkUnitID="{F548A608-7B8E-4719-AAB2-5DDAFE6399C6}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
 						<Action Name="" ID="{C4F85660-80F1-4A1B-8301-B83B03E69884}" ShortID="977869864">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="22"/>
@@ -54,6 +47,13 @@
 				</Event>
 				<Event Name="CameraExploring" ID="{4BCF154F-3C34-4336-ADA3-D20D87B6BC80}">
 					<ChildrenList>
+						<Action Name="" ID="{4B35C989-CD35-4929-BE78-5E1D306E615B}" ShortID="453206563">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="OceanAtmosphereAMbient" ID="{A56689C1-E6E4-4834-BB7B-C508AB85E547}" WorkUnitID="{F548A608-7B8E-4719-AAB2-5DDAFE6399C6}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 						<Action Name="" ID="{08411369-47AB-4061-A404-1BE9EA82C706}" ShortID="61882118">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="22"/>
@@ -176,6 +176,16 @@
 				</Event>
 				<Event Name="menu" ID="{28FED710-780F-465E-8CB2-2F75EA2BD49F}">
 					<ChildrenList>
+						<Action Name="" ID="{5A76450E-0CE9-4097-AE61-25FF073D275D}" ShortID="981808968">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="menu" ID="{3537DBC0-8FCF-4A5E-969F-8EDE82706D7C}" WorkUnitID="{62D4A0D7-BF17-4774-9AF7-0F747302BDA8}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 						<Action Name="" ID="{D643DDD3-FF95-410C-BF03-D33A2E4DE23F}" ShortID="439206367">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="2"/>
@@ -190,16 +200,6 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Menu_Atmosphere_Sound" ID="{B89CCA76-4D9E-473B-A63C-7D2AAACA4B17}" WorkUnitID="{F548A608-7B8E-4719-AAB2-5DDAFE6399C6}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-						<Action Name="" ID="{5A76450E-0CE9-4097-AE61-25FF073D275D}" ShortID="981808968">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="22"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="menu" ID="{3537DBC0-8FCF-4A5E-969F-8EDE82706D7C}" WorkUnitID="{62D4A0D7-BF17-4774-9AF7-0F747302BDA8}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

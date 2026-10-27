@@ -7,6 +7,16 @@
 					<ChildrenList>
 						<Event Name="IntroAnimationVO" ID="{21630CCF-88B4-4173-875E-1E93E907D58C}">
 							<ChildrenList>
+								<Action Name="" ID="{D371EFF1-7D9B-4328-9E38-15E65A5583E3}" ShortID="914262718">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="transitiontest" ID="{071B3339-ADE5-4DEA-9F4A-0F3658641A38}" WorkUnitID="{C9C65301-A2C3-4042-A494-C425A369F672}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
 								<Action Name="" ID="{F0270697-2BE9-40AC-9709-7EDE31989B8C}" ShortID="713542628">
 									<ReferenceList>
 										<Reference Name="Target">

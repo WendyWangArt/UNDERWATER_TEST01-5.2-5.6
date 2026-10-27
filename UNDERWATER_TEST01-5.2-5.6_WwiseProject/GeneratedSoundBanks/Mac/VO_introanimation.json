@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{DB78EDD4-F1C9-4BF5-B748-0C7EA58ADB15}",
     "Language": "SFX",
-    "Hash": "{FE9A24B8-13B6-9138-4BE9-0D392D8A32BB}",
+    "Hash": "{9E426575-95FF-91C4-8962-92B1212F204F}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\voiceover\\VO_introanimation",
     "ShortName": "VO_introanimation",
     "Path": "VO_introanimation.bnk",
@@ -42,6 +42,6 @@
     ]
    }
   ],
-  "FileHash": "{32947241-A725-F45F-4761-8D05C7E95C14}"
+  "FileHash": "{D1ED6D14-93EA-3BBF-68AB-7A9D4A27BF4D}"
  }
 }

@@ -231,6 +231,16 @@
 				</Folder>
 				<Event Name="newintro" ID="{FC531ECE-BBAD-46CC-8A02-44DF410D5776}">
 					<ChildrenList>
+						<Action Name="" ID="{B3ABF0FE-B93C-4FC2-A32B-AB481A952B72}" ShortID="923484014">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="transitiontest" ID="{071B3339-ADE5-4DEA-9F4A-0F3658641A38}" WorkUnitID="{C9C65301-A2C3-4042-A494-C425A369F672}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 						<Action Name="" ID="{E6B24C3D-915D-41F6-9A0E-154690B4426F}" ShortID="468245218">
 							<ReferenceList>
 								<Reference Name="Target">

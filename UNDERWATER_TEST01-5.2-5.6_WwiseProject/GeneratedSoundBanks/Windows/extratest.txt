@@ -1,9 +1,11 @@
 Event	ID	Name			Wwise Object Path	Notes
+	1745383007	PauseAll_Event			\Wendy\stop_menu_events\PauseAll_Event	
 	2211695820	ending_TurtleLarry_			\Default Work Unit\ending_TurtleLarry_	
 	2607556080	menu			\Default Work Unit\menu	
 	2841690346	ending_SSSAm			\Default Work Unit\ending_SSSAm	
 	2923435497	newintro			\Ayana_WU\newintro	
 	3402445284	playerexplorebutonlysetstates			\Default Work Unit\playerexplorebutonlysetstates	
+	3776013656	ResumeAll_Event			\Wendy\stop_menu_events\ResumeAll_Event	
 	4187016065	ending_BNNFBens			\Default Work Unit\ending_BNNFBens	
 
 State Group	ID	Name			Wwise Object Path	Notes

@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{8EA33C33-C5FB-45DF-9DC3-8BF5491793B2}",
     "Language": "SFX",
-    "Hash": "{B5B4F128-9EEF-95F7-70BB-0EE54BBBCD8B}",
+    "Hash": "{750899B2-2A17-60BD-B7F5-E640C0E398A5}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\extratest",
     "ShortName": "extratest",
     "Path": "extratest.bnk",
@@ -126,6 +126,16 @@
       ]
      },
      {
+      "Id": "1745383007",
+      "Name": "PauseAll_Event",
+      "ObjectPath": "\\Events\\Wendy\\stop_menu_events\\PauseAll_Event",
+      "GUID": "{67ACC5CF-10D6-4F29-AEE4-1DF009664274}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
       "Id": "3402445284",
       "Name": "playerexplorebutonlysetstates",
       "ObjectPath": "\\Events\\Default Work Unit\\playerexplorebutonlysetstates",
@@ -143,6 +153,16 @@
         "GUID": "{B45CE2D1-1386-4E9C-8566-BDF759CF9097}"
        }
       ]
+     },
+     {
+      "Id": "3776013656",
+      "Name": "ResumeAll_Event",
+      "ObjectPath": "\\Events\\Wendy\\stop_menu_events\\ResumeAll_Event",
+      "GUID": "{4C6EF665-4B88-46F9-8525-EF0FE2250AE7}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
      }
     ],
     "StateGroups": [
@@ -247,6 +267,6 @@
     ]
    }
   ],
-  "FileHash": "{A0809960-9D44-33EB-8B7A-207FDFFB3FAA}"
+  "FileHash": "{9AF9647C-2163-5FBB-0C18-6B5C60CF2559}"
  }
 }

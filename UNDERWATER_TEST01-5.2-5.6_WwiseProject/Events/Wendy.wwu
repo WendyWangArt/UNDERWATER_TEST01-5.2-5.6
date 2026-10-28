@@ -153,6 +153,32 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
+				<Folder Name="stop_menu_events" ID="{0CE80089-CFB5-4320-A286-BAB15594154A}" ShortID="352870234">
+					<ChildrenList>
+						<Event Name="PauseAll_Event" ID="{67ACC5CF-10D6-4F29-AEE4-1DF009664274}">
+							<ChildrenList>
+								<Action Name="" ID="{9F3EFDE6-1227-460C-B602-352F35B52AD2}" ShortID="585684111">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="8"/>
+										<Property Name="Scope" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList/>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="ResumeAll_Event" ID="{4C6EF665-4B88-46F9-8525-EF0FE2250AE7}">
+							<ChildrenList>
+								<Action Name="" ID="{BFE21857-D186-4412-99F5-6FF4F11BB111}" ShortID="389068606">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="10"/>
+										<Property Name="Scope" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList/>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
